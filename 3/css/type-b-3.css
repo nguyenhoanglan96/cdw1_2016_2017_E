@@ -1,0 +1,281 @@
+.type-b-3 .pbottom-100 {
+  padding-bottom: 100px;
+}
+.type-b-3 .bg-white {
+  background-color: #fff !important;
+}
+.type-b-3 .image-boxes {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.type-b-3 .imgboxes_style4 .imgboxes-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  height: 270px;
+}
+.type-b-3 .image-boxes a {
+  display: block;
+}
+.type-b-3 a {
+  color: #000;
+  -webkit-transition: color .25s ease-in-out;
+  transition: color .25s ease-in-out;
+}
+.type-b-3 .imgbox_image.cover-fit-img {
+  height: 100%;
+}
+.type-b-3 .imgboxes_style4 .imgbox_image {
+  -webkit-transition: opacity .2s ease-out;
+  transition: opacity .2s ease-out;
+  -webkit-backface-visibility: hidden;
+}
+.type-b-3 .image-boxes img {
+  width: 100%;
+  height: auto;
+}
+.type-b-3 .cover-fit-img {
+  object-fit: cover;
+  overflow: hidden;
+}
+.type-b-3 .img-responsive,
+.type-b-3 .thumbnail > img,
+.type-b-3 .thumbnail a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.type-b-3 img {
+  max-width: 100%;
+  height: auto;
+}
+.type-b-3 .imgboxes_style4.kl-title_style_left .imgboxes-title {
+  text-align: left;
+  padding: 0 20px 30px;
+}
+.type-b-3 .imgboxes_style4 .imgboxes-title {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  z-index: 0;
+}
+.type-b-3 h3.m_title {
+  font-size: 18px;
+  line-height: 1.4;
+}
+.type-b-3 .m_title {
+  margin-top: 0;
+  color: #CD2122;
+}
+.type-b-3 h3 {
+  font-family: Open Sans;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  font-style: normal;
+}
+.type-b-3 h1,
+.type-b-3 h2,
+.type-b-3 h3,
+.type-b-3 h4,
+.type-b-3 h5,
+.type-b-3 h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+.type-b-3 .screenshot-box.kl-style-2 {
+  border: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+.type-b-3 .screenshot-box {
+  background: #fff;
+  position: relative;
+  border-radius: 3px;
+}
+.type-b-3 .screenshot-box.kl-style-2 .left-side {
+  padding: 10px 0 25px 30px;
+}
+.type-b-3 .screenshot-box.kl-style-2 .thescreenshot {
+  position: relative;
+  background-color: #dcdee7;
+  padding: 36px 0 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-top: -10px;
+}
+.type-b-3 .screenshot-box.kl-style-2 .left-side h3.title {
+  font-size: 24px;
+  font-weight: 100;
+}
+.type-b-3 body .screenshot-box .left-side h3.title {
+  font-size: 19px;
+}
+.type-b-3 .screenshot-box .left-side h3.title {
+  color: #CD2122;
+  line-height: 1.4;
+  font-size: 16px;
+}
+.type-b-3 .fw-semibold {
+  font-weight: 600;
+}
+.type-b-3 .screenshot-box.kl-style-2 .left-side ul.features {
+  margin: 25px 0;
+}
+.type-b-3 .screenshot-box .left-side ul.features {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+.type-b-3 .screenshot-box.kl-style-2 .left-side ul.features li h4 {
+  color: #323232;
+  margin: 0 0 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.type-b-3 .screenshot-box .left-side ul.features li h4 {
+  font-size: 14px;
+  line-height: 1.3;
+  margin: 5px 0 0;
+}
+.type-b-3 body .screenshot-box .left-side ul.features li h4 + span {
+  font-size: 13px;
+}
+.type-b-3 .screenshot-box .left-side ul.features li h4 + span {
+  font-size: 13px;
+}
+.type-b-3 .screenshot-box.kl-style-2 .left-side ul.features li {
+  padding-left: 50px;
+  background: url(../images/ok3.png) no-repeat left center;
+  margin-top: 20px;
+}
+.type-b-3 .screenshot-box .left-side ul.features li:first-child {
+  margin-top: 0;
+}
+.type-b-3 .screenshot-box.kl-style-2 .left-side > .btn {
+  margin-left: 50px;
+}
+.type-b-3 .btn-fullcolor:hover,
+.type-b-3 .btn-fullcolor.btn-skewed:hover:before,
+.type-b-3 .cart-container .buttons .button.wc-forward:hover {
+  background-color: #a41a1b;
+}
+.type-b-3 .btn-fullcolor:hover {
+  color: #fff;
+}
+.type-b-3 a:hover {
+  color: #CD2122;
+  text-decoration: none;
+}
+.type-b-3 .btn-third {
+  width: 33.33%;
+}
+.type-b-3 .btn-fullcolor,
+.type-b-3 .btn-fullcolor:focus {
+  background-color: #cd2122;
+  color: #fff;
+}
+.type-b-3 .btn-fullwhite,
+.type-b-3 .btn-fullblack,
+.type-b-3 .btn-fullcolor,
+.type-b-3 .btn-default,
+.type-b-3 .btn-primary,
+.type-b-3 .btn-success,
+.type-b-3 .btn-info,
+.type-b-3 .btn-warning,
+.type-b-3 .btn-danger,
+.type-b-3 .btn-link {
+  text-shadow: none;
+  padding: 10px 20px;
+  line-height: 1.6;
+  box-shadow: none;
+  font-size: 13px;
+  font-weight: 700;
+  border-style: solid;
+  border-radius: 3px;
+  -webkit-transition: background-color .15s ease-out;
+  transition: background-color .15s ease-out;
+}
+.type-b-3 .btn-fullwhite,
+.type-b-3 .btn-fullblack,
+.type-b-3 .btn-fullcolor {
+  border-width: 0;
+}
+.type-b-3 .screenshot-box.kl-style-2 .thescreenshot:before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  margin-top: 0;
+  left: 30px;
+  display: block;
+  background: #ababab;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  box-shadow: -12px 0 0 #ababab, 12px 0 0 #ababab;
+}
+.type-b-3 .screenshot-box.kl-style-2 .controls {
+  display: none;
+}
+.type-b-3 element.style {
+  display: block;
+  text-align: start;
+  float: none;
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  z-index: auto;
+  width: 555px;
+  height: 364px;
+  margin: 0px;
+  overflow: hidden;
+}
+.type-b-3 element.style {
+  text-align: left;
+  float: none;
+  position: absolute;
+  top: 0px;
+  right: auto;
+  bottom: auto;
+  left: 0px;
+  margin: 0px;
+  width: 3885px;
+  height: 364px;
+  z-index: auto;
+  opacity: 1;
+}
+.type-b-3 .screenshot-carousel {
+  overflow: hidden !important;
+  height: 364px !important;
+}
+.type-b-3 .screenshot-carousel {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.type-b-3 .screenshot-carousel li {
+  float: left;
+  height: 100%;
+}
+.type-b-3 .screenshot-box.kl-style-2 .thescreenshot img {
+  width: 100%;
+  height: 100%;
+}
+.type-b-3 img {
+  max-width: 100%;
+  height: auto;
+}
+.type-b-3 .screenshot-box.kl-style-2 .thescreenshot > [class*="sc-"] {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
