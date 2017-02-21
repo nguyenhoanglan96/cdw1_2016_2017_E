@@ -14,16 +14,16 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-b-12.less', 'css/type-b-12.css');
+        $less->compileFile('less/type-e-12.less', 'css/type-e-12.css');
         ?>
-        <link href="css/type-b-12.css" rel="stylesheet" type="text/css" />
+        <link href="css/type-e-12.css" rel="stylesheet" type="text/css" />
 
 
 
     </head>
 
     <body>
-    <div class="type-b-12">
+    <div class="type-e-12">
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
