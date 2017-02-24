@@ -1,0 +1,127 @@
+.type-e-7 .div0 {
+  border: 0;
+}
+.type-e-7 .div1 {
+  font-size: 100%;
+}
+.type-e-7 .div2 {
+  margin-top: 0;
+}
+.type-e-7 .div3 {
+  display: block;
+}
+.type-e-7 .div4 {
+  padding: 0;
+}
+.type-e-7 .div5 {
+  position: relative;
+}
+.type-e-7 .div6 {
+  margin: 0;
+}
+.type-e-7 .container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.type-e-7 div {
+  border: 0;
+  font-size: 100%;
+}
+.type-e-7 .row {
+  margin-bottom: 35px;
+}
+.type-e-7 .col-lg-12 {
+  width: 100%;
+}
+.type-e-7 .m_title {
+  margin-top: 0;
+  color: #CD2122;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.7);
+  text-align: center;
+}
+.type-e-7 .tbk__symbol {
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: block;
+}
+.type-e-7 .fs-28 {
+  font-size: 28px;
+}
+.type-e-7 .light-gray2 {
+  color: #eaeaea;
+}
+.type-e-7 h4 {
+  font-size: 17.5px;
+  margin: 10px 0;
+  font-weight: bold;
+  line-height: 2 0px;
+  text-rendering: optimizelegibility;
+  text-align: center;
+  color: red;
+  border: 0;
+  padding: 0;
+}
+.type-e-7 .modulecontent .custom > .row {
+  margin-bottom: 0;
+}
+.type-e-7 col-lg-4 {
+  width: 33.33333333%;
+}
+.type-e-7 .col-lg-5 {
+  width: 41.66666667%;
+}
+.type-e-7 .col-lg-3 {
+  width: 25%;
+}
+.type-e-7 p {
+  margin: 0 0 10px;
+  border: 0;
+  font-size: 100%;
+  padding: 0;
+}
+.type-e-7 .offer-banners .hoverborder {
+  margin-bottom: 20px;
+}
+.type-e-7 .hoverborder {
+  position: relative;
+  display: inline-block;
+}
+.type-e-7 a {
+  border: 0;
+  font-size: 100%;
+  outline: none;
+  color: #000;
+  text-decoration: none;
+}
+.type-e-7 .hoverBorderWrapper {
+  position: relative;
+  display: block;
+}
+.type-e-7 span {
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+.type-e-7 img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+.type-e-7 .theHoverBorder {
+  transition: all 0.2s ease-out;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 2px;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.15) inset;
+}
+.type-e-7 .theHoverBorder:hover {
+  box-shadow: 0 0 0 5px #cd2122 inset;
+}
