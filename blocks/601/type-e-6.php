@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 
@@ -14,9 +14,9 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-b-6.less', 'css/type-b-6.css');
+        $less->compileFile('less/type-e-6.less', 'css/type-e-6.css');
         ?>
-        <link href="css/type-b-6.css" rel="stylesheet" type="text/css" />
+        <link href="css/type-e-6.css" rel="stylesheet" type="text/css" />
 
 
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
@@ -25,7 +25,7 @@
     </head>
 
     <body>
-        <div class="type-b-5">
+        <div class="type-e-5">
             <footer id="footer">
 
 
