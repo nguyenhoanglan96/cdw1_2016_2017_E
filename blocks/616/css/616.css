@@ -1,0 +1,113 @@
+.teamplate-616 .ptop-65 {
+  padding-top: 65px;
+}
+.teamplate-616 .kl-title-block {
+  padding-bottom: 35px;
+}
+.teamplate-616 .montserrat {
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.teamplate-616 .tcolor {
+  color: #cd2122 !important;
+}
+.teamplate-616 .tbk__title .tbk__symbol {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.teamplate-616 .tbk__symbol {
+  margin-bottom: 10px;
+}
+.teamplate-616 .tbk__title .tbk__icon {
+  vertical-align: middle;
+}
+.teamplate-616 .light-gray {
+  color: #a8a8a8;
+}
+.teamplate-616 .imgboxes_style1 {
+  overflow: visible;
+}
+.teamplate-616 .image-boxes {
+  margin-bottom: 30px;
+}
+.teamplate-616 .image-boxes .hoverBorder {
+  margin-bottom: 20px;
+}
+.teamplate-616 .image-boxes a {
+  display: block;
+}
+.teamplate-616 .hoverBorder {
+  position: relative;
+}
+.teamplate-616 .imgboxes_style1 .hoverBorderWrapper {
+  height: 270px;
+}
+.teamplate-616 .hoverBorderWrapper {
+  position: relative;
+  display: block;
+}
+.teamplate-616 .imgboxes_style1 img {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.22);
+}
+.teamplate-616 .image-boxes img {
+  width: 100%;
+  height: auto;
+}
+.teamplate-616 .hoverBorderWrapper img {
+  max-width: 100%;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.teamplate-616 .theHoverBorder {
+  position: absolute;
+  border-radius: 3px;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.15) inset;
+}
+.teamplate-616 .imgboxes_style1 .hoverBorder h6 {
+  position: absolute;
+  left: -10px;
+  bottom: 20px;
+  color: #fff;
+  padding: 11px 15px;
+  background: #CD2122;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  border-radius: 2px;
+}
+.teamplate-616 .hoverBorder h6 {
+  transition: all 0.2s ease-out;
+}
+.teamplate-616 .tbk__title {
+  margin-bottom: 10px;
+  font-family: 'Open Sans';
+  line-height: 30px;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 400;
+}
+.teamplate-616 a {
+  color: #000;
+  transition: color .25s ease-in-out;
+}
+.teamplate-616 .kl-title-block {
+  padding-bottom: 35px;
+}
+.teamplate-616 .kl-iconbox {
+  margin-bottom: 30px;
+}
+.teamplate-616 .kl-iconbox--fleft .kl-iconbox__icon-wrapper {
+  float: left;
+  margin-right: 20px;
+}
+.teamplate-616 .kl-iconbox__icon-wrapper {
+  margin-bottom: 15px;
+}
+.teamplate-616 .kl-iconbox__desc {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
+  color: #121212;
+}
