@@ -8,18 +8,19 @@
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/606.css" rel="stylesheet" type="text/css" />
+        <link href="css/type-b-1.css" rel="stylesheet" type="text/css" />
 
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/606.less', 'css/606.css');
+        $less->compileFile('less/606.less', 'css/type-b-1.css');
         ?>
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
         <script src="js/scripts.js" type="text/javascript"></script>
     </head>
+
     <body>
         <div class="type-b-1">
             <!-------------------------------Begin Header------------------------------------>
@@ -32,16 +33,19 @@
                             </a>
                         </h1>
                     </div><!--Logo-->
+
                     <ul class="topnav navRight">
                         <!-- BEGIN support clickable button -->
                         <li><a href="#" id="open_sliding_panel">
                                 <span class="icon-remove-circle icon-white"></span> SUPPORT						</a>
                         </li>
                         <!-- END support clickable button -->
+
                         <!-- BEGIN hidden login/register/remind popups -->
                         <li><a href="#login_panel" data-rel="prettyPhoto[login_panel]">LOGIN</a></li>
                         <!-- END hidden login/register/remind popups -->
                     </ul><!--Top right-->
+
                     <ul class="topnav navLeft">
                         <li class="drop">
                             <a href="#">MY CART</a>
@@ -59,6 +63,7 @@
                                 </div>
                             </div>
                         </li>
+
                         <li class="languages drop">
                             <a href="#"><span class="icon-globe icon-white"></span> LANGUAGES</a>
                             <div class="custom ">
@@ -103,7 +108,7 @@
                             </ul>
                         </div><!--Home-->
 
-                        <nav class="btn-group show-on-hover">
+                        <div class="btn-group show-on-hover">
                             <a href="#">SLIDERS</a>
                             <ul class="dropdown-menu" role="menu">
                                 <li class="dropdown-submenu">
@@ -161,7 +166,7 @@
                                 <li><a href="#">iCarousel</a></li>
                                 <li><a href="#">CSS3 Panels</a></li>
                             </ul>
-                        </nav><!--Silders-->
+                        </div><!--Silders-->
 
                         <div class="btn-group show-on-hover">
                             <a href="#">HERO SCENES</a>
@@ -340,7 +345,7 @@
             <!------------------------------End SlideShow---------------------------------->
             <div class="clear"></div>
             <!-----------------------------Begin ???---------------------------------------->
-            <aside id="action_box99" data-arrowpos="center" class="action_box ">
+            <div id="action_box99" data-arrowpos="center" class="action_box ">
                 <div class="container">
                     <div class="row">
                         <div class="span8">
@@ -351,7 +356,7 @@
                         </div>
                     </div>
                 </div>
-            </aside>
+            </div>
             <!-----------------------------End ???------------------------------------------>
         </div>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>

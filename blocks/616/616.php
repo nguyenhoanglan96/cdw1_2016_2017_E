@@ -14,13 +14,16 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/616.less', 'css/616.css');
+        $less->compileFile('less/616.less', 'css/type-b-11.css');
         ?>
-        <link href="css/616.css" rel="stylesheet" type="text/css" />
+        <link href="css/type-b-11.css" rel="stylesheet" type="text/css" />
+
+
+
     </head>
 
     <body>
-    <div class="teamplate-616">
+    <div class="type-b-11">
         <section class="hg_section ptop-65 pbottom-0">
             <div class="container">
                 <div class="row">
@@ -49,7 +52,7 @@
                                 <div class="kl-title-block clearfix text-left tbk-symbol-- tbk-icon-pos--after-title pbottom-0">
                                     <h3 class="tbk__title fs-20 fw-thin">Uniquely expedite progressive e-commerce networks.</h3>
                                 </div>
-                                <article class="text_box">
+                                <div class="text_box">
                                     <p>
                                         Integer viverra sapien libero, vel rutrum arcu posuere at. Pellentesque fermentum tempor commodo. Sed elementum ligula et dui scelerisque, vitae vestibulum nunc hendrerit.
                                     </p>
@@ -59,7 +62,7 @@
                                     <p>
                                         <a href="#">Read more</a>.
                                     </p>
-                                </article>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -125,6 +128,11 @@
             <!--/ container -->
         </section>          
     </div>   
+            
+
+            
+       
+
     <script type="text/javascript" src = "js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src = "js/bootstrap.min.js"></script>
     </body>

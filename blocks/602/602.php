@@ -7,39 +7,193 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link href="css/type-b-3.css" rel="stylesheet" type="text/css" />
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/602.less', 'css/602.css');
+        $less->compileFile('less/602.less', 'css/type-b-3.css');
         ?>
-        <link href="css/602.css" rel="stylesheet" type="text/css" />
 
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
         <script src="js/scripts.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type-e-2">
-            <section class="hg_section bg-white ptop-65">
+        <div class="type-b-3">
+            <section class="hg_section bg-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <!--/ Image Box style 4 - left symbol style -->
+                            <div class="box image-boxes imgboxes_style4 kl-title_style_left">
+                                <!-- Image Box anchor link -->
+                                <a class="imgboxes4_link imgboxes-wrapper" href="#" target="_blank">
+                                    <!-- Image -->
+                                    <img src="images/imageboxes-set1-011-460x307.jpg" alt="RESCUE SUPPORT" title="RESCUE SUPPORT" class="img-responsive imgbox_image cover-fit-img">
+                                    <!--/ Image -->
+
+                                    <span class="imgboxes-border-helper"></span>
+
+                                    <!-- Title -->
+                                    <h3 class="m_title imgboxes-title">RESCUE SUPPORT</h3>
+                                    <!--/ Title -->
+                                </a>
+                                <!--/ Image Box anchor link -->
+
+                                <!-- Description -->
+                                <p>Our support team will do its best to provide the best possible and helpful answer for the issues you’re having.</p>
+                                <!--/ Description -->
+                            </div>
+                            <!--/ Image Box style 4 - left symbol style -->
+                        </div>
+                        <!--/ col-md-4 col-sm-4  -->
+
+                        <div class="col-md-4 col-sm-4">
+                            <!-- Image Box style 4 - left symbol style -->
+                            <div class="box image-boxes imgboxes_style4 kl-title_style_left">
+                                <!-- Image Box anchor link -->
+                                <a class="imgboxes4_link imgboxes-wrapper" href="#" target="_blank">
+                                    <!-- Image -->
+                                    <img src="images/imageboxes-set1-021-460x307.jpg" alt="E-COMMERCE READY" title="E-COMMERCE READY" class="img-responsive imgbox_image cover-fit-img">
+                                    <!--/ Image -->
+
+                                    <span class="imgboxes-border-helper"></span>
+
+                                    <!-- Title -->
+                                    <h3 class="m_title imgboxes-title">E-COMMERCE READY</h3>
+                                    <!--/ Title -->
+                                </a>
+                                <!-- Image Box anchor link -->
+
+                                <!-- Description -->
+                                <p>Build an online store blazing fast with WooCommerce and Kallyas's ready-made ecommerce functionalities.</p>
+                                <!-- Description -->
+                            </div>
+                            <!--/ Image Box style 4 - left symbol style -->
+                        </div>
+                        <!--/ col-md-4 col-sm-4  -->
+
+                        <div class="col-md-4 col-sm-4">
+                            <!-- Image Box style 4 - bottom border style-->
+                            <div class="box image-boxes imgboxes_style4 kl-title_style_bottom">
+                                <!-- Image Box anchor link -->
+                                <a class="imgboxes4_link imgboxes-wrapper" href="#" target="_blank">
+                                    <!-- Image -->
+                                    <img src="images/gpg4-640x426.jpg" alt="MULTI-LANGUAGE READY" title="MULTI-LANGUAGE READY" class="img-responsive imgbox_image cover-fit-img">
+                                    <!--/ Image -->
+
+                                    <span class="imgboxes-border-helper"></span>
+
+                                    <!-- Title -->
+                                    <h3 class="m_title imgboxes-title">MULTI-LANGUAGE READY</h3>
+                                    <!--/ Title -->
+                                </a>
+                                <!--/ Image Box anchor link -->
+
+                                <!-- Description -->
+                                <p>Add as many language packs as you want, to showcase your website across the entire globe.</p>
+                                <!--/ Description -->
+                            </div>
+                            <!--/ Image Box style 4 - bottom border style-->
+                        </div>
+                        <!--/ col-md-4 col-sm-4  -->
+                    </div>
+                    <!--/ row -->
+                </div>
+                <!--/ hg_section_size container -->
+            </section>
+            <section class="hg_section ptop-100 pbottom-100">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
-                            <!-- Title element -->
-                            <div class="kl-title-block clearfix text-center">
-                                <!-- Title with montserrat font, custom font size and line height, bold style and light gray color -->
-                                <h3 class="tbk__title montserrat fs-44 lh-44 fw-bold light-gray3">OK, SO WHY KALLYAS?</h3>
-                                <!--/ Title with montserrat font, custom font size and line height, bold style and light gray color -->
+                            <!-- Screenshot Box -->
+                            <div class="screenshot-box kl-style-2 fixclear">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <!-- left-side -->
+                                        <div class="left-side">
+                                            <!-- Title -->
+                                            <h3 class="title"><span class="fw-thin">This is Kallyas Template, a rich featured, epic, <span class="fw-semibold">mature and premium work.</span></span></h3>
+                                            <!--/ Title -->
 
-                                <!-- Sub-Title with custom font size an very thin style -->
-                                <h4 class="tbk__subtitle fs-18 fw-vthin">Well, lots of reasons, but most importantly because..</h4>
-                                <!--/ Sub-Title with custom font size an very thin style -->
+                                            <!-- features -->
+                                            <ul class="features">
+                                                <li>
+                                                    <h4>FRONTEND PAGE BUILDER</h4>
+                                                    <span>Comfortable and intuitive visual drag and drop builder.</span></li>
+                                                <li>
+                                                    <h4>UNLIMITED COLORS</h4>
+                                                    <span>Personalize the theme’s colors as much as you want for almost any element.</span></li>
+                                                <li>
+                                                    <h4>HIGHLY CUSTOMIZABLE</h4>
+                                                    <span>Yet highly intuitive and easy to use, in just a matter of hours become a pro.</span>
+                                                </li>
+                                            </ul>
+                                            <!--/ features -->
+
+                                            <!-- Call to Action button -->
+                                            <a href="#" target="_blank" class="btn btn-fullcolor btn-third">BUY NOW</a>
+                                            <!--/ Call to Action button -->
+                                        </div>
+                                        <!--/ left-side -->
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <!-- thescreenshot image carousel -->
+                                        <div class="thescreenshot">
+                                            <!-- controls -->
+                                            <div class="controls"><a href="#" class="prev" style="display: inline;"></a><a href="#" class="next" style="display: inline;"></a></div>
+                                            <!--/ controls -->
+
+                                            <!-- screenshot-carousel slides -->
+                                            <div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 555px; height: 364px; margin: 0px; overflow: hidden;"><ul class="screenshot-carousel" data-carousel-pagination=".sc-pagination" style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 3885px; height: 364px; z-index: 1; opacity: 0.160944;">
+                                                    <!-- Slide 1 -->
+
+                                                    <!--/ Slide 1 -->
+
+                                                    <!-- Slide 2-->
+
+                                                    <!--/ Slide 2 -->
+
+                                                    <!-- Slide 3 -->
+
+                                                    <!--/ Slide 3 -->
+                                                    <li style="width: 555px;">
+                                                        <img src="images/ipad-605439_640-580x380.jpg" width="580" height="380" alt="">
+                                                    </li><li style="width: 555px;">
+                                                        <img src="images/phone-690091_640-580x380.jpg" width="580" height="380" alt="">
+                                                    </li><li style="width: 555px;">
+                                                        <img src="images/office-820390_640-580x380.jpg" width="580" height="380" alt="">
+                                                    </li></ul><ul class="screenshot-carousel" data-carousel-pagination=".sc-pagination" style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 3885px; height: 364px; z-index: 0; opacity: 0.839056;">
+                                                    <!-- Slide 1 -->
+
+                                                    <!--/ Slide 1 -->
+
+                                                    <!-- Slide 2-->
+
+                                                    <!--/ Slide 2 -->
+
+                                                    <!-- Slide 3 -->
+
+                                                    <!--/ Slide 3 -->
+                                                    <li style="width: 555px;">
+                                                        <img src="images/office-820390_640-580x380.jpg" width="580" height="380" alt="">
+                                                    </li></ul></div>
+                                            <!--/ screenshot-carousel slides -->
+
+                                            <!-- pagination -->
+                                            <div class="sc-pagination" style="display: block;"><a href="#" class=""><span>1</span></a><a href="#" class="selected"><span>2</span></a><a href="#" class=""><span>3</span></a></div>
+                                            <!--/ pagination -->
+                                        </div>
+                                        <!-- thescreenshot image carousel -->
+                                    </div>
+                                </div>
                             </div>
-                            <!--/ Title element -->
+                            <!--/ Screenshot Box -->
                         </div>
                         <!--/ col-md-12 col-sm-12 -->
                     </div>
@@ -47,155 +201,8 @@
                 </div>
                 <!--/ container -->
             </section>
-
-            <section class="hg_section bg-white">
-                <div >
-                    <div class="row">
-                        <div class="col-sm-offset-1 col-md-10 col-sm-10">
-                            <div class="row gutter-md">
-                                <div class="col-md-3 col-sm-3">
-                                    <!-- Icon box float left -->
-                                    <div class="kl-iconbox kl-iconbox--fleft text-left">
-                                        <div>
-                                            <!-- Icon -->
-                                            <div class="kl-iconbox__icon-wrapper">
-                                                <img class="kl-iconbox__icon" src="images/set-03-01.svg" alt="Stunning Page Builder">
-                                            </div>
-                                            <!--/ Icon -->
-
-                                            <!-- /.kl-iconbox__icon-wrapper -->
-                                            <div class="kl-iconbox__content-wrapper">
-                                                <!-- Title -->
-                                                <div class=" -wrapper">
-                                                    <h3 >Stunning Elements</h3>
-                                                </div>
-                                                <!--/ Title -->
-
-                                                <!-- Description -->
-                                                <div class=" -wrapper">
-                                                    <p >
-                                                        Set up pages and content like a <strong>PRO</strong>. Coding is not required and a handy documentation is included.
-                                                    </p>
-                                                </div>
-                                                <!--/ Description -->
-                                            </div>
-                                            <!-- /.kl-iconbox__content-wrapper -->
-                                        </div>
-                                        <!--/ kl-iconbox__inner -->
-                                    </div>
-                                    <!--/ Icon box float left -->
-                                </div>
-                                <!--/ col-md-3 col-sm-3 -->
-
-                                <div class="col-md-3 col-sm-3">
-                                    <!-- Icon box float left -->
-                                    <div class="kl-iconbox kl-iconbox--fleft text-left">
-                                        <div >
-                                            <!-- Icon -->
-                                            <div class="kl-iconbox__icon-wrapper">
-                                                <img class="kl-iconbox__icon" src="images/set-03-02.svg" alt="Iconic Awarded Design">
-                                            </div>
-                                            <!--/ Icon -->
-
-                                            <!-- /.kl-iconbox__icon-wrapper -->
-                                            <div class="kl-iconbox__content-wrapper">
-                                                <!-- Title -->
-                                                <div class=" -wrapper">
-                                                    <h3 >Iconic Awarded Design</h3>
-                                                </div>
-                                                <!--/ Title -->
-
-                                                <!-- Description -->
-                                                <div class=" -wrapper">
-                                                    <p class=" gray">
-                                                        Our design is featured across multiple marketplaces and awarded for its looks. Walk-through and enjoy the visuals.
-                                                    </p>
-                                                </div>
-                                                <!--/ Description -->
-                                            </div>
-                                            <!-- /.kl-iconbox__content-wrapper -->
-                                        </div>
-                                        <!--/ kl-iconbox__inner -->
-                                    </div>
-                                    <!-- Icon box float left -->
-                                </div>
-                                <!--/ col-md-3 col-sm-3 -->
-
-                                <div class="col-md-3 col-sm-3">
-                                    <!-- Icon box float left -->
-                                    <div class="kl-iconbox kl-iconbox--fleft text-left">
-                                        <div >
-                                            <!-- Icon -->
-                                            <div class="kl-iconbox__icon-wrapper">
-                                                <img class="kl-iconbox__icon" src="images/set-03-03.svg" alt="Featurewise Complete">
-                                            </div>
-                                            <!--/ Icon -->
-
-                                            <!-- /.kl-iconbox__icon-wrapper -->
-                                            <div class="kl-iconbox__content-wrapper">
-                                                <!-- Title -->
-                                                <div class=" -wrapper">
-                                                    <h3 >Featurewise Complete</h3>
-                                                </div>
-                                                <!--/ Title -->
-
-                                                <!-- Description -->
-                                                <div class=" -wrapper">
-                                                    <p class=" gray">
-                                                        Without a doubt, Kallyas is one of the most complete WordPress theme on the market, being packed with all the goodies and sweet gems.
-                                                    </p>
-                                                </div>
-                                                <!--/ Description -->
-                                            </div>
-                                            <!-- /.kl-iconbox__content-wrapper -->
-                                        </div>
-                                        <!--/ kl-iconbox__inner -->
-                                    </div>
-                                    <!--/ Icon box float left -->
-                                </div>
-                                <!--/ col-md-3 col-sm-3 -->
-
-                                <div class="col-md-3 col-sm-3">
-                                    <!-- Icon box float left -->
-                                    <div class="kl-iconbox kl-iconbox--fleft text-left">
-                                        <div >
-                                            <!-- Icon -->
-                                            <div class="kl-iconbox__icon-wrapper">
-                                                <img class="kl-iconbox__icon" src="images/set-03-04.svg" alt="Mature project">
-                                            </div>
-                                            <!--/ Icon -->
-
-                                            <!-- /.kl-iconbox__icon-wrapper -->
-                                            <div class="kl-iconbox__content-wrapper">
-                                                <!-- Title -->
-                                                <div class=" -wrapper">
-                                                    <h3 >Mature project</h3>
-                                                </div>
-                                                <!--/ Title -->
-
-                                                <!-- Description -->
-                                                <div>
-                                                    <p class=" gray">
-                                                        In time, gathering awesome feedback from our loyal customers, Kallyas became a mature, stable and future-proof project.
-                                                    </p>
-                                                </div>
-                                                <!--/ Description -->
-                                            </div>
-                                            <!-- /.kl-iconbox__content-wrapper -->
-                                        </div>
-                                        <!--/ kl-iconbox__inner -->
-                                    </div>
-                                </div>
-                                <!--/ col-md-3 col-sm-3 -->
-                            </div>
-                            <!--/ row gutter-md -->
-                        </div>
-                        <!--/ col-sm-offset-1 col-md-10 col-sm-10 -->
-                    </div>
-                    <!--/ row -->
-                </div>
-                <!--/ full_width -->
-            </section>
         </div>
+
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>
