@@ -1,0 +1,234 @@
+@media (max-width: 1439px) and (min-width: 1263px) {
+  .content_wrap {
+    width: 1000px;
+  }
+}
+@media (max-width: 1135px) and (min-width: 1024px) {
+  .content_wrap {
+    width: 964px;
+  }
+}
+@media (max-width: 1262px) and (min-width: 1136px) {
+  .content_wrap {
+    width: 910px;
+  }
+}
+@media (max-width: 1023px) and (min-width: 960px) {
+  .content_wrap {
+    width: 900px;
+  }
+}
+@media (max-width: 959px) and (min-width: 768px) {
+  .content_wrap {
+    width: 708px;
+  }
+}
+@media (max-width: 767px) and (min-width: 640px) {
+  .content_wrap {
+    width: 600px;
+  }
+}
+@media (max-width: 639px) and (min-width: 480px) {
+  .content_wrap {
+    width: 440px;
+  }
+}
+@media (max-width: 479px) {
+  .content_wrap {
+    width: 280px;
+  }
+}
+.container {
+  padding: 0px;
+}
+.type-13 a {
+  text-decoration: none;
+  background: transparent;
+}
+.type-13 .pager_nav:hover {
+  color: #f15d2f;
+  background: #fff;
+}
+.type-13 .icon {
+  position: relative;
+  bottom: 150px;
+  font-size: 48px;
+  color: #fff;
+  transition: all 1s ease 0s;
+  opacity: 0;
+}
+.type-13 .top_panel_title {
+  background-color: #f15d2f;
+}
+.type-13 .breadcrumbs {
+  padding: 17px 0px;
+}
+.type-13 .breadcrumbs_item {
+  color: rgba(255,255,255,0.5);
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.type-13 .breadcrumbs_item:hover {
+  color: #fff;
+}
+.type-13 .breadcrumbs_delimiter {
+  color: #fff;
+}
+.type-13 .current {
+  color: #fff;
+}
+.type-13 .page_paddings_yes {
+  padding: 96px;
+}
+.type-13 article {
+  font-family: "Roboto Slab", sans-serif;
+}
+.type-13 .post_item_next {
+  margin-top: 97px;
+}
+.type-13 .post_title {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 97px;
+  font-weight: 700;
+  text-transform: none;
+}
+.type-13 .post_title_link {
+  color: #5c5551;
+  font-weight: bold;
+}
+.type-13 .post_info {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 13.008px;
+  font-weight: 400;
+  clear: both;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-flow: row;
+  -webkit-align-items: flex-end;
+  -webkit-flex-wrap: wrap;
+}
+.type-13 .post_info_date {
+  color: #5c5551;
+}
+.type-13 .post_info_date:hover {
+  color: #f15d2f;
+}
+.type-13 .post_info_counters {
+  margin: 0px 10px;
+  border-left: 1px #ccc dotted;
+}
+.type-13 .view_item {
+  color: #f15d2f;
+  margin: 0px 5px;
+}
+.type-13 .post_counters_number {
+  color: #f15d2f;
+}
+.type-13 .post_counters_number:hover {
+  color: #5c5551;
+}
+.type-13 .post_featured {
+  overflow: hidden;
+  margin-bottom: 2em;
+  position: relative;
+}
+.type-13 .hover_icon:hover .icon {
+  bottom: 310px;
+  transition: all 1s ease 0s;
+  opacity: 1;
+}
+.type-13 .hover_icon {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.type-13 .post_image {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.type-13 .post_image:hover {
+  opacity: 0.8;
+}
+.type-13 .post_content {
+  margin-bottom: 48px;
+}
+.type-13 .post_descr {
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.type-13 .more_button {
+  color: #f15d2f;
+  font-family: "Roboto Slab", sans-serif;
+  padding: 0;
+  border: none;
+  text-transform: none;
+  display: inline-block;
+}
+.type-13 .pagination_wrap {
+  text-align: center;
+  position: relative;
+}
+.type-13 .pager_nav {
+  border: 2px solid #ddd;
+  color: #fff;
+  background-color: #f15d2f;
+  border-color: #f15d2f;
+  display: inline-block;
+  margin: 0 4px 4px 0;
+  text-align: center;
+  padding: 0.7143em 0.8em;
+  font-size: 0.875em;
+  line-height: 0.875em;
+}
+.type-13 .pager_current {
+  border: 2px solid #ddd;
+  color: #f15d2f;
+  background-color: #fff;
+  border-color: #f15d2f;
+}
+@media (max-width: 479px) {
+  .type-13 .post_title {
+    font-size: 28px;
+  }
+}
+@media (max-width: 960px) {
+  .type-13 .icon {
+    bottom: 120px !important;
+  }
+  .type-13 .hover_icon:hover .icon {
+    bottom: 230px !important;
+    opacity: 1important;
+  }
+}
+@media (max-width: 768px) {
+  .type-13 .icon {
+    bottom: 100px !important;
+  }
+  .type-13 .hover_icon:hover .icon {
+    bottom: 200px !important;
+    opacity: 1important;
+  }
+}
+@media (max-width: 640px) {
+  .type-13 .icon {
+    bottom: 80px !important;
+  }
+  .type-13 .hover_icon:hover .icon {
+    bottom: 150px !important;
+    opacity: 1important;
+  }
+}
+@media (max-width: 480px) {
+  .type-13 .icon {
+    bottom: 30px !important;
+  }
+  .type-13 .hover_icon:hover .icon {
+    bottom: 100px !important;
+    opacity: 1important;
+  }
+}
