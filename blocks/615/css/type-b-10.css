@@ -15,7 +15,6 @@
   right: 0;
 }
 .type-b-10 .source_gloss {
-  pointer-events: none;
   position: absolute;
   top: 0;
   left: -43%;
@@ -29,13 +28,6 @@
 .type-b-10 .kl-iconbox {
   color: #fff;
   margin-bottom: 30px;
-}
-.type-b-10 .content-wrapper {
-  overflow: hidden;
-}
-.type-b-10 .desc-wrapper {
-  margin-top: 0;
-  margin-bottom: 15px;
 }
 .type-b-10 .kl-iconbox__desc {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -54,10 +46,6 @@
 .type-b-10 .btn-md.btn-lined {
   padding: 14px 25px;
 }
-.type-b-10 .btn-md {
-  font-size: 14px;
-  line-height: 1.3333333;
-}
 .type-b-10 .btn-lined {
   border-width: 2px;
   background: none;
@@ -71,24 +59,6 @@
   border-color: #fff;
   transition: all .1s ease-in-out;
 }
-.type-b-10 .btn-element > span {
-  vertical-align: middle;
-  display: inline-block;
-}
-.type-b-10 .btn-md {
-  font-size: 14px;
-  line-height: 1.3333333;
-}
-.type-b-10 .kl-bottommask--mask3 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 57px;
-}
-.type-b-10 .bottommask {
-  z-index: 1;
-}
 .type-b-10 .bottommask-mask3 .svgmask {
   position: absolute;
   bottom: 0;
@@ -100,13 +70,10 @@
   position: absolute;
   bottom: 5px;
   left: 50%;
-  display: block;
-  width: 30px;
   text-align: center;
   font-size: 22px;
   opacity: 0.2;
   height: 15px;
   top: auto;
   transform: translateX(-50%);
-  margin-left: 1px;
 }

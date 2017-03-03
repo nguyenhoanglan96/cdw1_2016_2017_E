@@ -1,24 +1,15 @@
-
 .type-b-13{
     @colorbg: #fff;
     @size: 14px;
     body, h1, h2, h3, h4, h5, h6 {
         font-family: 'Open Sans', 'Helvetica', Arial, serif;
     }
-  
     .row {
         margin-bottom: 35px;
     }
-
     .star-rating{
-        overflow: hidden;
-        position: relative;
         height: 1em;
-        line-height: 1;
-        font-size: 1em;
-        width: 5.4em;
         font-family: star;
-        box-sizing: border-box;
     }
     a{
         color: #000;
@@ -27,7 +18,6 @@
         font-size: 24px;
         color: #282828;
     }
-
     .sidebar{
         background: @colorbg;
         padding: 20px 15px;
@@ -39,13 +29,10 @@
     }
     .widgettitle{
         color: #050505;
-        line-height: 1.4;
         margin: 10px 0 15px;
         padding-bottom: 20px;
         position: relative;
         font-size: @size;
-        text-transform: uppercase;
-        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
     .widgettitle:before{
         content: '';
@@ -72,7 +59,6 @@
         height: 42px;
         width: 100%;
         padding: 0 20px;
-        outline: none;
         border: 1px solid #ddd;
     }
     .gensearch_submit {
@@ -81,11 +67,9 @@
         border: 0;
         color: #BBB;
         background-color: transparent;
-        outline: none;
         height: 100%;
         padding: 0 20px;
         font-size: 12px;
-        transition: color .2s ease-in-out;
     }
     .gensearch_submit:after{
         content: '';
@@ -97,15 +81,6 @@
         position: absolute;
         top: 50%;
         margin-top: -12px;
-    }
-    .glyphicon {
-        top: 1px;
-        display: inline-block;
-        font-family: 'Glyphicons Halflings';
-        font-style: normal;
-        font-weight: normal;
-        line-height: 1;
-        -webkit-font-smoothing: antialiased;
     }
     .price-range{
         position: relative;
@@ -123,13 +98,9 @@
         font-weight: 600;
         color: #fff;
         text-transform: uppercase;
-        text-shadow: none;
         border-radius: 3px;
-        box-shadow: none;
-        position: relative;
         border: 0;
-        line-height: 1;
-        display: inline-block;
+        line-height: 1; 
     }
     .pr-result {
         display: inline-block;
@@ -154,20 +125,6 @@
         padding: 0;
         list-style: none;
     }
-    .cat-item{
-        margin: 10px 0;
-    }
-    .cat-item a{
-        display: inline-block;
-        padding: 0;
-        margin-right: 5px;
-        position: relative;
-        border-radius: 2px;
-        font-weight: 400;
-        font-size: @size;
-        color: #484848 !important;
-        transition: all .15s ease-out;
-    }
     .count{
         opacity: .5;
     }
@@ -180,20 +137,9 @@
         list-style: none;
         padding: 0;
     }
-    ul.product_list_widget li {
-        margin-bottom: 20px;
-        padding: 0;
-    }
-    ul.product_list_widget li a {
-        font-size: 13px;
-        line-height: 1.6;
-        margin-bottom: 10px;
-    }
     ul.product_list_widget li img {
         width: 58px;
-        height: auto;
         float: right;
-        max-width: 100%;
     }
     ul.product_list_widget li a span {
         font-weight: 400;
@@ -207,5 +153,4 @@
         font-weight: 300;
         display: block;
     }
-
 }
