@@ -23,26 +23,23 @@
     <body>
         <div class="top-menu">
             <header>
-                <div class="btt">
-                    <div class='bttop'><i class="glyphicon glyphicon-chevron-up"></i></div>
-                </div>
                 <div class="top_panel">
                     <div class="container content_wrap">
-                        <div class="top_panel_home content_panel">
-                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        <div class=" content_panel">
+                            <i aria-hidden="true"></i>
                             <p>Mon-Fri: 8.00 AM - 6.00 PM</p>
                         </div>
-                        <div class="top_panel_phone content_panel">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        <div class=" content_panel">
+                            <i  aria-hidden="true"></i>
                             <p>(800) 456-7890</p>
                         </div>
-                        <div class="top_panel_email content_panel">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <div class=" content_panel">
+                            <i aria-hidden="true"></i>
                             <p>info@yoursite.com</p>
                         </div>
                     </div>
                 </div><!--End_top_panel-->
-                 <div class="container slide-width center-logo hidden">
+                 <div class="container  center-logo hidden">
                         <div class="reponsive-menu">
                             <i class="fa fa-bars item-menu"></i>
                         </div>
@@ -155,7 +152,7 @@
                     </div>
                 </div><!--End-Top-Panel-Middle-->
                 <div class="main-menu-reponsive">
-                    <div class="full-show" id="full-show"></div>
+                    <div id="full-show"></div>
                     <ul class="menu-reponsive" id="reponsive-menu">
                         <li class="item-menu active-rp">
                             <a data-toggle="collapse" data-target=".navbar-collapse-home" href="#">
@@ -164,7 +161,7 @@
                                 <span class="fa fa-chevron-up up"></span>
                             </a>
                             <div class="navbar-collapse-home collapse">
-                                <ul class="sub-content">
+                                <ul >
                                     <li class="item-menu-1"><a href="#"><span>Home(Slider1)</span></a></li>
                                     <li class="item-menu-1"><a href="#"><span>Home(Slider2)</span></a></li>
                                 </ul>
@@ -177,7 +174,7 @@
                                 <span class="fa fa-chevron-up up"></span>
                             </a>
                             <div class="navbar-collapse-features collapse">
-                                <ul class="sub-content">
+                                <ul >
                                     <li class="item-menu-1"><a href="#"><span>Shortcodes</span></a></li>
                                     <li class="item-menu-1"><a href="#"><span>Typography</span></a></li>
                                     <li class="item-menu-1"><a href="#"><span>Page-404</span></a></li>
@@ -191,7 +188,7 @@
                                 <span class="fa fa-chevron-up up"></span>
                             </a>
                             <div class="navbar-collapse-about collapse">
-                                <ul class="sub-content">
+                                <ul >
                                     <li class="item-menu-1"><a href="#"><span>About Us</span></a></li>
                                     <li class="item-menu-1"><a href="#"><span>Lab Members</span></a></li>
                                     <li class="item-menu-1"><a href="#"><span>Single Lap Member</span></a></li>
@@ -203,7 +200,7 @@
                                             <span class="fa fa-chevron-up up"></span>
                                         </a>
                                         <div class="navbar-collapse-photo collapse">
-                                            <ul class="sub-content">
+                                            <ul>
                                                 <li class="item-menu-2"><a href="#"><span>Grid</span></a></li>
                                                 <li class="item-menu-2"><a href="#"><span>Masonry</span></a></li>
                                                 <li class="item-menu-2"><a href="#"><span>Cobbles</span></a></li>
@@ -218,7 +215,7 @@
                                             <span class="fa fa-chevron-up up"></span>
                                         </a>
                                         <div class="navbar-collapse-dona collapse">
-                                            <ul class="sub-content">
+                                            <ul>
                                                 <li class="item-menu-2"><a href="#"><span>Bacteria Isolation</span></a></li>
                                                 <li class="item-menu-2"><a href="#"><span>Cancer Treatment</span></a></li>
                                                 <li class="item-menu-2"><a href="#"><span>Eco Microbiology</span></a></li>
@@ -237,7 +234,7 @@
                                 <span class="fa fa-chevron-up up"></span>
                             </a>
                             <div class="navbar-collapse-news collapse">
-                                <ul class="sub-content">
+                                <ul>
                                     <li class="item-menu-1"><a href="#"><span>Standard Blog</span></a></li>
                                     <li class="item-menu-1"><a href="#"><span>Without Sidebar</span></a></li>
                                     <li class="item-menu-1">
@@ -247,7 +244,7 @@
                                             <span class="fa fa-chevron-up up"></span>
                                         </a>
                                         <div class="navbar-collapse-masonry collapse">
-                                            <ul class="sub-content">
+                                            <ul>
                                                 <li class="item-menu-2"><a href="#"><span>Masonry 2 Columns</span></a></li>
                                                 <li class="item-menu-2"><a href="#"><span>Masonry 3 Columns</span></a></li>
                                             </ul>
@@ -260,7 +257,7 @@
                                             <span class="fa fa-chevron-up up"></span>
                                         </a>
                                         <div class="navbar-collapse-portfolio collapse">
-                                            <ul class="sub-content">
+                                            <ul>
                                                 <li class="item-menu-2"><a href="#"><span>Portfolio 2 Columns</span></a></li>
                                                 <li class="item-menu-2"><a href="#"><span>Portfolio 3 Columns</span></a></li>
                                             </ul>
