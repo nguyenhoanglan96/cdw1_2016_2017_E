@@ -16,7 +16,7 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/604.less', 'css/type-b-5.css');
+        $less->compileFile('less/type-b-5.less', 'css/type-b-5.css');
         ?>
 
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
@@ -301,7 +301,7 @@
                         <div class="row">
                             <div class="col-md-12 col-sm-12">
                                 <!-- Title element with bottom line style -->
-                                <div class="kl-title-block clearfix text-center tbk-symbol--line tbk-icon-pos--after-title">
+                                <div class="kl-title-block  text-center tbk-symbol--line tbk-icon-pos--after-title">
                                     <!-- Title with montserrat font, white color and bold style -->
                                     <h3 class="tbk__title white montserrat fw-bold">BELOVED REVIEWS &amp; TECHNOLOGIES</h3>
                                     <!--/ Title with montserrat font, white color and bold style -->
@@ -313,7 +313,7 @@
                                     <!--/ Title bottom symbol -->
                                 </div>
                                 <!--/ Title element with bottom line style -->
-                                <div class="ts-pt-partners ts-pt-partners--y-title clearfix">
+                                <div class="ts-pt-partners ts-pt-partners--y-title">
                                     <!-- Title -->
                                     <div class="ts-pt-partners__title">
                                         TECHNOLOGIES
@@ -435,28 +435,25 @@
                         <div class="row">
                             <div class="col-md-9 col-sm-9">
                                 <!-- Title element -->
-                                <div class="kl-title-block clearfix text-left tbk-symbol-- tbk-icon-pos--after-title">
+                            
                                     <!-- Title -->
-                                    <h3 class="tbk__title montserrat fw-semibold tcolor">WORK WITH US</h3>
+                                    <h3 class=" fw-semibold tcolor">WORK WITH US</h3>
                                     <!--/ Title -->
 
                                     <!-- Sub-Title -->
-                                    <h4 class="tbk__subtitle fw-thin">We'll do everything we can to make our next best project!</h4>
+                                    <h4 class=" fw-thin">We'll do everything we can to make our next best project!</h4>
                                     <!--/ Sub-Title -->
-                                </div>
+                                
                                 <!--/ Title element -->
                             </div>
                             <!--/ col-md-9 col-sm-9 -->
 
                             <div class="col-md-3 col-sm-3">
                                 <!-- spacer with custom height -->
-                                <div class="th-spacer clearfix" style="height: 10px;">
-                                </div>
-                                <!--/ spacer with custom height -->
-
+                                
                                 <!-- Button lined style -->
                                 <div class="text-left">
-                                    <a class="btn-element btn btn-lined lined-custom btn-md btn-block " href="#" style="margin:0 0 10px 0;">
+                                    <a class=" btn btn-lined lined-custom btn-md btn-block " href="#" style="margin:0 0 10px 0;">
                                         <span>GET A QUOTE</span>
                                     </a>
                                 </div>
