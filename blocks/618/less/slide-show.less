@@ -1,0 +1,333 @@
+@background_footer: #292724;
+@color_base: #f15d2f;
+@color_title_base: #45403d;
+@color: #878280;
+    
+@media (max-width: 1439px) and (min-width: 1263px)
+{
+    .content_wrap {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1135px) and (min-width: 1024px)
+{
+    .content_wrap{
+        width: 964px;
+    }
+}
+
+@media (max-width: 1262px) and (min-width: 1136px)
+{
+    .content_wrap {
+        width: 910px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 960px)
+{
+    .content_wrap {
+        width: 900px;
+    }
+}
+
+@media (max-width: 959px) and (min-width: 768px)
+{
+    .content_wrap {
+        width: 708px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 640px)
+{
+    .content_wrap {
+        width: 600px;
+    }
+}
+
+
+@media (max-width: 639px) and (min-width: 480px)
+{
+    .content_wrap {
+        width: 440px;
+    }
+}
+
+@media (max-width: 479px)
+{
+    .content_wrap {
+        width: 280px;
+    }
+}
+.type-slide {
+   
+    /***************************SlideShow*****************************/
+    .slide-width {
+        margin: 0px auto;
+    }
+    
+    .slideshow img {
+        max-width: 100%;
+    }
+    @media (min-width: 1263px)
+    {
+        .slide-width {
+            width: 1150px !important;
+            max-width: 100%;
+        }
+        .slideshow img {
+            height: 546px;
+            width: 1149px;
+        }
+    }
+    
+    @media (max-width: 1262px) and (min-width: 1136px)
+    {
+        .slide-width {
+            width: 970px !important;
+            max-width: 100%;
+        }
+        .slideshow img {
+            height: 460px;
+        }
+    }
+
+    @media (max-width: 1135px) and (min-width: 1024px)
+    {
+        .slide-width {
+            width: 1000px;
+            max-width: 100%;
+        }
+        .slideshow img {
+            height: 475px;
+        }
+    }
+    
+    @media (max-width: 1023px) and (min-width: 960px)
+    {
+        .slide-width {
+            width: 930px;
+            max-width: 100%;
+        }
+        .slideshow img {
+            height: 441px;
+        }
+    }
+    
+    @media (min-width:960px)
+    {
+         .content-1, .content-2, .content-3 {
+            width: 33.33%;
+            float: left;
+        }
+    }
+    
+    @media (max-width: 959px) and (min-width: 768px)
+    {
+        .slide-width {
+            width: 738px;
+            max-width: 100%;
+        }
+        .slideshow img {
+            height: 350px;
+        }
+        
+        .content-1, .content-2, .content-3 {
+            width: 50%;
+        }
+        
+        .content-1, .content-2 {
+            float: left;
+        }
+        
+        .content-3 {
+            display: inline-block;
+        }
+    }
+    
+    @media (max-width:767px)
+    {
+        .Slide-show-content {
+            padding: 0px;
+        }
+        
+        .icon {
+            font-size: 22px;
+        }
+        
+        .title {
+            padding-top: 0px !important;
+        }
+    }
+    
+    @media (max-width: 767px) and (min-width: 640px)
+    {
+        .slide-width {
+            width: 650px;
+            max-width: 100%;
+        }
+        
+        .slideshow img {
+            height: 309px;
+        }
+        
+         .content-1, .content-2, .content-3 {
+            width: 50%;
+            height: 180px !important;
+        }
+        
+        .content-icon {
+            padding-top: 30px !important;
+        }
+        
+        .content-1, .content-2 {
+            float: left;
+        }
+        
+        .content-3 {
+            display: inline-block;
+        }
+        
+        .Slide-show-content {
+            bottom: 90px !important;
+        }
+    }
+    
+    @media (max-width: 639px)
+    {
+        .Slide-show-content {
+            bottom:0px !important;
+        }
+        
+        .content-1, .content-2, .content-3 {
+            height: 130px !important;
+        }
+        
+        .content-icon {
+            padding-top: 27px !important;
+        }
+        
+        .title {
+            font-size: 18px!important;
+        }
+    
+        .icon {
+            font-size: 20px!important;
+            padding: 10px!important;
+        }
+    }
+    
+    @media (max-width: 639px) and (min-width: 480px)
+    {
+        .slide-width {
+            width: 440px;
+            max-width: 100%;
+        }
+        .slideshow img {
+            height: 209px;
+        }
+    }
+    
+    @media (max-width: 479px)
+    {
+        .slide-width {
+            width: 280px;
+        }
+        .slideshow img {
+            height: 133px;
+        }
+    }
+    
+    .slide-one {
+        overflow: hidden;
+    }
+    
+    #slide1, #slide2, #slide3 {
+        transform: scale(1.2);
+    }
+    
+    .active-img {
+        display: block !important;
+    }
+    
+    #img1, #img2, #img3 {
+        display: none;
+    }
+    /********************Slide-Content************************/
+    .Slide-show-content {
+        position: relative;
+        bottom: 130px;
+        text-align: center;
+    }
+    
+    .content-1 {
+        background-image: url(../images/banner-01.jpg);
+        background-repeat: no-repeat;
+        height: 260px;
+        text-align: center;
+        color: #fff;
+        
+        .title {
+            font-weight: 700;
+            font-size: 1.625em;
+            padding-top: 25px;
+        }
+        
+        .content {
+            font-weight: 400;
+            font-size: 0.875em;
+        }
+    }
+    
+    .content-2 {
+        background-image: url(../images/banner-02.jpg);
+        background-repeat: no-repeat;
+        height: 260px;
+        text-align: center;
+        color: #fff;
+        
+        .title {
+            font-weight: 700;
+            font-size: 1.625em;
+            padding-top: 25px;
+        }
+        
+        .content {
+            font-weight: 400;
+            font-size: 0.875em;
+        }
+    }
+    
+    .content-3 {
+        background-image: url(../images/banner-03.jpg);
+        background-repeat: no-repeat;
+        height: 260px;
+        text-align: center;
+        color: #fff;
+        
+        .title {
+            font-weight: 700;
+            font-size: 1.625em;
+            padding-top: 25px;
+        }
+        
+        .content {
+            font-weight: 400;
+            font-size: 0.875em;
+        }
+    }
+    
+    .content-icon {
+        padding-top: 60px;
+    }
+    
+    .icon {
+        font-size: 36px;
+        border-radius: 70%;
+        border: 1px #fff solid;
+        padding: 15px;
+        background: rgba(255,255,255,0.3);
+    }
+}
+/* END MODULE TEST */
+

@@ -1,0 +1,114 @@
+@media (max-width: 1439px) and (min-width: 1263px) {
+  .content_wrap {
+    width: 1000px;
+  }
+}
+@media (max-width: 1135px) and (min-width: 1024px) {
+  .content_wrap {
+    width: 964px;
+  }
+}
+@media (max-width: 1262px) and (min-width: 1136px) {
+  .content_wrap {
+    width: 910px;
+  }
+}
+@media (max-width: 1023px) and (min-width: 960px) {
+  .content_wrap {
+    width: 900px;
+  }
+}
+@media (max-width: 959px) and (min-width: 768px) {
+  .content_wrap {
+    width: 708px;
+  }
+}
+@media (max-width: 767px) and (min-width: 640px) {
+  .content_wrap {
+    width: 600px;
+  }
+}
+@media (max-width: 639px) and (min-width: 480px) {
+  .content_wrap {
+    width: 440px;
+  }
+}
+@media (max-width: 479px) {
+  .content_wrap {
+    width: 280px;
+  }
+}
+.type-23 .solutions {
+  padding-bottom: 35px;
+  background-color: #f5f5f5 !important;
+}
+.type-23 .solutions .video {
+  text-align: center;
+  margin-top: 46px;
+}
+.type-23 .solutions .video .sc_title {
+  font-size: 18px;
+  margin-top: 16px;
+  color: #333;
+}
+.type-23 .solutions .video .img {
+  max-width: 100%;
+}
+.type-23 .solutions .line {
+  display: inline-block;
+  width: 150px;
+  border-top-width: 4px;
+  border-top-style: solid;
+  border-top-color: #5c5551;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.type-23 .solutions .content {
+  float: left;
+  padding: 5px;
+  display: inline-block;
+}
+.type-23 .solutions .content h2 {
+  font-size: 24px;
+}
+.type-23 .solutions .content ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.type-23 .solutions .content ul li {
+  border-top: 1px #aeaead solid;
+}
+.type-23 .solutions .content ul span {
+  color: #f15d2f;
+  line-height: 28px;
+}
+.type-23 .solutions .title {
+  margin-top: 56px;
+  margin-bottom: 56px;
+  text-align: center;
+}
+.type-23 .solutions .title h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.type-23 .solutions .title h6 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
+  color: #aeaead;
+}
+@media (min-width: 760px) {
+  .type-23 .content {
+    width: 25% !important;
+  }
+}
+@media (max-width: 760px) and (min-width: 480px) {
+  .type-23 .content {
+    width: 50% !important;
+  }
+}
+@media (max-width: 479px) {
+  .type-23 .content {
+    width: 100% !important;
+  }
+}
