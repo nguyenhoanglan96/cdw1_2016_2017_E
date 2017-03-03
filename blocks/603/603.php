@@ -14,19 +14,18 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/603.less', 'css/type-b-4.css');
+        $less->compileFile('less/603.less', 'css/603.css');
         ?>
-        <link href="css/type-b-4.css" rel="stylesheet" type="text/css" />
-
+        <link href="css/603.css" rel="stylesheet" type="text/css" />
 
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
         <script src="js/scripts.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type-b-4">
-            <section class="hg_section bg-white p-0">
-                <div class="full_width">
+        <div class="type-603">
+            <section >
+                <div >
                     <div class="row gutter-lg">
                         <div class="col-md-5 col-sm-12">
                             <!-- Media container style 2 element - with custom height(.h-615) -->
@@ -39,14 +38,14 @@
                                     <!--/ Background image -->
 
                                     <!-- Gradient overlay -->
-                                    <div class="kl-bg-source__overlay" style="background:rgba(137,173,178,0.3); background: -moz-linear-gradient(left, rgba(137,173,178,0.3) 0%, rgba(53,53,53,0.65) 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(137,173,178,0.3)), color-stop(100%,rgba(53,53,53,0.65))); background: -webkit-linear-gradient(left, rgba(137,173,178,0.3) 0%,rgba(53,53,53,0.65) 100%); background: -o-linear-gradient(left, rgba(137,173,178,0.3) 0%,rgba(53,53,53,0.65) 100%); background: -ms-linear-gradient(left, rgba(137,173,178,0.3) 0%,rgba(53,53,53,0.65) 100%); background: linear-gradient(to right, rgba(137,173,178,0.3) 0%,rgba(53,53,53,0.65) 100%); ">
+                                    <div class="kl-bg-source__overlay" style="background:rgba(137,173,178,0.3); background: -moz-linear-gradient(left, rgba(137,173,178,0.3) 0%, rgba(53,53,53,0.65) 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(137,173,178,0.3)), color-stop(100%,rgba(53,53,53,0.65))); background: -webkit-linear-gradient(left, rgba(137,173,178,0.3) 0%,rgba(53,53,53,0.65) 100%); background: -o-linear-gradient(left, rgba(137,173,178,0.3) 0%,rgba(53,53,53,0.65) 100%); background: -ms-linear-gradient(left, rgba(137,173,178,0.3) 0%,rgba(53,53,53,0.65) 100%); background: linear-gradient(to right, rgba(137,173,178,0.3) 0%,rgba(53,53,53,0.65) 100%);">
                                     </div>
                                     <!--/ Gradient overlay -->
                                 </div>
                                 <!--/ Background -->
 
                                 <!-- media container link button -->
-                                <a class="media-container__link media-container__link--btn media-container__link--style-borderanim2 " href="https://www.youtube.com/watch?v=cVt-3vbENOQ" data-lightbox="iframe">
+                                <a class="media-container__link media-container__link--btn media-container__link--style-borderanim2 " href="#" data-lightbox="iframe">
                                     <!-- SVG border -->
                                     <div class="borderanim2-svg">
                                         <!-- svg -->
@@ -68,17 +67,17 @@
                         <!--/ col-md-5 col-sm-12 -->
 
                         <div class="col-md-7 col-sm-12">
-                            <div class="custom_container p-5">
-                                <div class="row hg_col_eq_last">
+                            <div >
+                                <div class="row">
                                     <div class="col-md-12 col-sm-12">
                                         <!-- Title element -->
                                         <div class="kl-title-block clearfix text-left tbk-symbol--line tbk-icon-pos--after-title pbottom-0">
                                             <!-- Title with montserrat font, custom size and line height bold style -->
-                                            <h3 class="tbk__title montserrat fs-38 lh-46 fw-bold">TRULY MULTI-PURPOSE <span class="text-custom fw-normal tcolor">&amp;</span> OUTSTANDING</h3>
+                                            <h3 class="tbk__title montserrat fs-38 lh-46 fw-bold">TRULY MULTI-PURPOSE <span class=" fw-normal tcolor">&amp;</span> OUTSTANDING</h3>
                                             <!--/ Title with montserrat font, custom size and line height bold style -->
 
                                             <!-- symbol -->
-                                            <span class="tbk__symbol "><span></span></span>
+                                            <span class="tbk__symbol"><span></span></span>
                                             <!--/ symbol -->
 
                                             <!-- Sub-Title -->
@@ -122,7 +121,7 @@
                                                 <!-- Video box container -->
                                                 <div class="adbox_container">
                                                     <!-- Video link -->
-                                                    <a class="playVideo" data-lightbox="iframe" href="https://www.youtube.com/watch?v=cVt-3vbENOQ"></a>
+                                                    <a class="playVideo" data-lightbox="iframe" href="#"></a>
                                                 </div>
                                                 <!--/ Video trigger container -->
                                             </div>
@@ -144,4 +143,5 @@
         </div>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>
+
 </html>
