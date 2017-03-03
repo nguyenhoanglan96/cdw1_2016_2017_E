@@ -1,0 +1,107 @@
+@media (max-width: 1439px) and (min-width: 1263px) {
+  .content_wrap {
+    width: 1000px;
+  }
+}
+@media (max-width: 1135px) and (min-width: 1024px) {
+  .content_wrap {
+    width: 964px;
+  }
+}
+@media (max-width: 1262px) and (min-width: 1136px) {
+  .content_wrap {
+    width: 910px;
+  }
+}
+@media (max-width: 1023px) and (min-width: 960px) {
+  .content_wrap {
+    width: 900px;
+  }
+}
+@media (max-width: 959px) and (min-width: 768px) {
+  .content_wrap {
+    width: 708px;
+  }
+}
+@media (max-width: 767px) and (min-width: 640px) {
+  .content_wrap {
+    width: 600px;
+  }
+}
+@media (max-width: 639px) and (min-width: 480px) {
+  .content_wrap {
+    width: 440px;
+  }
+}
+@media (max-width: 479px) {
+  .content_wrap {
+    width: 280px;
+  }
+}
+.type-team .team {
+  padding-bottom: 35px;
+}
+.type-team .team .content {
+  margin-top: 24px;
+  float: left;
+  padding: 5px;
+  display: inline-block;
+}
+.type-team .team .content .item-avatar,
+.type-team .team .content .item-info {
+  float: left;
+}
+.type-team .team .content .item-avatar {
+  width: 40%;
+}
+.type-team .team .content .item-avatar .img {
+  max-width: 100%;
+  border-radius: 50%;
+  padding: 24px;
+}
+.type-team .team .content .item-info {
+  width: 60%;
+}
+.type-team .team .content .item-info .item-title a {
+  font-size: 26px;
+  color: #333;
+}
+.type-team .team .content .item-info .item-position {
+  color: #f15d2f;
+}
+.type-team .team .content .item-info .description {
+  padding-top: 22px;
+  color: #5c5551;
+  font-size: 16px;
+}
+.type-team .team .title {
+  margin-top: 56px;
+  margin-bottom: 56px;
+  text-align: center;
+}
+.type-team .team .title h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.type-team .team .title h6 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
+  color: #aeaead;
+}
+@media (min-width: 760px) {
+  .type-team .content {
+    width: 50%;
+  }
+}
+@media (max-width: 479px) {
+  .type-team .item-avatar {
+    width: 100% !important;
+  }
+  .type-team .item-info {
+    width: 100% !important;
+  }
+  .type-team .content {
+    width: 100%;
+  }
+}
