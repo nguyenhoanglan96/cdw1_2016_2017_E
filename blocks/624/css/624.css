@@ -1,0 +1,103 @@
+@media (max-width: 1439px) and (min-width: 1263px) {
+  .content_wrap {
+    width: 1000px;
+  }
+}
+@media (max-width: 1135px) and (min-width: 1024px) {
+  .content_wrap {
+    width: 964px;
+  }
+}
+@media (max-width: 1262px) and (min-width: 1136px) {
+  .content_wrap {
+    width: 910px;
+  }
+}
+@media (max-width: 1023px) and (min-width: 960px) {
+  .content_wrap {
+    width: 900px;
+  }
+}
+@media (max-width: 959px) and (min-width: 768px) {
+  .content_wrap {
+    width: 708px;
+  }
+}
+@media (max-width: 767px) and (min-width: 640px) {
+  .content_wrap {
+    width: 600px;
+  }
+}
+@media (max-width: 639px) and (min-width: 480px) {
+  .content_wrap {
+    width: 440px;
+  }
+}
+@media (max-width: 479px) {
+  .content_wrap {
+    width: 280px;
+  }
+}
+.type-624 .slideshow-footer {
+  background: #211f1d;
+  color: #fff;
+}
+.type-624 .slideshow-footer .content {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.type-624 .slideshow-footer .content .item .icon-twitter {
+  font-size: 28px;
+  float: left;
+}
+.type-624 .slideshow-footer .content .item .content-main-slideshow-footer {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+.type-624 .slideshow-footer .content .item .content-main-slideshow-footer a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+.type-624 .slideshow-footer .content .item .content-main-slideshow-footer a:hover {
+  color: #5c5551;
+}
+.type-624 .slideshow-footer .content .item .content-main-slideshow-footer .content-footer-slideshow {
+  font-size: 18px;
+}
+.type-624 .slideshow-footer .op {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+}
+.type-624 .slideshow-footer .op a {
+  color: #dcdcdc;
+  font-size: 22px;
+  text-decoration: none;
+}
+.type-624 .slideshow-footer .op a:hover {
+  color: #fff;
+}
+.type-624 .slideshow-footer .op #circle {
+  vertical-align: super;
+  font-size: 12px;
+}
+@media (max-width: 960px) {
+  .type-624 .slideshow-footer .content-footer-slideshow {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 640px) {
+  .type-624 .slideshow-footer .content-footer-slideshow {
+    font-size: 12px !important;
+  }
+  .type-624 .slideshow-footer .content-main-slideshow-footer {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .type-624 .op {
+    display: none;
+  }
+}
