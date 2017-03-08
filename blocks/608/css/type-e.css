@@ -150,6 +150,7 @@
 }
 .type-e .social-share {
   margin: 25px 0 0;
+  float: right;
 }
 .type-e .social-share li {
   display: inline-block;
