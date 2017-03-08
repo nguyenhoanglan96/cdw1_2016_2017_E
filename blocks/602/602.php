@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html>
-
     <head>
         <title></title>
         <meta charset="UTF-8">
@@ -25,48 +23,33 @@
 
     <body>
         <div class="type-b-3">
-            <section class="hg_section bg-white">
+            <section class=" bg-white">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
                             <!--/ Image Box style 4 - left symbol style -->
                             <div class="box image-boxes imgboxes_style4 kl-title_style_left">
                                 <!-- Image Box anchor link -->
-                                <a class="imgboxes4_link imgboxes-wrapper" href="#" target="_blank">
-                                    <!-- Image -->
+                                <a class=" imgboxes-wrapper" href="#" target="_blank">
                                     <img src="images/imageboxes-set1-011-460x307.jpg" alt="RESCUE SUPPORT" title="RESCUE SUPPORT" class="img-responsive imgbox_image cover-fit-img">
-                                    <!--/ Image -->
-
-                                    <span class="imgboxes-border-helper"></span>
-
-                                    <!-- Title -->
                                     <h3 class="m_title imgboxes-title">RESCUE SUPPORT</h3>
-                                    <!--/ Title -->
                                 </a>
                                 <!--/ Image Box anchor link -->
-
                                 <!-- Description -->
                                 <p>Our support team will do its best to provide the best possible and helpful answer for the issues you’re having.</p>
                                 <!--/ Description -->
                             </div>
                             <!--/ Image Box style 4 - left symbol style -->
                         </div>
-                        <!--/ col-md-4 col-sm-4  -->
+                        <!--/ col-md-4 col-sm-4 -->
 
                         <div class="col-md-4 col-sm-4">
                             <!-- Image Box style 4 - left symbol style -->
                             <div class="box image-boxes imgboxes_style4 kl-title_style_left">
                                 <!-- Image Box anchor link -->
-                                <a class="imgboxes4_link imgboxes-wrapper" href="#" target="_blank">
-                                    <!-- Image -->
+                                <a class=" imgboxes-wrapper" href="#" target="_blank">
                                     <img src="images/imageboxes-set1-021-460x307.jpg" alt="E-COMMERCE READY" title="E-COMMERCE READY" class="img-responsive imgbox_image cover-fit-img">
-                                    <!--/ Image -->
-
-                                    <span class="imgboxes-border-helper"></span>
-
-                                    <!-- Title -->
                                     <h3 class="m_title imgboxes-title">E-COMMERCE READY</h3>
-                                    <!--/ Title -->
                                 </a>
                                 <!-- Image Box anchor link -->
 
@@ -76,19 +59,16 @@
                             </div>
                             <!--/ Image Box style 4 - left symbol style -->
                         </div>
-                        <!--/ col-md-4 col-sm-4  -->
+                        <!--/ col-md-4 col-sm-4 -->
 
                         <div class="col-md-4 col-sm-4">
                             <!-- Image Box style 4 - bottom border style-->
-                            <div class="box image-boxes imgboxes_style4 kl-title_style_bottom">
+                            <div class="box image-boxes imgboxes_style4">
                                 <!-- Image Box anchor link -->
-                                <a class="imgboxes4_link imgboxes-wrapper" href="#" target="_blank">
+                                <a class=" imgboxes-wrapper" href="#" target="_blank">
                                     <!-- Image -->
                                     <img src="images/gpg4-640x426.jpg" alt="MULTI-LANGUAGE READY" title="MULTI-LANGUAGE READY" class="img-responsive imgbox_image cover-fit-img">
                                     <!--/ Image -->
-
-                                    <span class="imgboxes-border-helper"></span>
-
                                     <!-- Title -->
                                     <h3 class="m_title imgboxes-title">MULTI-LANGUAGE READY</h3>
                                     <!--/ Title -->
@@ -101,34 +81,40 @@
                             </div>
                             <!--/ Image Box style 4 - bottom border style-->
                         </div>
-                        <!--/ col-md-4 col-sm-4  -->
+                        <!--/ col-md-4 col-sm-4 -->
                     </div>
                     <!--/ row -->
                 </div>
                 <!--/ hg_section_size container -->
             </section>
-            <section class="hg_section ptop-100 pbottom-100">
+            <section class=" pbottom-100">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <!-- Screenshot Box -->
-                            <div class="screenshot-box kl-style-2 fixclear">
+                            <div class="screenshot-box kl-style-2">
                                 <div class="row">
                                     <div class="col-sm-12 col-md-6">
                                         <!-- left-side -->
                                         <div class="left-side">
                                             <!-- Title -->
-                                            <h3 class="title"><span class="fw-thin">This is Kallyas Template, a rich featured, epic, <span class="fw-semibold">mature and premium work.</span></span></h3>
+                                            <h3 class="title">
+                                                <span >This is Kallyas Template, a rich featured, epic, 
+                                                    <span class="fw-semibold">mature and premium work.</span>                                                     
+                                                </span>
+                                            </h3>
                                             <!--/ Title -->
 
                                             <!-- features -->
                                             <ul class="features">
                                                 <li>
                                                     <h4>FRONTEND PAGE BUILDER</h4>
-                                                    <span>Comfortable and intuitive visual drag and drop builder.</span></li>
+                                                    <span>Comfortable and intuitive visual drag and drop builder.</span>
+                                                </li>
                                                 <li>
                                                     <h4>UNLIMITED COLORS</h4>
-                                                    <span>Personalize the theme’s colors as much as you want for almost any element.</span></li>
+                                                    <span>Personalize the theme’s colors as much as you want for almost any element.</span>
+                                                </li>
                                                 <li>
                                                     <h4>HIGHLY CUSTOMIZABLE</h4>
                                                     <span>Yet highly intuitive and easy to use, in just a matter of hours become a pro.</span>
@@ -146,47 +132,45 @@
                                         <!-- thescreenshot image carousel -->
                                         <div class="thescreenshot">
                                             <!-- controls -->
-                                            <div class="controls"><a href="#" class="prev" style="display: inline;"></a><a href="#" class="next" style="display: inline;"></a></div>
+                                            <div class="controls">
+                                                <a href="#" class="prev" style="display: inline;"></a>
+                                                <a href="#" class="next" style="display: inline;"></a>
+                                            </div>
                                             <!--/ controls -->
 
                                             <!-- screenshot-carousel slides -->
-                                            <div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 555px; height: 364px; margin: 0px; overflow: hidden;"><ul class="screenshot-carousel" data-carousel-pagination=".sc-pagination" style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 3885px; height: 364px; z-index: 1; opacity: 0.160944;">
-                                                    <!-- Slide 1 -->
-
-                                                    <!--/ Slide 1 -->
-
-                                                    <!-- Slide 2-->
-
-                                                    <!--/ Slide 2 -->
-
-                                                    <!-- Slide 3 -->
-
-                                                    <!--/ Slide 3 -->
+                                            <div style="display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 555px; height: 364px; margin: 0px; overflow: hidden;">
+                                                <ul class="screenshot-carousel" data-carousel-pagination="." style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 3885px; height: 364px; z-index: 1; opacity: 0.160944;">
                                                     <li style="width: 555px;">
-                                                        <img src="images/ipad-605439_640-580x380.jpg" width="580" height="380" alt="">
-                                                    </li><li style="width: 555px;">
-                                                        <img src="images/phone-690091_640-580x380.jpg" width="580" height="380" alt="">
-                                                    </li><li style="width: 555px;">
-                                                        <img src="images/office-820390_640-580x380.jpg" width="580" height="380" alt="">
-                                                    </li></ul><ul class="screenshot-carousel" data-carousel-pagination=".sc-pagination" style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 3885px; height: 364px; z-index: 0; opacity: 0.839056;">
-                                                    <!-- Slide 1 -->
-
-                                                    <!--/ Slide 1 -->
-
-                                                    <!-- Slide 2-->
-
-                                                    <!--/ Slide 2 -->
-
-                                                    <!-- Slide 3 -->
-
-                                                    <!--/ Slide 3 -->
+                                                        <img src="images/ipad-605439_640-580x380.jpg" />
+                                                    </li>
                                                     <li style="width: 555px;">
-                                                        <img src="images/office-820390_640-580x380.jpg" width="580" height="380" alt="">
-                                                    </li></ul></div>
+                                                        <img src="images/phone-690091_640-580x380.jpg" />
+                                                    </li>
+                                                    <li style="width: 555px;">
+                                                        <img src="images/office-820390_640-580x380.jpg" />
+                                                    </li>
+                                                </ul>
+                                                <ul class="screenshot-carousel" data-carousel-pagination="." style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 3885px; height: 364px; z-index: 0; opacity: 0.839056;">
+                                                    <li style="width: 555px;">
+                                                        <img src="images/office-820390_640-580x380.jpg" />
+                                                    </li>
+                                                </ul>
+                                            </div>
                                             <!--/ screenshot-carousel slides -->
 
                                             <!-- pagination -->
-                                            <div class="sc-pagination" style="display: block;"><a href="#" class=""><span>1</span></a><a href="#" class="selected"><span>2</span></a><a href="#" class=""><span>3</span></a></div>
+                                            <div style="display: block;">
+                                                <a href="#">
+                                                    <span>1</span>
+                                                </a>
+                                                <a href="#">
+                                                    <span>2</span>
+                                                </a>
+                                                <a href="#">
+                                                    <span>3</span>
+                                                </a>
+                                            </div>
                                             <!--/ pagination -->
                                         </div>
                                         <!-- thescreenshot image carousel -->
@@ -202,7 +186,6 @@
                 <!--/ container -->
             </section>
         </div>
-
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>

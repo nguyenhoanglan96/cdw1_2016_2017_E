@@ -1,4 +1,5 @@
 .type-b-3{
+    @color-background: #a41a1b;
     .pbottom-100 {
         padding-bottom: 100px;
     }
@@ -20,16 +21,13 @@
     }
     a {
         color: #000;
-        -webkit-transition: color .25s ease-in-out;
         transition: color .25s ease-in-out;
     }
     .imgbox_image.cover-fit-img {
         height: 100%;
     }
     .imgboxes_style4 .imgbox_image {
-        -webkit-transition: opacity .2s ease-out;
         transition: opacity .2s ease-out;
-        -webkit-backface-visibility: hidden;
     }
     .image-boxes img {
         width: 100%;
@@ -39,14 +37,9 @@
         object-fit: cover;
         overflow: hidden;
     }
-    .img-responsive, .thumbnail > img, .thumbnail a > img {
+    .img-responsive{
         display: block;
         max-width: 100%;
-        height: auto;
-    }
-    img {
-        max-width: 100%;
-        height: auto;
     }
     .imgboxes_style4.kl-title_style_left .imgboxes-title {
         text-align: left;
@@ -77,10 +70,6 @@
         line-height: 40px;
         font-weight: 400;
         font-style: normal;
-    }
-    h1, h2, h3, h4, h5, h6 {
-        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-weight: normal;
     }
     .screenshot-box.kl-style-2 {
         border: 0;
@@ -144,7 +133,6 @@
     }
     .screenshot-box.kl-style-2 .left-side ul.features li {
         padding-left: 50px;
-        background: url(../images/ok3.png) no-repeat left center;
         margin-top: 20px;
     }
     .screenshot-box .left-side ul.features li:first-child {
@@ -153,11 +141,8 @@
     .screenshot-box.kl-style-2 .left-side > .btn {
         margin-left: 50px;
     }
-    .btn-fullcolor:hover, .btn-fullcolor.btn-skewed:hover:before, .cart-container .buttons .button.wc-forward:hover {
-        background-color: #a41a1b;
-    }
-    .btn-fullcolor:hover {
-        color: #fff;
+    .btn-fullcolor:hover, .btn-fullcolor:hover:before{
+        background-color:@color-background;
     }
     a:hover {
         color: #CD2122;
@@ -169,8 +154,11 @@
     .btn-fullcolor, .btn-fullcolor:focus {
         background-color: #cd2122;
         color: #fff;
+        .btn-fullcolor:hover {
+            color: #fff;
+        }
     }
-    .btn-fullwhite, .btn-fullblack, .btn-fullcolor, .btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger, .btn-link {
+    .btn-fullcolor{
         text-shadow: none;
         padding: 10px 20px;
         line-height: 1.6;
@@ -179,14 +167,9 @@
         font-weight: 700;
         border-style: solid;
         border-radius: 3px;
-        -webkit-transition: background-color .15s ease-out;
         transition: background-color .15s ease-out;
     }
-    .btn-fullwhite, .btn-fullblack, .btn-fullcolor {
-        border-width: 0;
-    }
     .screenshot-box.kl-style-2 .thescreenshot:before {
-        content: "";
         position: absolute;
         top: 15px;
         margin-top: 0;
@@ -201,7 +184,7 @@
     .screenshot-box.kl-style-2 .controls {
         display: none;
     }
-    element.style {
+    element{
         display: block;
         text-align: start;
         float: none;
@@ -215,20 +198,6 @@
         height: 364px;
         margin: 0px;
         overflow: hidden;
-    }
-    element.style {
-        text-align: left;
-        float: none;
-        position: absolute;
-        top: 0px;
-        right: auto;
-        bottom: auto;
-        left: 0px;
-        margin: 0px;
-        width: 3885px;
-        height: 364px;
-        z-index: auto;
-        opacity: 1;
     }
     .screenshot-carousel {
         overflow: hidden !important;
@@ -246,10 +215,6 @@
     .screenshot-box.kl-style-2 .thescreenshot img {
         width: 100%;
         height: 100%;
-    }
-    img {
-        max-width: 100%;
-        height: auto;
     }
     .screenshot-box.kl-style-2 .thescreenshot > [class*="sc-"] {
         position: absolute;
