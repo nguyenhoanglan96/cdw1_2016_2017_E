@@ -22,11 +22,10 @@
     <body>
         <div class="type-40-footer ">
             <footer>
-                <div class="container content_wrap">
+                <div class="container">
                     <div class="row">
                         <div class="columns_wrap">
-                            <div  class="col-md-4">
-                                <div class="widget_inner">
+                            <div  class="col-md-4">                           
                                     <div class="logo">
                                         <a href="#"><img src="images/footer-icon.png">
                                             <h2>Albertino</h2>
@@ -34,10 +33,9 @@
                                         </a>
                                     </div>
                                     <p >We are a science international healthcare company. We do researches and develop a wide range of innovative products.</p>
-                                </div>
                             </div>
-                            <div class="col-md-4 Contact ">
-                                 <h5 class="widget_title">Contact Us</h5>
+                            <div class="col-md-4 ">
+                                 <h5 >Contact Us</h5>
                                     <div class="margin-bottom">
                                         <h4>8500 Lorem Ipsum Street</h4>
                                         <h4>Chicago, IL 55030</h4>
@@ -53,15 +51,15 @@
                                             <li><a href="#">Investor Relations</a></li>
                                         </ul>
                             </div>
-                            <div class="col-md-4 Contact">
-                                    <h5 class="widget_title">Follow Us</h5>
+                            <div class="col-md-4">
+                                    <h5 >Follow Us</h5>
                                     <div class="sc_socials_item">
-                                        <a href="#" class="icon-t" ><img src="images/icon-t.png"></a>
-                                         <a href="#" class="icon-f" ><img src="images/icon-f.png"></a>
-                                         <a href="#" class="icon-g"><img src="images/icon-g.png"></a>
-                                         <a href="#" class="icon-w" ><img src="images/icon-w.png"></a>
+                                        <a href="#"  ><img src="images/icon-t.png"></a>
+                                         <a href="#" ><img src="images/icon-f.png"></a>
+                                         <a href="#"><img src="images/icon-g.png"></a>
+                                         <a href="#" ><img src="images/icon-w.png"></a>
                                     </div> 
-                                    <h5 class="widget_title">Menu</h5>
+                                    <h5>Menu</h5>
                                     <ul>
                                         <li><a href="#">Home</a></li>
                                         <li><a href="#">Features</a></li>

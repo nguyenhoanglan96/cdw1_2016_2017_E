@@ -1,0 +1,80 @@
+@media (max-width: 479px) {
+  .content_wrap {
+    width: 280px;
+  }
+}
+.container {
+  padding: 0px;
+}
+.type-13 a {
+  text-decoration: none;
+  background: transparent;
+}
+.type-13 .icon {
+  position: relative;
+  bottom: 150px;
+  font-size: 48px;
+  color: #fff;
+  transition: all 1s ease 0s;
+  opacity: 0;
+}
+.type-13 .hover_icon {
+  display: block;
+  text-align: center;
+}
+.type-13 .hover_icon:hover .icon {
+  bottom: 310px;
+  transition: all 1s ease 0s;
+  opacity: 1;
+}
+.type-13 .page_paddings_yes {
+  padding: 96px;
+}
+.type-13 .post_title {
+  font-size: 36px;
+  margin-bottom: 97px;
+  text-transform: none;
+}
+.type-13 .post_title_link {
+  color: #5c5551;
+  font-weight: bold;
+}
+.type-13 .post_info {
+  margin-bottom: 1rem;
+  font-size: 13.008px;
+}
+.type-13 .post_info_date {
+  color: #5c5551;
+}
+.type-13 .post_info_date:hover {
+  color: #f15d2f;
+}
+.type-13 .post_info_counters {
+  margin: 0px 10px;
+  border-left: 1px #ccc dotted;
+}
+.type-13 .view_item {
+  color: #f15d2f;
+  margin: 0px 5px;
+}
+.type-13 .post_counters_number {
+  color: #f15d2f;
+}
+.type-13 .post_counters_number:hover {
+  color: #5c5551;
+}
+.type-13 .post_image {
+  width: 100%;
+}
+.type-13 .post_image:hover {
+  opacity: 0.8;
+}
+.type-13 .post_descr {
+  font-size: 16px;
+}
+.type-13 .more_button {
+  color: #f15d2f;
+}
+.type-13 .post_item_next {
+  margin-top: 97px;
+}
