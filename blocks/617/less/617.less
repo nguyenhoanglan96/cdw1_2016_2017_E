@@ -1,0 +1,298 @@
+@background_footer: #292724;
+@color_base: #f15d2f;
+@color_title_base: #45403d;
+@color: #878280;
+
+
+@media (max-width: 1439px) and (min-width: 1263px)
+{
+    .content_wrap {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1135px) and (min-width: 1024px)
+{
+    .content_wrap{
+        width: 964px;
+    }
+}
+.top-menu {
+    /**********************Top-Panel***********************/
+    .top_panel {
+        background-color: @background_footer;
+        color: rgba(255,255,255,0.5);
+        text-align: right;
+    }
+    
+    .content_panel {
+        float: none;
+        display: inline;
+        margin-left: 15px;
+    }
+    
+    .content_panel p {
+        display: inline;
+        font-size:  11px;
+        line-height: 24px;
+    }
+    
+    @media (max-width:1000px)
+    {
+        .top_panel {
+            display: none!important;
+        }
+    }
+    /**********************top_panel_middle-Middle***********************/
+    .top_panel_middle {
+        width: 100%;
+        z-index: 999;
+        background: #fff;
+        top: 0;
+    }
+    .box {
+        box-shadow: 3px 3px 3px #cccccc;
+    }
+           /***********Logo***********/
+    .logo {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+    
+    .logo a {
+        text-decoration: none;
+    }
+    
+    .img_logo, .logo_content {
+        color: @color_title_base;
+    }
+    
+    .left, .logo_content {
+        float: left;
+    }
+    .img_logo {
+        margin: 0 0.7857em 0.7857em 0;
+    }
+    
+    .logo_text {
+        font-family: "Roboto Slab";
+        font-size: 30px;
+        line-height: 24px;
+        font-weight: 700;
+        color: @color_title_base;
+    }
+    
+    .logo_slogan {
+        font-family: 'Lato';
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 12px;
+        letter-spacing: 1px;
+        margin-top: 0;
+        text-transform: uppercase;
+        color: @color;
+    }
+    /***********Top-Menu***********/
+    .reponsive-menu {
+        .item-menu {
+            display: inline-block;
+            float: left;
+            font-size: 24px;
+            margin-top: 40px;
+        }
+    }
+    
+    .reponsive-menu:hover {
+        .item-menu {
+            color: @color_base;
+        }
+    }
+    
+    .sub-menu, .sub-menu1, .sub-right{
+            z-index: 1000;
+    }
+    
+    .top_menu {
+        float: right;
+        margin-top: 0px;
+        z-index: 10;
+    }
+    
+    .main-menu {  
+        display: inline-block;
+        font-size:12px;
+        line-height: 30px;
+        
+        ul{
+            list-style: none;
+        }
+    }
+    
+    .current {
+        float: left;
+        padding: 0px 13px;
+        line-height: 94px;
+    }
+    
+    #current {
+        font-weight: 600;
+        color: @color_title_base;
+    }
+    .show-active {
+        color: @color_base !important;
+    }
+    
+    .show-home1 {
+        background-color: #fff;
+    }
+    
+    .main-menu ul li a{
+        text-decoration: none;
+    }
+
+    .sub-menu {
+        line-height:0px;
+    }
+    
+    .sub-menu, .sub-menu1, .sub-right {
+        line-height:0px;
+        position: absolute;
+        background-color: @background_footer;
+        border: 1px @background_footer;
+        display: none;
+        padding: 20px;
+        padding-bottom:20px;
+        padding-top:20px;
+        a {
+            line-height: 35px;
+            color: #aeaead;
+            padding-left: 10px;
+        }
+        li {
+            width: 170px;
+        }
+        li:hover {
+            background-color: #fff;
+            a:hover {
+                 color: @color_base;
+            }
+        }
+    }
+    
+    .sub-menu1 {
+        left: 100%;
+        bottom: -20px;
+    }
+    
+    .sub-right{
+        right:100%!important;
+        bottom: -20px;
+        a {
+            color: @color !important;
+        }
+    }
+    .current:hover {
+        .sub-menu {
+            display: block;
+        }
+        #current {
+            color: @color_base;
+        }
+    }
+    .sub-current:hover {
+        .sub-menu1, .sub-right {
+            height:auto;
+        }
+    }
+    .sub-menu1 a:hover{
+        color:@color_base!important;
+    }
+    .sub-menu1-right{
+        left: -100%!important;
+        top:57%;
+    }
+    .active-1{
+        display:block!important;
+    }
+    .active-2{
+        display:block!important;
+    }
+    /********************Search************************/
+    .quick-access {
+        padding: 0px;
+        display: inline-block;
+    }
+    .form-search {
+        position: relative;
+        float: left;
+        margin: 0px 0 0;
+    }
+    .input-text {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 1.15em;
+        -webkit-border-radius: 1.15em;
+        -khtml-border-radius: 1.15em;
+        -moz-border-radius: 1.15em;
+        box-shadow: none;
+        color: @color_title_base;
+        float: right;
+        font-size: 0;
+        height: 34px;
+        line-height: 18px;
+        padding: 5px 0px;
+        padding-left: 25px;
+        right: 25px;
+        position: relative;
+        transition: all 0.9s ease 0s;
+        -webkit-transition: all 0.9s ease 0s;
+        -moz-transition: all 0.9s ease 0s;
+        -ms-transition: all 0.9s ease 0s;
+        -o-transition: all 0.9s ease 0s;
+        width: 0;
+        top:-30px;
+        box-sizing: border-box;
+    }
+    .input-text-active{
+        border: 1px solid #c5c5c5!important;
+        font-size: 12px!important;
+        padding-right: 35px!important;
+        width: 130px!important;
+        color: #fff!important;
+        background-color: @color_base!important;
+    }
+    
+    .button-active {
+        color: #fff!important;
+        background-color: @color_base!important;
+        border-radius: 1.5em!important;
+    }
+    
+    .button:hover {
+        color: #fff!important;
+        background-color: @color_base!important;
+        border-radius: 1.5em!important;
+    }
+    
+    .button {
+        float: right;
+        height: 34px;
+        width: 34px;
+        background-color: #fff;
+        position: relative;
+        top: -30px;
+        text-align: center;
+        font-size: 18px;
+        border: 0;
+        
+        i {
+            position: relative;
+            top: 5px;
+        }
+    }
+   
+    
+}
+    
+
