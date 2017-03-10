@@ -160,6 +160,9 @@
   list-style: none;
   text-align: center;
 }
+.template-605 .social-share i.sc-gplus {
+  width: 70px;
+}
 .template-605 .social-share li {
   display: inline-block;
   margin-left: 10px;
@@ -178,12 +181,6 @@
 }
 .template-605 .fb_iframe_widget iframe {
   position: absolute;
-}
-.template-605 .social-share {
-  list-style: none;
-}
-.template-605 .social-share i.sc-gplus {
-  width: 70px;
 }
 .template-605 .col-lg-12 {
   width: 100%;

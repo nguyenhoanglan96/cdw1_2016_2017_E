@@ -36,18 +36,14 @@
                         <!-- BEGIN support clickable button -->
                         <li><a href="#" id="open_sliding_panel">
                                 <span class="icon-remove-circle icon-white"></span> SUPPORT						</a>
-                        </li>
-                        <!-- END support clickable button -->
-                        <!-- BEGIN hidden login/register/remind popups -->
+                        </li>                
                         <li><a href="#login_panel" data-rel="prettyPhoto[login_panel]">LOGIN</a></li>
-                        <!-- END hidden login/register/remind popups -->
                     </ul><!--Top right-->
                     <ul class="topnav navLeft">
                         <li class="drop">
                             <a href="#">MY CART</a>
                             <div class="pPanel">
                                 <div class="inner">
-
                                     <div class="vmCartModule" id="vmCartModule216">
                                         <p class="cart_details">
                                             <span class="total_products">Cart empty</span>
@@ -55,7 +51,6 @@
                                             <a class="checkout" href="/kallyas_joomla/shop/shopping-cart"><span class=" icon-shopping-cart"></span> Show Cart</a>
                                         </p>
                                     </div><!-- end vmcartmodule -->
-
                                 </div>
                             </div>
                         </li>
@@ -85,7 +80,7 @@
                         <svg version="1.1" class="trisvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" preserveAspectRatio="none" width="14px" height="5px" viewBox="0 0 14.017 5.006" enable-background="new 0 0 14.017 5.006" xml:space="preserve"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.016,0L7.008,5.006L0,0H14.016z"></path></svg>
                     </a><!--Free QUOTE-->
 
-                    <div class="main_menu">
+                   <menu class="main_menu">
                         <div class="btn-group show-on-hover">
                             <a href="#">HOME</a>
                             <ul class="dropdown-menu" role="menu">
@@ -102,7 +97,6 @@
                                 <li><a href="#">Homepage 6</a></li>
                             </ul>
                         </div><!--Home-->
-
                         <nav class="btn-group show-on-hover">
                             <a href="#">SLIDERS</a>
                             <ul class="dropdown-menu" role="menu">
@@ -255,7 +249,7 @@
                                 <li><a href="#">Button Desgin</a></li>
                             </ul>
                         </div><!--Style-->
-                    </div><!--Main Menu-->
+                    </menu><!--Main Menu-->
                 </div>
             </header>
             <!-------------------------------End Header------------------------------------>
@@ -275,7 +269,7 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <img src="images/iosmain.jpg" alt="">
-                            <div class="carousel-caption">
+                            <aside class="carousel-caption">
                                 <div class="caption style1 fromleft">
                                     <h2 class="main_title" style="opacity: 1; margin-left: 0px;">HUGE SUMMER SALE</h2>
                                     <h3 class="title_big" style="left: 0px; opacity: 1;">UP TO 40%</h3>
@@ -284,7 +278,7 @@
                                     </a>
                                     <h4 class="title_small" style="left: 0px; opacity: 1;">FOR THE PRODUCTS IN OUR NEWEST COLLECTION</h4>
                                 </div>
-                            </div>
+                            </aside>
                         </div><!--SLide 1-->
 
                         <div class="item">
@@ -303,7 +297,7 @@
 
                         <div class="item">
                             <img src="images/iosmain.jpg" alt="">
-                            <div class="carousel-caption">
+                            <aside class="carousel-caption">
                                 <div class="caption style1 fromleft">
                                     <h2 class="main_title" style="opacity: 1; margin-left: 0px;">GRAND OPENING<br>NOVEMBER 2015</h2>
                                     <h3 class="title_big" style="left: 0px; opacity: 1;">50% OFF ON ANY ORDER</h3>
@@ -312,18 +306,18 @@
                                     </a>
                                     <h4 class="title_small" style="left: 0px; opacity: 1;">BEST PLACE TO HAVE A DRINK IN OUR CITY</h4>
                                 </div>
-                            </div>
+                            </aside>
                         </div><!--Slide 3-->
 
                         <div class="item">
                             <img src="images/iosmain.jpg" alt="">
-                            <div class="carousel-caption">
+                            <aside class="carousel-caption">
                                 <div class="caption style3 fromright">
                                     <h2 class="main_title" style="opacity: 1; margin-right: 0px;">AUTUMN 2015<br>COLLECTION</h2>
                                     <h4 class="title_small" style="right: 0px; opacity: 1;">FOR THE PRODUCTS IN OUR NEWEST COLLECTION</h4>
                                     <h3 class="title_big" style="right: 0px; opacity: 1;"><span class="stronger">20%</span> DISCOUNT</h3>
                                 </div>
-                            </div>
+                            </aside>
                         </div><!--Slide 4-->
 
                     </div>

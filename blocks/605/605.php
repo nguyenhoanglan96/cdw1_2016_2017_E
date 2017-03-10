@@ -14,9 +14,10 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/605.less', 'css/605.css');
+        $less->compileFile('less/605.less', 'css/type-b-6.css');
         ?>
-        <link href="css/605.css" rel="stylesheet" type="text/css" />
+        <link href="css/type-b-6.css" rel="stylesheet" type="text/css" />
+
 
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
         <script src="js/scripts.js" type="text/javascript"></script>
@@ -26,69 +27,69 @@
     <body>
         <div class="template-605">
             <footer id="footer">
-                <div class="container">
+                <div id="footer1" class="container">
                     <div class="row">
-                        <article class=" col-lg-5">
-                            <h4 class=" m_title">FOOTER MENU</h4>
-                            <nav>
-                                <ul class="menu clearfix">
-                                    <li ><a href="#">Curabitur iaculis</a></li>
-                                    <li ><a href="#">Curabitur iaculis</a></li>
-                                    <li ><a href="#">Curabitur iaculis</a></li>
-                                    <li ><a href="#">Curabitur iaculis</a></li>
-                                    <li ><a href="#">Curabitur iaculis</a></li>
-                                    <li ><a href="#">Curabitur iaculis</a></li>
-                                    <li ><a href="#">Curabitur iaculis</a></li>
-                                    <li ><a href="#">Curabitur iaculis</a></li>
-                                    <li ><a href="#">Curabitur iaculis</a></li>
-                                </ul>
-                            </nav>
-                        </article>
-                        <article class="col-lg-4">
-                            <div >
-                                <h4 class=" m_title">NEWSLETTER SIGNUP</h4>
-                                <div >
+                        <div class="moduletable col-lg-5 " >
+                            <div class="bghelper">
+                                <h4 class="moduletitle m_title">FOOTER MENU</h4>
+                                <menu class="modulecontent">
+                                    <ul class="menu  clearfix">
+                                        <li class="item-132"><a href="#">Curabitur iaculis</a></li>
+                                        <li class="item-132"><a href="#">Curabitur iaculis</a></li>
+                                        <li class="item-132"><a href="#">Curabitur iaculis</a></li>
+                                        <li class="item-132"><a href="#">Curabitur iaculis</a></li>
+                                        <li class="item-132"><a href="#">Curabitur iaculis</a></li>
+                                        <li class="item-132"><a href="#">Curabitur iaculis</a></li>
+                                        <li class="item-132"><a href="#">Curabitur iaculis</a></li>
+                                        <li class="item-132"><a href="#">Curabitur iaculis</a></li>
+                                        <li class="item-132"><a href="#">Curabitur iaculis</a></li>
+                                    </ul>
+                                </menu><!-- end modulecontent-->
+                            </div><!-- end bghelper -->
+                        </div><!-- end module -->
+                        <div class="moduletable col-lg-4 " >
+                            <div class="bghelper">
+                                <h4 class="moduletitle m_title">NEWSLETTER SIGNUP</h4>
+                                <div class="modulecontent">
                                     <div class="newsletter-signup">
-                                        <p>By subscribing to our mailing list you will always be update with the latest news from us.</p>
-                                        <form method="post" name="newsletter_form">
-                                            <input type="text" name="name_nl120" value="" placeholder="your name">
-                                            <input type="text" name="email_nl120" value="" placeholder="email@address" required="required">
-                                            <input type="submit" name="submit_nl120" value="JOIN US">
+                                        <p>By subscribing to our mailing list you will always be update with the latest news from us.</p>		
+                                        <form method="post" id="newsletter_subscribe120" name="newsletter_form">
+                                            <input type="text" name="name_nl120" id="nl-name" value="" placeholder="your name">
+                                            <input type="text" name="email_nl120" id="nl-email" value="" placeholder="email@address" required="required">
+                                            <input type="submit" name="submit_nl120" id="nl-submit" value="JOIN US">
                                         </form>
-                                        <span id="result">* it really works! Mailchimp Integration.</span>
-                                        <p><small>We never spam!</small></p>
+                                        <span id="result">* it really works! Mailchimp Integration.</span>	
+                                        <p><small>We never spam!</small></p></div><!-- end newsletter-signup -->
+                                </div><!-- end modulecontent-->
+                            </div><!-- end bghelper -->
+                        </div><!-- end module -->
+                        <div class="moduletable col-lg-3 contact-details" >
+                            <div class="bghelper">
+                                <h4 class="moduletitle m_title">GET IN TOUCH</h4>
+                                <div class="modulecontent">
+                                    <div class="custom contact-details">
+                                        <p><strong>T (212) 555 55 00</strong><br> Email: <a href="#">sales@yourwebsite.com</a></p>
+                                        <p>Your Company LTD<br> Street nr 100, 4536534, Chicago, US</p>
+                                        <a href="#" target="_blank" class="map-link"><span class="icon-map-marker icon-white"></span> <span> Open in Google Maps</span></a>
                                     </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class=" col-lg-3 contact-details">
-                            <h4 class=" m_title">GET IN TOUCH</h4>
-                            <div >
-                                <div class=" contact-details">
-                                    <p><strong>T (212) 555 55 00</strong>
-                                        <br> Email: <a href="#">sales@yourwebsite.com</a></p>
-                                    <p>Your Company LTD
-                                        <br> Street nr 100, 4536534, Chicago, US</p>
-                                    <a href="#" target="_blank" class=" contact-details"><span class="icon-map-marker icon-white"></span> <span> Open in Google Maps</span></a>
-                                </div>
-                            </div>
-                        </article>
+                                </div><!-- end modulecontent-->
+                            </div><!-- end bghelper -->
+                        </div><!-- end module -->
                     </div>
-                </div>
-                <div class="container">
+                </div><!-- end #footer1 -->
+                <div id="bottom" class="container">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div >
-                                <img src="images/twitter-footer." class="img-responsive" alt="" title="">
+                            <div class="twitterFeed">				
+                                <img src="images/twitter-footer.png" class="img-responsive" alt="" title="">                                <!--/ twitter script -->
                             </div>
                         </div>
-
                         <div class="col-lg-6">
                             <div class="social-share">
-                                <img src="images/social-footer." class="pull-right img-responsive" alt="" title="">
+                                <img src="images/social-footer.png" class="pull-right img-responsive" alt="" title="">
                             </div>
                         </div>
-                    </div>
+                    </div><!-- end row -->
                     <div class="col-lg-12">
                         <div class="row">
                             <div class="bottom fixclear">
@@ -100,12 +101,10 @@
                                     <li class="social-envato"><a href="#" target="_blank" title="Follow us on Envato">Envato</a></li>
                                 </ul>
                                 <div class="copyright">
-                                    <a href="#"><img src="images/kallyas-footerlogo.svg" alt="Kallyas Template for Joomla"></a>
-                                    <p>© 2014 <strong>KALLYAS Template</strong>. All Rights Reserved. Click <a href="#">here</a> to buy it.
-                                        <br> Designed by <a href="#" target="_blank">HOGASH</a></p>
-                                </div>
-                            </div>
-                        </div>
+                                    <a href="#"><img src="images/kallyas-footerlogo.svg" alt="Kallyas Template for Joomla"></a><p>© 2014 <strong>KALLYAS Template</strong>. All Rights Reserved. Click <a href="#">here</a> to buy it.<br> Designed by <a href="#" target="_blank">HOGASH</a></p>				
+                                </div><!-- end copyright -->
+                            </div><!-- end bottom -->
+                        </div><!-- end row -->
                     </div>
                 </div>
             </footer>

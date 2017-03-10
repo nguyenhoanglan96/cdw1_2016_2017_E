@@ -245,7 +245,6 @@
                     </div><!--Main Menu-->
                 </div>
             </header>
-            <!-------------------------------End Header------------------------------------>
             <div class="clearfix"></div>
             <!-------------------------------Begin SlideShow-------------------------------->
             <section >
@@ -262,7 +261,7 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <img src="images/iosmain.jpg" alt="">
-                            <div class="carousel-caption">
+                            <aside class="carousel-caption">
                                 <div class="caption style1">
                                     <h2 class="main_title" style="opacity: 1; margin-left: 0px;">HUGE SUMMER SALE</h2>
                                     <h3 class="title_big" style="left: 0px; opacity: 1;">UP TO 40%</h3>
@@ -271,12 +270,11 @@
                                     </a>
                                     <h4 class="title_small" style="left: 0px; opacity: 1;">FOR THE PRODUCTS IN OUR NEWEST COLLECTION</h4>
                                 </div>
-                            </div>
+                            </aside>
                         </div><!--SLide 1-->
-
                         <div class="item">
                             <img src="images/iosmain.jpg" alt="">
-                            <div class="carousel-caption">
+                            <aside class="carousel-caption">
                                 <div class="caption style2 fromright">
                                     <h2 class="main_title" style="opacity: 1; margin-right: 0px;">YOUR LIVING<br>DESERVES BETTER</h2>
                                     <h3 class="title_big" style="right: 0px; opacity: 1;">IT'S YOUR COUCH</h3>
@@ -285,11 +283,11 @@
                                     </a>
                                     <h4 class="title_small" style="right: 0px; opacity: 1;">CHOOSE WHAT YOU LIKE, COMBINE IT HOW YOU WANT</h4>
                                 </div>
-                            </div>
+                            </aside>
                         </div><!--Slide 2-->
                         <div class="item">
                             <img src="images/iosmain.jpg" alt="">
-                            <div class="carousel-caption">
+                            <aside class="carousel-caption">
                                 <div class="caption style1">
                                     <h2 class="main_title" style="opacity: 1; margin-left: 0px;">GRAND OPENING<br>NOVEMBER 2015</h2>
                                     <h3 class="title_big" style="left: 0px; opacity: 1;">50% OFF ON ANY ORDER</h3>
@@ -298,17 +296,17 @@
                                     </a>
                                     <h4 class="title_small" style="left: 0px; opacity: 1;">BEST PLACE TO HAVE A DRINK IN OUR CITY</h4>
                                 </div>
-                            </div>
+                            </aside>
                         </div><!--Slide 3-->
                         <div class="item">
                             <img src="images/iosmain.jpg" alt="">
-                            <div class="carousel-caption">
+                            <aside class="carousel-caption">
                                 <div class="caption style3 fromright">
                                     <h2 class="main_title" style="opacity: 1; margin-right: 0px;">AUTUMN 2015<br>COLLECTION</h2>
                                     <h4 class="title_small" style="right: 0px; opacity: 1;">FOR THE PRODUCTS IN OUR NEWEST COLLECTION</h4>
                                     <h3 class="title_big" style="right: 0px; opacity: 1;"><span class="stronger">20%</span> DISCOUNT</h3>
                                 </div>
-                            </div>
+                            </aside>
                         </div><!--Slide 4-->
                     </div>
                     <!-- Controls -->
@@ -322,7 +320,6 @@
             </section>
             <!------------------------------End SlideShow---------------------------------->
             <div class="clear"></div>
-
         </div>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>
