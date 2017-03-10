@@ -33,17 +33,15 @@
 
 <body>
     <div class="type-5">
-
-        <div class="section" style="background-color:#f4f5f8;">
-
+        <section class="section" style="background-color:#f4f5f8;">
             <div class="container">
-                <div class="title-header">
+               <article class="title-header">
                     <h2 class="title">NEWS AND MEDIA</h2>
-                </div>
-                <div class="title-header1">
+               </article>
+               <article class="title-header1">
                     <h2 class="title1" style="font-family: Roboto; margin-top: 20px; margin-bottom: 20px;">LATEST FROM BLOG</h2>
-                </div>
-                <div class="clearfix spacer" style="height:50px;"></div>
+               </article>
+                <div class="spacer" style="height:50px;"></div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="posts-img-box">
@@ -91,13 +89,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="clearfix spacer" style="height:40px;"></div>
+                <div class="spacer" style="height:40px;"></div>
                 <div class="btnRead">
                     <a href="#" id="btn-1349-375" class="btn btn-primary">Read the blog</a>
                 </div>
 
             </div>
-        </div>   
+        </section>  
     </div>
 </body>
 
