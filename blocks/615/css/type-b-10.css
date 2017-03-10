@@ -1,20 +1,20 @@
+.type-b-10 .div {
+  position: absolute;
+  top: 0;
+}
 .type-b-10 .relative {
   position: relative;
   padding-top: 65px;
   padding-bottom: 85px;
 }
-.type-b-10 .div {
-  position: absolute;
-  top: 0;
-}
-.type-b-10 .source:not(:empty) {
+.type-b-10 .relative .source:not(:empty) {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
 }
-.type-b-10 .source_gloss {
+.type-b-10 .relative .source:not(:empty) .source_gloss {
   position: absolute;
   top: 0;
   left: -43%;
@@ -29,14 +29,6 @@
   color: #fff;
   margin-bottom: 30px;
 }
-.type-b-10 .kl-iconbox__desc {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  font-style: normal;
-  margin: 0;
-}
 .type-b-10 .fs-large {
   font-size: 200%;
 }
@@ -48,32 +40,20 @@
 }
 .type-b-10 .btn-lined {
   border-width: 2px;
-  background: none;
   color: #fff;
-  text-shadow: none;
-  line-height: 1.6;
-  box-shadow: none;
   font-weight: 700;
   border-style: solid;
-  border-radius: 3px;
-  border-color: #fff;
-  transition: all .1s ease-in-out;
-}
-.type-b-10 .bottommask-mask3 .svgmask {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: -15px;
 }
 .type-b-10 .bottommask-mask3 .glyphicon {
   position: absolute;
   bottom: 5px;
   left: 50%;
-  text-align: center;
   font-size: 22px;
   opacity: 0.2;
   height: 15px;
   top: auto;
   transform: translateX(-50%);
+}
+.type-b-10 .glyphicon-chevron-down .text-center {
+  padding: 0;
 }
