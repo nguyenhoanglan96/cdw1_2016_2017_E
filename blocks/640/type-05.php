@@ -29,10 +29,10 @@
         <!------------------>
         <div class="type-05">
             <!-- Main Content Section -->
-            <main class="main">
+            <article>
                 <!-- Page Title -->
-                <div class="page-title text-center">
-                    <h2 class="title">Blog</h2>
+                <div class="page-title">
+                    <h2 class="title" style="text-align: center;">Blog</h2>
                 </div>
                 <!-- Page Title -->
                 <!-- Breadcrumbs -->
@@ -43,11 +43,11 @@
                             <a href="#">Home</a>
                         </span>
                         <i class="fa fa-chevron-right"></i>
-                        <span class="child">Blog</span>
+                        <span>Blog</span>
                     </div>
                 </div>
-            </main>
+            </article>
         </div>
-        <div class="clearfix " style="margin-top: 150px; "></div>
+        <div class="clearfix" style="margin-top: 150px; "></div>
     </body>
 </html>
