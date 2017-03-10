@@ -1,5 +1,4 @@
 .type-05 {
-    // phan 3
     .single .content,
     .blog-grid {
         padding-top: 80px;
@@ -8,14 +7,33 @@
     posts-img-box {
         position: relative;
         display: block;
-        /* min-width: 362px; */
         min-height: 272px;
+        .hover-effect {
+            width: 100%;
+            background: #000;
+            overflow: hidden;
+            position: relative;
+            display: inline-block;
+            margin: 0 auto;
+            img {
+                width: 100%;
+                object-fit: cover;
+                transition: 0.5s ease all;
+                backface-visibility: hidden;
+            }
+            a.hover-effect img {
+                border: 0;
+                box-shadow: none;
+                .hover-effect:hover img {
+                    opacity: 0.6;
+                    transform: scale(1.1);
+                }
+            }
+        }
     }
     .blog-img-box {
         width: 100%;
         min-height: 332px;
-    }
-    .blog-img-box {
         position: relative;
         display: block;
     }
@@ -52,28 +70,6 @@
         transition: 0.5s ease all;
         color: #093eb6;
     }
-    .hover-effect {
-        width: 100%;
-        background: #000;
-        overflow: hidden;
-        position: relative;
-        display: inline-block;
-        margin: 0 auto;
-    }
-    .posts-img-box a.hover-effect > img {
-        border: 0;
-        box-shadow: none;
-    }
-    .hover-effect:hover img {
-        opacity: 0.6;
-        transform: scale(1.1);
-    }
-    .hover-effect img {
-        width: 100%;
-        object-fit: cover;
-        transition: 0.5s ease all;
-        backface-visibility: hidden;
-    }
     .attachment-post-thumbnail {
         height: 332px;
     }
@@ -82,26 +78,26 @@
         padding: 15px;
         box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.1);
         min-height: 128px;
-    }
-    .blog-content p {
-        text-align: left;
-    }
-    .blog-content p {
-        color: #AEB3B7;
-        margin-bottom: 0;
-    }
-    .blog-content h3 a {
-        text-decoration: none;
-        color: #41454f;
-    }
-    .blog-content a {
-        text-decoration: none;
-    }
-    .blog-content h3 a:hover {
-        color: #093eb6;
-    }
-    .blog-content a:hover {
-        color: #062F8C;
+        p {
+            text-align: left;
+            color: #AEB3B7;
+            margin-bottom: 0;
+        }
+        h3 {
+            a {
+                text-decoration: none;
+                color: #41454f;
+            }
+            a:hover {
+                color: #093eb6;
+            }
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            color: #062F8C;
+        }
     }
     .spacer-60 {
         height: 60px;
@@ -109,7 +105,6 @@
         clear: both;
         overflow: hidden;
     }
-    // phan mau may 19
     .category-icon {
         width: 120px;
         height: 120px;
