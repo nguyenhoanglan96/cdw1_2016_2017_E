@@ -1,10 +1,6 @@
 .type-603 {
-    @color-border-top: #ededed;
-    .row.gutter-lg {
-        margin-right: -40px;
-        margin-left: -40px;
-    }
-    @family-font:"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    @color-border-top: #ededed
+    @font-family "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     .is{
         padding-right: 30px;
         padding-left: 30px;
@@ -15,13 +11,8 @@
         bottom: 0;
         right: 0;
     }
-    .row.gutter-lg > [class*="col-"] {
-        .is;
-    }
     .media-container {
         height: 300px;
-    }
-    .media-container {
         position: relative;
     }
     .h-615 {
@@ -31,22 +22,10 @@
         .kl-bg-source__overlay,
         .kl-bg-source__bgimage {
         position: absolute;
-        .ic;
-    }
-    .kl-bg-source__bgimage {
-        //margin-left: 10px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-    }
-    .kl-bg-source:not(:empty),
-        .kl-bg-source__overlay,
-        .kl-bg-source__bgimage {
-        position: absolute;
         .ic;
-    }
-    .kl-bg-source__overlay {
-        pointer-events: none;
     }
     .media-container__link--btn {
         position: absolute;
@@ -61,40 +40,45 @@
     }
     .borderanim2-svg {
         width: 400px;
-    }
-    .borderanim2-svg {
         position: relative;
     }
     .borderanim2-svg__shape {
         stroke-dasharray: 100 1000;
         stroke-dashoffset: -620;
         stroke: #cd2122;
-    }
-    .borderanim2-svg__shape {
+        transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
         stroke-width: 8px;
         fill: transparent;
-        stroke: #FFF;
-        transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
     }
-    .borderanim2-svg .media-container__text {
-        line-height: 70px;
+    .borderanim2-svg {
+        .media-container__text {
+            line-height: 70px;
+        }
     }
-    .media-container__link--style-borderanim2 .media-container__text {
-        text-align: center;
-        font-size: 32px;
-        letter-spacing: 4px;
-        font-weight: 700;
-        line-height: 1;
-        color: #fff;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        font-family:@family-font;
+    .media-container__link--style-borderanim2{
+        .media-container__text {
+            text-align: center;
+            font-size: 32px;
+            letter-spacing: 4px;
+            font-weight: 700;
+            line-height: 1;
+            color: #fff;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            font-family:@font-family;
+        }
     }
-    .row.gutter-lg > [class*="col-"] {
-        .is;
+    .row{
+        .gutter-lg {
+            margin-right: -40px;
+            margin-left: -40px;
+            .gutter-lg [class*="col-"] {
+                .is;
+            }
+        }
     }
     .tbk__title {
         margin-top: 50px;
@@ -102,7 +86,7 @@
         font-style: normal;
     }
     .montserrat {
-        font-family:@family-font !important;
+        font-family:@font-family !important;
     }
     .lh-46 {
         line-height: 46px;
@@ -113,25 +97,29 @@
     .fw-bold {
         font-weight: 700;
     }
-    .tbk-symbol--line.tbk-icon-pos--after-title .tbk__symbol {
-        margin-bottom: 20px;
-        margin-top: -5px;
-        display: inline-block;
-    }
     .tbk__symbol {
         margin-top: 0;
         margin-bottom: 10px;
         display: block;
+        span {
+            display: inline-block;
+            width: 50px;
+            height: 3px;
+            background-color: #ccc;
+        }
     }
     .fw-normal {
         font-weight: 400;
     }
-    .tcolor {color: #cd2122 !important;}
-    .tbk-symbol--line .tbk__symbol span {
-        display: inline-block;
-        width: 50px;
-        height: 3px;
-        background-color: #ccc;
+    .tcolor {
+        color: #cd2122 !important;
+    }
+    .tbk-symbol--line{
+        .tbk-icon-pos--after-title .tbk__symbol {
+            margin-bottom: 20px;
+            margin-top: -5px;
+            display: inline-block;
+        }
     }
     .tbk__subtitle {
         margin-top: 0;
@@ -150,13 +138,14 @@
     .fw-vthin {
         font-weight: 100;
     }
-    .hg_separator.style2 {
-        margin-bottom: 45px;
-        border-top-width: 4px;
-        border-top-color: @color-border-top;
-    }
+
     .hg_separator {
         border-top-style: solid;
+        .style2 {
+            margin-bottom: 45px;
+            border-top-width: 4px;
+            border-top-color: @color-border-top;
+        }
     }
     .pbottom-0 {
         padding-bottom: 0;
@@ -171,27 +160,33 @@
     p {
         margin: 0 0 20px;
     }
-    .adbox.video {
-        position: relative;
-    }
-    .adbox.video > img {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
     img {
         max-width: 100%;
         height: auto;
     }
-    .adbox.video .video_trigger_wrapper {
-        position: absolute;
-        z-index: 1;
-        top: 0;
-        left: auto;
-        margin-left: 0;
-        margin-top: 0;
-        width: 100%;
-        height: 100%;
+    .adbox.video {
+        position: relative;
+        .adbox.video:after {
+            position: absolute;
+            content: '';
+            .ic;
+            background-color: rgba(23, 23, 25, 0.5);
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .video_trigger_wrapper {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: auto;
+            margin-left: 0;
+            margin-top: 0;
+            width: 100%;
+            height: 100%;
+        }
     }
     .adbox_container {
         position: relative;
@@ -214,15 +209,9 @@
         color: #fff;
         line-height: 76px;
         font-size: 18px;
-    }
-    .playVideo:before {
-        content: "\e072";
-        font-family: 'Glyphicons Halflings';
-    }
-    .adbox.video:after {
-        position: absolute;
-        content: '';
-        .ic;
-        background-color: rgba(23, 23, 25, 0.5);
+        .playVideo:before {
+            content: "\e072";
+            font-family: 'Glyphicons Halflings';
+        }
     }
 }
