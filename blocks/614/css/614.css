@@ -23,19 +23,6 @@
   margin-top: 10px;
   text-align: center;
 }
-.type-614 .col-item .btn-add {
-  width: 50%;
-  float: left;
-  border-right: 1px solid #E1E1E1;
-}
-.type-614 .col-item .btn-details {
-  width: 50%;
-  float: left;
-  padding-left: 10px;
-}
-.type-614 [data-slide="prev"] {
-  margin-right: 10px;
-}
 .type-614 .panel .panel-body {
   position: relative;
   padding: 0 !important;
@@ -60,7 +47,7 @@
 .type-614 .row {
   padding: 10px 0 10px;
 }
-.type-614 .title {
+.type-614 .row .title {
   color: #cd2122 !important;
 }
 .type-614 .detail {
@@ -69,12 +56,12 @@
   transition: all 0.2s ease-out;
   background: #fff;
 }
-.type-614 .detail-title {
+.type-614 .detail .detail-title {
   font-size: 16px;
   margin: 0 0 10px;
   min-height: 40px;
 }
-.type-614 .detail-desc {
+.type-614 .detail .detail-desc {
   height: 60px;
   overflow: hidden;
   font-size: 12px;
