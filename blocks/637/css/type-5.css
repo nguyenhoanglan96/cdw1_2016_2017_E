@@ -1,0 +1,144 @@
+.type-5 .title {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  padding: 0 15px;
+  line-height: 28px;
+  border-radius: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  background: #ffda44;
+}
+.type-5 .section {
+  padding: 80px 0;
+}
+.type-5 .title-header {
+  text-align: center;
+}
+.type-5 .title-header1 {
+  text-align: center;
+}
+.type-5 .title-our {
+  text-align: center;
+  margin-top: 100px;
+}
+.type-5 .title1 {
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  color: #093EB6;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.type-5 posts-img-box {
+  position: relative;
+  display: block;
+  min-height: 272px;
+}
+.type-5 .blog-date {
+  position: absolute;
+  display: block;
+  padding: 10px;
+  background: #093eb6;
+  top: 12px;
+  right: 30px;
+  z-index: 100;
+  text-align: center;
+  background-color: #093eb6;
+}
+.type-5 span.month {
+  display: block;
+  font-size: 13px;
+  color: rgba(255,255,255,0.78);
+  margin-bottom: 8px;
+}
+.type-5 span.date {
+  font-size: 28px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  display: block;
+}
+.type-5 a {
+  transition: 0.5s ease all;
+  color: #093eb6;
+}
+.type-5 .hover-effect {
+  width: 100%;
+  background: #000;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+.type-5 .posts-img-box a.hover-effect > img {
+  border: 0;
+  box-shadow: none;
+}
+.type-5 .blog-content {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.1);
+  min-height: 128px;
+}
+.type-5 .blog-content h3 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #41454f;
+  font-weight: bold;
+  line-height: 1.4;
+  margin: 0 0 5px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.type-5 .blog-content h3 a {
+  color: #41454f;
+}
+.type-5 p {
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 1.688;
+}
+.type-5 .blog-content p {
+  color: #AEB3B7;
+  margin-bottom: 0;
+  text-align: left;
+}
+.type-5 a:hover {
+  text-decoration: none;
+}
+.type-5 .hover-effect:hover img {
+  opacity: 0.6;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.type-5 .spacer {
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+.type-5 .btn {
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  line-height: 48px;
+  padding: 0 22px;
+  border: none;
+  text-transform: uppercase;
+  transition: 0.5s ease all;
+}
+.type-5 img {
+  width: 100%;
+}
+.type-5 .btn-primary {
+  background: #093EB6;
+  color: #fff;
+  background-color: #093eb6;
+}
+.type-5 .btnRead {
+  text-align: center;
+}

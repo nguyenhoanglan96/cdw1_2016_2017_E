@@ -1,0 +1,122 @@
+.type-05 .single .content,
+.type-05 .blog-grid {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.type-05 posts-img-box {
+  position: relative;
+  display: block;
+  min-height: 272px;
+}
+.type-05 .blog-img-box {
+  width: 100%;
+  min-height: 332px;
+}
+.type-05 .blog-img-box {
+  position: relative;
+  display: block;
+}
+.type-05 .hentry > a {
+  text-align: center;
+}
+.type-05 .blog-date {
+  position: absolute;
+  display: block;
+  padding: 10px;
+  background: #093eb6;
+  top: 12px;
+  right: 30px;
+  z-index: 100;
+  text-align: center;
+  background-color: #093eb6;
+}
+.type-05 span.month {
+  display: block;
+  font-size: 13px;
+  color: rgba(255,255,255,0.78);
+  margin-bottom: 8px;
+}
+.type-05 span.date {
+  font-size: 28px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  display: block;
+}
+.type-05 a {
+  transition: 0.5s ease all;
+  color: #093eb6;
+}
+.type-05 .hover-effect {
+  width: 100%;
+  background: #000;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+.type-05 .posts-img-box a.hover-effect > img {
+  border: 0;
+  box-shadow: none;
+}
+.type-05 .hover-effect:hover img {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+.type-05 .hover-effect img {
+  width: 100%;
+  object-fit: cover;
+  transition: 0.5s ease all;
+  backface-visibility: hidden;
+}
+.type-05 .attachment-post-thumbnail {
+  height: 332px;
+}
+.type-05 .blog-content {
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.1);
+  min-height: 128px;
+}
+.type-05 .blog-content p {
+  text-align: left;
+}
+.type-05 .blog-content p {
+  color: #AEB3B7;
+  margin-bottom: 0;
+}
+.type-05 .blog-content h3 a {
+  text-decoration: none;
+  color: #41454f;
+}
+.type-05 .blog-content a {
+  text-decoration: none;
+}
+.type-05 .blog-content h3 a:hover {
+  color: #093eb6;
+}
+.type-05 .blog-content a:hover {
+  color: #062F8C;
+}
+.type-05 .spacer-60 {
+  height: 60px;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+.type-05 .category-icon {
+  width: 120px;
+  height: 120px;
+  max-width: 100%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 2;
+  font-size: 90px;
+  color: rgba(255,255,255,0.3);
+}

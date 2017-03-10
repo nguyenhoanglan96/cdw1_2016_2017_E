@@ -1,0 +1,67 @@
+.type-5 .title-our {
+  text-align: center;
+  margin-top: 100px;
+}
+.type-5 .title1 {
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  color: #093EB6;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.type-5 .type_slider #owl-demo .item {
+  margin: 3px;
+}
+.type-5 .type_slider #owl-demo .item img {
+  display: block;
+  width: auto;
+  height: auto;
+}
+.type-5 .type_slider .content {
+  width: 1180px;
+  margin: auto;
+}
+.type-5 .type_slider .owl-theme .owl-controls {
+  margin-top: 10px;
+  text-align: center;
+  display: none;
+}
+.type-5 .type_slider .owl-theme .owl-controls .owl-page.active span,
+.type-5 .type_slider .owl-theme .owl-controls.clickable .owl-page:hover span {
+  dislay: none;
+}
+.type-5 .type_slider .owl-controls .owl-page {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .type-5 .type_slider #owl-demo .item img {
+    display: block;
+    width: 20%;
+    height: auto;
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .type-5 .type_slider #owl-demo .item img {
+    display: block;
+    width: 20%;
+    height: auto;
+    margin-left: 2px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 699px) {
+  .type-5 .type_slider #owl-demo .item img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: 108px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  .type-5 .type_slider #owl-demo .item img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: 100px;
+  }
+}
