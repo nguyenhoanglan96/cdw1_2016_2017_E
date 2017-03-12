@@ -66,11 +66,11 @@
                         </div><!--End-Logo-->
                         <div class="top_menu">
                             <nav class="main-menu">
-                                <ul class="menu">
+                                <ul>
                                     <li class="current">
                                         <a id="current" class="show-active" href="#">HOME</a>
                                         <ul class="sub-menu">
-                                            <li class="show-home1"><a class="show-active" href="#">Home(Slider1)</a></li>
+                                            <li ><a class="show-active" href="#">Home(Slider1)</a></li>
                                             <li><a href="#">Home(Slider2)</a></li>
                                             <li><a href="#">Home(Slider3)</a></li>
                                         </ul>
