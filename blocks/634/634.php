@@ -14,9 +14,9 @@
                 include ('./libs/lessc.inc.php');
             }
             $less = new lessc;
-            $less->compileFile('less/630.less', 'css/630.css');
+            $less->compileFile('less/634.less', 'css/634.css');
         ?>
-        <link href="css/630.css" rel="stylesheet" type="text/css" />
+        <link href="css/634.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="css/font-awesome.css">
 
     </head>
@@ -25,7 +25,7 @@
         <div class="type-13">
             <div class="page_paddings_yes">
                 <div class="container content_wrap">
-                    <article class="post_item_next">
+                    <article >
                         <h3 class="post_title">
                             <a class="post_title_link" href="#">New Breakthrough in Crop Science</a>
                         </h3>
@@ -36,24 +36,24 @@
                             </span>
                             <span class="post_info_counters">
                                 <i class="fa fa-eye view_item"></i>
-                                <a class="post_counters_item" href="#">
+                                <a href="#">
                                     <span class="post_counters_number">136</span>
                                 </a>
                                 <i class="fa fa-comment-o view_item"></i>
-                                <a class="post_counters_item" href="#">
+                                <a href="#">
                                     <span class="post_counters_number">0</span>
                                 </a>
                             </span>
                         </div>
-                        <div class="post_featured">
-                            <div class="post_thumb">
+                        
+                            <div >
                                 <a class="hover_icon" href="#">
                                     <img class="post_image" src="images/post-1-770x434.jpg">
                                     <i class="fa fa-eye icon"></i>
                                 </a> 
                             </div>
-                        </div>
-                        <div class="post_content clearfix">
+                        
+                        <div class="post_content ">
                             <div class="post_descr">
                                 <p>Vestibulum iaculis lacinia est. Proin dicm elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl…</p>
                                 <a href="#" class="more_button">Read more</a> 
@@ -61,7 +61,7 @@
                         </div>
                     </article>
 
-                    <nav class="pagination_wrap pagination_pages">
+                    <nav class="pagination_wrap ">
                         <span class="pager_nav pager_current">1</span>
                         <a class="pager_nav" href="#" class="">2</a>
                         <a class="pager_nav" href="#" class="">3</a>

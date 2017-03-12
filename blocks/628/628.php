@@ -36,29 +36,29 @@
                             </span>
                             <span class="post_info_counters">
                                 <i class="fa fa-eye view_item"></i>
-                                <a class="post_counters_item" href="#">
+                                <a href="#">
                                     <span class="post_counters_number">421</span>
                                 </a>
                                 <i class="fa fa-comment-o view_item"></i>
-                                <a class="post_counters_item" href="#">
+                                <a  href="#">
                                     <span class="post_counters_number">0</span>
                                 </a>
                             </span>
                         </div>
-                        <div class="post_featured">
-                            <div class="post_thumb">
+                       
+                            
                                 <a class="hover_icon" href="#">
                                     <img class="post_image" src="images/from-the-blog-1-770x434.jpg">
                                     <i class="fa fa-eye icon"></i>
                                 </a> 
-                            </div>
-                        </div>
-                        <div class="post_content clearfix">
+                           
+                        
+                       
                             <div class="post_descr">
                                 <p>Vestibulum iaculis lacinia est. Proin dicm elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl…</p>
                                 <a href="#" class="more_button">Read more</a> 
                             </div>
-                        </div>
+                     
                     </article>
                     <article class="post_item_next">
                         <h3 class="post_title">
@@ -71,29 +71,29 @@
                             </span>
                             <span class="post_info_counters">
                                 <i class="fa fa-eye view_item"></i>
-                                <a class="post_counters_item" href="#">
+                                <a  href="#">
                                     <span class="post_counters_number">373</span>
                                 </a>
                                 <i class="fa fa-comment-o view_item"></i>
-                                <a class="post_counters_item" href="#">
+                                <a  href="#">
                                     <span class="post_counters_number">0</span>
                                 </a>
                             </span>
                         </div>
-                        <div class="post_featured">
-                            <div class="post_thumb">
+                        
+                           
                                 <a class="hover_icon" href="#">
                                     <img class="post_image" src="images/from-the-blog-2-770x434.jpg">
                                     <i class="fa fa-eye icon"></i>
                                 </a> 
-                            </div>
-                        </div>
-                        <div class="post_content clearfix">
+                          
+                       
+                        
                             <div class="post_descr">
                                 <p>Vestibulum iaculis lacinia est. Proin dicm elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl…</p>
                                 <a href="#" class="more_button">Read more</a> 
                             </div>
-                        </div>
+                        
                     </article>
                     
                 </div>
