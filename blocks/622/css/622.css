@@ -38,70 +38,71 @@
     width: 280px;
   }
 }
-.type-team .team {
+.type-622 .content_wrap {
   padding-bottom: 35px;
 }
-.type-team .team .content {
+.type-622 .content_wrap .content {
   margin-top: 24px;
   float: left;
   padding: 5px;
   display: inline-block;
 }
-.type-team .team .content .item-avatar,
-.type-team .team .content .item-info {
+.type-622 .content_wrap .content .item-avatar,
+.type-622 .content_wrap .content .item-info {
   float: left;
 }
-.type-team .team .content .item-avatar {
+.type-622 .content_wrap .content .item-avatar {
   width: 40%;
 }
-.type-team .team .content .item-avatar .img {
+.type-622 .content_wrap .content .item-avatar .img {
   max-width: 100%;
   border-radius: 50%;
   padding: 24px;
 }
-.type-team .team .content .item-info {
+.type-622 .content_wrap .content .item-info {
   width: 60%;
 }
-.type-team .team .content .item-info .item-title a {
+.type-622 .content_wrap .content .item-info .item-title a {
+  text-decoration: none;
   font-size: 26px;
   color: #333;
 }
-.type-team .team .content .item-info .item-position {
+.type-622 .content_wrap .content .item-info .item-position {
   color: #f15d2f;
 }
-.type-team .team .content .item-info .description {
+.type-622 .content_wrap .content .item-info .description {
   padding-top: 22px;
   color: #5c5551;
   font-size: 16px;
 }
-.type-team .team .title {
+.type-622 .content_wrap .title {
   margin-top: 56px;
   margin-bottom: 56px;
   text-align: center;
 }
-.type-team .team .title h2 {
+.type-622 .content_wrap .title h2 {
   font-weight: 700;
   font-size: 36px;
 }
-.type-team .team .title h6 {
+.type-622 .content_wrap .title h6 {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 900;
   color: #aeaead;
 }
 @media (min-width: 760px) {
-  .type-team .content {
+  .type-622 .content {
     width: 50%;
   }
 }
 @media (max-width: 479px) {
-  .type-team .item-avatar {
+  .type-622 .item-avatar {
     width: 100% !important;
   }
-  .type-team .item-info {
+  .type-622 .item-info {
     width: 100% !important;
   }
-  .type-team .content {
+  .type-622 .content {
     width: 100%;
   }
 }
