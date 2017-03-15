@@ -18,13 +18,17 @@
     </head>
 
     <body>
-        <div class="type-blog">
-            <div class="about">
-                <div class="container content_wrap">
+        <div class="type-623">
+            <!-- About -->
+            <div class="container content_wrap">
+                <div class="row">
+                    <!--- Title --->
                     <div class="content-about">
                         <h6 class="sub-content">FROM THE BLOG</h6>
                         <h2 class="sub-content-1">Learn About Our Leading Technologies</h2>
                     </div>
+                    <!--- End Title --->
+                    <!--- Slide Img --->
                     <div class="img-content">
                         <div class="img-content-1 col-ln">
                             <div class="post_info">
@@ -105,15 +109,20 @@
                             <a href="#" class="learn-more">Learn more</a>
                         </div>
                     </div>
+                    <!--- End Slide Img --->
                     <div class="sc_section_inner">
                         <div class="sc_line"></div>
+                        <!--- Title --->
                         <h6 class="sub-content-2">QUOTATIONS</h6>
                         <h2 class="sc_item_title">Your Request Answered Within 24 Hours</h2>
+                        <!--- End Title--->
+                        <!--- button --->
                         <a href="#" class="button"> download the form </a>
+                        <!--- End button --->
                     </div>
                 </div>
             </div>
-            <!--End-About-->
+            <!-- /End About -->
         </div>
     </body>
     <script type="text/javascript" src="js/jquery.js"></script>

@@ -1,5 +1,6 @@
 @color_base: #f15d2f;
 @color: #878280;
+@a-color: #5c5551;
 @media (max-width: 1439px) and (min-width: 1263px) {
     .content_wrap {
         width: 1000px;
@@ -48,8 +49,8 @@
     }
 }
 
-.type-blog {
-    /*********************************ABOUT************************************************/
+.type-623 {
+    /****** ABOUT ******/
     margin-top: 50px;
     border-top: 1px #ccc dotted;
     .container {
@@ -112,12 +113,11 @@
         border-right: 2px dotted rgba(0, 0, 0, 0.001);
         padding-left: 5px;
         padding-right: 5px;
-    }
-    .number1 a:hover {
-        color: #f15d2f;
-    }
-    .number a {
         color: @color_base!important;
+
+        a:hover {
+            color: #f15d2f;
+        }
     }
     .post_info {
         padding-bottom: 15px;
@@ -128,9 +128,9 @@
     }
     .number a {
         color: #f15d2f;
-    }
-    .number a:hover {
-        color: #45403d;
+        a:hover {
+            color: #45403d;
+        }
     }
     .content-about {
         width: 100%;
@@ -175,7 +175,7 @@
         }
         a {
             text-decoration: none;
-            color: #5c5551;
+            color: @a-color;
         }
         .learn-more {
             font-size: 18px;
@@ -190,7 +190,7 @@
             transition: all 0.5s ease 0s;
         }
         .learn-more:hover {
-            color: #5c5551;
+            color: @a-color;
         }
         .col-ln a:hover {
             .hover {
@@ -203,6 +203,7 @@
         }
         text-align: center;
     }
+        /**** Reponsive ***/
     @media(min-width:749px) {
         .col-ln {
             width: 33.33%;
@@ -261,6 +262,8 @@
             }
         }
     }
+        /****** END ABOUT ******/
+    /****** END ABOUT ******/
 }
 
 
