@@ -1,0 +1,183 @@
+.type-602 .rescure {
+  padding-bottom: 100px;
+}
+.type-602 .rescure .rescure2 .box p {
+  font-size: 16px;
+}
+.type-602 .rescure .rescure2 .image-boxes {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.type-602 .rescure .rescure2 .image-boxes a {
+  display: block;
+}
+.type-602 .rescure .rescure2 .image-boxes img {
+  height: auto;
+}
+.type-602 .rescure .rescure2 .imgboxes_style4 .imgbox_image {
+  transition: opacity .2s ease-out;
+}
+.type-602 .rescure .rescure2 .imgboxes_style4 .imgboxes-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  height: 270px;
+}
+.type-602 .rescure .rescure2 .imgboxes_style4 .kl-title_style_left .imgboxes-title {
+  padding: 0 20px 30px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  z-index: 0;
+}
+.type-602 .rescure .rescure2 .imgbox_image.cover-fit-img {
+  height: 100%;
+}
+.type-602 .rescure .rescure2 .cover-fit-img {
+  object-fit: cover;
+  overflow: hidden;
+}
+.type-602 .rescure .rescure2 .img-responsive {
+  display: block;
+  max-width: 100%;
+}
+.type-602 .rescure .rescure2 .m_title {
+  margin-top: 0;
+  color: #CD2122;
+}
+.type-602 .rescure .rescure3 .features li span {
+  font-size: 15px;
+}
+.type-602 .rescure .rescure3 .boler {
+  text-align: left;
+  float: none;
+  position: absolute;
+  top: 0px;
+  right: auto;
+  bottom: auto;
+  margin: 0px;
+  width: 100%;
+  height: 364px;
+  z-index: 0;
+  opacity: 0.839056;
+}
+.type-602 .rescure .rescure3 .screenshot-box {
+  background: #fff;
+  position: relative;
+  border-radius: 3px;
+}
+.type-602 .rescure .rescure3 .screenshot-box .kl-style-2 {
+  border: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+.type-602 .rescure .rescure3 .screenshot-box .kl-style-2 .left-side {
+  padding: 10px 0 25px 30px;
+}
+.type-602 .rescure .rescure3 .screenshot-box .kl-style-2 .thescreenshot {
+  position: relative;
+  background-color: #dcdee7;
+  padding: 36px 0 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-top: -10px;
+}
+.type-602 .rescure .rescure3 .screenshot-box .left-side h3.title {
+  font-size: 24px;
+  font-weight: 100;
+  color: #CD2122;
+  line-height: 1.4;
+}
+.type-602 .rescure .rescure3 .screenshot-box .left-side body h3.title {
+  font-size: 19px;
+}
+.type-602 .rescure .rescure3 .btn-third {
+  width: 33.33%;
+}
+.type-602 .rescure .rescure3 .btn-fullcolor {
+  background: red;
+  text-shadow: none;
+  padding: 10px 20px;
+  line-height: 1.6;
+  box-shadow: none;
+  font-size: 13px;
+  font-weight: 700;
+  border-style: solid;
+  border-radius: 3px;
+  transition: background-color .15s ease-out;
+}
+.type-602 .rescure .rescure3 .btn-fullcolor .btn-fullcolor:focus {
+  background-color: #CD2122;
+  color: #fff;
+}
+.type-602 .rescure .rescure3 .btn-fullcolor .btn-fullcolor:focus .btn-fullcolor:hover,
+.type-602 .rescure .rescure3 .btn-fullcolor .btn-fullcolor:focus .btn-fullcolor:before {
+  background-color: #fff;
+}
+.type-602 .rescure .rescure3 .btn-fullcolor .btn-fullcolor:focus .btn-fullcolor:hover {
+  color: #fff;
+}
+.type-602 .rescure .rescure3 element {
+  display: block;
+  text-align: start;
+  float: none;
+  position: relative;
+  width: 555px;
+  height: 364px;
+  margin: 0px;
+  overflow: hidden;
+}
+.type-602 .rescure .rescure3 .screenshot-carousel {
+  overflow: hidden !important;
+  height: 364px !important;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.type-602 .rescure .rescure3 .screenshot-carousel li {
+  float: left;
+  height: 100%;
+}
+.type-602 .rescure .rescure3 .fw-semibold {
+  font-weight: 600;
+}
+.type-602 .rescure .rescure3 .img-slide {
+  width: 100%;
+}
+.type-602 .rescure .rescure3 .btn-buy {
+  margin-bottom: 10px;
+}
+.type-602 .rescure .title {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  font-style: normal;
+}
+.type-602 .rescure .title .m_title {
+  font-size: 18px;
+  line-height: 1.4;
+}
+.type-602 .rescure a {
+  color: #000;
+  transition: color .25s ease-in-out;
+  text-decoration: none;
+}
+.type-602 .rescure a:hover {
+  color: #CD2122;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .type-602 .image-boxes {
+    text-align: center !important;
+  }
+  .type-602 .features {
+    padding-left: 25px;
+  }
+  .type-602 .btn-buy {
+    text-align: center;
+  }
+}
