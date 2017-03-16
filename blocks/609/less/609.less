@@ -7,150 +7,140 @@
     .row {
         margin-bottom: 35px;
     }
-    .star-rating{
-        height: 1em;
-        font-family: star;
-    }
-    a{
-        color: #000;
-    }
-    .price{
-        font-size: 24px;
-        color: #282828;
-    }
     .sidebar{
         background: @colorbg;
         padding: 20px 15px;
         border-radius: 3px;
         box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.15);
-    }
-    .sidebar .widget{
-        margin-bottom: 35px;
-    }
-    .widgettitle{
-        color: #050505;
-        margin: 10px 0 15px;
-        padding-bottom: 20px;
-        position: relative;
-        font-size: @size;
-    }
-    .widgettitle:before{
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: 2px;
-        width: 100%;
-        height: 0;
-        border-bottom: 1px solid #ececec;
-    }
-    .widgettitle:after{
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: 2px;
-        width: 50px;
-        height: 0;
-        border-bottom: 1px solid #cd2122;
-    }
-    .gensearch_form{
-        position: relative;
-    }
-    .gensearch_input {
-        height: 42px;
-        width: 100%;
-        padding: 0 20px;
-        border: 1px solid #ddd;
-    }
-    .gensearch_submit {
-        position: absolute;
-        right: 0;
-        border: 0;
-        color: #BBB;
-        background-color: transparent;
-        height: 100%;
-        padding: 0 20px;
-        font-size: 12px;
-    }
-    .gensearch_submit:after{
-        content: '';
-        width: 1px;
-        height: 24px;
-        background-color: #ddd;
-        display: block;
-        left: 0;
-        position: absolute;
-        top: 50%;
-        margin-top: -12px;
-    }
-    .price-range{
-        position: relative;
-    }
-    .price-range-slider{
-        height: 4px;
-        background: #e7e7e7;
-        border-radius: 4px;
-        margin-bottom: 30px;
-    }
-    .button{
-        background: #CD2122;
-        font-size: 13px !important;
-        padding: 10px 20px;
-        font-weight: 600;
-        color: #fff;
-        text-transform: uppercase;
-        border-radius: 3px;
-        border: 0;
-        line-height: 1; 
-    }
-    .pr-result {
-        display: inline-block;
-        float: right;
-        margin-top: 5px;
-    }
-    .price-range span {
-        color: #535353;
-        display: inline-block;
-    }
-    .price-range .price-result {
-        border: 0;
-        background: 0 0;
-        max-width: 70px;
-        font-size: 13px;
-        color: #535353;
-        outline: 0;
-        height: 32px;
-    }
-    .product-categories{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-    .count{
-        opacity: .5;
-    }
-    .children{
-        list-style: none;
-        margin: 0;
-        padding: 0 0 0 20px;
+        .widget{
+            margin-bottom: 35px;
+            .gensearch_form{
+                position: relative;
+                .gensearch_input {
+                    height: 42px;
+                    width: 100%;
+                    padding: 0 20px;
+                    border: 1px solid #ddd;
+                }
+                .gensearch_submit {
+                    position: absolute;
+                    right: 0;
+                    border: 0;
+                    color: #BBB;
+                    background-color: transparent;
+                    height: 100%;
+                    padding: 0 20px;
+                    font-size: 12px;
+                }
+                .gensearch_submit:after{
+                    content: '';
+                    width: 1px;
+                    height: 24px;
+                    background-color: #ddd;
+                    display: block;
+                    left: 0;
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -12px;
+                }
+            }
+        }
+        .widgettitle{
+            padding-bottom: 20px;
+            position: relative;
+            font-size: @size;
+        }
+        .widgettitle:before{
+            content: '';
+            position: absolute;
+            bottom: 2px;
+            width: 100%;
+            border-bottom: 1px solid #ececec;
+        }
+        .widgettitle:after{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 2px;
+            width: 50px;
+            height: 0;
+            border-bottom: 1px solid #cd2122;
+        }
+        .price-range{
+            position: relative;
+            .price-range-slider{
+                height: 4px;
+                background: #e7e7e7;
+                border-radius: 4px;
+                margin-bottom: 30px;
+            }
+            .button{
+                background: #CD2122;
+                font-size: 13px !important;
+                padding: 10px 20px;
+                font-weight: 600;
+                color: #fff;
+                text-transform: uppercase;
+                border-radius: 3px;
+                border: 0;
+                line-height: 1; 
+            }  
+            .pr-result {
+                display: inline-block;
+                float: right;
+                margin-top: 5px;
+                .price-range span {
+                    color: #535353;
+                    display: inline-block;
+                }
+            }
+        }
+        .price-range .price-result {
+            border: 0;
+            background: 0 0;
+            max-width: 70px;
+            font-size: 13px;
+            color: #535353;
+            outline: 0;
+            height: 32px;
+        }
+        .product-categories{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            .count{
+                opacity: .5;
+            }
+            .children{
+                list-style: none;
+                margin: 0;
+                padding: 0 0 0 20px;
+            }
+        }
     }
     ul.product_list_widget {
         list-style: none;
         padding: 0;
-    }
-    ul.product_list_widget li img {
-        width: 58px;
-        float: right;
-    }
-    ul.product_list_widget li a span {
-        font-weight: 400;
+        li img {
+            width: 58px;
+            float: right;
+            a span {
+                font-weight: 400;
+            }
+            .amount {
+                font-weight: 300;
+                display: block;
+            }
+        }
     }
     .star-rating {
         color: #cd2122;
         font-size: 10px;
         margin-bottom: 10px;
+         height: 1em;
+    font-family: star;
     }
-    ul.product_list_widget li .amount {
-        font-weight: 300;
-        display: block;
-    }
+}
+a{
+    color: #000;
 }

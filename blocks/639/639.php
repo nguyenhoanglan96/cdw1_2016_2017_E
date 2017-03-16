@@ -29,7 +29,7 @@
 
 <body>
         
-        <div class="type_footer">
+        <div class="type-639">
             <footer>
 
                 <div class="footer">

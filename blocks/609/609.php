@@ -24,26 +24,21 @@
 
     <body>
         <aside class="type-b-13">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9"></div>
+                    <div class="col-md-3">
+                        <div  class="sidebar">
+                            <div class="widget">
+                                <h3 class="widgettitle ">
+                                    PRODUCT SEARCH 
+                                </h3>
+                                <form action="http://www.google.com/search" method="get"  class="gensearch_form" onsubmit="Gsitesearch(this)" target="black">
+                                    <input type="text" name="s" class="gensearch_input" value="SEARCH...">
+                                    <button type="submit" class="gensearch_submit glyphicon glyphicon-search" value="go"></button>
+                                </form>
+                            </div>
 
-            <div class="row">
-                <div class="col-md-9"></div>
-                <div class="col-md-3">
-                    <div  class="sidebar">
-                        <div class="widget">
-                            <h3 class="widgettitle ">
-                                PRODUCT SEARCH 
-                            </h3>
-                            
-                                
-                                    <form action="http://www.google.com/search" method="get"  class="gensearch_form" onsubmit="Gsitesearch(this)" target="black">
-                                        <input type="text" name="s" class="gensearch_input" value="SEARCH...">
-                                        <button type="submit" class="gensearch_submit glyphicon glyphicon-search" value="go"></button>
-                                    </form>
-                                
-                            
-                        </div>
-
-                        <div>
                             <h3 class="widgettitle ">
                                 FILTER BY PRICE
                             </h3>
@@ -57,9 +52,7 @@
                                     </div>
                                 </div>
                             </form>
-                        </div>
 
-                        <div>
                             <h3 class="widgettitle">
                                 PRODUCT CATEGORIES
                             </h3>
@@ -214,64 +207,62 @@
                             </nav>
                         </div>
 
-                        <div >
-                            <h3 class="widgettitle ">
-                                MOST RATED ITEMS 
-                            </h3>
-                            <nav>
-                                <ul class="product_list_widget">
-                                    <li>
-                                        <a href="#">
-                                            <img src="images/san-pham-A-11.jpg" alt="">
-                                            <span>
-                                                Scarlett Taupe Suede Ankle Boots
-                                            </span>
-                                        </a>
-                                        <div class="star-rating">
-                                            <span style="width: 100%">
-                                                <strong>5.00</strong>out of 5
-                                            </span>
-                                        </div>
-                                        <span class="amount">£9.00</span>
-                                    </li>
 
-                                    <li>
-                                        <a href="#">
-                                            <img src="images/san-pham-A-12.jpg" alt="">
-                                            <span>
-                                                Shirt In Super Longline
-                                            </span>
-                                        </a>
-                                        <div class="star-rating">
-                                            <span style="width: 100%">
-                                                <strong>5.00</strong>out of 5
-                                            </span>
-                                        </div>
-                                        <span class="amount">£18.00</span>
-                                    </li>
+                        <h3 class="widgettitle ">
+                            MOST RATED ITEMS 
+                        </h3>
+                        <nav>
+                            <ul class="product_list_widget">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/san-pham-A-11.jpg" alt="">
+                                        <span>
+                                            Scarlett Taupe Suede Ankle Boots
+                                        </span>
+                                    </a>
+                                    <div class="star-rating">
+                                        <span style="width: 100%">
+                                            <strong>5.00</strong>out of 5
+                                        </span>
+                                    </div>
+                                    <span class="amount">£9.00</span>
+                                </li>
 
-                                    <li>
-                                        <a href="#">
-                                            <img src="images/san-pham-A-13.jpg" alt="">
-                                            <span>
-                                                Abercrombie & Fitch Shirt with Flannel Check
-                                            </span>
-                                        </a>
-                                        <div class="star-rating">
-                                            <span style="width: 100%">
-                                                <strong>5.00</strong>out of 5
-                                            </span>
-                                        </div>
-                                        <span class="amount">£20.00</span>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/san-pham-A-12.jpg" alt="">
+                                        <span>
+                                            Shirt In Super Longline
+                                        </span>
+                                    </a>
+                                    <div class="star-rating">
+                                        <span style="width: 100%">
+                                            <strong>5.00</strong>out of 5
+                                        </span>
+                                    </div>
+                                    <span class="amount">£18.00</span>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <img src="images/san-pham-A-13.jpg" alt="">
+                                        <span>
+                                            Abercrombie & Fitch Shirt with Flannel Check
+                                        </span>
+                                    </a>
+                                    <div class="star-rating">
+                                        <span style="width: 100%">
+                                            <strong>5.00</strong>out of 5
+                                        </span>
+                                    </div>
+                                    <span class="amount">£20.00</span>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
                 <!--End Col-9-->
             </div>
-
         </aside>   
 
         <script type="text/javascript" src = "js/jquery-3.1.1.min.js"></script>

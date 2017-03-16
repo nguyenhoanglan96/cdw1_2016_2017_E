@@ -1,0 +1,59 @@
+.type-615 .div {
+  position: absolute;
+  top: 0;
+}
+.type-615 .relative {
+  position: relative;
+  padding-top: 65px;
+  padding-bottom: 85px;
+}
+.type-615 .relative .source:not(:empty) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.type-615 .relative .source:not(:empty) .source_gloss {
+  position: absolute;
+  top: 0;
+  left: -43%;
+  background-color: #FFF;
+  width: 100%;
+  transform: skewX(-55deg);
+  height: 100%;
+  transform-origin: 100% 0;
+  opacity: .08;
+}
+.type-615 .kl-iconbox {
+  color: #fff;
+  margin-bottom: 30px;
+}
+.type-615 .fs-large {
+  font-size: 200%;
+}
+.type-615 .fw-semibold {
+  font-weight: 600;
+}
+.type-615 .btn-md.btn-lined {
+  padding: 14px 25px;
+}
+.type-615 .btn-lined {
+  border-width: 2px;
+  color: #fff;
+  font-weight: 700;
+  border-style: solid;
+}
+.type-615 .bottommask-mask3 .glyphicon {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  font-size: 22px;
+  opacity: 0.2;
+  height: 15px;
+  top: auto;
+  transform: translateX(-50%);
+}
+.type-615 .glyphicon-chevron-down .text-center {
+  padding: 0;
+}

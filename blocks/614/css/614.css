@@ -15,21 +15,13 @@
   padding: 10px;
   border-radius: 0 0 5px 5px;
 }
-.type-614 .col-item .separator {
-  border-top: 1px solid #E1E1E1;
-}
-.type-614 .col-item .separator p {
-  line-height: 20px;
-  margin-top: 10px;
-  text-align: center;
-}
-.type-614 .panel .panel-body {
+.type-614 .col-item .panel .panel-body {
   position: relative;
   padding: 0 !important;
   overflow: hidden;
   height: auto;
 }
-.type-614 .panel .panel-body a img {
+.type-614 .col-item .panel .panel-body a img {
   width: 100%;
   height: auto;
   transition: all 0.5s;
@@ -37,41 +29,41 @@
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
 }
-.type-614 .panel .panel-body a.zoom:hover img {
+.type-614 .col-item .panel .panel-body a.zoom:hover img {
   transform: scale(1.6);
   -ms-transform: scale(1.6);
   -webkit-transform: scale(1.6);
   -o-transform: scale(1.6);
   -moz-transform: scale(1.6);
 }
-.type-614 .row {
-  padding: 10px 0 10px;
-}
-.type-614 .row .title {
-  color: #cd2122 !important;
-}
-.type-614 .detail {
+.type-614 .col-item .detail {
   padding: 20px 20px 20px;
   position: relative;
   transition: all 0.2s ease-out;
   background: #fff;
 }
-.type-614 .detail .detail-title {
+.type-614 .col-item .detail .detail-title {
   font-size: 16px;
   margin: 0 0 10px;
   min-height: 40px;
 }
-.type-614 .detail .detail-desc {
+.type-614 .col-item .detail .detail-desc {
   height: 60px;
   overflow: hidden;
   font-size: 12px;
   color: #939393;
   line-height: 1.4;
 }
-.type-614 .price {
+.type-614 .col-item .detail .price {
   color: #282828;
   font-size: 18px;
   font-weight: 600;
+}
+.type-614 .row {
+  padding: 10px 0 10px;
+}
+.type-614 .row .title {
+  color: #cd2122 !important;
 }
 .type-614 .pbottom-65 {
   padding-bottom: 65px;

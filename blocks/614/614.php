@@ -32,7 +32,7 @@
                         <h3 class="title">FEATURED PRODUCTS</h3>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                        
+
                         <div class=" pull-right">
                             <a class="left fa fa-chevron-left btn btn-info" href="#carousel-example" data-slide="prev"></a>
                             <a class="right fa fa-chevron-right btn btn-info" href="#carousel-example" data-slide="next"></a>
@@ -229,22 +229,21 @@
                         </div>
                     </div>
                 </div>
-
-            </section>>
-
-            <section class="hg_section pbottom-65">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="text-center">
-                                <a href="#" class=" btn btn-lined lined-dark ">
-                                    <span>SEE ALL NEW PRODUCTS OF THIS YEAR</span>
-                                </a>
+                <section class="hg_section pbottom-65">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <div class="text-center">
+                                    <a href="#" class=" btn btn-lined lined-dark ">
+                                        <span>SEE ALL NEW PRODUCTS</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>              
+                </section> 
+
+            </section>
         </div>   
 
 
