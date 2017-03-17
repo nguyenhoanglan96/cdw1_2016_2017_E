@@ -1,3 +1,6 @@
+.type-602 {
+  font-family: Open Sans;
+}
 .type-602 .rescure {
   padding-bottom: 100px;
 }
@@ -66,6 +69,14 @@
   z-index: 0;
   opacity: 0.839056;
 }
+.type-602 .rescure .rescure3 .menu {
+  display: block;
+  text-align: center;
+  padding-left: 60px;
+}
+.type-602 .rescure .rescure3 .menu a span {
+  font-size: 17px;
+}
 .type-602 .rescure .rescure3 .screenshot-box {
   background: #fff;
   position: relative;
@@ -111,7 +122,7 @@
   transition: background-color .15s ease-out;
 }
 .type-602 .rescure .rescure3 .btn-fullcolor .btn-fullcolor:focus {
-  background-color: #CD2122;
+  background-color: #cd2122;
   color: #fff;
 }
 .type-602 .rescure .rescure3 .btn-fullcolor .btn-fullcolor:focus .btn-fullcolor:hover,
