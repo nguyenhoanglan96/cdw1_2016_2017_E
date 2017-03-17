@@ -55,13 +55,13 @@
 .type-625 footer a {
   text-decoration: none;
 }
-.type-625 footer h2 {
+.type-625 footer .title {
   color: #f0efed;
   font-size: 1.875em;
   line-height: 1em;
   font-weight: 700;
 }
-.type-625 footer h6 {
+.type-625 footer .title3 {
   color: #f0efed;
   letter-spacing: 0.16em;
   font-size: 0.625em;
@@ -76,17 +76,17 @@
   font-size: 16px;
   margin-bottom: 4.45em;
 }
-.type-625 footer h5 {
+.type-625 footer .title2 {
   font-size: 1.625em;
   font-weight: 700;
-  margin: 0 0 2.625em 0;
+  margin: 14px 0 2.625em 0;
   text-transform: none;
   color: #f0efed;
 }
 .type-625 footer .margin-bottom {
   margin-bottom: 1.7em;
 }
-.type-625 footer h4 {
+.type-625 footer .title1 {
   color: #c1bebc;
   font-size: 16px;
 }
@@ -131,7 +131,7 @@
   padding-top: 5em;
 }
 @media (max-width: 1439px) and (min-width: 1263px) {
-  .type-625 footer .Contact {
+  .type-625 footer .contact {
     padding-left: 7em;
   }
 }

@@ -3,13 +3,13 @@
 <html>
 
     <head>
-        <title></title>
+        <title>626</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-         <?php
+        <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
@@ -22,8 +22,8 @@
 
     <body>
         <div class="type-626">
-            <div class="link">
-                <div class="container padding-link">
+            <div class="container link">
+                <div class="row padding-link">
                     <a href="#">Home</a>
                     <span class="color-link">/</span>
                     <a href="#">Home</a>
