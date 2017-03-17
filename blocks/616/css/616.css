@@ -1,0 +1,162 @@
+.teamplate-616 .pbottom-0 {
+  padding-bottom: 0;
+}
+.teamplate-616 .ptop-65 {
+  padding-top: 65px;
+}
+.teamplate-616 .conzai .kl-title-block {
+  padding-top: 0;
+  padding-bottom: 35px;
+}
+.teamplate-616 .conzai .tbk__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Open Sans';
+}
+.teamplate-616 .conzai .montserrat {
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.teamplate-616 .conzai .tcolor {
+  color: #cd2122 !important;
+}
+.teamplate-616 .conzai .tbk__title .tbk__symbol {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.teamplate-616 .conzai .tbk__symbol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.teamplate-616 .conzai .tbk__title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+}
+.teamplate-616 .conzai .montserrat {
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.teamplate-616 .conzai .tbk__title .tbk__icon {
+  vertical-align: middle;
+}
+.teamplate-616 .conzai .fs-18 {
+  font-size: 18px;
+}
+.teamplate-616 .conzai .light-gray {
+  color: #a8a8a8;
+}
+.teamplate-616 .conzai .imgboxes_style1 {
+  overflow: visible;
+}
+.teamplate-616 .conzai .image-boxes {
+  margin-bottom: 30px;
+}
+.teamplate-616 .conzai .image-boxes .hoverBorder {
+  margin-bottom: 20px;
+}
+.teamplate-616 .conzai .image-boxes a {
+  display: block;
+}
+.teamplate-616 .conzai .hoverBorder {
+  position: relative;
+}
+.teamplate-616 .conzai .imgboxes_style1 .hoverBorderWrapper {
+  height: 270px;
+}
+.teamplate-616 .conzai .hoverBorderWrapper {
+  position: relative;
+  display: block;
+}
+.teamplate-616 .conzai .imgboxes_style1 img {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.22);
+}
+.teamplate-616 .conzai .image-boxes img {
+  width: 100%;
+  height: auto;
+}
+.teamplate-616 .conzai .hoverBorderWrapper img {
+  max-width: 100%;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.teamplate-616 .conzai .theHoverBorder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.15) inset;
+}
+.teamplate-616 .conzai .imgboxes_style1 .hoverBorder h6 {
+  position: absolute;
+  left: -10px;
+  bottom: 20px;
+  color: #fff;
+  padding: 11px 15px;
+  background: #CD2122;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+  border-radius: 2px;
+}
+.teamplate-616 .conzai .hoverBorder h6 {
+  transition: all 0.2s ease-out;
+}
+.teamplate-616 .conzai .fs-20 {
+  font-size: 20px;
+}
+.teamplate-616 .conzai .fw-thin {
+  font-weight: 300;
+}
+.teamplate-616 .conzai a {
+  color: #000;
+  transition: color .25s ease-in-out;
+}
+.teamplate-616 .conzai .kl-title-block {
+  padding-top: 0;
+  padding-bottom: 35px;
+}
+.teamplate-616 .conzai .kl-iconbox {
+  margin-bottom: 30px;
+}
+.teamplate-616 .conzai .kl-iconbox--fleft .kl-iconbox__icon-wrapper {
+  float: left;
+  margin-right: 20px;
+}
+.teamplate-616 .conzai .kl-iconbox__icon-wrapper {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.teamplate-616 .conzai img.kl-iconbox__icon {
+  max-width: 100px;
+}
+.teamplate-616 .conzai .kl-iconbox__icon {
+  line-height: 1;
+  font-size: 42px;
+  transition: color .2s cubic-bezier(0.215,0.610,0.355,1.000);
+}
+.teamplate-616 .conzai .kl-iconbox__content-wrapper {
+  overflow: hidden;
+}
+.teamplate-616 .conzai .kl-iconbox__icon-wrapper {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.teamplate-616 .conzai .kl-iconbox__desc {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
+  color: #121212;
+}
+.teamplate-616 .conzai .kl-iconbox__desc {
+  margin: 0;
+}

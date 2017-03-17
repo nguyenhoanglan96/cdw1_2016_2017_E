@@ -11,6 +11,7 @@ $(function() {
             $('.bttop').fadeOut();
         }
     });
+    
     $('.bttop').click(function() {
         $('body,html').animate({
             scrollTop: 0

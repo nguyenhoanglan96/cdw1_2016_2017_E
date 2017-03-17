@@ -14,18 +14,18 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-b-11.less', 'css/type-b-11.css');
+        $less->compileFile('less/616.less', 'css/616.css');
         ?>
-        <link href="css/type-b-11.css" rel="stylesheet" type="text/css" />
+        <link href="css/616.css" rel="stylesheet" type="text/css" />
 
 
 
     </head>
 
     <body>
-    <div class="type-b-11">
+    <div class="teamplate-616">
         <section class="hg_section ptop-65 pbottom-0">
-            <div class="container">
+            <div class="container conzai">
                 <div class="row">
                     <div class="col-md-8 col-sm-8">
                         <div class="kl-title-block clearfix text-left tbk--colored tbk-icon-pos--left-title">
@@ -68,7 +68,7 @@
                     </div>
                     <!--/ col-md-8 col-sm-8 -->
 
-                    <div class="col-md-4 col-sm-4">
+                    <div class="col-md-4 col-sm-4 ">
                         <div class="kl-title-block clearfix text-left tbk-symbol-- tbk--colored tbk-icon-pos--left-title">
                             <h3 class="tbk__title montserrat tcolor">PRESS RELEASES</h3>
                         </div>

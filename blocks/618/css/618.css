@@ -149,76 +149,76 @@
 .type-slide .slide-one {
   overflow: hidden;
 }
-.type-slide #slide1,
-.type-slide #slide2,
-.type-slide #slide3 {
+.type-slide .nono #slide1,
+.type-slide .nono #slide2,
+.type-slide .nono #slide3 {
   transform: scale(1.2);
 }
-.type-slide .active-img {
+.type-slide .nono .active-img {
   display: block !important;
 }
-.type-slide #img1,
-.type-slide #img2,
-.type-slide #img3 {
+.type-slide .nono #img1,
+.type-slide .nono #img2,
+.type-slide .nono #img3 {
   display: none;
 }
-.type-slide .Slide-show-content {
+.type-slide .nonono .Slide-show-content {
   position: relative;
   bottom: 130px;
   text-align: center;
 }
-.type-slide .content-1 {
+.type-slide .nonono .content-1 {
   background-image: url(../images/banner-01.jpg);
   background-repeat: no-repeat;
   height: 260px;
   text-align: center;
   color: #fff;
 }
-.type-slide .content-1 .title {
+.type-slide .nonono .content-1 .title {
   font-weight: 700;
   font-size: 1.625em;
   padding-top: 25px;
 }
-.type-slide .content-1 .content {
+.type-slide .nonono .content-1 .content {
   font-weight: 400;
   font-size: 0.875em;
 }
-.type-slide .content-2 {
+.type-slide .nonono .content-2 {
   background-image: url(../images/banner-02.jpg);
   background-repeat: no-repeat;
   height: 260px;
   text-align: center;
   color: #fff;
 }
-.type-slide .content-2 .title {
+.type-slide .nonono .content-2 .title {
   font-weight: 700;
   font-size: 1.625em;
   padding-top: 25px;
 }
-.type-slide .content-2 .content {
+.type-slide .nonono .content-2 .content {
   font-weight: 400;
   font-size: 0.875em;
 }
-.type-slide .content-3 {
+.type-slide .nonono .content-3 {
   background-image: url(../images/banner-03.jpg);
   background-repeat: no-repeat;
   height: 260px;
   text-align: center;
   color: #fff;
 }
-.type-slide .content-3 .title {
+.type-slide .nonono .content-3 .title {
   font-weight: 700;
   font-size: 1.625em;
   padding-top: 25px;
 }
-.type-slide .content-3 .content {
+.type-slide .nonono .content-3 .content {
   font-weight: 400;
   font-size: 0.875em;
 }
-.type-slide .content-icon {
+.type-slide .nonono .content-icon {
   padding-top: 60px;
 }
-.type-slide .icon {
+.type-slide .nonono .icon {
   font-size: 36px;
   border-radius: 70%;
   border: 1px #fff solid;

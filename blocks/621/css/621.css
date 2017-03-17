@@ -1,0 +1,61 @@
+@media (max-width: 1439px) and (min-width: 1263px) {
+  .content_wrap {
+    width: 1000px;
+  }
+}
+@media (max-width: 1135px) and (min-width: 1024px) {
+  .content_wrap {
+    width: 964px;
+  }
+}
+.type-23 .statistical {
+  background-image: url(../images/bg_lab_members.jpg);
+}
+@media (min-width: 769px) {
+  .type-23 .statistical .col-st {
+    width: 25%;
+    float: left;
+  }
+}
+@media (max-width: 768px) {
+  .type-23 .statistical .col-st {
+    width: 50%;
+    float: left;
+  }
+}
+@media (max-width: 479px) {
+  .type-23 .statistical .col-st {
+    width: 100%;
+    float: left;
+  }
+}
+.type-23 .statistical .col-st {
+  text-align: center;
+}
+.type-23 .statistical .icon-st {
+  font-size: 64px;
+  color: #fff;
+}
+.type-23 .statistical .content-main {
+  padding-top: 70px;
+}
+.type-23 .statistical .content-main .icon-st {
+  margin-bottom: 15px;
+}
+.type-23 .statistical .content-main .content-st {
+  margin-bottom: 100px;
+}
+.type-23 .statistical .content-main .content-st .count {
+  font-size: 34px;
+  color: #fff;
+}
+.type-23 .statistical .content-main .content-st .kill .info {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.type-23 .statistical .content-main .content-st .boder {
+  border-top: 1px #fff solid;
+  width: 100px;
+  margin: 20px auto;
+}

@@ -24,7 +24,7 @@
         <div class="type-slide">
             <header>
                 <div class="slideshow slide-width">
-                    <section class="slide-one">
+                    <section class="slide-one nono">
                         <div id="img">
                             <div id="slide1">
                                 <a id="img1" class="active-img" href="#">
@@ -44,7 +44,7 @@
                         </div>
                     </section>
                 </div><!--ens-618-->
-                <div class="Slide-show-content container content_wrap">
+                <div class="Slide-show-content container content_wrap nonono">
                     <div class="content-1">
                         <aside class="content-icon">
                             <div class="fa fa-flask icon"></div>

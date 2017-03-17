@@ -14,9 +14,9 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/605.less', 'css/type-b-6.css');
+        $less->compileFile('less/605.less', 'css/605.css');
         ?>
-        <link href="css/type-b-6.css" rel="stylesheet" type="text/css" />
+        <link href="css/605.css" rel="stylesheet" type="text/css"/>
 
 
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
@@ -27,7 +27,7 @@
     <body>
         <div class="template-605">
             <footer id="footer">
-                <div id="footer1" class="container">
+                <div id="footer1" class="container  nater">
                     <div class="row">
                         <div class="moduletable col-lg-5 " >
                             <div class="bghelper">
@@ -77,7 +77,7 @@
                         </div><!-- end module -->
                     </div>
                 </div><!-- end #footer1 -->
-                <div id="bottom" class="container">
+                <div id="bottom" class="container natra">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="twitterFeed">				
