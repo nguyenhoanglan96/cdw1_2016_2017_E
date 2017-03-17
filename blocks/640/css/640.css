@@ -1,0 +1,64 @@
+.type-640 .content .page-title {
+  background: url(../images/page_title_bg.png) no-repeat left center;
+  background-size: cover !important;
+  padding: 58px 0;
+}
+.type-640 .content .page-title .title {
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 1.26;
+  color: #fff;
+  margin: 0 0 25px;
+}
+.type-640 .content .breadcrumbs {
+  background: #f4f5f8;
+  padding: 25px 0;
+}
+.type-640 .content .breadcrumbs span.parent i {
+  padding-right: 5px;
+}
+.type-640 .content .breadcrumbs i {
+  padding-right: 15px;
+  color: #bebebe;
+}
+.type-640 .content .breadcrumbs a:hover {
+  color: #093eb6;
+}
+.type-640 .content .breadcrumbs span {
+  padding-right: 15px;
+}
+.type-640 .content .breadcrumbs span,
+.type-640 .content .breadcrumbs a {
+  font-size: 15px;
+  color: #61656f;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+@media (max-width: 1439px) and (min-width: 1263px) {
+  .content {
+    width: 100%;
+  }
+}
+@media (max-width: 1135px) and (min-width: 1024px) {
+  .content {
+    width: 100%;
+  }
+}
+@media (max-width: 1262px) and (min-width: 1136px) {
+  .content {
+    width: 100%;
+  }
+}
+@media (max-width: 1023px) and (min-width: 960px) {
+  .content {
+    width: 100%;
+  }
+}
+@media (max-width: 959px) and (min-width: 768px) {
+  .content {
+    width: 100%;
+  }
+}
