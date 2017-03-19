@@ -22,6 +22,7 @@
 
     <body>
         <div class="type-626">
+            <!-----------Menu---------------->
             <div class="container link">
                 <div class="row padding-link">
                     <a href="#">Home</a>
@@ -31,6 +32,7 @@
                     <span class="color-link">Prescription Medicine</span>
                 </div>
             </div>
+            <!-----------/End Menu---------------->
         </div>
     </body>
     <script type="text/javascript" src="js/jquery.js"></script>

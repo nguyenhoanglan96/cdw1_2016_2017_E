@@ -5,8 +5,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -15,11 +18,14 @@
         $less->compileFile('less/624.less', 'css/624.css');
         ?>
         <link href="css/624.css" rel="stylesheet" type="text/css" />
+
+
         <link href="css/swiper.min.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
         <div class="type-624">
+            <!-------Slide text------>
             <div class="slideshow-footer">
                 <div class="container content_wrap">
                     <div id="carousel" class="carousel slide content" data-ride="carousel">
@@ -49,6 +55,7 @@
                     </div>
                 </div>
             </div>
+            <!-------/End Slide text------>
         </div>
     </body>
     <script type="text/javascript" src="js/jquery.js"></script>

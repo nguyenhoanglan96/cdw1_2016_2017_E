@@ -27,8 +27,8 @@
                 <div class="row">
                     <!--- Title --->
                     <div class="title col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h6>MEET THE TEAM</h6>
-                        <h2 >They Make a Wide Range of Products</h2>
+                        <h6 class="title">MEET THE TEAM</h6>
+                        <h2 class="text-title">They Make a Wide Range of Products</h2>
                     </div>
                     <!--- /End Title --->
                     <!---- ImageBox list 1 --->
