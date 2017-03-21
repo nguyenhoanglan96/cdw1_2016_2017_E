@@ -95,17 +95,6 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="menu">
-                                <a href="#">
-                                    <span>1</span>
-                                </a>
-                                <a href="#">
-                                    <span>2</span>
-                                </a>
-                                <a href="#">
-                                    <span>3</span>
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>

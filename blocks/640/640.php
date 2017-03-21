@@ -30,7 +30,7 @@
                     <!-- / End Page Title -->
                     <!-- Breadcrumbs -->
                     <div class="breadcrumbs">
-                        <div class="container">
+                        <div class="container menu">
                             <span class="parent">
                                 <i class="fa fa-home"></i>
                                 <a href="#">Home</a>

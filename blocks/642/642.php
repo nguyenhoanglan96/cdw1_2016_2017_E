@@ -25,10 +25,9 @@
             <div class="container ImageBox">
                 <div class="row">
                     <div class="col-md-9 blog-grid">
-                        <div class="blog-services">
                             <div class="news">
                                 <div class="col-sm-6">
-                                    <article class="has-post-thumbnail hentry">
+                                    <article class="hentry">
                                         <a class="hover-effect" href="#" title="SOCIAL RESPONIBILITY">
                                             <!-- let's add random color when there is no featured image -->
                                             <div class="blog-img-box" style="">
@@ -40,7 +39,9 @@
                                             </div>
                                         </a>
                                         <div class="blog-content">
-                                            <h3 class="title"><a href="#">SOCIAL RESPONIBILITY</a></h3>
+                                            <h3 class="title">
+                                                <a href="#">SOCIAL RESPONIBILITY</a>
+                                            </h3>
                                             <p>By
                                                 <a href="#" title="Posts by Taylor White" rel="author">
                                                     Taylor White
@@ -51,7 +52,7 @@
                                     </article>
                                 </div>
                                 <div class="col-sm-6">
-                                    <article class="has-post-thumbnail hentry category-the-company">
+                                    <article class="hentry">
                                         <a class="hover-effect" href="#" title="OUR OPERATIONS">
                                             <!-- let's add random color when there is no featured image -->
                                             <div class="blog-img-box" style="">
@@ -74,9 +75,9 @@
                                         </div>
                                     </article>
                                 </div>
-                                <div class="clearfix spacer-60"></div>
+                                <div class="spacer-60"></div>
                                 <div class="col-sm-6">
-                                    <article class="has-post-thumbnail hentry category-technology">
+                                    <article class="hentry">
                                         <a class="hover-effect" href="#" title="TECHNOLOGY &amp; INNOVATION">
 
                                             <!-- let's add random color when there is no featured image -->
@@ -129,7 +130,7 @@
                                         </div>
                                     </article>
                                 </div>
-                                <div class="clearfix spacer-60"></div>
+                                <div class="spacer-60"></div>
                                 <div class="col-sm-6">
                                     <article class="hentry">
                                         <a class="hover-effect" href="#" title="Field Training Sessions For New Employees">
@@ -155,14 +156,7 @@
                                         </div>
                                     </article>
                                 </div>
-                                <nav class="navigation clearfix ">
-                                    <ul class="pager ">
-                                        <li class="previous "></li>
-                                        <li class="next "></li>
-                                    </ul>
-                                </nav>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>

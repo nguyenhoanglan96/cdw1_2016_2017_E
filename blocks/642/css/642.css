@@ -1,16 +1,6 @@
-.type-642 .ImageBox .single .content,
 .type-642 .ImageBox .blog-grid {
   padding-top: 80px;
   padding-bottom: 80px;
-}
-.type-642 .ImageBox .posts-img-box {
-  position: relative;
-  display: block;
-  min-height: 272px;
-}
-.type-642 .ImageBox .posts-img-box a.hover-effect > img {
-  border: 0;
-  box-shadow: none;
 }
 .type-642 .ImageBox .blog-img-box {
   width: 100%;

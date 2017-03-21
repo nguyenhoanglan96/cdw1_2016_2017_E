@@ -28,15 +28,17 @@
                     <div class="row">
                         <div class="columns_wrap">
                             <div class="col-md-4">
-                                <div >
-                                    <div class="logo">
-                                        <a href="#"><img src="images/footer-icon.png">
-                                            <h2 class="title">Albertino</h2>
-                                            <h6 class="title3">science research</h6>
-                                        </a>
-                                    </div>
-                                    <p >We are a science international healthcare company. We do researches and develop a wide range of innovative products.</p>
+                                <div class="logo">
+                                    <a href="#">
+                                        <img src="images/footer-icon.png" alt="0" />
+                                        <h2 class="title">Albertino</h2>
+                                        <h6 class="title3">science research</h6>
+                                    </a>
                                 </div>
+                                <p>
+                                    We are a science international healthcare company. 
+                                    We do researches and develop a wide range of innovative products.
+                                </p>
                             </div>
                             <div class="col-md-4 contact">
                                 <h5 class="title2">footer_widget Us</h5>
@@ -89,7 +91,7 @@
                     <!---------/ End Text right----------->
                 </div>
             </footer>
-        <!---- /End-Footer ---->
+            <!---- /End-Footer ---->
         </div>
     </body>
 </html>

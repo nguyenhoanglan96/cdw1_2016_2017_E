@@ -19,30 +19,38 @@
         ?>
         <link href="css/624.css" rel="stylesheet" type="text/css" />
 
-
-        <link href="css/swiper.min.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
         <div class="type-624">
             <!-------Slide text------>
-            <div class="slideshow-footer">
-                <div class="container content_wrap">
+            <div class="container slideshow-footer">
+                <div class="row">
                     <div id="carousel" class="carousel slide content" data-ride="carousel">
                         <!-- Carousel items -->
                         <div class="carousel-inner">
                             <div class="active item">
-                                <span class="icon-twitter"><i class="fa fa-twitter"></i></span>
+                                <span class="icon-twitter">
+                                    <i class="fa fa-twitter"></i>
+                                </span>
                                 <div class="content-main-slideshow-footer">
                                     <a href="#">@science_ancora</a>
-                                    <span class="content-footer-slideshow"> We are happy to present our new scientific WordPress theme Science Lab! Check out all the amazing features and stay tuned for more updates!</span>
+                                    <span class="content-footer-slideshow"> 
+                                        We are happy to present our new scientific WordPress theme Science Lab! 
+                                        Check out all the amazing features and stay tuned for more updates!
+                                    </span>
                                 </div>
                             </div>
                             <div class="item">
-                                <span class="icon-twitter"><i class="fa fa-twitter"></i></span>
+                                <span class="icon-twitter">
+                                    <i class="fa fa-twitter"></i>
+                                </span>
                                 <div class="content-main-slideshow-footer">
                                     <a href="#">@science_ancora</a>
-                                    <span class="content-footer-slideshow"> In our products you will find a great amount of the most useful and powerful components for creating unique and user-friendly websites</span>
+                                    <span class="content-footer-slideshow"> 
+                                        In our products you will find a great amount of the most useful and powerful 
+                                        components for creating unique and user-friendly websites
+                                    </span>
                                 </div>
                             </div>
                         </div>

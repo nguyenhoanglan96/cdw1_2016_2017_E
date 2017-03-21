@@ -7,6 +7,7 @@
 .type-626 .link .padding-link {
   padding-bottom: 15px;
   padding-top: 15px;
+  margin-left: 15px;
 }
 .type-626 .link a {
   text-decoration: none;
@@ -16,42 +17,32 @@
   color: #fff;
 }
 @media (max-width: 1439px) and (min-width: 1263px) {
-  .type-626 .content_wrap {
-    width: 1000px;
+  .type-626 .link {
+    width: 100%;
   }
 }
 @media (max-width: 1135px) and (min-width: 1024px) {
-  .type-626 .content_wrap {
-    width: 964px;
+  .type-626 .link {
+    width: 100%;
   }
 }
 @media (max-width: 1262px) and (min-width: 1136px) {
-  .type-626 .content_wrap {
-    width: 910px;
+  .type-626 .link {
+    width: 100%;
   }
 }
 @media (max-width: 1023px) and (min-width: 960px) {
-  .type-626 .content_wrap {
-    width: 900px;
+  .type-626 .link {
+    width: 100%;
   }
 }
 @media (max-width: 959px) and (min-width: 768px) {
-  .type-626 .content_wrap {
-    width: 708px;
+  .type-626 .link {
+    width: 100%;
   }
 }
 @media (max-width: 767px) and (min-width: 640px) {
-  .type-626 .content_wrap {
-    width: 600px;
-  }
-}
-@media (max-width: 639px) and (min-width: 480px) {
-  .type-626 .content_wrap {
-    width: 440px;
-  }
-}
-@media (max-width: 479px) {
-  .type-626 .content_wrap {
-    width: 280px;
+  .type-626 .link {
+    width: 100%;
   }
 }
