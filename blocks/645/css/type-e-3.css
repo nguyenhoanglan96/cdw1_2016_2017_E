@@ -1,0 +1,152 @@
+.type-e-3 #footer {
+  background: #4c4c4c;
+  width: 1180px;
+  padding: 30px 0 31px 0;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.type-e-3 #footer-bottom {
+  background: #424242;
+  width: 1180px;
+  padding: 15px 0;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.type-e-3 #footer,
+.type-e-3 #footer p,
+.type-e-3 #footer a {
+  color: #ddd;
+}
+.type-e-3 #footer h4 {
+  padding: 0;
+  margin: 0 0 15px 0;
+  font-size: 14px;
+  color: #fff;
+}
+.type-e-3 .four.columns {
+  width: 260px;
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.type-e-3 #logo-footer {
+  margin: 10px 0 20px 0;
+  width: 100px;
+  height: 24px;
+}
+.type-e-3 .contact-details-alt li {
+  margin: 0 0 15px 0;
+}
+.type-e-3 .halflings.map-marker {
+  background-position: -24px -72px;
+}
+.type-e-3 .halflings.user {
+  background-position: -168px 0;
+}
+.type-e-3 .halflings.envelope {
+  background-position: -72px 0;
+}
+.type-e-3 .halflings.white {
+  background-image: url(../images/glyphicons_halflings-white.svg);
+}
+.type-e-3 .contact-details-alt li i {
+  float: left;
+  margin: 1px 0 0 0;
+}
+.type-e-3 .halflings {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+.type-e-3 .contact-details-alt li p strong {
+  color: #fff;
+  float: left;
+  margin: 0 5px 5px 0;
+}
+.type-e-3 .contact-details li p strong {
+  color: #666;
+  float: left;
+  margin: 0 5px 5px 0;
+}
+.type-e-3 .contact-details-alt {
+  margin-left: -40px;
+}
+.type-e-3 .flickr-widget {
+  margin-right: -12px;
+  margin-top: 0;
+}
+.type-e-3 .flickr-widget img {
+  display: block;
+  width: 100%;
+}
+.type-e-3 .flickr-widget a {
+  float: left;
+  width: 70px;
+  height: 85px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border: 5px solid #424242;
+  transition: all 200ms ease-in-out;
+  border-radius: 3px;
+}
+.type-e-3 .flickr-widget a:hover {
+  border-color: #169fe6;
+}
+.type-e-3 #twitter li {
+  list-style: none;
+}
+.type-e-3 .copyright {
+  color: #aaa;
+}
+.type-e-3 .copyright a,
+.type-e-3 .copyright span {
+  color: #eee !important;
+}
+.type-e-3 #sub-menu {
+  float: right;
+  font-size: 11px;
+}
+.type-e-3 #sub-menu ul li a {
+  color: #aaa;
+}
+.type-e-3 #sub-menu ul li a:hover {
+  color: #eee;
+}
+.type-e-3 #sub-menu ul li {
+  display: inline-block;
+  border-left: 1px solid #505050;
+  margin: 0;
+  padding: 0 8px 0 8px;
+  line-height: 12px;
+}
+.type-e-3 #sub-menu ul li:first-child {
+  border: none;
+  padding-left: 0;
+}
+.type-e-3 #sub-menu ul li:last-child {
+  padding-right: 0;
+}
+.type-e-3 #twitter li {
+  margin: 0 0 15px 0;
+  padding: 0 0 0 25px;
+  background: url(../images/social/twitter.png) no-repeat left 5%;
+}
+.type-e-3 #twitter li:last-child {
+  margin: 0;
+  padding: 0 0 0 25px;
+}
+.type-e-3 #twitter a {
+  color: #fff;
+}
+.type-e-3 #twitter b a,
+.type-e-3 #twitter b a:hover {
+  margin-top: 5px;
+  display: block;
+  color: #999;
+  font-weight: normal;
+}

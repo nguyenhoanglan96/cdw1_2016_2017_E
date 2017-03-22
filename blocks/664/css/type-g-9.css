@@ -1,0 +1,67 @@
+.type-g-9 body {
+  font: 75%/150% Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+.type-g-9 .stripe {
+  margin: 0 auto;
+  background: #ffffff;
+  color: #1F1F1F;
+  font-family: 'Source Sans Pro';
+}
+.type-g-9 .img {
+  max-width: none !important;
+  vertical-align: middle;
+  border: 0;
+  top: -0.0432649%;
+  left: 0%;
+  width: 100%;
+  height: auto;
+  visibility: visible;
+  display: block;
+  position: absolute;
+}
+.type-g-9 .clear {
+  clear: both;
+}
+.type-g-9 .row {
+  width: 100%;
+  float: left;
+}
+.type-g-9 .col-1 {
+  width: 80%;
+  float: left;
+}
+.type-g-9 .col-2 {
+  width: 20%;
+  float: left;
+}
+.type-g-9 .col-0 {
+  width: 40%;
+  float: left;
+}
+.type-g-9 .col-0-1 {
+  width: 50%;
+  float: right;
+}
+.type-g-9 .col-5 {
+  width: 40%;
+  float: left;
+}
+.type-g-9 .section-title.padding-right {
+  padding-right: 80px !important;
+}
+.type-g-9 .nested-container {
+  width: 102%;
+  margin-left: -1%;
+}
+.type-g-9 .grid12-3 {
+  width: 23%;
+}
+.type-g-9 .page-banners .banner a img {
+  display: block;
+  margin: 0 auto;
+}
+.type-g-9 .grid12-6 {
+  width: 48%;
+}

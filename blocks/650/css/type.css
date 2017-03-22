@@ -1,0 +1,35 @@
+.type-4 .hr .hr_text {
+  margin-left: 34px !important;
+  width: 1073px !important;
+}
+.type-4 .hr_text {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  padding: 30px 0;
+  line-height: 29px;
+  position: relative;
+  margin: 0;
+  background: url("../images/png.png") repeat-x scroll left center transparent;
+}
+.type-4 .hr_text .custom_hr_text {
+  background: #fff;
+  color: #aaa;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 10px;
+  padding: 0px 8px 0 0;
+  margin: 0 auto;
+  float: left;
+}
+.type-4 .thumbs {
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+.type-4 .thumb img {
+  width: 100%;
+}

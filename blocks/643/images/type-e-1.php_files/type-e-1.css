@@ -1,0 +1,159 @@
+.type-e-1 {
+  background: #fff;
+  width: 1180px;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+.type-e-1 .container {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  width: 1180px;
+}
+.type-e-1 .topline {
+  background: #169fe6;
+  width: 100%;
+  height: 5px;
+  display: block;
+}
+.type-e-1 #header {
+  min-height: 130px;
+}
+.type-e-1 .ten {
+  float: left;
+  display: inline;
+  width: 550px;
+}
+.type-e-1 .six {
+  float: left;
+  display: inline;
+  width: 550px;
+}
+.type-e-1 #logo {
+  margin-top: 50px;
+}
+.type-e-1 #logo a img {
+  float: left;
+  width: 104px;
+  height: 26px;
+}
+.type-e-1 #tagline {
+  color: #888;
+  border-left: 1px solid #e8e8e8;
+  margin: 0 0 0 20px;
+  padding: 5px 0 5px 20px;
+  float: left;
+  font-size: 12px;
+}
+.type-e-1 .contact-details {
+  float: right;
+  margin: -1px 0 1px 0;
+  display: block;
+  color: #888;
+  font-size: 11px;
+}
+.type-e-1 .top-search {
+  float: right;
+}
+.type-e-1 .top-search input {
+  width: 180px;
+  font-size: 11px;
+  color: #888;
+}
+.type-e-1 .search-btn {
+  float: right;
+  position: relative;
+  padding: 0;
+  top: 0;
+  right: 0;
+  margin: -4px 0 0 -40px;
+  background: url('../images/search.png') center center no-repeat;
+  width: 35px;
+  height: 32px;
+  cursor: pointer;
+  border: none;
+  z-index: 100;
+  box-shadow: none;
+}
+.type-e-1 .search-field {
+  float: right;
+  position: relative;
+}
+.type-e-1 .social-icons {
+  margin: 23px 0 13px 0;
+  float: right;
+}
+.type-e-1 .social-icons li {
+  display: inline;
+  list-style: none;
+  text-indent: -9999px;
+  float: left;
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
+  padding-left: 5px;
+}
+.type-e-1 .ie8 .social-icons li {
+  background-color: #fff;
+}
+.type-e-1 .social-icons li a {
+  display: block;
+  padding-left: 11px;
+  height: 16px;
+  width: 16px;
+}
+.type-e-1 .social-icons li:hover {
+  opacity: 1;
+}
+.type-e-1 .twitter {
+  background: url(../images/social/twitter.png) no-repeat 50%;
+}
+.type-e-1 .facebook {
+  background: url(../images/social/facebook.png) no-repeat 50%;
+  margin: 0 -4px;
+}
+.type-e-1 .dribbble {
+  background: url(../images/social/dribbble.png) no-repeat 50%;
+}
+.type-e-1 .linkedin {
+  background: url(../images/social/linkedin.png) no-repeat 50%;
+}
+.type-e-1 .rss {
+  background: url(../images/social/rss.png) no-repeat 50%;
+  margin: 0 -5px 0 0;
+}
+.type-e-1 #navigation {
+  height: 49px;
+  width: 1040px;
+  margin-left: -10px;
+  background-color: #4c4c4c;
+  float: left;
+  left: 1px;
+}
+.type-e-1 .style-2 .left-corner,
+.type-e-1 .style-2 .right-corner {
+  display: none;
+}
+.type-e-1 .style-2 {
+  width: 1020px !important;
+  margin-left: 0 !important;
+}
+.type-e-1 .style-2 ul li:first-child {
+  margin-left: 1px !important;
+}
+.type-e-1 .js .selectnav {
+  display: none;
+}
+.type-e-1 .menu i.halflings {
+  margin: 1px 2px 0 -2px;
+}
+.type-e-1 .menu ul,
+.type-e-1 .menu li>div {
+  visibility: hidden;
+  display: none;
+}
+.type-e-1 .menu li:hover>ul,
+.type-e-1 .menu li:hover>div {
+  visibility: visible;
+  display: block;
+}

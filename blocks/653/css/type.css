@@ -1,0 +1,87 @@
+.type-7 .container {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  height: 200px;
+  padding-left: 0px;
+}
+.type-7 .title {
+  margin: 0 0 50px 0;
+  top: 30px;
+  left: 10px;
+  position: relative;
+}
+.type-7 .title .shop h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  color: #555;
+  left: 30px;
+}
+.type-7 .title #sl {
+  text-align: left;
+  white-space: nowrap;
+  width: 14em;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border: 1px solid #c5c5c5;
+  background: #f6f6f6;
+  font-weight: normal;
+  display: block;
+  margin-right: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: .4em 1em;
+  background: transparent url(../images/bg-style-wrap.png) repeat-x bottom center;
+}
+.type-7 .title .mn {
+  float: right;
+  width: auto;
+  top: 20px;
+  position: relative;
+  z-index: 9999;
+}
+.type-7 .title .breadcrumb-trail {
+  font: 12px/1.7em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  background: #fff;
+  padding: 0 7px 0 0;
+}
+.type-7 .title .breadcrumb {
+  background: none;
+  position: relative;
+  padding: 0;
+  width: 99%;
+}
+.type-7 .title img {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.type-7 .title .text_icons p {
+  font: 12px/1.7em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  padding: 0;
+  top: -6px;
+  position: relative;
+  color: #aaa;
+}
+.type-7 .title p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+.type-7 .title .thumb_icons {
+  top: 25px;
+}
+@media (max-width: 992px) {
+  .type-7 .mn {
+    padding-bottom: 15px;
+  }
+}
