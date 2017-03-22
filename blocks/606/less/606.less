@@ -1,12 +1,15 @@
-.clear {
-    clear: both;
-}
+@background:#000;
+@red:#CD2122;
+@while:#fff;
+@height:100px;
 /*******************************************Header*****************************************************/
-.e-1{
-    @height:100px;
-    @color:#fff;
-    @color1:#cd2122;
+.template-606{
+    /*****************************Header*********************************/
+
     /*Header*/
+    #header {
+        height:@height;
+    }
     #logo a, #header a#logo {
         line-height: 95px;
         height:@height;
@@ -33,8 +36,6 @@
         color: #eee;
         font-size: 14px;
         width: auto;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
     h1#logo a, a#logo {
@@ -43,11 +44,10 @@
         position: relative;
     }
     a {
-        color: #000;
+        color: @background;
         outline: none;
     }
     .logo-container.hasInfoCard:before {
-        content: url(../images/hoverme.png);
         width: 98px;
         height: 35px;
         right: 100%;
@@ -55,6 +55,7 @@
         top: 35px;
         position: absolute;
     }
+    /*NavLeft*/
     #header.cta_button .topnav {
         margin-top: 13px;
     }
@@ -84,10 +85,10 @@
     .topnav > li > a {
         font-family: 'Lato', 'Helvetica', Arial, serif;
     }
-    .topnav > li > a, .topnav li .menu li a {
+    .topnav > li > a, .topnav li  li a {
         font-size: 11px;
         font-weight: 700;
-        color: @color;
+        color: @while;
         line-height: 24px;
         display: block;
         padding: 0;
@@ -98,10 +99,6 @@
         filter: alpha(opacity=80);
     }
     .topnav li.drop .pPanel {
-        -webkit-transition: all 0.2s ease-out;
-        -moz-transition: all 0.2s ease-out;
-        -o-transition: all 0.2s ease-out;
-        -ms-transition: all 0.2s ease-out;
         transition: all 0.2s ease-out;
     }
     .topnav li.drop .pPanel {
@@ -122,11 +119,9 @@
         padding: 4px 0;
         margin-top: 5px;
         position: relative;
-        -webkit-box-shadow: 0px 0px 5px rgba(0,0,0, 0.4);
-        -moz-box-shadow: 0px 0px 5px rgba(0,0,0, 0.4);
+        
         box-shadow: 0px 0px 5px rgba(0,0,0, 0.4);
-        -webkit-border-radius: 2px;
-        -moz-border-radius: 2px;
+
         border-radius: 2px;
     }
     .cart_details {
@@ -140,17 +135,17 @@
             margin-left: 15px;
             padding-left: 15px;
             display: inline-block;
-            color: #CD2122;
+            color: @red;
             font-size: 12px;
-            text-transform: uppercase;
-            span {
+            text-transform: uppercase
+                span {
                 margin-top: 1px;
                 opacity: 0.2;
                 filter: alpha(opacity=20);
             }
         }
-
     }
+
     .icon-shopping-cart {
         background-position: -360px -120px;
     } 
@@ -161,7 +156,6 @@
         margin-top: 1px;
         line-height: 14px;
         vertical-align: text-top;
-        background-image: url(../images/glyphicons-halflings.png);
         background-position: 14px 14px;
         background-repeat: no-repeat;
     }
@@ -185,9 +179,11 @@
             margin-top: -1px;
         }
     }
+
     .topnav li.drop li.active a, .topnav li.drop li a:hover {
         background: rgba(0, 0, 0, 0.1);
     }
+    /*NavRight*/
     #header.cta_button .topnav.navRight {
         margin-right: 60px;
     }
@@ -201,6 +197,7 @@
     .icon-remove-circle {
         background-position: -168px -96px;
     }
+    /*Search*/
     #header.cta_button #search {
         position: absolute;
         top: 10px;
@@ -212,61 +209,65 @@
         float: right;
         clear: right;
         position: relative;
-        .searchBtn {
-            margin: 10px 0 0 10px;
-            padding: 8px;
-            line-height: 1;
-            display: inline-block;
-            background: rgba(0, 0, 0, 0.5);
-            position: relative;
-            z-index: 1;
-        }
+    }
+    #header.cta_button #search .searchBtn {
+        margin: 0;
+    }
+    #search .searchBtn {
+        margin: 10px 0 0 10px;
+        padding: 8px;
+        line-height: 1;
+        display: inline-block;
+        background: rgba(0, 0, 0, 0.5);
+        position: relative;
+        z-index: 1;
     }
     .icon-search {
         background-position: -48px 0;
     }
+    /*Free QUOTE*/
     #ctabutton:hover {
-        background: @color;
-        color: #000;
+        background: @while;
+        color: @background;
         text-decoration: none;
     }
 
     #ctabutton {
-
+        background-color: #cd2122;
         clear: right;
         float: right;
         position: relative;
         font-size: 11px;
         font-weight: 700;
-        color: @color;
+        color: @while;
         text-align: center;
-        background: @color1;
+        background: #cd2122;
         padding: 10px 10px 5px;
         border-radius: 2px;
         margin-top: 8px;
         margin-left: 20px;
         margin-bottom: -7px;
-    }
-    #ctabutton strong {
-        font-size: 17px;
-        font-weight: 900;
-        display: block;
-        padding: 0;
-    }
-    strong {
-        font-weight: bold;
-    }
-    #ctabutton .trisvg {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 5px;
-    }
-    #ctabutton .trisvg path {
-        fill: @color1;
-    }
+        strong {
+            font-size: 17px;
+            font-weight: 900;
+            display: block;
+            padding: 0;
+            font-weight: bold;
 
+
+        }
+        .trisvg {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            path {
+                fill: #cd2122;
+            }
+
+        }
+    }
     /*Menu*/
     body{
         padding:10px;
@@ -283,20 +284,22 @@
         text-decoration: none;
         margin: 11px;
         font-size: 1em;
-        color: @color;
+        color: @while;
         font-weight: bold;
     }
     .btn-group a:hover {
-        background-color: #CD2122;
+        background-color: @red;
         border-radius: 2px;
         padding: 5px;
     }
     .dropdown-menu a {
         color: #CCC;
     }
+
     .dropdown-submenu {
         position: relative;
     }
+
     .dropdown-submenu>.dropdown-menu {
         top: 0;
         left: 100%;
@@ -306,9 +309,11 @@
         -moz-border-radius: 0 6px 6px;
         border-radius: 0 6px 6px 6px;
     }
+
     .dropdown-submenu:hover>.dropdown-menu {
         display: block;
     }
+
     .dropdown-submenu>a:after {
         display: block;
         content: " ";
@@ -322,21 +327,27 @@
         margin-top: 5px;
         margin-right: -10px;
     }
+
     .dropdown-submenu:hover>a:after {
-        border-left-color: @color;
+        border-left-color: @while;
     }
-    .dropdown-submenu.pull-left {
+
+    .dropdown-submenu {
         float: none;
     }
-    .dropdown-submenu.pull-left>.dropdown-menu {
+
+    .dropdown-submenu.dropdown-menu {
         left: -100%;
         margin-left: 10px;
         -webkit-border-radius: 6px 0 6px 6px;
         -moz-border-radius: 6px 0 6px 6px;
         border-radius: 6px 0 6px 6px;
     }
+    /******************************Slide Show********************************/
+    /* Makes images fully responsive */
+
     .img-responsive,
-    .thumbnail > img,
+
     .thumbnail a > img,
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
@@ -344,12 +355,16 @@
         width: 100%;
         height: auto;
     }
+
+    /* ------------------- Carousel Styling ------------------- */
+
     #carousel-example-generic {
         margin: -20px;
     }
     .carousel-inner {
         border-radius: 15px;
     }
+
     .carousel-caption {
         background-color: rgba(0,0,0,.5);
         position: absolute;
@@ -358,9 +373,10 @@
         bottom: 0;
         z-index: 10;
         padding: 0 0 10px 25px;
-        color: @color;
+        color: @while;
         text-align: left;
     }
+
     .carousel-indicators {
         position: absolute;
         bottom: 0;
@@ -372,11 +388,27 @@
         padding: 0 25px 25px 0;
         text-align: right;
     }
+
     .carousel-control.left,
     .carousel-control.right {
         background-image: none;
     }
 
+
+    /* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+
+    .section-white {
+        padding: 10px 0;
+    }
+
+    .section-white {
+        background-color: @while;
+        color: #555;
+    }
+
+    /**********Slide 1 & 3**************/
+
+    /*Caption*/
     body.carousel-caption .caption {
         width: 960px;
         margin-left: -480px;
@@ -389,11 +421,14 @@
         margin-left: -585px;
         left: 50%;
     }
+
+
+    /*Main Title*/
     .carousel-caption .caption .main_title {
-        color: @color;
+        color: @while;
         font-size: 28px;
         line-height: 1.3;
-        border-left: 5px solid @color;
+        border-left: 5px solid @while;
         padding: 0 15px;
         float: left;
         margin-bottom: 80px;
@@ -401,10 +436,13 @@
         filter: alpha(opacity=0);
         margin-left: 100px;
         text-shadow: 0 0px 3px rgba(0, 0, 0, 0.7);
-        background: #000;
+        background: @background;
         background: rgba(35, 35, 35, 0.3);
         font-weight: bold;
     }
+
+
+    /*Title Big*/
     .carousel-caption .caption.style1 .title_big {
         float: left;
         clear: both;
@@ -422,17 +460,21 @@
         text-align: right;
         font-weight: bold;
     }
+
     .carousel-caption .caption.style1 .title_big:before {
         content: "";
         position: absolute;
         width: 100%;
         height: 100%;
-        background: #000;
+        background: @background;
         background: rgba(0,0,0,0.9);
         right: 0;
         top: 0;
         z-index: -1;
     }
+
+
+    /*Title Img*/
     .carousel-caption .caption.style1 .more {
         float: left;
         width: 30px;
@@ -449,7 +491,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background: #CD2122;
+        background: @red;
         z-index: -2;
     }
     .carousel-caption .caption.style1 .more img {
@@ -461,6 +503,9 @@
         width: 100%;
         height: auto;
     }
+
+
+    /*Title Small*/
     .carousel-caption .caption.style1 .title_small {
         float: left;
         clear: both;
@@ -482,12 +527,15 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background: #000;
+        background: @background;
         background: rgba(0,0,0,0.7);
         right: 0;
         top: 0;
         z-index: -1;
     }
+    /**********Slide 2************/
+
+    /*Main Title*/
     .carousel-caption .caption.fromright .main_title {
         float: right;
         border-left: 0;
@@ -500,10 +548,10 @@
         margin-bottom: 40px;
     }
     .carousel-caption .caption .main_title {
-        color: @color;
+        color: @while;
         font-size: 28px;
         line-height: 1.3;
-        border-left: 5px solid @color;
+        border-left: 5px solid @while;
         padding: 0 15px;
         float: left;
         margin-bottom: 80px;
@@ -511,19 +559,25 @@
         filter: alpha(opacity=0);
         margin-left: 100px;
         text-shadow: 0 0px 3px rgba(0, 0, 0, 0.7);
-        background: #000;
+        background: @background;
         background: rgba(35, 35, 35, 0.3);
+    }
+
+
+
+    /*Title Big*/
+    .carousel-caption .caption.style2.fromright .title_big, .carousel-caption .caption.style2.fromright .title_small {
+        border-right: 5px solid #cd2122;
     }
     .carousel-caption .caption.style2.fromright .title_big {
         padding: 10px 20px 10px 30px;
     }
     .carousel-caption .caption.style2.fromright .title_big, .carousel-caption .caption.style2.fromright .title_small {
         float: right;
-        border-right: 5px solid #CD2122;
+        border-right: 5px solid @red;
         border-left: 0;
         left: auto;
         right: -100px;
-        border-right: 5px solid @color1;
     }
     .carousel-caption .caption.style2 .title_big {
         font-size: 32px;
@@ -539,11 +593,14 @@
         filter: alpha(opacity=0);
         margin: 0;
         float: left;
-        border-left: 5px solid #CD2122;
+        border-left: 5px solid @red;
         background: black;
         background: rgba(0, 0, 0, 0.9);
         left: -100px;
     }
+
+
+    /*Img*/
     .carousel-caption .caption.style2.fromright .more {
         float: right;
         margin-left: 0;
@@ -556,7 +613,7 @@
         width: 30px;
         height: 30px;
         margin-left: -8px;
-        background: url(../images/arr01.png) no-repeat center center #CD2122;
+        background: url(../images/arr01.png) no-repeat center center @red;
         position: relative;
         top: 12px;
         z-index: 1;
@@ -572,12 +629,17 @@
         content: "";
         display: block;
         position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
         z-index: -1;
     }
+
+
+    /*Titile Small*/
     .carousel-caption .caption.style2.fromright .title_big, .carousel-caption .caption.style2.fromright .title_small {
-        border-right: 5px solid @color1;
+        border-right: 5px solid #cd2122;
     }
     .carousel-caption .caption.style2 .title_small {
         font-size: 16px;
@@ -585,6 +647,8 @@
         clear: both;
         padding: 10px 15px;
     }
+
+    /*Title Small*/
     .carousel-caption .caption.style3.fromright .title_big, .carousel-caption .caption.style3.fromright .title_small {
         float: right;
         text-align: right;
@@ -617,6 +681,8 @@
         left: auto;
         right: -100px;
     }
+
+    /*Title Big*/
     body .carousel-caption .caption.style3 .title_big {
         font-size: 32px;
     }
@@ -634,8 +700,53 @@
         display: block;
         line-height: 1;
     }
+    /*********************************????************************************/
+    #action_box99 {
+        background-color: @red;
+    }
+    .action_box {
+        padding: 20px 0;
+        color: @while;
+        border-top: 2px solid @while;
+        border-bottom: 1px solid @while;
+        position: relative;
+        background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.2)));
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+        background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+        background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+        filter: progid:DXImageTransform( startColorstr='@background00000', endColorstr='#33000000',GradientType=0 );
+        background-color: @red;
+    }
+    .action_box[data-arrowpos=center]:after, .action_box[data-arrowpos=center]:before {
+        margin-left: -7px;
+    }
+    .action_box:before {
+        border-top-color: #cd2122;
+    }
+    .action_box:after, .action_box:before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -14px;
+        margin-left: -25%;
+        border-radius: 3px;
+        border: 8px solid transparent;
+        border-top-width: 7px;
+        border-top-color: @red;
+    }
+
+    .action_box .row {
+        margin-bottom: 0;
+    }
     .row {
         margin-bottom: 35px;
+    }
+    .row:before, .row:after {
+        display: table;
+        line-height: 0;
+        content: "";
     }
     .span8 {
         width: 620px;
@@ -659,5 +770,54 @@
     .span4 a:hover {
         background: #CCC;
     }
+    .row:after {
+        clear: both;
+    }
+    .row:before, .row:after {
+        display: table;
+        line-height: 0;
+        content: "";
+    }
+    .btn:first-child {
+    }
+    .btn {
+        display: inline-block;
+        padding: 4px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+        text-align: center;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+        vertical-align: middle;
+        cursor: pointer;
+        background-color: #f5f5f5;
+        background-image: -moz-linear-gradient(top, @whilefff, #e6e6e6);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(@whilefff), to(#e6e6e6));
+        background-image: -webkit-linear-gradient(top, @whilefff, #e6e6e6);
+        background-image: -o-linear-gradient(top, @whilefff, #e6e6e6);
+        background-image: linear-gradient(to bottom, @whilefff, #e6e6e6);
+        background-repeat: repeat-x;
+        border: 1px solid #cccccc;
+        border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+        border-bottom-color: #b3b3b3;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@whilefffff', endColorstr='#ffe6e6e6', GradientType=0);
+        filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
 }
+
+
+
+
+
+
+
+
 

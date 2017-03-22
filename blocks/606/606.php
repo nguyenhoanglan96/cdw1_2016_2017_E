@@ -20,8 +20,10 @@
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
         <script src="js/scripts.js" type="text/javascript"></script>
     </head>
+
     <body>
-        <div class="e-1">
+        <div class="template-606">
+            <!-------------------------------Begin Header----------------------------------->
             <header id="header" class="style2 cta_button">
                 <div class="container">
                     <div class="logo-container hasInfoCard">
@@ -31,56 +33,67 @@
                             </a>
                         </h1>
                     </div><!--Logo-->
+
                     <ul class="topnav navRight">
+                        <!-- BEGIN support clickable button -->
                         <li><a href="#" id="open_sliding_panel">
                                 <span class="icon-remove-circle icon-white"></span> SUPPORT						</a>
                         </li>
+                        <!-- END support clickable button -->
+
+                        <!-- BEGIN hidden login/register/remind popups -->
                         <li><a href="#login_panel" data-rel="prettyPhoto[login_panel]">LOGIN</a></li>
+                        <!-- END hidden login/register/remind popups -->
                     </ul><!--Top right-->
+
                     <ul class="topnav navLeft">
                         <li class="drop">
                             <a href="#">MY CART</a>
                             <div class="pPanel">
                                 <div class="inner">
 
-                                    <div id=" 216">
                                         <p class="cart_details">
-                                            <span >Cart empty</span>
-                                            <span ></span>
+                                            <span>Cart empty</span>
+                                            <span></span>
                                             <a class="checkout" href="/kallyas_joomla/shop/shopping-cart"><span class=" icon-shopping-cart"></span> Show Cart</a>
                                         </p>
-                                    </div><!-- end vmcartmodule -->
+                                   <!-- end vmcartmodule -->
+
                                 </div>
                             </div>
                         </li>
+
                         <li class=" drop">
                             <a href="#"><span class="icon-globe icon-white"></span> LANGUAGES</a>
-                            <div >
-                                <div class="mod-">
+                            <div class="custom ">
+                                
                                     <div class="pPanel">
                                         <ul class=" inner">
                                             <li dir="ltr"><a href="#"> <img src="images/fr.gif" alt="French (FR)" title="French (FR)"> French (FR) </a></li>
                                             <li class="active" dir="ltr"><a href="#"> <img src="images/en.gif" alt="English (UK)" title="English (UK)"> English (UK) </a></li>
                                         </ul>
                                     </div>
-                                </div>
+                            
                             </div>
                         </li>
                     </ul><!--Top Left-->
-                    <div id="search" >
+
+                    <div id="search" class="">
                         <a href="#" class="searchBtn">
                             <span class="icon-search icon-white"></span>
-                        </a>
+                        </a>   
                     </div><!--Search-->
+
                     <a href="#" target="_self" id="ctabutton">
-                        <strong>FREE</strong>QUOTE
+                        <strong>FREE</strong>QUOTE					
                         <svg version="1.1" class="trisvg" xmlns="#" xmlns:xlink="#" x="0px" y="0px" preserveAspectRatio="none" width="14px" height="5px" viewBox="0 0 14.017 5.006" enable-background="new 0 0 14.017 5.006" xml:space="preserve"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.016,0L7.008,5.006L0,0H14.016z"></path></svg>
                     </a><!--Free QUOTE-->
+
                     <div class="main_menu">
                         <div class="btn-group show-on-hover">
                             <a href="#">HOME</a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">ARIES Homepage</a></li>
+                                 <li><a href="#">ARIES Homepage</a></li>
                                 <li><a href="#">ORION Homepage</a></li>
                                 <li><a href="#">VEGA Homepage</a></li>
                                 <li><a href="#">AURA Homepage</a></li>
@@ -94,7 +107,7 @@
                             </ul>
                         </div><!--Home-->
 
-                        <nav class="btn-group show-on-hover">
+                        <div class="btn-group show-on-hover">
                             <a href="#">SLIDERS</a>
                             <ul class="dropdown-menu" role="menu">
                                 <li class="dropdown-submenu">
@@ -152,7 +165,7 @@
                                 <li><a href="#">iCarousel</a></li>
                                 <li><a href="#">CSS3 Panels</a></li>
                             </ul>
-                        </nav><!--Silders-->
+                        </div><!--Silders-->
 
                         <div class="btn-group show-on-hover">
                             <a href="#">HERO SCENES</a>
@@ -168,6 +181,7 @@
                                 <li><a href="#">Separated link</a></li>
                             </ul>
                         </div><!--About Us-->
+
                         <div class="btn-group show-on-hover">
                             <a href="#">FEATURES</a>
                             <ul class="dropdown-menu" role="menu">
@@ -202,7 +216,8 @@
                                 <li><a href="#">Page Preloader</a></li>
                                 <li><a href="#">Animated Header</a></li>
                             </ul>
-                        </div><!--Features-->
+                        </div><!--Features--> 
+
                         <div class="btn-group show-on-hover">
                             <a href="#">SHOP</a>
                             <ul class="dropdown-menu" role="menu">
@@ -217,6 +232,7 @@
                                 <li><a href="#">Separated link</a></li>
                             </ul>
                         </div><!--Shop-->
+
                         <div class="btn-group show-on-hover">
                             <a href="#">PAGES</a>
                             <ul class="dropdown-menu" role="menu">
@@ -231,6 +247,7 @@
                                 <li><a href="#">Separated link</a></li>
                             </ul>
                         </div><!--Pages-->
+
                         <div class="btn-group show-on-hover">
                             <a href="#">ELEMENTS</a>
                             <ul class="dropdown-menu" role="menu">
@@ -245,9 +262,10 @@
                     </div><!--Main Menu-->
                 </div>
             </header>
+            <!-------------------------------End Header------------------------------------>
             <div class="clearfix"></div>
-            <!-------------------------------Begin SlideShow-------------------------------->
-            <section >
+            <!-------------------------------Begin SlideShow------------------------------->
+            <section class="section-white">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -261,8 +279,8 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <img src="images/iosmain.jpg" alt="">
-                            <aside class="carousel-caption">
-                                <div class="caption style1">
+                            <div class="carousel-caption">
+                                <div class="caption style1 ">
                                     <h2 class="main_title" style="opacity: 1; margin-left: 0px;">HUGE SUMMER SALE</h2>
                                     <h3 class="title_big" style="left: 0px; opacity: 1;">UP TO 40%</h3>
                                     <a href="#" target="_self" class="more" style="left: 0px; opacity: 1;">
@@ -270,11 +288,12 @@
                                     </a>
                                     <h4 class="title_small" style="left: 0px; opacity: 1;">FOR THE PRODUCTS IN OUR NEWEST COLLECTION</h4>
                                 </div>
-                            </aside>
+                            </div>
                         </div><!--SLide 1-->
+
                         <div class="item">
                             <img src="images/iosmain.jpg" alt="">
-                            <aside class="carousel-caption">
+                            <div class="carousel-caption">
                                 <div class="caption style2 fromright">
                                     <h2 class="main_title" style="opacity: 1; margin-right: 0px;">YOUR LIVING<br>DESERVES BETTER</h2>
                                     <h3 class="title_big" style="right: 0px; opacity: 1;">IT'S YOUR COUCH</h3>
@@ -283,12 +302,13 @@
                                     </a>
                                     <h4 class="title_small" style="right: 0px; opacity: 1;">CHOOSE WHAT YOU LIKE, COMBINE IT HOW YOU WANT</h4>
                                 </div>
-                            </aside>
+                            </div>
                         </div><!--Slide 2-->
+
                         <div class="item">
                             <img src="images/iosmain.jpg" alt="">
-                            <aside class="carousel-caption">
-                                <div class="caption style1">
+                            <div class="carousel-caption">
+                                <div class="caption style1 ">
                                     <h2 class="main_title" style="opacity: 1; margin-left: 0px;">GRAND OPENING<br>NOVEMBER 2015</h2>
                                     <h3 class="title_big" style="left: 0px; opacity: 1;">50% OFF ON ANY ORDER</h3>
                                     <a href="#" target="_self" class="more" style="left: 0px; opacity: 1;">
@@ -296,19 +316,22 @@
                                     </a>
                                     <h4 class="title_small" style="left: 0px; opacity: 1;">BEST PLACE TO HAVE A DRINK IN OUR CITY</h4>
                                 </div>
-                            </aside>
+                            </div>
                         </div><!--Slide 3-->
+
                         <div class="item">
                             <img src="images/iosmain.jpg" alt="">
-                            <aside class="carousel-caption">
+                            <div class="carousel-caption">
                                 <div class="caption style3 fromright">
                                     <h2 class="main_title" style="opacity: 1; margin-right: 0px;">AUTUMN 2015<br>COLLECTION</h2>
                                     <h4 class="title_small" style="right: 0px; opacity: 1;">FOR THE PRODUCTS IN OUR NEWEST COLLECTION</h4>
                                     <h3 class="title_big" style="right: 0px; opacity: 1;"><span class="stronger">20%</span> DISCOUNT</h3>
                                 </div>
-                            </aside>
+                            </div>
                         </div><!--Slide 4-->
+
                     </div>
+
                     <!-- Controls -->
                     <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left"></span>
@@ -320,7 +343,22 @@
             </section>
             <!------------------------------End SlideShow---------------------------------->
             <div class="clear"></div>
+            <!-----------------------------Begin ???--------------------------------------->
+            <div id="action_box99" data-arrowpos="center" class="action_box ">
+                <div class="container">
+                    <div class="row">
+                        <div class="span8">
+                            <h4 class="text">Want to be updated with our latest offers?</h4>
+                        </div>
+                        <div class="span4 align-center">
+                            <a href="#" target="_self" class="btn">JOIN OUR NEWSLETTER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-----------------------------End ???----------------------------------------->
         </div>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>
+
 </html>
