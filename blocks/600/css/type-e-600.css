@@ -1,0 +1,122 @@
+.clear {
+  clear: both;
+}
+.type-e-600 .rescure {
+  padding-bottom: 170px;
+  margin-left: 265px;
+}
+.type-e-600 .rescure .col-md-9 {
+  width: 100%;
+}
+.type-e-600 .rescure .rescure1 .badge {
+  left: 20px;
+  position: absolute;
+  top: 15px;
+  z-index: 1;
+  background: #c51212;
+}
+.type-e-600 .rescure .rescure1 .badge .badge_sale {
+  background-color: #cd2122;
+  color: #fff;
+  line-height: 1;
+  padding: 5px;
+  position: relative;
+  display: block;
+  border-radius: 1px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.type-e-600 .rescure .rescure1 .images {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  margin-bottom: 2em;
+}
+.type-e-600 .rescure .rescure1 .images .san-pham-phu {
+  padding: 10px 0 0 10px;
+  margin: 0 10px;
+}
+.type-e-600 .rescure .rescure1 .images .san-pham-phu img {
+  border: 1px solid #eaeaea;
+  padding: 2px;
+  width: 100%;
+  display: block;
+  height: auto;
+  box-shadow: none;
+  max-width: 100%;
+}
+.type-e-600 .rescure .rescure1 .images .san-pham-phu .sp1 {
+  width: 21%;
+  float: left;
+  margin-right: 3.8%;
+  margin-bottom: 1em;
+}
+.type-e-600 .rescure .rescure2 h1 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+  color: inherit;
+}
+.type-e-600 .rescure .rescure2 .product_title {
+  line-height: 1.4;
+  clear: none;
+  margin-top: 0;
+}
+.type-e-600 .rescure .rescure2 .product-rating {
+  margin-bottom: 1.618em;
+  line-height: 2;
+  display: block;
+  box-sizing: border-box;
+}
+.type-e-600 .rescure .rescure2 .product-rating a {
+  color: #000;
+}
+.type-e-600 .rescure .rescure2 .offers {
+  margin-bottom: 10px;
+}
+.type-e-600 .rescure .rescure2 .offers .price {
+  color: #282828;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.type-e-600 .rescure .rescure2 .offers .price .amount {
+  margin: 0 5px;
+}
+.type-e-600 .rescure .rescure2 .offers .price del {
+  opacity: 0.8;
+  text-decoration: none;
+  margin-right: 10px;
+  display: inline-block;
+}
+.type-e-600 .rescure .rescure2 .offers .price del .amount {
+  text-decoration: line-through;
+  margin: 0 5px;
+}
+.type-e-600 .rescure .rescure2 .offers .price ins {
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  background: inherit;
+}
+.type-e-600 .rescure .rescure2 .desc {
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .type-e-600 .rescure1 {
+    text-align: center;
+  }
+  .type-e-600 .rescure2 {
+    text-align: center;
+  }
+  .type-e-600 .rescure {
+    padding-bottom: 170px;
+    margin-left: auto;
+  }
+}

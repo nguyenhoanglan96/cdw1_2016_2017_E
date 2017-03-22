@@ -21,7 +21,7 @@
     </head>
 
     <body>
-        <div class="top-menu">
+        <div class="type-e-630">
             <header>
                 <div class="btt">
                     <div class='bttop'><i class="glyphicon glyphicon-chevron-up"></i></div>

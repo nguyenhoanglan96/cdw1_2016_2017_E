@@ -1,0 +1,140 @@
+.clear {
+  clear: both;
+}
+.type-e .rescure {
+  padding-bottom: 0;
+}
+.type-e .rescure a {
+  color: #000;
+}
+.type-e .rescure .nav1 {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.type-e .rescure .rescure1 .tab-pane fade in active {
+  margin-left: 20px;
+}
+.type-e .rescure .rescure1 .tab-content {
+  border: 1px solid #eaeaea;
+  padding-left: 20px;
+}
+.type-e .rescure .rescure1 .fs-18 {
+  font-size: 18px;
+}
+.type-e .rescure .rescure1 .commentlist {
+  padding: 0px;
+  list-style-type: none;
+}
+.type-e .rescure .rescure1 .commentlist .comment-1 {
+  margin-bottom: 15px;
+}
+.type-e .rescure .rescure1 .commentlist .comment_container {
+  border: 1px solid #DDD;
+  padding: 10px;
+}
+.type-e .rescure .rescure1 .commentlist .comment_container img {
+  width: 70px;
+  float: left;
+  margin: 10px;
+  padding: 2px;
+  border: 1px solid #ddd;
+}
+.type-e .rescure .rescure1 .commentlist .comment_container .meta {
+  margin: 8px 0 10px;
+}
+.type-e .rescure .rescure1 #respond {
+  padding: 15px 0;
+}
+.type-e .rescure .rescure1 #respond h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.type-e .rescure .rescure1 #respond p {
+  margin-bottom: 5px;
+}
+.type-e .rescure .related h2 {
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.type-e .rescure .related .products {
+  margin: 0 -15px;
+  padding: 0;
+  clear: both;
+}
+.type-e .rescure .related .products .product {
+  width: 33.3333%;
+  float: left;
+  color: red;
+  margin: 0 0 30px;
+  padding: 0 15px;
+  position: relative;
+}
+.type-e .rescure .related .products .product .product-list-item {
+  display: block;
+  position: relative;
+  background: radial-gradient(ellipse at center,#ffffff 0%,#ffffff 50%,#ededed 100%);
+}
+.type-e .rescure .related .products .product .product-list-item .image {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  display: block;
+}
+.type-e .rescure .related .products .product .product-list-item .actions {
+  margin-left: 10px;
+}
+.type-e .rescure .related .products .product .product-list-item .detail {
+  padding: 20px 20px 20px;
+  position: relative;
+  transition: all 0.2s ease-out;
+  background: #fff;
+}
+.type-e .rescure .related .products .product .product-list-item .detail .detail-title {
+  color: #2f2f2f;
+  font-size: 16px;
+  line-height: 1.3;
+  margin: 0 0 10px;
+}
+.type-e .rescure .related .products .product .product-list-item .detail .detail-desc {
+  display: block;
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #939393;
+  line-height: 1.4;
+}
+.type-e .rescure .related .products .product .product-list-item .detail .price {
+  color: #282828;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+}
+.type-e .rescure .related .products .product .product-list-item .detail .price .amount {
+  margin: 0 5px;
+}
+.type-e .rescure .related .products .product .product-list-item .zn_badge_container {
+  position: absolute;
+  top: 1px;
+  left: 50px;
+  z-index: 1;
+}
+.type-e .rescure .related .products .product .product-list-item .zn_badge_container .zn_badge_new {
+  background-color: #12A1C5;
+  color: #FFFFFF;
+  font-size: 10px;
+  line-height: 1;
+  padding: 8px 12px 7px;
+  display: block;
+  margin-bottom: 11px;
+  border-radius: 2px;
+}
+@media only creen and (max-width: 486px) {
+  .type-e .rescure .products .product {
+    width: 100% !important;
+  }
+}

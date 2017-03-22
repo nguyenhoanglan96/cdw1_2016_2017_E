@@ -1,0 +1,72 @@
+.type-e-611 .head .fs-28 {
+  font-size: 28px;
+}
+.type-e-611 .head a {
+  color: #000;
+}
+.type-e-611 .head .row {
+  margin-bottom: 35px;
+}
+.type-e-611 .head * {
+  text-decoration: none;
+}
+.type-e-611 .head .rescure h4 {
+  font-size: 17.5px;
+  margin: 10px 0;
+  font-weight: bold;
+  line-height: 20px;
+}
+.type-e-611 .head .rescure .m_title {
+  color: #CD2122;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.7);
+  text-align: center;
+  margin-top: 0;
+}
+.type-e-611 .head .rescure .tbk__symbol {
+  margin-bottom: 10px;
+  display: block;
+}
+.type-e-611 .head .rescure .light-gray2 {
+  color: #eaeaea;
+  font-size: 26px;
+}
+.type-e-611 .head .rescure .offer-banners p {
+  margin: 0 0 10px;
+}
+.type-e-611 .head .rescure .offer-banners .hoverborder {
+  margin-bottom: 20px;
+}
+.type-e-611 .head .rescure .offer-banners col-lg-4 {
+  width: 33.33333333%;
+}
+.type-e-611 .head .rescure .offer-banners .col-lg-5 {
+  width: 41.66666667%;
+}
+.type-e-611 .head .rescure .offer-banners .col-lg-3 {
+  width: 25%;
+}
+.type-e-611 .head .rescure .offer-banners .hoverborder {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.type-e-611 .head .rescure .offer-banners .hoverborder .hoverBorderWrapper {
+  position: relative;
+  display: block;
+}
+.type-e-611 .head .rescure .offer-banners .hoverborder .hoverBorderWrapper img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.type-e-611 .head .rescure .offer-banners .hoverborder .hoverBorderWrapper .theHoverBorder {
+  transition: all 0.2s ease-out;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 2px;
+}
+.type-e-611 .head .rescure .offer-banners .theHoverBorder:hover {
+  box-shadow: 0 0 0 5px #cd2122 inset;
+}

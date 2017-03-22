@@ -1,0 +1,99 @@
+.type-e-612 .rescure {
+  padding-top: 43px;
+  margin-left: 276px;
+}
+.type-e-612 .rescure .kl-title-block {
+  padding-top: 0;
+  padding-bottom: 35px;
+}
+.type-e-612 .rescure .kl-title-block .fs-20 {
+  font-size: 20px;
+}
+.type-e-612 .rescure .kl-title-block .tbk__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 30px;
+  font-family: 'Open Sans';
+}
+.type-e-612 .rescure .kl-title-block .tbk__title .tbk__symbol {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.type-e-612 .rescure .kl-title-block .tbk__title .tbk__symbol .tbk__icon {
+  vertical-align: middle;
+}
+.type-e-612 .rescure .kl-title-block .montserrat {
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.type-e-612 .rescure .kl-title-block .tcolor {
+  color: #cd2122 !important;
+}
+.type-e-612 .rescure .image .hoverBorderWrapper {
+  position: relative;
+  display: block;
+}
+.type-e-612 .rescure .image .image-boxes {
+  margin-bottom: 30px;
+}
+.type-e-612 .rescure .image .image-boxes a {
+  display: block;
+}
+.type-e-612 .rescure .image .image-boxes img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.type-e-612 .rescure .image .imgboxes_style1 .hoverBorderWrapper {
+  height: 270px;
+}
+.type-e-612 .rescure .image .imgboxes_style1 .hoverBorder {
+  position: relative;
+}
+.type-e-612 .rescure .image .imgboxes_style1  h6 {
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  padding: 11px 15px;
+  background: #CD2122;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+  border-radius: 5px;
+}
+.type-e-612 .rescure .fs-18 {
+  font-size: 20px;
+}
+.type-e-612 .rescure .light-gray {
+  color: #a8a8a8;
+}
+.type-e-612 .rescure a {
+  color: #000;
+}
+.type-e-612 .rescure .kl-iconbox {
+  margin-bottom: 30px;
+}
+.type-e-612 .rescure .kl-iconbox .kl-iconbox__desc {
+  line-height: 24px;
+}
+.type-e-612 .rescure .kl-iconbox--fleft .kl-iconbox__icon-wrapper {
+  float: left;
+  margin-right: 20px;
+}
+.type-e-612 .rescure img.kl-iconbox__icon {
+  max-width: 100px;
+}
+.type-e-612 .rescure .kl-iconbox__icon {
+  transition: color .2s cubic-bezier(0.215,0.610,0.355,1.000);
+}
+.type-e-612 .rescure .kl-iconbox__icon .kl-iconbox__icon-wrapper {
+  margin-bottom: 15px;
+}
+@media (max-width: 786px) {
+  .type-e-612 .rescure {
+    padding-top: 43px;
+    margin-left: auto;
+  }
+}
