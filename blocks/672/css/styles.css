@@ -1,0 +1,359 @@
+@media (min-width: 992px) {
+  .type_a_2_chitiet_2 .col-md-4 {
+    width: 31.333333%;
+  }
+}
+.type_a_2_chitiet_2 div {
+  display: block;
+  font-size: 100%;
+  font: inherit;
+  margin: 5px;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+.type_a_2_chitiet_2 .related_articles {
+  padding: 20px;
+  border: 1px solid #cecece;
+  margin: 35px auto 0 auto;
+  box-shadow: 0 1px 1px #EDEDED;
+}
+.type_a_2_chitiet_2 .related_articles .related_title {
+  font: 700 21px/21px 'Roboto', trebuchet ms;
+  color: #111;
+  margin-top: -20px;
+  text-transform: uppercase;
+  text-align: center;
+  display: table;
+  margin: -30px auto 20px;
+  background: #fff;
+  padding: 0 25px;
+}
+.type_a_2_chitiet_2 .ul {
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  display: block;
+}
+.type_a_2_chitiet_2 .related_articles ul {
+  overflow: hidden;
+  margin: 0;
+}
+.type_a_2_chitiet_2 li {
+  display: list-item;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-align: -webkit-match-parent;
+}
+.type_a_2_chitiet_2 .related_articles ul li {
+  width: 29.83%;
+  float: left;
+  text-align: center;
+  margin: 0 1.75% 15px 1.75%;
+}
+.type_a_2_chitiet_2 a-webkit-any-link {
+  margin: 0;
+  vertical-align: baseline;
+  cursor: auto;
+  outline: none !important;
+  transition: all 0.4s ease 0s;
+}
+.type_a_2_chitiet_2 .related_articles ul li>a {
+  font: bold 16px/18px 'Roboto', trebuchet ms;
+  color: #111;
+  text-decoration: none;
+}
+.type_a_2_chitiet_2 .related_articles .rh_related_link_image {
+  display: table;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #eee;
+  background-color: #fff;
+  height: 176px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.type_a_2_chitiet_2 figure {
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 40px;
+  -webkit-margin-end: 40px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+.type_a_2_chitiet_2 .related_articles ul li figure {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  height: 150px;
+}
+.type_a_2_chitiet_2 .img {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  transition: opacity .5s ease-in;
+  max-width: 100%;
+}
+.type_a_2_chitiet_2 .related_articles ul li img {
+  height: auto;
+  max-width: 100%;
+}
+.type_a_2_chitiet_2 #comments {
+  position: relative;
+  margin-top: 30px;
+  clear: both;
+}
+.type_a_2_chitiet_2 #comments .title_comments {
+  font: 700 18px/20px Arial;
+  color: #111;
+  padding-bottom: 25px;
+}
+.type_a_2_chitiet_2 ol {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.type_a_2_chitiet_2 .commentlist {
+  margin: 0 0 30px 0;
+  list-style: none;
+  clear: both;
+}
+.type_a_2_chitiet_2 .commentlist li {
+  margin: 0 0 25px 0;
+}
+.type_a_2_chitiet_2 .commbox {
+  background: none repeat scroll 0 0 #FFF;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 1px #ededed;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+}
+.type_a_2_chitiet_2 .commentlist .comment-author {
+  position: relative;
+  padding: 15px 20px;
+  border-bottom: 1px solid #EDEDED;
+}
+.type_a_2_chitiet_2 .comment-reply-link {
+  font-size: 12px;
+  float: right;
+  color: #ccc;
+}
+.type_a_2_chitiet_2 .commentlist .comment-author img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 20px;
+}
+.type_a_2_chitiet_2 .comm_meta_wrap {
+  margin: 0 0 0 70px;
+}
+.type_a_2_chitiet_2 comment-respond {
+  padding: 20px 24px;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border: 1px solid #ededed;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 1px #EDEDED;
+}
+.type_a_2_chitiet_2 h3 {
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none !important;
+}
+.type_a_2_chitiet_2 .comment-respond h3 {
+  font: 700 19px/21px 'Roboto', trebuchet ms;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  display: table;
+  margin: -30px auto 20px;
+  background: #fff;
+  padding: 0 25px;
+}
+.type_a_2_chitiet_2 form {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.type_a_2_chitiet_2 .comment-respond .usr_re {
+  display: block;
+  vertical-align: middle;
+  position: relative;
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+}
+.type_a_2_chitiet_2 .comment-respond .site_re {
+  display: block;
+  vertical-align: middle;
+  position: relative;
+  float: left;
+  width: 32%;
+}
+.type_a_2_chitiet_2 .comment-respond .end {
+  margin-right: 0px !important;
+}
+.type_a_2_chitiet_2 p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+.type_a_2_chitiet_2 .comment-respond p.form-submit {
+  clear: both;
+  margin-top: 15px;
+}
+.type_a_2_chitiet_2 .textarea {
+  -webkit-writing-mode: horizontal-tb;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em 0em 0em 0em;
+  -webkit-rtl-ordering: logical;
+  -webkit-user-select: text;
+  flex-direction: column;
+  cursor: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  -webkit-appearance: none;
+  outline: 0;
+}
+.type_a_2_chitiet_2 textarea {
+  width: 100%;
+}
+.type_a_2_chitiet_2 .comment-respond textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: #f2f2f2;
+  font: 400 15px 'helvetica', trebuchet ms;
+  border-radius: 0px;
+  height: 150px;
+  resize: none;
+  margin-bottom: 20px;
+  border: 1px solid #cbd0d2;
+  padding: 10px;
+  clear: both;
+}
+.type_a_2_chitiet_2 .rh-user-rank-mc {
+  font: normal 12px/12px Arial;
+  background-color: #66B22C;
+  color: #fff;
+  display: inline-block;
+  border-radius: 3px;
+  vertical-align: top;
+  padding: 3px 5px;
+  margin: 0 4px;
+}
+.type_a_2_chitiet_2 .commentlist .rh-user-rank-mc {
+  font-size: 11px;
+  padding: 2px 5px;
+}
+.type_a_2_chitiet_2 .commentlist .rh_mycred-users-badges img {
+  width: 18px;
+  height: 18px;
+  margin: 0 5px 0 0;
+  border-radius: 0;
+}
+.type_a_2_chitiet_2 .commentlist .comment-author img {
+  float: left;
+}
+.type_a_2_chitiet_2 .clearfix:before,
+.type_a_2_chitiet_2 .clearfix:after {
+  content: "";
+  display: table;
+}
+.type_a_2_chitiet_2 .commentlist {
+  list-style: none;
+}
+.type_a_2_chitiet_2 .commentlist .comment-author .fn {
+  font: 700 15px/15px 'Roboto', trebuchet ms;
+  text-transform: uppercase;
+  display: block;
+}
+.type_a_2_chitiet_2 a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.type_a_2_chitiet_2 .commentlist .comment-author span.time {
+  font: normal 12px Arial;
+  display: block;
+  color: #999;
+  text-decoration: none;
+  margin: 6px 0 0 0;
+}
+.type_a_2_chitiet_2 .commentlist .comment-content p {
+  font: normal 14px/22px Arial;
+  color: #111;
+  margin: 0 0 8px 0;
+}
+.type_a_2_chitiet_2 .small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.type_a_2_chitiet_2 #cancel-comment-reply-link {
+  border-bottom: 1px dotted #111;
+  color: #111;
+  font-size: 12px;
+}
+.type_a_2_chitiet_2 .comment-respond textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: #f2f2f2;
+  font: 400 15px 'helvetica', trebuchet ms;
+  border-radius: 0px;
+  height: 150px;
+  resize: none;
+  margin-bottom: 20px;
+  border: 1px solid #cbd0d2;
+  padding: 10px;
+  clear: both;
+}

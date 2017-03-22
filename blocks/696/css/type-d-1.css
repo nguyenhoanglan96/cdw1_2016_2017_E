@@ -1,0 +1,159 @@
+.mod_footer .container-bacrow {
+  background: #3B3B3B;
+  color: #999;
+  padding: 50px 0;
+  padding-bottom: 30;
+}
+.mod_footer h5 {
+  color: #DBDBDB;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #6B6B6B;
+  padding: 0 25px 10px 0;
+  margin-bottom: -1px;
+  display: inline-block;
+}
+.mod_footer .title {
+  border-bottom: 1px solid #464646;
+  margin-bottom: 20px;
+}
+.mod_footer .content {
+  padding-top: 6px;
+  width: 220px;
+  color: #999;
+  font: 12px/18px Arial, sans-serif;
+}
+.mod_footer .caption a {
+  text-decoration: none;
+  color: #999;
+  padding: 5px;
+  font: 12px/18px Arial, sans-serif;
+}
+.mod_footer .caption a:hover {
+  color: #FFF;
+}
+.mod_footer .entries {
+  border-top: 1px solid #464646;
+  padding: 6px 0;
+  padding-left: 1px;
+  font-size: 13px;
+}
+.mod_footer .comments {
+  border-top: 1px solid #464646;
+  padding: 6px 0;
+  padding-left: 1px;
+  font-size: 13px;
+}
+.mod_footer .wordpress {
+  border-top: 1px solid #464646;
+  padding: 6px 0;
+  padding-left: 1px;
+  font-size: 13px;
+}
+.mod_footer .login {
+  padding: 6px 0;
+  padding-left: 1px;
+  font-size: 13px;
+}
+.mod_footer .icon:hover {
+  color: #FFF;
+}
+.mod_footer .images-list {
+  margin-top: 22px;
+  margin-left: -5px;
+}
+.mod_footer .images-list img {
+  width: 50px;
+  opacity: .7;
+}
+.mod_footer .images-list img:hover {
+  opacity: 1;
+}
+.mod_footer .images {
+  padding-top: 5px;
+}
+.mod_footer .contact {
+  color: #999;
+}
+.mod_footer h1 {
+  font-size: 13px;
+}
+.mod_footer .address {
+  height: 48px;
+  border-bottom: 1px solid #464646;
+}
+.mod_footer .phone {
+  border-bottom: 1px solid #464646;
+}
+.mod_footer .email {
+  border-bottom: 1px solid #464646;
+}
+.mod_footer .caption {
+  display: inline-block;
+  color: #6B6B6B;
+  width: 100%;
+}
+.mod_footer .icon {
+  font-size: 16px;
+}
+.mod_footer h2 {
+  font-size: 11px;
+}
+.mod_footer .footer2 {
+  padding: 16px 0 14px;
+  background: #333;
+}
+.mod_footer .homeicon {
+  line-height: 17px;
+}
+.mod_footer .address {
+  padding: 0px 0 10px 0px;
+}
+.mod_footer .phone {
+  padding: 10px 0 10px 0px;
+}
+.mod_footer .email {
+  padding: 10px 0 10px 0px;
+}
+.mod_footer .flag {
+  padding: 10px 0 10px 0px;
+}
+.mod_footer .container-bottom {
+  padding: 16px 0 14px;
+  background: #333;
+}
+.mod_footer .menu-footer {
+  float: left;
+  padding-right: 35px;
+}
+.mod_footer .menu-footer a {
+  color: #777;
+  font-size: 11px;
+}
+.mod_footer .menu-footer a:hover {
+  text-decoration: none;
+  color: #999;
+}
+.mod_footer .note {
+  border-left: 1px solid #777;
+  padding-left: 10px;
+}
+.mod_footer .rbSocial.icons li {
+  margin-left: 12px;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  height: 18px;
+  display: inline;
+}
+.mod_footer .rbSocial.icons a {
+  font-size: 16px;
+  color: #777;
+  position: relative;
+  width: 100%;
+  height: 18px;
+}
+.mod_footer #text-3 {
+  float: right;
+}

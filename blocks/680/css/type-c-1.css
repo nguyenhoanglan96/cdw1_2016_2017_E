@@ -1,0 +1,25 @@
+.type-c-1 .form-login {
+  padding: 1em;
+  width: 50%;
+}
+.type-c-1 .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.type-c-1 .imlogo {
+  margin-left: AUTO;
+  MARGIN-RIGHT: AUTO;
+  DISPLAY: block;
+}
+.type-c-1 #free {
+  margin-top: 32px;
+  font-size: 16px;
+}
+.type-c-1 #freelog {
+  margin-top: 48px;
+  font-size: 16px;
+  text-align: center;
+}
+.type-c-1 a {
+  color: #758991;
+}

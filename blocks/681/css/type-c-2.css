@@ -1,0 +1,95 @@
+.type-c-2 {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+.type-c-2 .mega-dropdown {
+  position: static !important;
+}
+.type-c-2 .mega-dropdown-menu {
+  padding: 20px 0px;
+  width: 98%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.type-c-2 .mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.type-c-2 .mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.type-c-2 .mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.type-c-2 .mega-dropdown-menu > li ul > li > a:hover,
+.type-c-2 .mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.type-c-2 .mega-dropdown-menu .dropdown-header {
+  font-size: 20px;
+  color: #000000;
+}
+.type-c-2 .tagcloud01 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.type-c-2 .tagcloud01 ul li {
+  display: inline-block;
+  margin: 0 .3em .3em 0;
+  padding: 0;
+}
+.type-c-2 .tagcloud01 ul li a {
+  display: inline-block;
+  max-width: 100px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 1em;
+  background-color: #ffffff;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #333;
+  font-size: 13px;
+  text-decoration: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+.type-c-2 .tagcloud01 ul li a:hover {
+  background-color: #3498db;
+  border: 1px solid #3498db;
+  color: #fff;
+}
+.type-c-2 .navbar-inverse {
+  background-color: #FFF;
+  border-color: #FFF;
+  margin-bottom: 0px;
+}
+.type-c-2 .navbar-inverse .navbar-nav > .open > a:hover {
+  color: #9e0a0a;
+  background-color: #FFF;
+}
+.type-c-2 .navbar-inverse .navbar-nav > li > a {
+  color: #000;
+  font-family: 'Lato';
+  font-size: 16px;
+}
+.type-c-2 .navbar-inverse .navbar-toggle {
+  border-color: #758991;
+  background-color: #758991;
+}
+.type-c-2 .nav > li > a {
+  padding-left: 38px;
+}
+.type-c-2 .navbar-inverse .navbar-nav > .open > a {
+  color: #9e0a0a;
+  background-color: #FFF;
+}
+.type-c-2 .js-navbar-collapse {
+  margin: 0;
+}

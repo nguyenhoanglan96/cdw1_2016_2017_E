@@ -1,0 +1,374 @@
+.type-c-10 * {
+  box-sizing: border-box;
+}
+.type-c-10 h2 {
+  font-family: 'Source Sans Pro';
+  font-size: 24px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+  display: block;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+.type-c-10 .panel {
+  margin: 0 0 2em;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #fff;
+  display: block;
+}
+.type-c-10 ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  margin-top: 20px;
+}
+.type-c-10 p {
+  margin: 0 0 10px;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+.type-c-10 table {
+  border: 0;
+  border-top: 1px dotted rgba(0,0,0,0.1);
+  margin-bottom: 1.618em;
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+}
+.type-c-10 .shop_attributes {
+  border: 0;
+  border-top: 1px dotted rgba(0,0,0,0.1);
+  margin-bottom: 1.618em;
+  width: 100%;
+}
+.type-c-10 tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.type-c-10 tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.type-c-10 th {
+  display: table-cell;
+  vertical-align: inherit;
+  text-align: left;
+}
+.type-c-10 table {
+  line-height: 1.5;
+  border-bottom: 1px dotted rgba(0,0,0,0.1);
+  border-top: 0;
+  margin: 0;
+  width: 150px;
+  padding: 8px;
+  font-style: italic;
+  padding: 0;
+  width: auto;
+}
+.type-c-10 .shop_attributes th {
+  line-height: 1.5;
+  border-bottom: 1px dotted rgba(0,0,0,0.1);
+  border-top: 0;
+  margin: 0;
+  width: 150px;
+  font-weight: 700;
+  padding: 8px;
+}
+.type-c-10 .shop_attributes th {
+  width: auto;
+}
+.type-c-10 td {
+  font-style: italic;
+  padding: 0;
+  line-height: 1.5;
+  border-bottom: 1px dotted rgba(0,0,0,0.1);
+  border-top: 0;
+  margin: 0;
+}
+.type-c-10 td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+.type-c-10 p {
+  margin: 0;
+}
+.type-c-10 .alt {
+  background: rgba(189,189,189,0.12);
+}
+.type-c-10 #comments {
+  margin-top: 25px;
+}
+.type-c-10 #comments h2 {
+  clear: none;
+}
+.type-c-10 #respond {
+  position: static;
+  margin: 0;
+  width: auto;
+  padding: 0;
+  background: 0 0;
+  border: 0;
+}
+.type-c-10 .comment-respond h3 {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.type-c-10 #respond h3 {
+  margin-top: 0;
+  font-size: 22px;
+}
+.type-c-10 h3 {
+  font-family: 'Source Sans Pro';
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: 500;
+  line-height: 1.1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.type-c-10 form {
+  display: block;
+  margin-top: 0em;
+}
+.type-c-10 #review_form #respond p {
+  margin: 0 0 10px;
+}
+.type-c-10 .comment-form-rating {
+  float: right;
+  width: 440px;
+  max-width: 100%;
+}
+.type-c-10 #commentform label {
+  font-size: 14px;
+  font-weight: 400;
+}
+.type-c-10 .comment-form-rating label {
+  float: left;
+  margin-right: 14px;
+}
+.type-c-10 label {
+  display: inline-block;
+  margin-bottom: 5px;
+  cursor: default;
+}
+.type-c-10 a:hover {
+  outline: 0;
+}
+.type-c-10 #respond #commentform .comment-form-comment textarea {
+  width: 100%;
+}
+.type-c-10 #respond #commentform textarea {
+  height: 170px;
+  padding: 6px;
+}
+.type-c-10 #commentform .comment-form-comment textarea {
+  border: 1px solid #eeeeee;
+}
+.type-c-10 textarea {
+  background-image: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  overflow: auto;
+  vertical-align: top;
+  margin: 0;
+  -webkit-appearance: textarea;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  -webkit-user-select: text;
+  flex-direction: column;
+  resize: auto;
+  cursor: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-writing-mode: horizontal-tb;
+}
+.type-c-10 #respond #commentform input {
+  width: 100%;
+  padding: 6px;
+}
+.type-c-10 #commentform input {
+  border: 1px solid #eeeeee;
+}
+.type-c-10 input {
+  background-image: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  -webkit-user-select: text;
+  cursor: auto;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  font: 13.3333px Arial;
+  -webkit-writing-mode: horizontal-tb;
+}
+.type-c-10 #review_form #respond .comment-form-email .comment-form-author {
+  margin-bottom: 25px;
+}
+.type-c-10 #respond #commentform .form-submit {
+  font-weight: 400;
+}
+.type-c-10 .form-submit {
+  width: 33%;
+  position: relative;
+  float: right;
+}
+.type-c-10 #submit {
+  background: #758991;
+  color: #ffffff;
+  text-shadow: none;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  padding: 6px 12px;
+  line-height: 20px;
+  -webkit-appearance: none;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  font-size: 100%;
+  margin: 0;
+  position: relative;
+  text-decoration: none;
+  overflow: visible;
+  white-space: nowrap;
+  display: inline-block;
+}
+.type-c-10 selectricWrapper {
+  float: right;
+  display: none;
+}
+.type-c-10 select {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: none;
+  border-radius: 0px;
+  border-color: #a9a9a9;
+  overflow: visible !important;
+  -webkit-appearance: menulist;
+  box-sizing: border-box;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+  color: black;
+  background-color: white;
+  cursor: default;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  font: 13.3333px Arial;
+  -webkit-writing-mode: horizontal-tb;
+}
+.type-c-10 option {
+  font-weight: normal;
+  display: block;
+  white-space: pre;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+.type-c-10 selectricWrapper {
+  background: #eeeeee !important;
+  border: 1px solid #525252;
+}
+.type-c-10 selectricItems {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  top: 100%;
+  left: 0;
+  background: #f9f9f9;
+  border: 1px solid #CCC;
+  z-index: 9998;
+  box-shadow: 0 0 10px -6px;
+}
+.type-c-10 selectricInput {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0,0,0,0) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  outline: none !important;
+  border: none !important;
+  background: none !important;
+}
+.type-c-10 selectricItems li {
+  background: #efefef;
+  color: #444;
+  border-top-color: #e0e0e0;
+}
+.type-c-10 selectricItems li {
+  display: block;
+  padding: 5px;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #EEE;
+  cursor: pointer;
+  list-style: none;
+  margin: 0;
+  font-size: 12px;
+  line-height: 20px;
+  min-height: 20px;
+}
+.type-c-10 li {
+  text-align: -webkit-match-parent;
+}
+.type-c-10 selectricItems ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  line-height: 20px;
+  min-height: 20px;
+}

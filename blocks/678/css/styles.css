@@ -1,0 +1,72 @@
+.type_a_silde {
+  margin: 0px 55px;
+}
+.type_a_silde .container {
+  width: 100%;
+}
+.type_a_silde .r-part-car {
+  padding: 10px;
+}
+.type_a_silde .image-slider {
+  border: 1px solid #DDD;
+}
+.type_a_silde .glyphicon-chevron-left {
+  margin-left: -55%;
+  color: #000;
+}
+.type_a_silde .glyphicon-chevron-right {
+  margin-right: -70%;
+  color: #000;
+}
+.type_a_silde .carousel-inner .active.left {
+  left: -33%;
+}
+.type_a_silde .carousel-inner .next {
+  left: 33%;
+}
+.type_a_silde .carousel-inner .prev {
+  left: -33%;
+}
+.type_a_silde .carousel-control.left,
+.type_a_silde .carousel-control.right {
+  background-image: none;
+}
+.type_a_silde .item:not(.prev) {
+  visibility: visible;
+}
+.type_a_silde .item.right:not(.prev) {
+  visibility: hidden;
+}
+.type_a_silde .rightest {
+  visibility: visible;
+}
+.type_a_silde .caption-slider i,
+.type_a_silde #temperatur132 {
+  color: red;
+  font-size: 18px;
+}
+.type_a_silde .caption-slider a:hover {
+  text-decoration: none;
+}
+.type_a_silde .caption-slider h2 {
+  color: black;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+.type_a_silde .cat_link_meta a {
+  color: black;
+  font-size: 10px;
+  font-style: italic;
+}
+.type_a_silde .caption-slider h2 a {
+  color: black;
+}
+.type_a_silde .simple_price_count {
+  font-size: 12px;
+  color: green;
+}
+.type_a_silde .simple_price_count del {
+  font-size: 12px;
+  color: #DDD;
+}
