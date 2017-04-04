@@ -1,0 +1,51 @@
+.tem-677 .mod {
+  width: auto;
+}
+.tem-677 .mod .navbar-default {
+  background: none repeat scroll 0 0 #2961ae !important;
+}
+.tem-677 .mod .navbar-default .navbar-nav > li {
+  border-right: 1px solid #4979BA;
+}
+.tem-677 .mod .navbar-nav > li > .dropdown-menu {
+  padding: 0;
+  margin: 0;
+  border-bottom: 2px solid #fa9e19;
+}
+.tem-677 .mod .dropdown-menu > li > a {
+  text-transform: none;
+  font-size: 15px;
+  line-height: 16px;
+  color: #111 !important;
+  font-weight: 400;
+}
+.tem-677 .mod .dropdown-menu > li {
+  padding: 10px;
+  border-bottom: 1px solid #DDD;
+}
+.tem-677 .mod .navbar-default .navbar-nav > li > a {
+  color: white;
+  font-weight: bold;
+  font: 700 15px/19px 'Roboto', trebuchet ms;
+  text-transform: uppercase;
+}
+.tem-677 .mod .navbar-default .navbar-nav > li > a:hover {
+  border-top: 4px solid #fa9e19;
+  box-sizing: border-box;
+  color: #555;
+  background-color: transparent;
+  color: white;
+  padding-top: 11px;
+}
+.tem-677 .mod .navbar-header {
+  margin-left: 50px;
+}
+.tem-677 .mod .navbar-right {
+  margin-right: 70px;
+}
+.tem-677 .mod .dropdown-menu > li:hover {
+  background: #DDD;
+}
+.tem-677 .mod .dropdown-menu > li>a:hover {
+  background: #DDD;
+}

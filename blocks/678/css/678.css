@@ -1,0 +1,64 @@
+.tem-678 .mod {
+  width: auto;
+  margin: 0px 55px;
+}
+.tem-678 .mod .container {
+  width: 100%;
+}
+.tem-678 .mod .r-part-car {
+  padding: 10px;
+}
+.tem-678 .mod .image-slider {
+  border: 1px solid #DDD;
+}
+.tem-678 .mod .glyphicon-chevron-left {
+  margin-left: -55%;
+  color: #000;
+}
+.tem-678 .mod .glyphicon-chevron-right {
+  margin-right: -70%;
+  color: #000;
+}
+.tem-678 .mod .carousel-inner .active.left {
+  left: -33%;
+}
+.tem-678 .mod .carousel-control.left,
+.tem-678 .mod .carousel-control.right {
+  background-image: none;
+}
+.tem-678 .mod .item:not() {
+  visibility: visible;
+}
+.tem-678 .mod .item.right:not() {
+  visibility: hidden;
+}
+.tem-678 .mod .caption-slider i,
+.tem-678 .mod #temperatur132 {
+  color: red;
+  font-size: 18px;
+}
+.tem-678 .mod .caption-slider a:hover {
+  text-decoration: none;
+}
+.tem-678 .mod .caption-slider h2 {
+  color: black;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+.tem-678 .mod .caption-slider h2 a {
+  color: black;
+}
+.tem-678 .mod .cat_link_meta a {
+  color: black;
+  font-size: 10px;
+  font-style: italic;
+}
+.tem-678 .mod .simple_price_count {
+  font-size: 12px;
+  color: green;
+}
+.tem-678 .mod .simple_price_count del {
+  font-size: 12px;
+  color: #DDD;
+}
