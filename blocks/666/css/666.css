@@ -1,0 +1,64 @@
+.type-666 .footer-wrapper-container .footer-top-container {
+  background-color: #ffffff;
+}
+.type-666 .footer-wrapper-container .footer-top-container .footer {
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+}
+.type-666 .footer-wrapper-container .footer-top-container .footer .item-right {
+  float: right;
+  margin-left: 20px;
+}
+.type-666 .footer-wrapper-container .footer-top-container .footer .item-left {
+  float: left;
+  margin-right: 20px;
+}
+.type-666 .footer-wrapper-container .footer-top-container .footer .item a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #de2666;
+}
+.type-666 .footer-wrapper-container .footer-top-container .footer .inner-container {
+  padding-left: 12px;
+  padding-right: 12px;
+  clear: both;
+}
+.type-666 .footer-wrapper-container .footer-top-container .footer .inner-container:before,
+.type-666 .footer-wrapper-container .footer-top-container .footer .inner-container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.type-666 .footer-wrapper-container .footer-top-container .footer .clearer:after {
+  display: block;
+  content: ".";
+  clear: both;
+  font-size: 0;
+  line-height: 0;
+  height: 0;
+  overflow: hidden;
+}
+.type-666 .footer-wrapper-container .footer-top-container .footer .section {
+  padding: 10px 0;
+}
+.type-666 .footer-wrapper-container .footer-top-container .footer ul {
+  list-style: none;
+}
+.type-666 .footer-wrapper-container .footer-top-container .footer .links-wrapper-separators .links li {
+  margin-left: -1px;
+}
+.type-666 .footer-wrapper-container .footer-top-container .footer .links-wrapper-separators .links li a {
+  background-image: url(../images/link-separator.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+.type-666 .footer-wrapper-container .footer-top-container .footer .links li {
+  float: left;
+  line-height: 36px;
+}
+.type-666 .footer-wrapper-container .footer-top-container .footer .links li a {
+  color: black;
+  display: block;
+  padding: 0 0.5833em;
+}

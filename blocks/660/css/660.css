@@ -1,0 +1,172 @@
+.type-660 .sticker-wrapper.top-left {
+  top: 1px;
+  left: -3px;
+}
+.type-660 .sticker-wrapper {
+  position: absolute;
+  transition: all 150ms ease-in-out;
+  -moz-transition: all 150ms ease-in-out;
+  -webkit-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
+}
+.type-660 .sticker.new {
+  background-color: #3ec2df;
+  color: #ffffff;
+}
+.type-660 .sticker {
+  width: 53px;
+  height: 53px;
+  border-radius: 52%;
+  font-size: 12px;
+  line-height: 1em;
+  font-weight: bold;
+  text-align: center;
+  display: table-cell !important;
+  vertical-align: middle !important;
+  transition: all 150ms ease-in-out;
+  -moz-transition: all 150ms ease-in-out;
+  -webkit-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
+}
+.type-660 .sticker-wrapper.top-right {
+  top: -3px;
+  right: -3px;
+}
+.type-660 .sticker.sale {
+  background-color: #f12b63;
+  color: #ffffff;
+}
+.type-660 .thumbnail .alt-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.type-660 .section-title.padding-right {
+  padding-right: 80px !important;
+}
+.type-660 .section-title,
+.type-660 .product-name {
+  font-family: "Bitter", georgia, serif;
+}
+.type-660 .rating-box .ratings {
+  display: inline-block;
+  float: left;
+  height: 13px;
+  background: url(../images/rating.png) 0 100% repeat-x;
+}
+.type-660 .ratings .amount {
+  white-space: nowrap;
+  font-size: 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  color: #aaa;
+}
+.type-660 .ratings {
+  margin: 10px 0;
+  line-height: 1.0833em;
+}
+.type-660 .product-name a:hover {
+  color: #00a9c7;
+  text-decoration: none;
+}
+.type-660 .thumbnails li> .fff .caption {
+  background: #fff !important;
+  padding: 10px;
+}
+.type-660 ul.thumbnails {
+  margin-bottom: 0px;
+}
+.type-660 .caption {
+  float: center;
+}
+.type-660 .caption h4 {
+  color: #444;
+  text-align: center;
+}
+.type-660 .caption p {
+  color: #999;
+  text-align: center;
+}
+.type-660 .control-box {
+  text-align: right;
+  width: 100%;
+}
+.type-660 .glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (max-width: 767px) {
+  .type-660 .control-box {
+    text-align: center;
+  }
+}
+@media (max-width: 479px) {
+  .type-660 .caption {
+    word-break: break-all;
+  }
+}
+.type-660 li {
+  list-style-type: none;
+}
+.type-660 .product-name {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: normal;
+  text-align: center;
+  font-weight: bold;
+}
+.type-660 .product-name a {
+  color: inherit;
+}
+.type-660 .pager {
+  margin: -52px 0;
+  padding-top: 11px;
+}
+.type-660 .ratings {
+  margin: 10px 0;
+  line-height: 1.0833em;
+  text-align: center;
+}
+.type-660 .rating-box {
+  margin-left: 0;
+  margin-right: 0;
+}
+.type-660 .ratings .rating-box,
+.type-660 .ratings .amount {
+  display: inline-block;
+  vertical-align: middle;
+}
+.type-660 .amount {
+  font-size: 1em;
+}
+.type-660 .rating-box {
+  width: 69px;
+  height: 13px;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -999em;
+  overflow: hidden;
+}
+.type-660 rating-box .rating {
+  float: left;
+  height: 13px;
+}
+.type-660 .price-box {
+  margin: 10px 0 10px;
+  font-size: 1em;
+}
+.type-660 .price-box .price {
+  color: #00a9c7;
+}
+.type-660 .price {
+  white-space: nowrap !important;
+}

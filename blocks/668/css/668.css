@@ -1,62 +1,58 @@
-body {
-  background-color: #f5f5f5;
-  color: #333;
-}
-.type-g-13 .container {
+.type-668 .container {
   margin-left: auto;
   margin-right: auto;
 }
-.type-g-13 * {
+.type-668 * {
   margin: 0;
   padding: 0;
 }
-.type-g-13 .clear {
+.type-668 .clear {
   clear: both;
 }
-.type-g-13 .row {
+.type-668 .row {
   width: 100%;
   float: left;
 }
-.type-g-13 .grid12-12,
-.type-g-13 .grid12-9,
-.type-g-13 .grid12-3 {
+.type-668 .grid12-12,
+.type-668 .grid12-9,
+.type-668 .grid12-3 {
   display: inline;
   float: left;
   margin-left: 1%;
   margin-right: 1%;
 }
-.type-g-13 h6 {
+.type-668 h6 {
   margin: 0 0 10px;
 }
-.type-g-13 .footer {
+.type-668 .footer {
   margin: 0 auto;
   padding: 0;
   text-align: left;
 }
-.type-g-13 .inner-container {
+.type-668 .inner-container {
   padding-left: 12px;
   padding-right: 12px;
   clear: both;
 }
-.type-g-13 .inner-container:before,
-.type-g-13 .inner-container:after {
+.type-668 .inner-container:before,
+.type-668 .inner-container:after {
   display: table;
   line-height: 0;
   content: "";
 }
-.type-g-13 .grid12-12 {
+.type-668 .grid12-12 {
   width: 98%;
 }
-.type-g-13 .no-gutter.grid12-9 {
+.type-668 .no-gutter.grid12-9 {
   margin-left: 0;
   margin-right: 0;
   width: 75%;
 }
-.type-g-13 .grid12-3 {
+.type-668 .grid12-3 {
   width: 23%;
 }
-.type-g-13 .collapsible .block-title,
-.type-g-13 .mobile-collapsible .block-title {
+.type-668 .collapsible .block-title,
+.type-668 .mobile-collapsible .block-title {
   padding-top: 8px;
   padding-bottom: 8px;
   border-color: rgba(0,0,0,0.05);
@@ -65,55 +61,55 @@ body {
   line-height: 1.25em;
   font-weight: normal;
 }
-.type-g-13 .collapsible .block-title {
+.type-668 .collapsible .block-title {
   cursor: pointer;
 }
-.type-g-13 .collapsible .block-content {
+.type-668 .collapsible .block-content {
   margin-top: 0;
 }
-.type-g-13 ul.bullet {
+.type-668 ul.bullet {
   list-style: none outside none;
 }
-.type-g-13 ul.bullet {
+.type-668 ul.bullet {
   margin: 0 0 1em;
   padding: 0;
 }
-.type-g-13 ul.bullet li {
+.type-668 ul.bullet li {
   background: url(../images/img/bullet.png) 0 0 no-repeat;
   padding-left: 25px;
 }
-.type-g-13 a {
+.type-668 a {
   text-decoration: none;
   color: #333;
 }
-.type-g-13 a:hover {
+.type-668 a:hover {
   color: blue;
 }
-.type-g-13 .no-right-gutter.grid12-3 {
+.type-668 .no-right-gutter.grid12-3 {
   margin-right: 0;
   width: 24%;
 }
-.type-g-13 .feature.indent {
+.type-668 .feature.indent {
   padding-left: 51px;
 }
-.type-g-13 .feature.first {
+.type-668 .feature.first {
   margin-top: 0;
 }
-.type-g-13 .feature {
+.type-668 .feature {
   margin: 10px 0;
 }
-.type-g-13 .feature.indent {
+.type-668 .feature.indent {
   margin-left: -51px;
 }
-.type-g-13 .feature.indent > .ic {
+.type-668 .feature.indent > .ic {
   float: left;
   margin: 0 15px 0 0;
 }
-.type-g-13 .footer .ib {
+.type-668 .footer .ib {
   background-color: lightskyblue;
   color: #ffffff;
 }
-.type-g-13 .ib {
+.type-668 .ib {
   line-height: 36px;
   width: 36px;
   height: 36px;
@@ -121,10 +117,10 @@ body {
   text-align: center;
   border-radius: 50%;
 }
-.type-g-13 .ic-lg {
+.type-668 .ic-lg {
   font-size: 1.33333333em;
 }
-.type-g-13 .ic {
+.type-668 .ic {
   display: inline-block;
   font-family: ThemeIcons;
   font-style: normal;

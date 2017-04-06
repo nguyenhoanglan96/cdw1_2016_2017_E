@@ -29,7 +29,7 @@
                 <div class="grid-container page-banners">
                     <div class="grid12-4 no-left-gutter banner">
 
-                        <img src="{!! url('public/nhomg/images/img/2a.png') !!}" alt="Sample banner">
+                        <img src="images/img/2a.png" alt="Sample banner">
                         <br><br>
 
                     </div>
@@ -58,7 +58,7 @@
                             <div class="grid12-12 no-gutter banner fade-on-hover" style="opacity: 1;">
                                 <div class="hovereffect">
                                     <a href="#">
-                                        <img src="{!! url('public/nhomg/images/img/3a.jpg') !!}" alt="Sample banner">
+                                        <img src="images/img/3a.jpg" alt="Sample banner">
                                     </a>
                                     <div class="overlay">
                                     </div>
@@ -67,7 +67,7 @@
                             <div class="grid12-6 no-left-gutter banner fade-on-hover" style="opacity: 1;">
                                 <div class="hovereffect">
                                     <a href="#">
-                                        <img src="{!! url('public/nhomg/images/img/3b (1).jpg') !!}" alt="Sample banner">
+                                        <img src="images/img/3b (1).jpg" alt="Sample banner">
                                     </a>
                                     <div class="overlay">
                                     </div>
@@ -76,7 +76,7 @@
                             <div class="grid12-6 no-right-gutter banner fade-on-hover" style="opacity: 1;">
                                 <div class="hovereffect">
                                     <a href="#">
-                                        <img src="{!! url('public/nhomg/images/img/3c.jpg') !!}" alt="Sample banner">
+                                        <img src="images/img/3c.jpg" alt="Sample banner">
                                     </a>
                                     <div class="overlay">
                                     </div>
