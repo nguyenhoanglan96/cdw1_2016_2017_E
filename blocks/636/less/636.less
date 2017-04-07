@@ -87,12 +87,14 @@
             span, a {
                 padding-right: 4px;
                 padding-left: 4px;
-                font-size: 14px;
                 color: #61656f;
                 font-weight: bold;
                 text-transform: uppercase;
                 text-decoration: none;
             }
+        }
+        .comment-respond .form-submit #submit:hover {
+            background: #002D92;
         }
         .cta {
             margin-bottom: 15px;
@@ -110,10 +112,8 @@
                 font-family: "Georgia";
             }
         }
-        .img{
-            width: 15%;
-        }
         .author-box {
+            min-height: 175px;
             background: #f4f5f8;
             padding: 30px;
             margin-bottom: 60px;
@@ -172,7 +172,6 @@
             .author-box {
                 text-align: center;
                 img {
-                    float: none;
                     display: inline-block;
                     margin: 0 0 25px;
                 }
@@ -229,12 +228,12 @@
                 line-height: 50px;
                 text-decoration: none;
                 display: inline-block;
-                margin: 0 15px;
+                margin:5px;
                 border-radius: 4px;
                 i {
-                padding-right: 15px;
-                font-size: 18px;
-            }
+                    padding-right: 15px;
+                    font-size: 18px;
+                }
             }
             a.fb-share:hover{
                 background: #093eb6;
@@ -295,17 +294,19 @@
             }
             .form-submit #submit {
                 padding: 0;
-                line-height: 60px;
+                line-height: 50px;
                 border-radius: 0;
                 border: none;
                 font-size: 19px;
                 font-weight: bold;
+                font-family: "Roboto Condensed", sans-serif;
                 color: #fff;
                 background: #093eb6;
                 transition: 0.5s ease all;
             }
         }
         .sidebar {
+            font-family: "Roboto";
             padding: 80px 15px;
         }
         .form-control {
@@ -333,6 +334,12 @@
             font: normal normal normal 14px/1 FontAwesome;
             font-size: inherit;
             text-rendering: auto;
+        }
+        .fa-search{
+            color: #677078;
+        }
+        .fa-search:hover{
+            color: #333;    
         }
         .btn {
             margin-bottom: 0;
@@ -471,56 +478,98 @@
     }
     @media (max-width: 1439px) and (min-width: 1263px)
         {
-        .warpper-text{
-            width: 1005;
-        }
+
     }
 
     @media (max-width: 1135px) and (min-width: 1024px)
-        {
+        { 
 
     }
 
     @media (max-width: 1262px) and (min-width: 1136px)
         {
-        .content_wrap {
-            width: 910px;
-        }
+
     }
 
     @media (max-width: 1023px) and (min-width: 960px)
         {
-        .content_wrap {
-            width: 900px;
-        }
+        
     }
 
-    @media (max-width: 959px) and (min-width: 768px)
+    @media (max-width: 990px) and (min-width: 768px)
         {
-        .content_wrap {
-            width: 708px;
+        .warpper-text{
+            .sidebar {
+                padding: 160px;
+                margin-top: -140px;
+            }
+            .fa-search{ 
+                padding-top: 95px;
+                margin-right: 140px;
+            }
         }
     }
 
     @media (max-width: 767px) and (min-width: 640px)
         {
-        .content_wrap {
-            width: 600px;
+        .warpper-text{
+            .sidebar {
+                padding: 140px;
+                margin-top: -130px;
+            }
+            .fa-search{ 
+                padding-top: 77px;
+                margin-right: 126px;
+            }
         }
     }
 
 
     @media (max-width: 639px) and (min-width: 480px)
         {
-        .content_wrap {
-            width: 440px;
+        .warpper-text{
+            .sidebar {
+                padding: 100px;
+                margin-top: -100px;
+            }
+            .fa-search{ 
+                padding-top: 38px;
+                margin-right: 85px;
+            }
         }
     }
 
     @media (max-width: 479px)
         {
-        .content_wrap {
-            width: 280px;
+        .warpper-text{
+            .breadcrumbs span {
+                font-size: 11px;
+            }
+            .author-box {
+                background: #f4f5f8;
+                padding: 30px;
+                margin-bottom: 60px;
+                img {
+                    margin-right: 15px;
+                    border-radius: 50%;
+                }
+            }
+            .sidebar {
+                padding: 60px;
+                margin-top: -56px;
+            }
+            .fa-search{ 
+                padding-top: 0px;
+                margin-right: 43px;
+            }
+            .page-title {
+                .title{
+                    font-size: 36px;
+                }
+                .description {
+                    font-size: 15px;
+                }
+            }
         }
     }
 }

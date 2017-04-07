@@ -26,10 +26,10 @@
                 <div class="row">
                     <!-- Page Title -->
                     <div class="page-title">
-                        <h2 class="title">SOCIAL RESPONIBILITY</h2>
+                        <h2 class="title">OUR OPERATIONS</h2>
                         <p class="description light">
                             By <a href="#">Taylor White</a> on Jun 01 in 
-                            <a href="#" rel="category tag">Transportation</a>.
+                            <a href="#" rel="category tag">the Company</a>.
                         </p>
                     </div>
                     <!-- Page Title -->
@@ -103,7 +103,7 @@
                                     </div>
                                     <div class="author-box">
                                         <div class="img">
-                                            <img src="images/1234.jpeg" srcset="" class="photo" height="118" width="118"/>
+                                            <img src="images/1234.jpeg" srcset="" class="photo" />
                                         </div>
                                         <div class="author-details">
                                             <h4 class="subtitle">Taylor White</h4>
@@ -220,12 +220,14 @@
                                 </div>
                                 <div id="tag_cloud-1" class="widget ">
                                     <h3 class="sidebar-title">Tags</h3>
-                                    <div class="tagcloud"><a href="#" title="2 topics" style="font-size: 22pt;">Careers</a>
+                                    <div class="tagcloud">
+                                        <a href="#" title="2 topics" style="font-size: 22pt;">Careers</a>
                                         <a href="#" title="1 topic" style="font-size: 8pt;">Environment</a>
                                         <a href="#" title="1 topic" style="font-size: 8pt;">Marketing &amp; Sales</a>
                                         <a href="#" title="1 topic" style="font-size: 8pt;">Technology</a>
                                         <a href="#" title="1 topic" style="font-size: 8pt;">The Company</a>
-                                        <a href="#" title="1 topic" style="font-size: 8pt;">Transportation</a></div>
+                                        <a href="#" title="1 topic" style="font-size: 8pt;">Transportation</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
