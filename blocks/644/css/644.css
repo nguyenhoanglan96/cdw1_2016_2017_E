@@ -1,0 +1,244 @@
+.type-644 #navigation {
+  width: 1207px;
+  margin-left: -10px;
+  background-color: #4c4c4c;
+  float: left;
+}
+.type-644 #navigation .left-corner {
+  border-color: transparent #888 transparent transparent;
+  border-width: 0 9px 9px 0;
+  float: left;
+  border-style: solid;
+  position: relative;
+  top: 49px;
+}
+.type-644 #navigation .right-corner {
+  border-style: solid;
+  position: relative;
+  top: 49px;
+  border-color: #888 transparent transparent transparent;
+  border-width: 9px 9px 0 0;
+  float: right;
+}
+.type-644 #navigation .menu>li>a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 15px 20px 16px 20px;
+  border-right: 1px solid #666;
+}
+.type-644 #navigation .menu>li {
+  float: left;
+}
+.type-644 #navigation .menu>li a {
+  display: block;
+}
+.type-644 #navigation .menu ol {
+  margin: 7px 10px;
+  padding: 0;
+  list-style: none;
+}
+.type-644 #navigation .menu ol a {
+  color: #777;
+  font-size: 12px;
+  padding: 3px 0;
+  line-height: 15px;
+}
+.type-644 #navigation .menu p {
+  font-size: 12px;
+  line-height: 18px;
+  margin: 9px 10px;
+  padding: 0;
+}
+.type-644 #navigation .menu p a {
+  color: #888;
+  text-decoration: underline;
+}
+.type-644 #navigation .menu p a:hover {
+  color: #555;
+}
+.type-644 #navigation ul li:first-child {
+  margin-left: -8px;
+}
+.type-644 #navigation .menu ul {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-top: none;
+  left: -1px;
+  z-index: 999;
+  border-radius: 0 0 2px 2px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+.type-644 #navigation .halflings.white {
+  background-image: url(../images/glyphicons_halflings-white.svg);
+}
+.type-644 #navigation .halflings.home {
+  background-position: 0 -24px;
+}
+.type-644 #navigation .halflings.file {
+  background-position: -24px -24px;
+}
+.type-644 #navigation .halflings.cog {
+  background-position: -432px 0;
+}
+.type-644 #navigation .halflings.briefcase {
+  background-position: -432px -144px;
+}
+.type-644 #navigation .halflings.shopping-cart {
+  background-position: -360px -120px;
+}
+.type-644 #navigation .halflings.pencil {
+  background-position: 0 -72px;
+}
+.type-644 #navigation .halflings.envelope {
+  background-position: -72px 0;
+}
+.type-644 #navigation .halflings {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+.type-644 #navigation #current {
+  background-color: #169fe6;
+  border-right: 1px solid #169fe6;
+  margin-left: -1px;
+  padding-left: 21px;
+  z-index: 8;
+  position: relative;
+}
+.type-644 .menu i.halflings {
+  margin: 1px 2px 0 -2px;
+}
+.type-644 .menu,
+.type-644 .menu ul {
+  padding: 0;
+  list-style: none;
+}
+.type-644 .menu li,
+.type-644 .menu ul a {
+  position: relative;
+}
+.type-644 .menu ul,
+.type-644 .menu li>div {
+  visibility: hidden;
+  display: none;
+}
+.type-644 .menu li:hover>ul,
+.type-644 .menu li:hover>div {
+  visibility: visible;
+  display: block;
+}
+.type-644 .menu ul {
+  position: absolute;
+  display: none;
+  width: 170px;
+}
+.type-644 .menu ul ul {
+  top: 0;
+  left: 170px;
+}
+.type-644 #navigation ul li ul li:first-child,
+.type-644 #navigation ul li ul li ul li:first-child {
+  margin-left: 0;
+}
+.type-644 .menu a {
+  text-decoration: none;
+}
+.type-644 .menu>li>a:hover {
+  border-right: 1px solid #707070;
+  margin: 0 0 0 -1px;
+}
+.type-644 .menu>li>a img,
+.type-644 .menu li>ul>li>a img {
+  border: 0;
+  margin-right: 7px;
+}
+.type-644 .menu ul a {
+  color: #777;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 9px 12px;
+  border-top: 1px solid #e6e6e6;
+}
+.type-644 .menu ul a:hover {
+  background-color: #f5f5f5;
+}
+.type-644 .menu .cols1,
+.type-644 .menu .cols2,
+.type-644 .menu .cols3,
+.type-644 .menu .cols4,
+.type-644 .menu .cols5 {
+  position: absolute;
+  display: none;
+  overflow: auto;
+  z-index: 999;
+  background: #fff;
+}
+.type-644 .menu .cols1,
+.type-644 .menu .col1 {
+  width: 145px;
+}
+.type-644 .menu .cols2,
+.type-644 .menu .col2 {
+  width: 320px;
+}
+.type-644 .menu .cols3,
+.type-644 .menu .col3 {
+  width: 457px;
+}
+.type-644 .menu .cols4,
+.type-644 .menu .col4 {
+  width: 640px;
+}
+.type-644 .menu .cols5,
+.type-644 .menu .col5 {
+  width: 800px;
+}
+.type-644 .menu>li.floatr>ul.cols1,
+.type-644 ul.cols2,
+.type-644 ul.cols3,
+.type-644 ul.cols4,
+.type-644 ul.cols5 {
+  right: 0;
+}
+.type-644 .menu>li:hover>ul.cols1,
+.type-644 ul.cols2,
+.type-644 ul.cols3,
+.type-644 ul.cols4,
+.type-644 ul.cols5 {
+  display: block;
+}
+.type-644 .menu .col1,
+.type-644 .menu .col2,
+.type-644 .menu .col3,
+.type-644 .menu .col4,
+.type-644 .menu .col5 {
+  float: left;
+}
+.type-644 ul.cols1 a:hover,
+.type-644 ul.cols2 a:hover,
+.type-644 ul.cols3 a:hover,
+.type-644 ul.cols4 a:hover,
+.type-644 ul.cols5 a:hover {
+  background: none;
+  border: none;
+}
+.type-644 ul.cols1 a,
+.type-644 ul.cols2 a,
+.type-644 ul.cols3 a,
+.type-644 ul.cols4 a,
+.type-644 ul.cols5 a {
+  background: none;
+  border: none;
+}
+.type-644 ul.cols1 p a,
+.type-644 ul.cols2 p a,
+.type-644 ul.cols3 p a,
+.type-644 ul.cols4 p a,
+.type-644 ul.cols5 p a {
+  padding: 0;
+}

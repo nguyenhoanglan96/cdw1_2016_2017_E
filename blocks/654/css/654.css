@@ -1,0 +1,113 @@
+.type-654 .thumb img {
+  width: 100%;
+}
+.type-654 .thumb h3 {
+  padding-top: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.type-654 .thumb .price {
+  color: #7e9a47;
+  font-weight: bold;
+}
+.type-654 .thumb .thumbnail_container {
+  padding: 5px;
+  background: #F8F8F8;
+  margin-top: 30px;
+}
+.type-654 .thumb .thumbnail_container .add_to_cart_button {
+  background: url(images/icons-shop-cart.png) no-repeat 10px center rgba(0,0,0,0.7);
+}
+.type-654 .thumb .thumbnail_container .button {
+  position: absolute;
+  width: 90%;
+  line-height: 30px;
+  left: 5%;
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+  visibility: hidden;
+  z-index: 500;
+}
+.type-654 .thumb .thumbnail_container .button:hover {
+  background-color: rgba(0,0,0,0.9);
+}
+.type-654 .thumb .thumbnail_container:hover {
+  background-color: #2c3547;
+}
+.type-654 .thumb .thumbnail_container:hover a {
+  text-decoration: none;
+}
+.type-654 .thumb .thumbnail_container:hover .add_to_cart_button {
+  opacity: 1;
+  visibility: visible;
+  top: 105px;
+  transition-delay: 0.3s;
+}
+.type-654 .thumb .thumbnail_container:hover .show_details_button {
+  opacity: 1;
+  visibility: visible;
+  top: 145px;
+  transition-delay: 0.3s;
+}
+.type-654 body,
+.type-654 ul,
+.type-654 ol,
+.type-654 h1,
+.type-654 h2,
+.type-654 h3,
+.type-654 h4,
+.type-654 h5,
+.type-654 h6,
+.type-654 form,
+.type-654 li,
+.type-654 p,
+.type-654 input,
+.type-654 select,
+.type-654 legend,
+.type-654 textarea,
+.type-654 fieldset {
+  margin: 0;
+  padding: 0px;
+}
+.type-654 .sidebar {
+  border: 1px solid #eee;
+  background: #f8f8f8;
+  padding: 20px;
+}
+.type-654 .sidebar a {
+  color: #999;
+}
+.type-654 .sidebar .widget:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+.type-654 .sidebar .widget {
+  border-bottom: 1px solid #e1e1e1;
+  overflow: hidden;
+  padding: 22px 0 22px 0;
+}
+.type-654 .sidebar .widget .widgettitle {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding-bottom: 10px;
+}
+.type-654 .sidebar .widget .widgettitle,
+.type-654 .sidebar .widget .widgettitle a {
+  color: #666;
+}
+.type-654 .sidebar .widget .widgettitle a,
+.type-654 .sidebar .widget .widgettitle a a {
+  font-size: 11px;
+}
+.type-654 .sidebar .widget_archive li a,
+.type-654 .sidebar .widget_categories li a,
+.type-654 .sidebar .widget_pages li a,
+.type-654 .sidebar .widget_links li a,
+.type-654 .sidebar .widget_meta li a,
+.type-654 .sidebar .widget_nav_menu li a {
+  font-size: 11px;
+}

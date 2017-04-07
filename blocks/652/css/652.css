@@ -1,0 +1,97 @@
+.type-652 .color_opacity {
+  color: #f5f7fa;
+  opacity: 0.7;
+}
+.type-652 .footer {
+  background-color: #2c3547;
+}
+.type-652 .footer .widget .title {
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding-bottom: 10px;
+  color: #f5f7fa;
+}
+.type-652 .footer .widget .title a {
+  color: #f5f7fa;
+}
+.type-652 .footer .widget span {
+  color: #f5f7fa;
+  opacity: 0.7;
+}
+.type-652 .footer .widget .minitext {
+  font-size: 11px;
+  display: block;
+}
+.type-652 .footer .widget .tweet {
+  border-top: 1px dotted #eee;
+  font-family: Georgia, "Times New Roman";
+  font-style: italic;
+  padding-top: 8px;
+}
+.type-652 .footer .widget .tweet p {
+  color: #f5f7fa;
+  opacity: 0.7;
+  font-size: 11px;
+  padding-top: 8px;
+  line-height: 1.5em;
+}
+.type-652 .footer .widget .tweet p a {
+  color: #f5f7fa;
+  opacity: 0.7;
+}
+.type-652 .footer .widget .thumb-headline {
+  margin: 0;
+}
+.type-652 .footer .widget .thumb-headline .thumb img {
+  float: left;
+  margin-top: 15px;
+}
+.type-652 .footer .widget .thumb-headline .headline {
+  overflow: hidden;
+  margin-top: 2px;
+}
+.type-652 .footer .widget .thumb-headline .headline .news-time {
+  font-weight: normal;
+  font-size: 10px;
+}
+.type-652 .footer .widget .thumb-headline .headline .news-headline {
+  color: #f5f7fa;
+  opacity: 0.7;
+  font-size: 11px;
+  display: block;
+  padding-top: 8px;
+  line-height: 1.5em;
+}
+.type-652 .footer .archive .title a {
+  color: #f5f7fa;
+}
+.type-652 .footer .archive ul {
+  padding: 0px;
+}
+.type-652 .footer .archive ul li {
+  list-style: none;
+  border-bottom: 1px solid #444;
+  border-top: solid 1px #444;
+  border-color: #4e5769;
+}
+.type-652 .footer .archive ul li a {
+  color: #f5f7fa;
+  opacity: 0.7;
+  font-size: 11px;
+  display: block;
+  padding-top: 7px;
+  line-height: 1.5em;
+}
+.type-652 .socket {
+  background-color: #1b2436;
+  line-height: 50px;
+  font-size: 10px;
+  color: #f5f7fa;
+}
+.type-652 .socket .copyright {
+  margin: 25px;
+}
+.type-652 .socket .copyright a {
+  color: #f5f7fa;
+}

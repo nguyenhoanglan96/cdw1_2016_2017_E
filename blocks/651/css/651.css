@@ -1,0 +1,15 @@
+.type-651 hr {
+  margin: -15px;
+  padding: 15px;
+}
+.type-651 .abs {
+  padding-bottom: 20px;
+  width: 106%;
+}
+.type-651 .hov:hover {
+  opacity: #fff;
+}
+.type-651 img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}

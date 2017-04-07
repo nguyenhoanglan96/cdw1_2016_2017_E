@@ -1,0 +1,96 @@
+.type-643 {
+  background: #fff;
+  max-width: 1180px;
+  margin-left: 93px;
+  box-shadow: 0 0 4px;
+}
+.type-643 .topline {
+  background: #169fe6;
+  width: 100%;
+  height: 5px;
+}
+.type-643 .eight-columns {
+  float: left;
+  width: 500px;
+}
+.type-643 .eight-columns #logo {
+  margin-top: 50px;
+}
+.type-643 .eight-columns #logo #tagline {
+  color: #888;
+  border-left: 1px solid #e8e8e8;
+  margin: 0 0 0 20px;
+  padding: 5px 0 5px 20px;
+  float: left;
+  font-size: 12px;
+}
+.type-643 .eight-columns #logo a img {
+  float: left;
+  width: 104px;
+  height: 26px;
+}
+.type-643 .eight-columns .social-icons {
+  margin: 23px 5px 13px 0;
+  float: right;
+}
+.type-643 .eight-columns .social-icons li {
+  list-style: none;
+  text-indent: -9999px;
+  float: left;
+  opacity: 0.5;
+  padding-left: 10px;
+}
+.type-643 .eight-columns .contact-details {
+  float: right;
+  margin: -1px 0 1px 0;
+  color: #888;
+  font-size: 11px;
+}
+.type-643 .eight-columns .top-search {
+  float: right;
+}
+.type-643 .eight-columns .top-search .search-btn {
+  float: right;
+  position: relative;
+  margin: -5px 0 0 -35px;
+  background: url('../images/search.png') center center no-repeat;
+  width: 35px;
+  height: 32px;
+  border: none;
+  z-index: 100;
+}
+.type-643 .eight-columns .top-search input {
+  min-width: 180px;
+  font-size: 11px;
+  color: #888;
+}
+.type-643 .eight-columns .top-search .search-field {
+  float: right;
+  position: relative;
+}
+.type-643 .eight-columns .social-icons li a {
+  display: block;
+  padding-left: 11px;
+  height: 16px;
+  width: 16px;
+}
+.type-643 .eight-columns .social-icons li:hover {
+  opacity: 1;
+}
+.type-643 .eight-columns .twitter {
+  background: url(../images/social/twitter.png) no-repeat 50%;
+}
+.type-643 .eight-columns .facebook {
+  background: url(../images/social/facebook.png) no-repeat 50%;
+  margin: 0 -4px;
+}
+.type-643 .eight-columns .dribbble {
+  background: url(../images/social/dribbble.png) no-repeat 50%;
+}
+.type-643 .eight-columns .linkedin {
+  background: url(../images/social/linkedin.png) no-repeat 50%;
+}
+.type-643 .eight-columns .rss {
+  background: url(../images/social/rss.png) no-repeat 50%;
+  margin: 0 -5px 0 0;
+}

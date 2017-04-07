@@ -1,0 +1,223 @@
+.type-647 {
+    @colorbackr :#2c3547 ;
+    background-color: @colorbackr ;
+    
+    .header {
+        .container{
+            height: 200px;  
+        }
+        .navbar .navmenu-b  {
+            background-color: @colorbackr !important;   
+        }
+        header
+        {
+            background-color: @colorbackr;
+            width: 100%;
+            margin:0 auto;
+        }
+        .cnheader{
+            .logo {
+                top:30px;
+            }
+            .search {
+                #searchform {
+                    background: #fff;
+                    width: 220px;
+                    position: absolute;
+                    right: 15px;
+                    top: 63px;
+                }
+                form {
+                    display: block;
+                    margin-top: 0em;
+                }
+                #searchsubmit {
+                    background: url(../images/skin-minimal/icon-search.png) no-repeat scroll center center transparent;
+                    border: medium none;
+                    height: 36px;
+                    position: absolute;
+                    right: 0px;
+                    width: 36px;
+                }
+                #s {
+                    border: none;
+                    width: 160px;
+                    padding: 12px 48px 12px 12px;
+                }
+                .social_bookmarks {
+                    position: absolute;
+                    right: 240px;
+                    top: 75px;
+                    li {
+                        float: left;
+                        padding: 0 0 0 4px;
+                    }
+                    a {
+                        height: 24px;
+                        width: 24px;
+                        float: left;
+                        text-indent: -9999px;
+                        opacity: .3;
+                    }
+                    a:hover {
+                        opacity: .8;
+                        text-decoration: underline;
+                    }
+                }
+                .rss a {
+                    background: transparent url(../images/skin-minimal/icons-social-rss.png) 0 0 no-repeat;
+                }
+                .twitter a {
+                    background: transparent url(../images/skin-minimal/icons-social-twitter.png) 0 0 no-repeat;
+                }
+                .facebook a {
+                    background: transparent url(../images/skin-minimal/icons-social-fb.png) 0 0 no-repeat;
+                }
+            }
+        }
+        @media (max-width:768px) {
+            #searchform {
+                display: none;
+            }
+            .search .social_bookmarks {
+                top: 10px !important;
+                margin: 0 auto;
+                text-align: center;
+                right: 44% !important;
+            }
+            .cnheader .logo {
+                top: 30px;
+                text-align: center;
+                margin: 0 auto;
+                left: 0% !important;
+            }
+        }
+        @media (max-width:468px) {
+            #searchform {
+                display: none;
+            }
+            .search .social_bookmarks {
+                top: 10px !important;
+            }
+            .cnheader .logo {
+                top: 30px;
+                text-align: center;
+                margin: 0 auto;
+                left: 0% !important;
+            }
+            .cnheader .search .social_bookmarks {
+
+                right: 40% !important;
+            }
+        }
+    }
+    .menu { 
+        .navbar-inverse .navbar-nav>.open>a:hover {
+            color: #000;
+            background-color: transparent;
+        }
+        ul {
+            list-style: none;
+        }
+        .navbar {
+            margin-bottom: 0px !important;   
+            background: #fff;
+            border-color: #eeeeee;
+            margin-right: -17px;
+        }
+        .navbar-nav>li>a{
+            color:#333;
+            background-color: transparent;
+        }
+        .login-shopping {
+            position: absolute;
+            font-size: 11px;
+            top: 170px;
+            font-size: 11px;
+            li {
+                float: left;
+                padding: 0 10px;
+            }
+            li a {
+                color :#fff;
+            }
+        }
+        .dropdown-menu {
+            li>a {
+                color:#333 !important;
+            }
+            .mega-dropdown-menu {
+                li>a{
+                    padding: 0px;
+                }
+            }
+        }
+        .cart_dropdown_first .cart_dropdown_link {
+            display: block;
+            float: left;
+            padding: 0 20px 0 25px;
+            background: transparent url(../images/skin-minimal/icon-cart.png) 0 14px no-repeat;
+            color: #999;
+            line-height: 52px;
+        }
+        .cart_subtotal{
+            color: #777;
+        }
+        .mega-dropdown {
+            position: static !important;
+        }
+        .mega-dropdown-menu > li > ul {
+            padding: 0;
+            margin: 0;
+            li {
+                list-style: none;
+                a {
+                    display: block;
+                    color: #222;
+                    padding: 3px 5px;
+                }
+            }
+        }
+        .cart_dropdown_first {
+            height: 47px;
+            line-height: 52px;
+            padding: 0 30px 0 0;
+        }
+        .avia_mega ul a:hover {
+            text-decoration: underline;
+        }
+    }
+    @media(min-width:767px){
+        .menu{
+            .login-shopping { 
+                right: 174px;
+            }
+        }
+    }
+    @media (max-width:766px) {
+        .menu{ 
+            .login-shopping { 
+                width: 100%;  
+                margin: 0 auto;
+                text-align: center;
+                right:3.5%;
+                top: 166px !important;
+                ul{
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    @media (max-width:500px) {
+        .menu {
+            .login-shopping {
+                text-align: center ;
+                margin: 0 auto; 
+            }
+        }
+    }
+    .navbar-toggle .icon-bar .sr-only .collapse .navbar-collapse .js-navbar-collapse .fa .fa-caret-right .blog .dropdown-toggle .nav .dropdown .caret .cufon_headings .image_overlay_effect .image_overlay_effect_inside .external_image .avia_mega_hr .navbar-right
+    {
+        padding: 0;
+    }
+}

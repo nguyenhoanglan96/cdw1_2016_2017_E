@@ -1,0 +1,139 @@
+.type-648{
+    margin-top:35px;
+    .slider-banner {
+        #wowslider-container1{
+            .ws_images{
+                position: relative;
+                max-height:340px;
+                overflow:hidden;
+                ul{
+                    padding:0;
+                    li{
+                        float:left;
+                    }
+                }
+                img{
+                    width:100%;
+                }
+            }
+            .ws_bullets { 
+                float: left;
+                position:absolute;
+                z-index:70;
+                a { 
+                    width:11px;
+                    height:11px;
+                    background: url(../images/tooltips/bullet.png) left top;
+                    float: left; 
+                    text-indent: -4000px; 
+                    position:relative;
+                    margin-left:5px;
+                    color:transparent;
+                }
+            }
+        } 
+    }
+    #wowslider-container1 .ws_bullets a.ws_selbull{
+        background-position: 0 100%;
+    }
+    #wowslider-container1 a.ws_next, #wowslider-container1 a.ws_prev {
+        position:absolute;
+        top:50%;
+        margin-top:-2em;
+        z-index:60;
+        height: 4.5em;
+        width: 4.5em;
+        background-image: url(../images/tooltips/arrows.png);
+        opacity: 0.8;	
+        background-size: 200%;
+    }
+    #wowslider-container1 a.ws_next{
+        background-position: 100% 0;
+        right:2.1em;
+    }
+    #wowslider-container1 a.ws_prev {
+        left:2.1em;
+        background-position: 0 0; 
+    }
+    #wowslider-container1 a.ws_next:hover{
+        opacity: 1;
+    }
+    #wowslider-container1 a.ws_prev:hover {
+        opacity: 1;
+    }  
+    #wowslider-container1  .ws_bullets {
+        bottom: 0px;
+        left:48%;
+    }
+    #wowslider-container1  .ws_bullets .ws_bulframe{
+        display:none;
+    }
+    .slider-show {
+        img {
+            padding: 2px;
+        }
+        .thin {
+            padding: 2px;
+            right: -24.5%;
+            bottom:15px;
+            width: 100%;
+        }
+        .carousel > .window {
+            overflow: hidden;
+            position: relative;
+            height: 330px;
+        }
+        .carousel ul  {
+            list-style: none;
+            height: 10000px;
+            top: 0;
+            left: 0;
+            position: absolute;
+            padding: 0px;
+        }
+        .prev disabled .next{
+            display: none;
+        }
+        .carousel .item img:hover{
+            display: block;
+            position: relative;
+            background: #7c7c7c;
+            overflow: hidden;
+            display: block;
+        }
+        .glyphicon{
+            left: 110px;
+            .glyphicon-chevron-up {
+                top: 10px !important;
+            }  
+        }
+        .glyphicon:hover {
+            display: block;
+        }
+        .carousel li {
+            margin: 3px 0 0;
+        }
+    }
+    @media (max-width:991px) {
+        .col-md-3{
+            display: none !important
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .thin {
+            width:100%;
+            height:auto;
+            bottom:0 !important;
+            text-align: center;
+            margin: 0 auto;
+            right: 0 !important;
+        }
+        .glyphicon {
+            left: -1px !important;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+} 
