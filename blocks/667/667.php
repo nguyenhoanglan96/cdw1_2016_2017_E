@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html>
+
     <head>
         <title>667</title>
         <meta charset="UTF-8">
@@ -17,38 +19,42 @@
         $less = new lessc;
         $less->compileFile('less/667.less', 'css/667.css');
         ?>
-
         <link href="css/667.css" rel="stylesheet" type="text/css"/>
     </head>
 
     <body>
         <div class="type-667">  
-            <div class="container footer-wrapper">
+            <div class="container footer-wrapper-container">
                 <div class="row">
-                    <div class="footer-primary-container">
+                    <div class="footer-primary-container section-container">
                         <div class="footer-primary footer container">
                             <div class="inner-container">
                                 <div class="clearer">
                                     <div class="grid12-12">	
-                                        
+                                    
                                             <div class="grid12-3">
                                                 <div class="collapsible mobile-collapsible">
+
                                                     <h6 class="block-title heading">About Ultimo</h6>
                                                     <div class="block-content">
                                                         <img src="images/logo-small.png" alt="" style="padding-bottom:10px;">
                                                         <div class="feature first last">
                                                             <p>
                                                                 Ultimo is a premium Magento theme with advanced admin module. 
-                                                                It’s extremely customizable, easy to use and fully responsive.
+                                                                It's extremely customizable, easy to use and fully responsive.
                                                             </p>
-                                                            <h5 class="theme-title"><a class="go" href="#">Buy this theme</a></h5>
+                                                            <h5 class="text-title">
+                                                                <a class="go" href="#">Buy this theme</a>
+                                                            </h5>
                                                         </div>
                                                     </div>
+
                                                 </div>
                                             </div>
-                                        
+
                                             <div class="grid12-3">
                                                 <div class="collapsible mobile-collapsible">
+
                                                     <h6 class="block-title heading">Theme Features</h6>
                                                     <div class="block-content">
                                                         <ul class="bullet">
@@ -64,11 +70,13 @@
                                                             <li><a href="#">Ecommerce</a></li>
                                                         </ul>
                                                     </div>
+
                                                 </div>
                                             </div>
-                                        
+
                                             <div class="grid12-3">
                                                 <div class="collapsible mobile-collapsible">
+
                                                     <h6 class="block-title heading">Key Features</h6>
                                                     <div class="block-content">
                                                         <div class="feature indent first">
@@ -96,11 +104,13 @@
                                                             </p>
                                                         </div>
                                                     </div>
+
                                                 </div>
                                             </div>
-                                        
+
                                             <div class="grid12-3">
                                                 <div class="collapsible mobile-collapsible">
+
                                                     <h6 class="block-title heading">Company Info</h6>
                                                     <div class="block-content">
                                                         <div class="feature indent first">
@@ -111,31 +121,32 @@
                                                         </div>
                                                         <div class="feature indent">
                                                             <span class="ib ic ic-lg">
-                                                                <i class="fa fa-mobile"></i>
+                                                                 <i class="fa fa-mobile"></i>
                                                             </span>
                                                             <p class="no-margin ">+77 123 1234<br>+42 98 9876</p>
                                                         </div>
                                                         <div class="feature indent">
                                                             <span class="ib ic ic-lg">
-                                                                <i class="fa fa-yahoo"></i>
+                                                                 <i class="fa fa-yahoo"></i>
                                                             </span>
                                                             <p class="no-margin ">boss@example.com<br>me@example.com</p>
                                                         </div>
                                                         <div class="feature indent last">
                                                             <span class="ib ic ic-lg">
-                                                                <i class="fa fa-skype"></i>
+                                                                 <i class="fa fa-skype"></i>
                                                             </span>
                                                             <p class="no-margin ">Skype: samplelogin<br>skype-support</p>
                                                         </div>
                                                     </div>
+
                                                 </div>
                                             </div>
-                                       
                                     </div>				
-                                </div>
-                                <!-- end: footer-primary section -->
+                                </div> <!-- end: footer-primary section -->
+
                                 <div class="grid12-12">
                                     <div class="footer-primary-bottom-spacing clearer">
+
                                         <div class="item item-left clearer">
                                             <div class="social-links ib-wrapper--square">
                                                 <a class="first" href="#" title="Follow Infortis on Twitter">
@@ -190,15 +201,15 @@
                                                 </a>
                                             </div>							
                                         </div>
-                                        
+
                                         <div class="item item-right clearer">
                                             <div id="subscribe-form" class="clearer">
                                                 <form action="#" method="post">
                                                     <div>
                                                         <label for="newsletter">Newsletter</label>
                                                         <div class="input-box">
-                                                            <input type="text" name="email" value="Enter your name address" class="input-text">
-                                                        </div> 
+                                                            <input type="text" name="email" value="Enter your email address" title="Sign up for our newsletter" class="input-text">
+                                                        </div>
                                                         <button type="submit" title="Subscribe" class="button btn-inline">
                                                             <span>
                                                                 <span>Subscribe</span>

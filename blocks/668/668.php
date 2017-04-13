@@ -31,7 +31,8 @@
 
                                 <div class="clearer">
                                     <div class="grid12-12">	
-                                        <div class="std"><div class="grid12-9 no-gutter">
+                                        <div class="std">
+                                            <div class="grid12-9 no-gutter">
                                                 <div class="grid12-3">
                                                     <div class="collapsible mobile-collapsible">
                                                         <h6 class="block-title heading">Questions?</h6>
@@ -99,15 +100,19 @@
                                                     <div class="block-content">
                                                         <div class="feature indent first feature-icon-hover">
                                                             <span class="ic ic-lg ic-pin ib" style="background-color: lightskyblue;">
-                                                                <i class="fa fa-map"></i>
+                                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
                                                             </span>
-                                                            <p class="no-margin">Friends Inc., 90 Bedford St<br>New York, NY 041, USA</p>
+                                                            <p class="no-margin">
+                                                                Friends Inc., 90 Bedford St<br>
+                                                                New York, NY 041, USA
+                                                            </p>
                                                         </div>
                                                         <div class="feature indent feature-icon-hover">
                                                             <span class="ic ic-lg ic-twitter ib" style="background-color: lightskyblue;">
                                                                 <i class="fa fa-twitter"></i>
                                                             </span>
-                                                            <p class="no-margin">Follow us on our<br><a href="#">Twitter</a> account</p>
+                                                            <p class="no-margin">Follow us on our<br>
+                                                                <a href="#">Twitter</a> account</p>
                                                         </div>
                                                         <br>
                                                     </div>
