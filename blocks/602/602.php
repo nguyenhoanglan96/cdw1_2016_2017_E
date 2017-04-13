@@ -31,7 +31,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 rescure2">
                     <div class="box image-boxes imgboxes_style4 kl-title_style_left">
                         <a class=" imgboxes-wrapper" href="#" target="_blank">
-                            <img src="images/imageboxes-set1-011-460x307.jpg" alt="RESCUE SUPPORT" title="RESCUE SUPPORT" class="img-responsive imgbox_image cover-fit-img">
+                            <img src="images/imageboxes-set1-011-460x307.jpg" alt="" title="" class="img-responsive imgbox_image cover-fit-img">
                             <h3 class="m_title imgboxes-title title">RESCUE SUPPORT</h3>
                         </a>
                         <p>Our support team will do its best to provide the best possible and helpful answer for the issues you’re having.</p>
@@ -40,7 +40,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 rescure2">
                     <div class="box image-boxes imgboxes_style4 kl-title_style_left">
                         <a class=" imgboxes-wrapper" href="#" target="_blank">
-                            <img src="images/imageboxes-set1-021-460x307.jpg" alt="E-COMMERCE READY" title="E-COMMERCE READY" class="img-responsive imgbox_image cover-fit-img">
+                            <img src="images/imageboxes-set1-021-460x307.jpg" alt="" title="" class="img-responsive imgbox_image cover-fit-img">
                             <h3 class="m_title imgboxes-title title">E-COMMERCE READY</h3>
                         </a>
                         <p>Build an online store blazing fast with WooCommerce and Kallyas's ready-made ecommerce functionalities.</p>
@@ -49,7 +49,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 rescure2">
                     <div class="box image-boxes imgboxes_style4">
                         <a class=" imgboxes-wrapper" href="#" target="_blank">
-                            <img src="images/gpg4-640x426.jpg" alt="MULTI-LANGUAGE READY" title="MULTI-LANGUAGE READY" class="img-responsive imgbox_image cover-fit-img">
+                            <img src="images/gpg4-640x426.jpg" alt="" title="" class="img-responsive imgbox_image cover-fit-img">
                             <h3 class="m_title imgboxes-title title">MULTI-LANGUAGE READY</h3>
                         </a>
                         <p>Add as many language packs as you want, to showcase your website across the entire globe.</p>
@@ -89,7 +89,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-6">
-                                <img class="img-slide" src="images/office-820390_640-580x380.jpg" />
+                                <img class="img-slide img-responsive" src="images/office-820390_640-580x380.jpg" />
                                 <ul class="screenshot-carousel boler" data-carousel-pagination=".">
                                     <img src="images/office-820390_640-580x380.jpg" />
                                     </li>
@@ -102,7 +102,6 @@
             </div>
         </div>
     </div>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
 </body>
 
 </html>

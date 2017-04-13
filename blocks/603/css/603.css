@@ -176,3 +176,8 @@
   font-family: 'Montserrat';
   font-size: 18px;
 }
+@media (max-width: 479px) {
+  .type-603 .gutter-lg-wrapper .media-container__text {
+    font-size: 27px;
+  }
+}

@@ -9,6 +9,7 @@
 
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    
     <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -16,10 +17,8 @@
         $less = new lessc;
         $less->compileFile('less/603.less', 'css/603.css');
         ?>
+    
         <link href="css/603.css" rel="stylesheet" type="text/css" />
-
-        <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
-        <script src="js/scripts.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -37,7 +36,7 @@
                         </div>
                         <a class="media-container__link--btn media-container__link--style-borderanim2" href="#" data-lightbox="iframe">
                             <div class="borderanim2-svg">
-                                <svg height="70" width="400" xmlns="http://www.w3.org/2000/svg">
+                                <svg>
                                     <rect class="borderanim2-svg__shape" height="70" width="400"></rect>
                                 </svg>
                                 <span class="media-container__text">KALLYAS TEMPLATE</span>
@@ -93,7 +92,6 @@
             </div>
         </div>
     </div>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
 </body>
 
 </html>
