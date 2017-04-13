@@ -23,8 +23,9 @@
 
     <body>
         <div class="type-628">
+            <div class="container">
             <div class="page_paddings_yes">
-                <div class="container content_wrap">
+                <div class=" content_wrap">
                     <article>
                         <h3 class="post_title">
                             <a class="post_title_link" href="#">Novel Technologies…</a>
@@ -85,6 +86,7 @@
                         </div> 
                     </article>
                 </div>
+            </div>
             </div>
         </div>
     </body>

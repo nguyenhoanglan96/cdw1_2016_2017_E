@@ -12,11 +12,6 @@
   font-size: 11px;
   line-height: 24px;
 }
-@media (max-width: 1000px) {
-  .type-627 .top_panel {
-    display: none !important;
-  }
-}
 .type-627 .top_panel_middle {
   width: 100%;
   z-index: 999;
@@ -297,4 +292,9 @@
 }
 .type-627 .navbar-collapse-features .navbar-collapse-about .navbar-collapse-photo .navbar-collapse-dona .navbar-collapse-news .navbar-collapse-masonry .navbar-collapse-portfolio {
   padding: 0;
+}
+@media (max-width: 1000px) {
+  .type-627 .top_panel {
+    display: none !important;
+  }
 }

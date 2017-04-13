@@ -7,9 +7,6 @@
 .type-b-13 h6 {
   font-family: 'Open Sans', 'Helvetica', Arial, serif;
 }
-.type-b-13 .row {
-  margin-bottom: 35px;
-}
 .type-b-13 .sidebar {
   background: #fff;
   padding: 20px 15px;
@@ -143,6 +140,26 @@
   height: 1em;
   font-family: star;
 }
-a {
+.type-b-13 a {
   color: #000;
+}
+.type-b-13 a:hover {
+  text-decoration: none;
+}
+@media (min-width: 481px) {
+  .type-b-13 ul.product_list_widget {
+    list-style: none;
+    padding: 0;
+  }
+  .type-b-13 ul.product_list_widget li img {
+    width: 58px;
+    float: right;
+  }
+  .type-b-13 ul.product_list_widget li img a span {
+    font-weight: 400;
+  }
+  .type-b-13 ul.product_list_widget li img .amount {
+    font-weight: 300;
+    display: block;
+  }
 }

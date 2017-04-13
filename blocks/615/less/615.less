@@ -27,6 +27,9 @@
             }
         }
     }
+    a:hover {
+        text-decoration: none;
+    }
     .kl-iconbox {
         color: @color;
         margin-bottom: 30px;
@@ -58,5 +61,13 @@
     }
     .glyphicon-chevron-down .text-center {
         padding: 0;
+    }
+    @media(min-width:1025px){
+        .btn-lined {
+            border-width: 2px;
+            color: @color;
+            font-weight: 700;
+            border-style: solid;
+        }
     }
 }

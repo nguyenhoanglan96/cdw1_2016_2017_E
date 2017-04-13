@@ -1,10 +1,9 @@
-@background_footer: #292724;
-@color_base: #f15d2f;
-@color_title_base: #45403d;
-@color: #878280;
-/*********************************** button-Top ****************************/
+
 .type-627{
-    /**********************Top-Panel***********************/
+    @background_footer: #292724;
+    @color_base: #f15d2f;
+    @color_title_base: #45403d;
+    @color: #878280;
     .top_panel {
         background-color: @background_footer;
         color: rgba(255,255,255,0.5);
@@ -17,12 +16,6 @@
             display: inline;
             font-size:  11px;
             line-height: 24px;
-        }
-    }
-    @media (max-width:1000px)
-        {
-        .top_panel {
-            display: none!important;
         }
     }
     /**********************top_panel_middle-Middle***********************/
@@ -305,5 +298,10 @@
     }
     .navbar-collapse-features .navbar-collapse-about .navbar-collapse-photo .navbar-collapse-dona .navbar-collapse-news .navbar-collapse-masonry .navbar-collapse-portfolio {
         padding: 0;
+    }
+     @media (max-width:1000px){
+        .top_panel {
+            display: none!important;
+        }
     }
 }

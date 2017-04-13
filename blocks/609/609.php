@@ -23,10 +23,11 @@
     </head>
 
     <body>
-        <aside class="type-b-13">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9"></div>
+                <div class="type-b-13">
                     <div class="col-md-3">
                         <div  class="sidebar">
                             <div class="widget">
@@ -34,7 +35,7 @@
                                     PRODUCT SEARCH 
                                 </h3>
                                 <form action="http://www.google.com/search" method="get"  class="gensearch_form" onsubmit="Gsitesearch(this)" target="black">
-                                    <input type="text" name="s" class="gensearch_input" value="SEARCH...">
+                                    <input type="text"  class="gensearch_input" value="SEARCH...">
                                     <button type="submit" class="gensearch_submit glyphicon glyphicon-search" value="go"></button>
                                 </form>
                             </div>
@@ -263,10 +264,8 @@
                 </div>
                 <!--End Col-9-->
             </div>
-        </aside>   
+        </div>   
 
-        <script type="text/javascript" src = "js/jquery-3.1.1.min.js"></script>
-        <script type="text/javascript" src = "js/bootstrap.min.js"></script>
     </body>
 
 </html>

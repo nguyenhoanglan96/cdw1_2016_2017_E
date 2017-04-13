@@ -24,11 +24,10 @@
     </head>
     <body>
         <div class="type-604">
-            <section class="hg_section ptop-65">
-                <div class="container">
+            <div class="container">
+                <section class=" ptop-65">
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
-                            <div>
                                 <a href="#" target="_blank" style="background-color: #34495e;" class="hover-box hover-box-2">
                                     <span ></span>
                                     <img src="images/quote1.svg" class="hb-img " alt="" title="">
@@ -38,11 +37,9 @@
                                         a great project together!
                                     </p>
                                 </a>
-                            </div>
                         </div>
 
                         <div class="col-md-4 col-sm-4">
-                            <div>
                                 <a href="#" target="_blank" style="background-color: #34495e;" class="hover-box hover-box-2">
                                     <span></span>
                                     <img src="images/hb-hiring.svg" class="hb-img " alt="" title="">
@@ -53,11 +50,9 @@
                                         on jobs@mywebsite.com
                                     </p>
                                 </a>
-                            </div>
                         </div>
 
                         <div class="col-md-4 col-sm-4">
-                            <div>
                                 <a href="#" target="_blank" style="background-image:url(images/hb-catalogue1.png); background-color: #34495e; background-size:cover" class="hover-box hover-box-3">
                                     <!-- Image/Icon -->
                                     <img src="images/hb-catalogue1.png" class="hb-img " alt="" title="">
@@ -66,119 +61,112 @@
                                         Read our latest catalog, collateral material or print advertisements for your publication.
                                     </p>
                                 </a>
+                        </div>
+                    </div>
+
+                    <!--/ container -->
+                </section>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="latest_posts acc-style">
+                            <h3 class="m_title">OUR LATEST STORIES</h3>
+                            <a href="#" class="viewall">VIEW ALL -</a>
+                            <div class="css3accordion">
+                                <ul>
+                                    <!-- Post -->
+                                    <li>
+                                        <!-- Post wrapper -->
+                                        <div class="inner-acc" style="width: 570px;">
+                                            <!-- Post link wrapper -->
+                                            <a href="#" class="thumb plus">
+                                                <!-- Border wrapper -->
+                                                <span >
+                                                    <!-- Image -->
+                                                    <img src="images/css3panels-alt-04-370x200.jpg" alt="" title="">
+                                                    <span class="theHoverBorder"></span>
+
+                                                </span>
+                                            </a>
+                                            <div class="content">
+                                                <em>21 August 2016 by danut, in Mobile</em>
+                                                <h5 class="m_title"><a href="#">Enthusiastically administrate ubiquitous</a></h5>
+                                                <!--/ Title with link -->
+                                                <div class="text">
+                                                    Competently leverage other�s high standards in customer service after supe...
+                                                </div>
+                                                <a href="#">READ MORE +</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <!-- Post wrapper -->
+                                        <div class="inner-acc" style="width: 570px;">
+                                            <!-- Post link wrapper -->
+                                            <a href="#" class="thumb plus">
+                                                <!-- Border wrapper -->
+                                                <span>
+                                                    <img src="images/general-bg-8-370x200.jpg" alt="" title="">
+
+                                                    <!-- Hover border/shadow -->
+                                                    <span class="theHoverBorder"></span>
+                                                    <!--/ Hover border/shadow -->
+                                                </span>
+                                                <!--/ Border wrapper -->
+                                            </a>
+                                            <div class="content">
+                                                <em>07 August 2016 by Marius H., in Mobile,Technology</em>
+                                                <h5 class="m_title"><a href="#">Uniquely productize next-generation opportunities</a></h5>
+                                                <div class="text">
+                                                    Appropriately pontificate synergistic para digms whereas 24/7 �outside the...
+                                                </div>
+                                                <a href="#">READ MORE +</a>
+                                                <!--/ Read more button -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="inner-acc" style="width: 570px;">
+                                            <!-- Post link wrapper -->
+                                            <a href="#" class="thumb plus">
+                                                <!-- Border wrapper -->
+                                                <span>
+                                                    <!-- Image -->
+                                                    <img src="images/blog1-370x200.jpg" alt="" title="">
+                                                    <!-- Hover border/shadow -->
+                                                    <span class="theHoverBorder"></span>
+                                                </span>
+                                            </a>
+                                            <div class="content">
+                                                <em>21 August 2016 by danut, in Mobile</em>
+                                                <h5 class="m_title"><a href="#">Enthusiastically administrate ubiquitous</a></h5>
+                                                <div class="text">
+                                                    Competently leverage other�s high standards in customer service after supe...
+                                                </div>
+                                                <a href="#">READ MORE +</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--/ container -->
-            </section>
-            <section class="hg_section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="latest_posts acc-style">
-                                <h3 class="m_title">OUR LATEST STORIES</h3>
-                                <a href="#" class="viewall">VIEW ALL -</a>
-                                <div class="css3accordion">
-                                    <ul>
-                                        <!-- Post -->
-                                        <li>
-                                            <!-- Post wrapper -->
-                                            <div class="inner-acc" style="width: 570px;">
-                                                <!-- Post link wrapper -->
-                                                <a href="#" class="thumb plus">
-                                                    <!-- Border wrapper -->
-                                                    <span >
-                                                        <!-- Image -->
-                                                        <img src="images/css3panels-alt-04-370x200.jpg" alt="" title="">
-                                                        <span class="theHoverBorder"></span>
 
-                                                    </span>
-                                                </a>
-                                                <div class="content">
-                                                    <em>21 August 2016 by danut, in Mobile</em>
-                                                    <h5 class="m_title"><a href="#">Enthusiastically administrate ubiquitous</a></h5>
-                                                    <!--/ Title with link -->
-                                                    <div class="text">
-                                                        Competently leverage other�s high standards in customer service after supe...
-                                                    </div>
-                                                    <a href="#">READ MORE +</a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <!-- Post wrapper -->
-                                            <div class="inner-acc" style="width: 570px;">
-                                                <!-- Post link wrapper -->
-                                                <a href="#" class="thumb plus">
-                                                    <!-- Border wrapper -->
-                                                    <span>
-                                                        <img src="images/general-bg-8-370x200.jpg" alt="" title="">
 
-                                                        <!-- Hover border/shadow -->
-                                                        <span class="theHoverBorder"></span>
-                                                        <!--/ Hover border/shadow -->
-                                                    </span>
-                                                    <!--/ Border wrapper -->
-                                                </a>
-                                                <div class="content">
-                                                    <em>07 August 2016 by Marius H., in Mobile,Technology</em>
-                                                    <h5 class="m_title"><a href="#">Uniquely productize next-generation opportunities</a></h5>
-                                                    <div class="text">
-                                                        Appropriately pontificate synergistic para digms whereas 24/7 �outside the...
-                                                    </div>
-                                                    <a href="#">READ MORE +</a>
-                                                    <!--/ Read more button -->
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner-acc" style="width: 570px;">
-                                                <!-- Post link wrapper -->
-                                                <a href="#" class="thumb plus">
-                                                    <!-- Border wrapper -->
-                                                    <span>
-                                                        <!-- Image -->
-                                                        <img src="images/blog1-370x200.jpg" alt="" title="">
-                                                        <!-- Hover border/shadow -->
-                                                        <span class="theHoverBorder"></span>
-                                                    </span>
-                                                </a>
-                                                <div class="content">
-                                                    <em>21 August 2016 by danut, in Mobile</em>
-                                                    <h5 class="m_title"><a href="#">Enthusiastically administrate ubiquitous</a></h5>
-                                                    <div class="text">
-                                                        Competently leverage other�s high standards in customer service after supe...
-                                                    </div>
-                                                    <a href="#">READ MORE +</a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-           
-            <section class="hg_section bg-white ptop-65 pb-20">
-                <div class="container">
+                <section class=" bg-white ptop-65 pb-20">
                     <div class="row">
                         <div class="col-md-9 col-sm-9">
                             <h3 class=" fw-semibold tcolor">WORK WITH US</h3>
                             <h4 class=" fw-thin">We'll do everything we can to make our next best project!</h4>
                         </div>
                         <div class="col-md-3 col-sm-3">
-                            <div >
                                 <a class=" btn btn-lined lined-custom btn-md btn-block " href="#" style="margin:0 0 10px 0;">
                                     <span>GET A QUOTE</span>
                                 </a>
-                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </body>

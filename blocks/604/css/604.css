@@ -39,6 +39,9 @@
   font-family: Open Sans;
   margin-top: 0;
 }
+.type-604 a:hover {
+  text-decoration: none;
+}
 .type-604 p {
   margin-bottom: 0;
   line-height: 1.1;
@@ -52,18 +55,13 @@
   background: #fff;
   margin-top: 22px;
 }
-.type-604 element.style {
-  background-image: url(../images/hb-catalogue1.png);
-  background-color: #34495e;
-  background-size: cover;
-}
 .type-604 .hover-box.hover-box-3 img {
   display: none;
 }
 .type-604 .latest_posts.acc-style {
   position: relative;
 }
-.type-604 .latest_posts.acc-style h3.m_title {
+.type-604 .latest_posts.acc-style h3 {
   position: absolute;
   top: 14px;
   color: #CD2122;
@@ -110,7 +108,7 @@
   font-size: 11px;
   line-height: 1.4;
 }
-.type-604 .css3accordion .content > em {
+.type-604 .css3accordion .content {
   font-size: 11px;
   color: #7d7d7d;
 }
@@ -147,10 +145,6 @@
 .type-604 .tcolor {
   color: #cd2122 !important;
 }
-.type-604 .btn-group-md>.btn.btn-lined,
-.type-604 .btn-md.btn-lined {
-  padding: 14px 25px;
-}
 .type-604 .btn-lined.lined-custom {
   color: #cd2122;
   border-color: #cd2122;
@@ -165,4 +159,34 @@
   border-width: 2px;
   line-height: 1.6;
   font-weight: 700;
+}
+@media (max-width: 480px) {
+  .type-604 .css3accordion {
+    width: 100%;
+    margin: 0 auto 20px;
+  }
+  .type-604 .css3accordion ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .type-604 .css3accordion ul li {
+    width: calc(15%);
+    padding-top: 50px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+    border-top: 4px solid #E7E7E7;
+  }
+  .type-604 .css3accordion ul li .thumb {
+    width: calc(30%);
+    float: left;
+    margin-right: 20px;
+    opacity: .8;
+  }
+  .type-604 .css3accordion ul li .last {
+    margin-right: 0;
+  }
 }

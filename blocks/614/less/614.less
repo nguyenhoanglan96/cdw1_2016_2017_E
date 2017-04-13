@@ -1,20 +1,16 @@
 .type-614{
+    @colorbg: #FFF;
     .price{
         color:#282828;
         font-size: 18px;
     }
-    @colorbg: #FFF;
     .col-item {
         border: 1px solid #E1E1E1;
         border-radius: 5px;
         background: @colorbg;
-        .photo img {
+        img {
             margin: 0 auto;
             width: 100%;
-        }
-        .info {
-            padding: 10px;
-            border-radius: 0 0 5px 5px;
         }
         .panel .panel-body {
             position: relative;
@@ -59,13 +55,11 @@
                 font-weight: 600;
             }
         }
-    } 
-    .row{
-        padding: 10px 0 10px;
-        .title{
-            color: #cd2122 !important;
-        }
     }
+    .title{
+        color: #cd2122 !important;
+    }
+
     /****************************SEE ALL**********************************/
     .pbottom-65 {
         padding-bottom: 65px;
@@ -82,5 +76,15 @@
         width: 33.33%;
         border-width: 2px;
         font-weight: 700;
+    }
+    @media(min-width:481px){
+        .photo img {
+            margin: 0 auto;
+            width: 100%;
+        }
+        .info {
+            padding: 10px;
+            border-radius: 0 0 5px 5px;
+        }
     }
 }

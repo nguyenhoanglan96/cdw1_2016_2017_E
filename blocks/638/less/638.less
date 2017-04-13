@@ -3,54 +3,53 @@
         text-align: center;
         margin-top: 100px;
         .title1 {
-        font-size: 45px;
-        font-family: "Roboto", sans-serif;
-        color: #093EB6;
-        font-weight: bold;
-        margin-top: 20px;
+            font-size: 45px;
+            font-family: "Roboto", sans-serif;
+            color: #093EB6;
+            font-weight: bold;
+            margin-top: 20px;
         }
-    }
-     
-.type_slider {
-    .item {
-        line-height: 50px;
-    }
-   
-    img {
-        display: block;
-        width: auto;
-        height: auto;
-    }
-    @media screen and (max-width: 480px) {
+    }  
+    .type_slider {
+        .item {
+            line-height: 50px;
+        }
+
         img {
             display: block;
-            width: 20%;
+            width: auto;
             height: auto;
-            margin-left: 70px;
+        }
+        @media screen and (max-width: 480px) {
+            img {
+                display: block;
+                width: 20%;
+                height: auto;
+                margin-left: 70px;
+            }
+        }
+        @media screen and (max-width: 320px) {
+            img {
+                display: block;
+                width: 20%;
+                height: auto;
+                margin-left: 2px;
+            }
+        }
+        @media screen and (min-width: 481px) and (max-width: 699px) {
+            img {
+                display: block;
+                height: auto;
+                margin-left: 108px;
+            }
+        }
+        @media screen and (min-width: 700px) and (max-width: 999px) {
+            img {
+                display: block;
+                height: auto; 
+                margin-left: 100px;
+            }
         }
     }
-    @media screen and (max-width: 320px) {
-        img {
-            display: block;
-            width: 20%;
-            height: auto;
-            margin-left: 2px;
-        }
-    }
-    @media screen and (min-width: 481px) and (max-width: 699px) {
-        img {
-            display: block;
-            height: auto;
-            margin-left: 108px;
-        }
-    }
-    @media screen and (min-width: 700px) and (max-width: 999px) {
-         img {
-            display: block;
-            height: auto; 
-            margin-left: 100px;
-        }
-    }
-}
 
 }

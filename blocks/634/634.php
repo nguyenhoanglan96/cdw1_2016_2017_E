@@ -23,9 +23,9 @@
 
     <body>
         <div class="type-634">
-            
+            <div class="container">
                 <div class="page_paddings_yes">
-                    <div class="container content_wrap">
+                    <div class=" content_wrap">
                         <article >
                             <h3 class="post_title">
                                 <a class="post_title_link" href="#">New Breakthrough in Crop Science</a>
@@ -72,7 +72,7 @@
                         </nav>
                     </div>
                 </div>
-            
+            </div>
         </div>
 
     </body>

@@ -25,6 +25,9 @@
   transform-origin: 100% 0;
   opacity: .08;
 }
+.type-615 a:hover {
+  text-decoration: none;
+}
 .type-615 .kl-iconbox {
   color: #fff;
   margin-bottom: 30px;
@@ -56,4 +59,12 @@
 }
 .type-615 .glyphicon-chevron-down .text-center {
   padding: 0;
+}
+@media (min-width: 1025px) {
+  .type-615 .btn-lined {
+    border-width: 2px;
+    color: #fff;
+    font-weight: 700;
+    border-style: solid;
+  }
 }

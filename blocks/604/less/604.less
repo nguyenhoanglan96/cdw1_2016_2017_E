@@ -1,4 +1,5 @@
-.type-604{   
+.type-604{ 
+    @color: #fff;
     section {
         padding-top: 35px;
         padding-bottom: 35px;
@@ -13,9 +14,9 @@
     }
     .hover-box {
         display: block;
-        color: #fff;
+        color: @color;
         margin-bottom: 20px;
-         h4{
+        h4{
             line-height: 1.1;
             margin-top: 0;
             font-weight: bold;
@@ -39,6 +40,9 @@
         font-family: Open Sans;
         margin-top: 0;
     }
+    a:hover {
+        text-decoration: none;
+    }
     p {
         margin-bottom: 0;
         line-height: 1.1;
@@ -48,21 +52,17 @@
         height: 3px;
         width: 50px;
         display: block;
-        background: #fff;
+        background: @color;
         margin-top: 22px;
     }
-    element.style {
-        background-image: url(../images/hb-catalogue1.png);
-        background-color: #34495e;
-        background-size: cover;
-    }
+
     .hover-box.hover-box-3 img {
         display: none;
     }
     .latest_posts.acc-style {
         position: relative;
     }
-    .latest_posts.acc-style h3.m_title {
+    .latest_posts.acc-style h3 {
         position: absolute;
         top: 14px;
         color: #CD2122;
@@ -100,15 +100,15 @@
                     opacity: .8;
                 }
                 .last {
-        margin-right: 0;
-    }
+                    margin-right: 0;
+                }
             }
         }
         .text {
             font-size: 11px;
             line-height: 1.4;
         }
-        .content > em {
+        .content  {
             font-size: 11px;
             color: #7d7d7d;
         }
@@ -123,18 +123,18 @@
         background-color: rgba(35,35,35,0.5);
         box-shadow: 0 0 0 5px #cd2122 inset;
     }
- 
+
     .css3accordion>ul>li.last, .css3accordion>ul>li:hover:not(.last) {
         width: 50%;
     }
-   .ptop-65 {
+    .ptop-65 {
         padding-top: 65px;
     }
     .pb-20 {
         padding-bottom: 20px !important;
     }
     .bg-white {
-        background-color: #fff !important;
+        background-color: @color !important;
     }
     .fw-semibold {
         font-weight: 600;
@@ -144,9 +144,6 @@
     }
     .tcolor {
         color: #cd2122 !important;
-    }
-    .btn-group-md>.btn.btn-lined, .btn-md.btn-lined {
-        padding: 14px 25px;
     }
     .btn-lined.lined-custom {
         color: #cd2122;
@@ -161,5 +158,35 @@
         border-width: 2px;
         line-height: 1.6;
         font-weight: 700;
+    }
+    @media(max-width:480px){
+        .css3accordion {
+            width: 100%;
+            margin: 0 auto 20px;
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                li{
+                    width: calc(35% - 20px);
+                    padding-top: 50px;
+                    position: relative;
+                    float: left;
+                    overflow: hidden;
+                    margin-right: 20px;
+                    border-top: 4px solid #E7E7E7; 
+                    .thumb {
+                        width: calc(50% - 20px);
+                        float: left;
+                        margin-right: 20px;
+                        opacity: .8;
+                    }
+                    .last {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
     }
 }

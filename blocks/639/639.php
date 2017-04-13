@@ -30,8 +30,6 @@
 <body>
         
         <div class="type-639">
-            <footer>
-
                 <div class="footer">
                     <div class="container">
                         <!-- Prefooter Section -->
@@ -163,7 +161,7 @@
                     </div>
                 </div>
                 <!-- Copyright -->
-            </footer>
+           
 
         </div>
     </div>

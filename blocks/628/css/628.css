@@ -1,8 +1,3 @@
-@media (max-width: 479px) {
-  .content_wrap {
-    width: 280px;
-  }
-}
 .type-628 .page_paddings_yes {
   padding: 90px;
 }
@@ -77,4 +72,9 @@
 }
 .type-628 .fa .fa-eye .fa-comment-o {
   padding: 0;
+}
+@media (max-width: 479px) {
+  .type-628 .content_wrap {
+    width: 280px;
+  }
 }

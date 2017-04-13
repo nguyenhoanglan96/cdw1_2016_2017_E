@@ -33,50 +33,51 @@
 
     <body>
         <div class="type-638">
+            <div class="container">
 
-            <div class="title-our">
-                <h2 class="title1">OUR PARTNERS</h2>
-            </div>
+                <div class="title-our">
+                    <h2 class="title1">OUR PARTNERS</h2>
+                </div>
 
-            <div class="clearfix" style="margin-top: 100px;"></div>
+                <div class="clearfix" style="margin-top: 100px;"></div>
 
-            <section class="type_slider">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="item">
-                                <a href="#">
-                                    <img src="images/partner2.png"  alt="" >
-                                </a>
+                <section class="type_slider">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="images/partner2.png"  alt="" >
+                                    </a>
+                                </div>
+
                             </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="images/partner3.png"  alt="" >
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="images/partner4.png" alt="" >
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="images/partner1.png" alt="" >
+                                    </a>
+                                </div>
 
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="item">
-                                <a href="#">
-                                    <img src="images/partner3.png"  alt="" >
-                                </a>
                             </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="item">
-                                <a href="#">
-                                    <img src="images/partner4.png" alt="" >
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="item">
-                                <a href="#">
-                                    <img src="images/partner1.png" alt="" >
-                                </a>
-                            </div>
-
                         </div>
                     </div>
-                </div>
-            </section>>
-
+                </section>
+            </div>
         </div>
     </body>
 

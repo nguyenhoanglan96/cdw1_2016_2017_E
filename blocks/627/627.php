@@ -22,7 +22,6 @@
 
     <body>
         <div class="type-627">
-            
                 <div class="top_panel">
                     <div class="container content_wrap">
                         <div class=" content_panel">
@@ -270,7 +269,6 @@
                     </ul>
                 </div><!--end-main-menu-reponsive-->
                 <div class="" style="clear: both"></div>
-            
         </div>
         <div style="height: 1000px">
     </body>
