@@ -20,3 +20,28 @@
 .type-701 .text-detail-wrapper .content {
   font-size: 12px;
 }
+@media (max-width: 1439px) and (min-width: 1263px) {
+  .type-701 .text-full {
+    margin-left: 152px;
+  }
+}
+@media (max-width: 1262px) and (min-width: 1134px) {
+  .type-701 .text-full {
+    margin-left: 123px;
+  }
+}
+@media (max-width: 1262px) and (min-width: 1134px) {
+  .type-701 .text-full {
+    margin-left: 123px;
+  }
+}
+@media (max-width: 1133px) and (min-width: 991px) {
+  .type-701 .text-full {
+    margin-left: 120px;
+  }
+}
+@media (max-width: 968px) and (min-width: 768px) {
+  .type-701 .text-full {
+    margin-left: 6px;
+  }
+}

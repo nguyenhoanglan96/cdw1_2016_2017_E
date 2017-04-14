@@ -23,7 +23,7 @@
         <div class="type-701">
             <div class="container text-detail-wrapper">
                 <div class="row">
-                    <div class="col-md-9">                     
+                    <div class="col-md-9 text-full">                     
                         <div class="col-md-12">
                             <header class="sectionTitle">
                                 <h3>
