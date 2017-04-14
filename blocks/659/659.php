@@ -26,27 +26,26 @@
         <div class="type-659">  
             <div class="container itemslider-wrapper">
                 <div class="row">
-
                     <div class="col-md-4">
                         <div class="feature feature-icon-hover indent indent-size-xl">
-                            <div class="col-md-3">
+                            <div class="col-md-3 text">
                                 <span class="ic ic-2x ib ib-size-xl">
                                     <i class="fa fa-paint-brush"></i>
                                 </span>
                             </div>
                             <div class="col-md-9">
-                                <h6 class="above-heading">Customizable design</h6>
-                                <h3 class="title">Unlimited Colors</h3>
-                                <p>You have never seen so many options! Change colors of dozens of elements, 
-                                    apply textures, upload background images...</p>
-                                <a href="#" class="go">See all features</a>
+                                    <h6 class="above-heading">Customizable design</h6>
+                                    <h3 class="title">Unlimited Colors</h3>
+                                    <p>You have never seen so many options! Change colors of dozens of elements, 
+                                        apply textures, upload background images...</p>
+                                    <a href="#" class="go">See all features</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="feature feature-icon-hover indent indent-size-xl">
-                            <div class="col-md-3">
+                            <div class="col-md-3 text">
                                 <span class="ic ic-2x ib ib-size-xl">
                                     <i class="fa fa-phone"></i>
                                 </span>
@@ -63,7 +62,7 @@
 
                     <div class="col-md-4">
                         <div class="feature feature-icon-hover indent indent-size-xl">
-                            <div class="col-md-3">
+                            <div class="col-md-3 text">
                                 <span class="ic ic-2x ib ib-size-xl">
                                     <i class="fa fa-bars" aria-hidden="true"></i>
                                 </span>
