@@ -53,7 +53,6 @@
 }
 .type-644 #navigation .menu p a {
   color: #888;
-  text-decoration: underline;
 }
 .type-644 #navigation .menu p a:hover {
   color: #555;
@@ -241,4 +240,12 @@
 .type-644 ul.cols4 p a,
 .type-644 ul.cols5 p a {
   padding: 0;
+}
+@media (max-width: 468px) {
+  .type-644 .menu>li {
+    float: left;
+  }
+  .type-644 .menu>li a {
+    display: block;
+  }
 }

@@ -4,9 +4,9 @@
         color: @color;
         opacity: 0.7;
     }
-    
     .footer{
         background-color: #2c3547;
+       
         .widget{
             .title {
                 font-size: 10px;
@@ -98,6 +98,17 @@
             margin: 25px;
             a{
                 color: @color;
+            }
+        }
+    }
+    @media (max-width:500px) {
+        .thumb-headline{
+            margin: 0;
+            .thumb{
+                img{
+                    float: left;
+                    margin-top: 15px;
+                }
             }
         }
     }

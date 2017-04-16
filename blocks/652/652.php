@@ -114,13 +114,10 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="row socket">
                     <span class="copyright">© Copyright - <a href="#">Abundance eCommerce Theme Demo</a> - <a href="#">Wordpress Theme by Kriesi.at</a></span>
                 </div>
             </div>
         </div>
-
-
     </body>
 </html>

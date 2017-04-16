@@ -95,3 +95,12 @@
 .type-652 .socket .copyright a {
   color: #f5f7fa;
 }
+@media (max-width: 500px) {
+  .type-652 .thumb-headline {
+    margin: 0;
+  }
+  .type-652 .thumb-headline .thumb img {
+    float: left;
+    margin-top: 15px;
+  }
+}

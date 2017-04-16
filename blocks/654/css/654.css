@@ -10,6 +10,9 @@
   color: #7e9a47;
   font-weight: bold;
 }
+.type-654 .thumb a:hover {
+  text-decoration: none;
+}
 .type-654 .thumb .thumbnail_container {
   padding: 5px;
   background: #F8F8F8;
@@ -108,6 +111,6 @@
 .type-654 .sidebar .widget_pages li a,
 .type-654 .sidebar .widget_links li a,
 .type-654 .sidebar .widget_meta li a,
-.type-654 .sidebar .widget_nav_menu li a {
+.type-654 .sidebar .widget_nav_menu li a .amount {
   font-size: 11px;
 }

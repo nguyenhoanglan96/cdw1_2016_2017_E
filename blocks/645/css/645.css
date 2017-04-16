@@ -124,3 +124,13 @@
   width: 14px;
   height: 14px;
 }
+@media (max-width: 468px) {
+  .type-645 .contact-details-alt {
+    margin-left: -40px;
+  }
+  .type-645 .contact-details-alt li p strong {
+    color: #fff;
+    float: left;
+    margin: 0 5px 5px 0;
+  }
+}

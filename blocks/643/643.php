@@ -20,11 +20,11 @@
 
     <body>
         <div class="type-643">
-            <div class="topline"></div>
             <div class="container">   
                 <div class="row">
+                    <div class="topline"></div>
                     <!-- Header -->
-                    <div class="col-md-6 ">
+                    <div class="col-md-6 col-sm-12">
                         <!-- Logo -->
                         <div class="eight-columns">
                             <div id="logo">
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <!-- Social / Contact -->
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-12">
                         <div class="eight-columns">
                             <!-- Social Icons -->
                             <ul class="social-icons">
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <!-- Header / End -->
-                    <div class="clearfix"></div>
+               
                 </div>
             </div>
         </div>

@@ -1,24 +1,34 @@
 .type-650 .hr_text {
+  padding-top: 20px;
   overflow: hidden;
-  padding: 30px 0;
   background: url("../images/png.png") repeat-x scroll left center transparent;
+}
+.type-650 .hr {
+  border-bottom: #aaa solid 1px;
 }
 .type-650 .hr_text .custom_hr_text {
   background: #fff;
   color: #aaa;
   font-size: 10px;
-  padding: 0px 8px 0 0;
   float: left;
 }
 .type-650 .thumbs {
   width: 104%;
-  padding: 20px;
   padding-bottom: 60px;
+  padding-top: 50px;
 }
-.type-650 .thumb img {
+.type-650 .thumbs .thumb img {
   width: 100%;
 }
-.type-650 img:hover {
+.type-650 .thumbs img:hover {
   opacity: 0.5;
   filter: alpha(opacity=50);
+}
+@media (max-width: 991px) {
+  .type-650 .thumbs {
+    margin: 5px;
+  }
+  .type-650 .thumbs .thumb {
+    padding: 10px;
+  }
 }

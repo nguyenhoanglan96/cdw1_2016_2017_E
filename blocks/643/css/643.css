@@ -1,6 +1,6 @@
 .type-643 {
   background: #fff;
-  max-width: 1180px;
+  max-width: 1170px;
   margin-left: 93px;
   box-shadow: 0 0 4px;
 }
@@ -93,4 +93,22 @@
 .type-643 .eight-columns .rss {
   background: url(../images/social/rss.png) no-repeat 50%;
   margin: 0 -5px 0 0;
+}
+@media (max-width: 468px) {
+  .type-643 #logo a img {
+    float: left;
+    width: 104px;
+    height: 26px;
+  }
+  .type-643 .social-icons {
+    margin: 23px 5px 13px 0;
+    float: right;
+  }
+  .type-643 .social-icons li {
+    list-style: none;
+    text-indent: -9999px;
+    float: left;
+    opacity: 0.5;
+    padding-left: 10px;
+  }
 }

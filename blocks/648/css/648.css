@@ -88,7 +88,7 @@
   position: absolute;
   padding: 0px;
 }
-.type-648 .slider-show .prev disabled .next {
+.type-648 .slider-show .prev  .next {
   display: none;
 }
 .type-648 .slider-show .carousel .item img:hover {
@@ -99,9 +99,6 @@
 }
 .type-648 .slider-show .glyphicon {
   left: 110px;
-}
-.type-648 .slider-show .glyphicon .glyphicon-chevron-up {
-  top: 10px !important;
 }
 .type-648 .slider-show .glyphicon:hover {
   display: block;

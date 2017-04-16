@@ -56,3 +56,11 @@
   font-size: 12px;
   display: none;
 }
+@media (max-width: 468px) {
+  .type-646 .tab_content {
+    color: #6e7177;
+    padding: 10px;
+    font-size: 12px;
+    display: none;
+  }
+}

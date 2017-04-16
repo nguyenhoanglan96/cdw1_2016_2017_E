@@ -11,6 +11,9 @@
   font-size: 11px;
   color: #aaa;
 }
+.type-653 .title a:hover {
+  text-decoration: none;
+}
 .type-653 .title .mn {
   float: right;
   width: auto;

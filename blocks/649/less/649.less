@@ -1,43 +1,80 @@
 .type-649{
-    .container  {
-        h3{
-            font-size: 11px;
-            font-weight: bold;
-            text-transform: uppercase;
+    @color:#f5f7fa;
+    h3{
+        font-size: 11px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .dropcap2 {
+        display: block;
+        float: left;
+        font-size: 20px;
+        line-height: 35px;
+        width: 36px;
+        text-align: center;
+        margin: 4px 8px 0 0;
+        border-radius: 50%;
+        background-color: #2c3547;
+        color: @color;
+    }
+    .hr{
+        padding: 30px 0;
+        line-height: 29px;
+    }
+    .custom_hr_text{
+        color: #aaa;
+        font-size: 10px;
+        padding: 0px 8px 0 0;
+        margin: 6px auto;
+        float: left;
+    }
+    .text {
+        color:#fff;
+        background: #000;
+        position:relative;
+        bottom: 100px;
+        text-align: center;
+        visibility:hidden;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    .col-sm-4:hover {
+        img{
+            border:4px solid #000;
         }
-        .dropcap2 {
-            display: block;
-            float: left;
-            font-size: 20px;
-            line-height: 35px;
-            width: 36px;
-            text-align: center;
-            margin: 4px 8px 0 0;
-            border-radius: 50%;
-            background-color: #2c3547;
-            color: #f5f7fa;
-        }
-        .hr{
-            padding: 30px 0;
-            line-height: 29px;
-        }
-        .custom_hr_text{
-            color: #aaa;
-            font-size: 10px;
-            padding: 0px 8px 0 0;
-            margin: 6px auto;
-            float: left;
+        .text{
+            transform: translateY(-6px);
+            text-decoration: none;
+            visibility:visible;
         }
     }
-    .product {
+    h4{
+        color: #333;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .amount {
+        color: #7e9a47;
+        font-weight: bold;
+    }
+    .price del{
+        color: #bbb;
+    }
+    .price ins{
+        text-decoration: none;
+        font-weight: bold;
+        color: #8b2121;
+    }
+    .slide  .glyphicon ,#carousel123 .glyphicon-chevron-left, .glyphicon-chevron-right {
+        padding: 0;
+    }
+     .product {
         img{
             width:100%;
             border:4px solid gainsboro;
         }
         .carousel-showsixmoveone{
-            .cloneditem-1, .cloneditem-2, .cloneditem-3, .cloneditem-4, .cloneditem-5{
-                display: none;
-            }
             .carousel-inner{
                 @media all and (min-width: 768px){
                     @media (transform-3d), (-webkit-transform-3d){
@@ -91,9 +128,7 @@
                     .left, .prev.right, .active{
                         left: 0;
                     }
-                    .cloneditem-3, .cloneditem-4, .cloneditem-5{
-                        display: block;
-                    }
+                   
                 }    
             }
             .carousel-control{ 
@@ -110,44 +145,5 @@
                 }
             }
         }
-    }
-    .text {
-        color:#fff;
-        background: #000;
-        text-decoration: none;
-        position:relative;
-        bottom: 100px;
-        text-align: center;
-        visibility:hidden;
-    }
-    .col-sm-4:hover {
-        img{
-            border:4px solid #000;
-        }
-        .text{
-            transform: translateY(-6px);
-            text-decoration: none;
-            visibility:visible;
-        }
-    }
-    h4{
-        color: #333;
-        font-size: 13px;
-        font-weight: bold;
-    }
-    .amount {
-        color: #7e9a47;
-        font-weight: bold;
-    }
-    .price del{
-        color: #bbb;
-    }
-    .price ins{
-        text-decoration: none;
-        font-weight: bold;
-        color: #8b2121;
-    }
-    .slide .carousel .glyphicon ,#carousel123 .glyphicon-chevron-left, .glyphicon-chevron-right {
-        padding: 0;
     }
 }

@@ -25,34 +25,22 @@
             <div class="container">
                 <div class="row abs">
                     <div class="col-md-2 col-xs-6">
-                        <a href="#">
-                            <img src="images/1.png" alt=""/>
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-xs-6">
-                        <a href="#">
-                        <img   src="images/1.png" alt=""/>
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-xs-6">
-                        <a href="#">
                         <img src="images/1.png" alt=""/>
-                        </a>
                     </div>
                     <div class="col-md-2 col-xs-6">
-                        <a href="#">
-                        <img src="images/1.png" alt=""/>
-                        </a>
+                        <img   src="images/2.png" alt=""/>
                     </div>
                     <div class="col-md-2 col-xs-6">
-                       <a href="#">
-                        <img src="images/1.png" alt=""/>
-                        </a>
+                        <img src="images/3.png" alt=""/>
                     </div>
                     <div class="col-md-2 col-xs-6">
-                        <a href="#">
-                        <img src="images/1.png" alt=""/>
-                        </a>
+                        <img src="images/4.png" alt=""/>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <img src="images/5.png" alt=""/>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <img src="images/6.png" alt=""/>
                     </div>
                 </div>
             </div>                

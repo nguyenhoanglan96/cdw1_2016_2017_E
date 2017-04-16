@@ -23,7 +23,7 @@
         <div class="type-644">
             <div class="container">
                 <div class="row">
-                    <nav id="navigation" class="style-1">
+                    <nav id="navigation">
                         <div class="left-corner"></div>
                         <div class="right-corner"></div>
                         <ul class="menu" id="responsive">
@@ -100,11 +100,9 @@
                                 </ul>
                                 <!-- Second Level / End -->
                             </li>
-
                             <li><a href="contact.html"><i class="halflings white envelope"></i> Contact</a></li>
                         </ul>
-                    </nav>                   
-                    <div class="clearfix"></div>
+                    </nav>                 
                 </div>
             </div>
         </div>

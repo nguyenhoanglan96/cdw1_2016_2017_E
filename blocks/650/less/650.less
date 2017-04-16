@@ -1,27 +1,37 @@
 .type-650 {
     .hr_text {
+        padding-top: 20px;
         overflow: hidden;
-        padding: 30px 0;
         background: url("../images/png.png") repeat-x scroll left center transparent;
+    }
+    .hr {
+        border-bottom: #aaa solid 1px;
     }
     .hr_text .custom_hr_text {
         background: #fff;
         color: #aaa;
         font-size: 10px;
-        padding: 0px 8px 0 0;
         float: left;
     }
     .thumbs {
         width: 104%;
-        padding: 20px;
         padding-bottom: 60px;
-    }
-    .thumb img {
-        width: 100%;
 
+        padding-top: 50px;
+        .thumb img {
+            width: 100%;
+        }
+        img:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50); 
+        }
     }
-    img:hover {
-        opacity: 0.5;
-        filter: alpha(opacity=50); /* For IE8 and earlier */
+    @media (max-width:991px) {
+        .thumbs {
+            margin: 5px;
+            .thumb {
+                padding: 10px;
+            }
+        }
     }
 }

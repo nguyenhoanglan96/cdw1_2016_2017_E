@@ -63,7 +63,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="carousel thin" >
-                                        <a class="prev">
+                                        <a class="prev ws_prev ">
                                             <span class="glyphicon glyphicon-chevron-up"></span>
                                         </a>
                                         <div class="window">
@@ -82,7 +82,7 @@
                                                 </li>                                               
                                             </ul>
                                         </div> <!-- .window -->
-                                        <a class="next"><span class="glyphicon glyphicon-chevron-down"></span></a>
+                                        <a class="next ws_next"><span class="glyphicon glyphicon-chevron-down"></span></a>
                                     </div> <!-- .carousel -->
                                 </div>
                             </div>

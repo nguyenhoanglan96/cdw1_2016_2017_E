@@ -53,7 +53,6 @@
         }
         .menu p a{
             color:#888;
-            text-decoration:underline;
         }
         .menu p a:hover{
             color:#555;
@@ -203,5 +202,13 @@
     }
     ul.cols1 p a,ul.cols2 p a,ul.cols3 p a,ul.cols4 p a,ul.cols5 p a{
         padding:0;
+    }
+    @media (max-width:468px) {
+         .menu>li{
+            float:left;
+            a{
+                display:block;
+            }
+        }
     }
 }

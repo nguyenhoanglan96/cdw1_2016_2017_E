@@ -26,60 +26,57 @@
                 <div class="row">
                     <footer id="footer">
                         <!-- 960 Container -->
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <!-- About -->
-                                    <div class="columns">
-                                        <img id="logo-footer" src="images/logo-footer.png" alt="" />
-                                        <p>Morbi gravida imperdiet rutrum fusce mattis, lectus consequat vestibulum, duinibh fermentum ligula.</p>
-                                    </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <!-- About -->
+                                <div class="columns">
+                                    <img id="logo-footer" src="images/logo-footer.png" alt="" />
+                                    <p>Morbi gravida imperdiet rutrum fusce mattis, lectus consequat vestibulum, duinibh fermentum ligula.</p>
                                 </div>
-                                <!-- Contact Details -->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="columns">
-                                        <h4>Contact Details</h4>
-                                        <ul class="contact-details-alt">
-                                            <li><i class="halflings white map-marker"></i> <p><strong>Address:</strong> 123 Seward Street, Oklahoma City, USA</p></li>
-                                            <li><i class="halflings white user"></i> <p><strong>Phone:</strong> +48 880 440 110</p></li>
-                                            <li><i class="halflings white envelope"></i><p><strong>Email:</strong> <a href="#">mail@example.com</a></p></li>
-                                        </ul>
-                                    </div>
+                            </div>
+                            <!-- Contact Details -->
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="columns">
+                                    <h4>Contact Details</h4>
+                                    <ul class="contact-details-alt">
+                                        <li><i class="halflings white map-marker"></i> <p><strong>Address:</strong> 123 Seward Street, Oklahoma City, USA</p></li>
+                                        <li><i class="halflings white user"></i> <p><strong>Phone:</strong> +48 880 440 110</p></li>
+                                        <li><i class="halflings white envelope"></i><p><strong>Email:</strong> <a href="#">mail@example.com</a></p></li>
+                                    </ul>
                                 </div>
-                                <!-- Photo Stream -->
-                                <div class="col-md-3 col-sm-6 col-xs-12 ">
-                                    <div class="columns">
-                                        <h4>Photo Stream</h4>
-                                        <div class="flickr-widget">
-                                            <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=72179079@N00">
-                                            </script>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Twitter -->
-                                <div class="col-md-3 col-sm-6 col-xs-12 ">
-                                    <div class="columns">
-                                        <h4>Twitter</h4>
-                                        <ul id="twitter">
-                                            <li>
-                                                <span>
-                                                    WPVoyager - The Best Travel Blog Theme for WordPress
-                                                    <a href="#">http://t.co/wh0f9rS1Xn</a> przez@
-                                                    <a href="#">Vasterad</a>
-                                                </span>
-                                                <br>
-                                                <b>
-                                                    <a href="#">459 days ago</a>
-                                                </b>
-                                            </li>
-                                        </ul>
+                            </div>
+                            <!-- Photo Stream -->
+                            <div class="col-md-3 col-sm-6 col-xs-12 ">
+                                <div class="columns">
+                                    <h4>Photo Stream</h4>
+                                    <div class="flickr-widget">
+                                        <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=72179079@N00">
+                                        </script>
                                         <div class="clearfix"></div>
                                     </div>
                                 </div>
                             </div>
+                            <!-- Twitter -->
+                            <div class="col-md-3 col-sm-6 col-xs-12 ">
+                                <div class="columns">
+                                    <h4>Twitter</h4>
+                                    <ul id="twitter">
+                                        <li>
+                                            <span>
+                                                WPVoyager - The Best Travel Blog Theme for WordPress
+                                                <a href="#">http://t.co/wh0f9rS1Xn</a> przez@
+                                                <a href="#">Vasterad</a>
+                                            </span>
+                                            <br>
+                                            <b>
+                                                <a href="#">459 days ago</a>
+                                            </b>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
                         </div>
-                        <!-- 960 Container / End -->
                     </footer>
                     <!-- Footer / End -->
                     <!-- Footer Bottom / Start  -->
@@ -102,7 +99,6 @@
                                     </ul>
                                 </nav>
                             </div>
-
                         </div>
                         <!-- 960 Container / End -->
                     </footer>

@@ -51,7 +51,7 @@
                         <div class="breadcrumb-trail">
                             <span>
                                 <span >You are here:</span></span>
-                            <a href="http://www.kriesi.at/themes/abundance" title="Abundance eCommerce Theme Demo" rel="home" >Home</a>
+                            <a href="#" title=" " rel="home" >Home</a>
                             <span>»</span>
                             <span>Products</span>
                         </div>
@@ -61,8 +61,6 @@
                 <!--/Tile-->
             </div>
         </div>
-        <div class="clearfix"></div>
-
     </body>
 
 </html>
