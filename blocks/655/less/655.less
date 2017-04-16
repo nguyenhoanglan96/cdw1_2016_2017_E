@@ -1,4 +1,5 @@
 .type-655{
+    @color: white;
     .title_container{
         margin: 0 0 20px 0;
         padding: 0 225px 32px 0;
@@ -19,6 +20,12 @@
                 font-size: 30px;
             }
         }
+    }
+    .text .alt .nav .in {
+        padding: 0;
+    }
+    a:hover {
+        text-decoration: none;
     }
     h4{
         font-size: 20px;
@@ -60,6 +67,9 @@
             }
         }
     }
+    .nav-tabs .tab-pane .fade {
+        padding: 0;
+    }
     .col-md-8{
         .stock{
             font-size: 0.92em;
@@ -79,7 +89,7 @@
                 padding: 0;
                 vertical-align: middle;
                 width: 20px;
-                color: white;
+                color: @color;
                 border: 0;
             }
             .minus:hover{
@@ -90,7 +100,7 @@
                 padding: 0;
                 vertical-align: middle;
                 width: 20px;
-                color: white;
+                color: @color;
                 border: 0;
             }
             .plus:hover{
@@ -100,7 +110,7 @@
                 size: 4;
             }
             .button{
-                color: white;
+                color: @color;
                 padding: 10px;
                 line-height: 1em;
                 margin: 4px 2px 0 0;
@@ -163,7 +173,7 @@
             font-size: 0.92em;
         }
         .container-nav ul li a{
-            background: white;
+            background: @color;
             color: #999;
         }
         .container-nav ul li.active a{
@@ -202,5 +212,16 @@
                 color: #333;
             }
         }
+    }
+    @media (min-width:759px) {
+        .title_container .col-md-4{
+            padding-left: 20px;
+        }
+    }
+     @media (max-width:360px) {
+      .col-md-4{
+            margin-left: 10px;
+        }
+    
     }
 }   

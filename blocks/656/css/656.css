@@ -1,0 +1,67 @@
+.type-656 .nav>li>a:focus,
+.type-656 .nav>li>a:hover {
+  text-decoration: none;
+  background-color: #de2666;
+  color: #fff;
+}
+.type-656 .dropdown-menu>li>a:hover {
+  color: #3ec2df;
+  text-decoration: none;
+}
+.type-656 .dropdown-icon {
+  width: 18px;
+  text-indent: -9999px;
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+}
+.type-656 span .navbar-right .label.form-control {
+  padding: 0 10px;
+}
+.type-656 .ic {
+  font-size: 16px;
+  line-height: 1em;
+}
+.type-656 .icon a {
+  text-decoration: none;
+}
+.type-656 .dropdown {
+  float: right;
+}
+.type-656 .hotline {
+  padding-top: 15px;
+}
+.type-656 #col1 {
+  margin-left: 18px;
+}
+.type-656 #col2 {
+  padding-left: 72px;
+  padding-top: 35px;
+}
+.type-656 .fa .fa-phone .navbar-header .navbar-nav {
+  padding: 0;
+}
+.type-656 .mega-dropdown {
+  position: static !important;
+}
+.type-656 #custom-search-input {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+.type-656 #custom-search-input button {
+  border: 0;
+  background: none;
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  left: -28px;
+}
+@media (max-width: 500px) {
+  .type-656 span .btn-danger .navbar-collapse {
+    padding: 0 10px;
+  }
+  .type-656 .ic {
+    font-size: 16px;
+    line-height: 1em;
+  }
+}

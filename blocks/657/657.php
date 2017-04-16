@@ -17,13 +17,13 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-g-2.less', 'css/type-g-2.css');
+        $less->compileFile('less/657.less', 'css/657.css');
         ?>
-        <link href="css/type-g-2.css" rel="stylesheet" type="text/css"/>
+        <link href="css/657.css" rel="stylesheet" type="text/css"/>
     </head>
 
     <body>
-        <div class="type-g-2">  
+        <div class="type-657">  
             <div class="container">
                 <div class="row">
                     <nav class="navbar navbar-default">
@@ -37,15 +37,12 @@
                             <a class="navbar-brand" href="#">Home</a>
                         </div>
 
-
                         <div class="collapse navbar-collapse js-navbar-collapse">
-
                             <ul class="nav navbar-nav">
                                 <li class="dropdown mega-dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Women 
                                         <span class="glyphicon glyphicon-chevron-down pull-right"></span>
                                     </a>
-
                                     <ul class="dropdown-menu mega-dropdown-menu row">
                                         <li class="col-sm-4">
                                             <ul>
@@ -62,7 +59,7 @@
 
                                         <li class="col-sm-7">
                                             <ul>
-                                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                <div  class="carousel slide" data-ride="carousel">
                                                     <div class="carousel-inner">
                                                         <div class="item active">
                                                             <a href="#"><img src="images/img/01.jpg" class="img-responsive" alt="product 1"></a>                                                 
@@ -73,10 +70,8 @@
                                                 </div>
                                                 <!-- /.carousel -->
                                             </ul>
-
                                         </li>
                                     </ul>
-
                                 </li>
                             </ul><!--Women-->
 
@@ -127,7 +122,7 @@
                                                 <form class="form" role="form">
                                                     <div class="form-group">
                                                         <label class="sr-only" for="email">Email address</label>
-                                                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                                        <input type="email" class="form-control"  placeholder="Enter email">
                                                     </div>
                                                     <button type="submit" class="btn btn-primary btn-block">Sign in</button>
                                                 </form>
@@ -137,7 +132,7 @@
                                         <li class="col-sm-3">
                                             <ul>
                                                 <li class="dropdown-header">New in Stores</li>
-                                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                <div  class="carousel slide" data-ride="carousel">
                                                     <div class="carousel-inner">
                                                         <div class="item active">
                                                             <a href="#"><img src="images/img/216840-0129_1.jpg" class="img-responsive" alt="product 1"></a>                        
@@ -166,9 +161,7 @@
                                                 <!-- /.carousel -->                          
                                             </ul>
                                         </li>
-
                                     </ul>
-
                                 </li>
                             </ul><!--Fashion-->
 
@@ -178,12 +171,10 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Electronic
                                         <span class="glyphicon glyphicon-chevron-down pull-right"></span>
                                     </a>
-
                                     <ul class="dropdown-menu mega-dropdown-menu row">
-
                                         <li class="col-sm-3">
                                             <ul>
-                                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                <div  class="carousel slide" data-ride="carousel">
                                                     <div class="carousel-inner">
                                                         <div class="item active">
                                                             <a href="#"><img src="images/img/02.jpg" class="img-responsive" alt="product 1"></a>                        
@@ -237,15 +228,13 @@
                                                 <form class="form" role="form">
                                                     <div class="form-group">
                                                         <label class="sr-only" for="email">Email address</label>
-                                                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                                        <input type="email" class="form-control"  placeholder="Enter email">
                                                     </div>
                                                     <button type="submit" class="btn btn-primary btn-block">Sign in</button>
                                                 </form>
                                             </ul>
                                         </li>
-
                                     </ul>
-
                                 </li>
                             </ul><!--Electronic-->
 
@@ -254,7 +243,6 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Digital
                                         <span class="glyphicon glyphicon-chevron-down pull-right"></span>
                                     </a>
-
                                     <ul class="dropdown-menu mega-dropdown-menu row">                                
                                         <li class="col-sm-12">
                                             <ul>
@@ -270,7 +258,6 @@
                                             </ul>
                                         </li>                                 
                                     </ul>
-
                                 </li>
                             </ul><!--Digital-->
 
@@ -285,7 +272,7 @@
 
                                         <li class="col-sm-3">
                                             <ul>
-                                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                <div  class="carousel slide" data-ride="carousel">
                                                     <div class="carousel-inner">
                                                         <div class="item active">                      
                                                             <h2>Responsive Magento Theme</h2>
@@ -301,7 +288,7 @@
 
                                         <li class="col-sm-3">
                                             <ul>
-                                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                <div  class="carousel slide" data-ride="carousel">
                                                     <div class="carousel-inner">
                                                         <div class="item active">
                                                             <a href="#"><img src="images/img/01.png" class="img-responsive" alt="product 1"></a>                        
@@ -318,7 +305,7 @@
 
                                         <li class="col-sm-3">
                                             <ul>
-                                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                <div  class="carousel slide" data-ride="carousel">
                                                     <div class="carousel-inner">
                                                         <div class="item active">
                                                             <a href="#"><img src="images/img/02.png" class="img-responsive" alt="product 1"></a>                        
@@ -335,7 +322,7 @@
 
                                         <li class="col-sm-3">
                                             <ul>
-                                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                <div  class="carousel slide" data-ride="carousel">
                                                     <div class="carousel-inner">
                                                         <div class="item active">
                                                             <a href="#"><img src="images/img/03.png" class="img-responsive" alt="product 1"></a>                        
@@ -349,16 +336,12 @@
                                                 <!-- /.carousel -->                          
                                             </ul>
                                         </li>
-
                                     </ul>
-
                                 </li>
                             </ul><!--Custom-->
-
                         </div>                   
                         <!-- /.nav-collapse -->
                     </nav>
-                    
                 </div>
             </div>
         </div>
