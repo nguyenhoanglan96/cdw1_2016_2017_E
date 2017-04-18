@@ -1,0 +1,117 @@
+.type-659 .itemslider-wrapper .feature {
+  margin: 25px 0;
+}
+.type-659 .itemslider-wrapper .feature .indent-size-xl {
+  padding-left: 9px;
+}
+.type-659 .itemslider-wrapper .feature .indent-size-xl .ic {
+  margin-left: -75px;
+}
+.type-659 .itemslider-wrapper .feature .indent > .ic {
+  float: left;
+  margin: 0 15px 0 0;
+}
+.type-659 .itemslider-wrapper .feature .above-heading {
+  margin: 0 0 5px;
+  font-size: 10px;
+  line-height: 1.4545em;
+  text-transform: uppercase;
+  color: #888;
+}
+.type-659 .itemslider-wrapper .ib {
+  background-color: #de2666;
+  color: #ffffff;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 50%;
+}
+.type-659 .itemslider-wrapper .ib-size-xl {
+  line-height: 60px;
+  width: 60px;
+  height: 60px;
+}
+.type-659 .itemslider-wrapper .ic-2x {
+  font-size: 2em;
+}
+.type-659 .itemslider-wrapper .ic {
+  display: inline-block;
+  font-family: ThemeIcons;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.type-659 .itemslider-wrapper .title {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  margin: 0 0 10px;
+  font-weight: normal;
+}
+.type-659 .itemslider-wrapper a.go {
+  background: url(../images/bullet.png) 97% 50% no-repeat;
+  padding-right: 17px;
+  display: inline !important;
+  text-decoration: none;
+  color: #000;
+}
+.type-659 .itemslider-wrapper a:hover {
+  color: #31b0d5;
+}
+.type-659 .itemslider-wrapper .feature-icon-hover:hover .ib {
+  background: #000;
+  color: #ffffff;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .type-659 .text {
+    float: left;
+    margin: 4px 15px 38px 12px;
+  }
+  .type-659 a {
+    margin-left: 102px;
+  }
+}
+@media (max-width: 767px) and (min-width: 640px) {
+  .type-659 .text {
+    float: left;
+    margin: 4px 15px 38px 12px;
+  }
+  .type-659 a {
+    margin-left: 102px;
+  }
+}
+@media (max-width: 639px) and (min-width: 498px) {
+  .type-659 .text {
+    float: left;
+    margin: 4px 15px 38px 12px;
+  }
+  .type-659 a {
+    margin-left: 102px;
+  }
+}
+@media (max-width: 497px) {
+  .type-659 p {
+    font-size: 13px;
+  }
+  .type-659 .text {
+    float: left;
+    margin: 1px 10px 35px 8px;
+  }
+  .type-659 a {
+    font-size: 13px;
+    margin-left: 95px;
+  }
+}
+@media (max-width: 461px) {
+  .type-659 p {
+    font-size: 9px;
+  }
+  .type-659 .text {
+    float: left;
+    margin: 1px 10px 35px 8px;
+  }
+  .type-659 a {
+    font-size: 9px;
+    margin-left: 0;
+  }
+}
