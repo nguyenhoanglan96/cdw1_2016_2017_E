@@ -1,116 +1,131 @@
 <!DOCTYPE html>
-
 <html>
-
     <head>
-        <title></title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <title>658</title>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
-        <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
         $less->compileFile('less/658.less', 'css/658.css');
-        ?>
-        <link href="css/658.css" rel="stylesheet" type="text/css"/>
+        ?>     
+
+        <link href="css/658.css" rel="stylesheet" type="text/css" />
+
     </head>
 
     <body>
-        <div class="type-658">  
-            <div class="container">
-                <div class="col-lg-9">
-                    <div class="row">
-
-                        <div id="first-slider">
-                            <div id="carousel-example-generic" class="carousel slide carousel-fade">
-                                <!-- Indicators -->
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                                </ol>
-                                <!-- Wrapper for slides -->
-                                <div class="carousel-inner" role="listbox">
-                                    <!-- Item 1 -->
-                                    <div class="item active slide1">
-                                        <img src="images/s1_1.jpg" alt=""/>
-                                        <div class="caption light1 top-right">
-                                            <h2 class="heading permanent">Customizable Theme</h2>
-                                            <p>You can change colors of almost every element</p>
-                                            <p>You have never seen so many options</p>
-                                        </div>                                 
-                                    </div> 
-                                    <!-- Item 2 -->
-                                    <div class="item slide2">
-                                        <img src="images/s1_2.jpg" alt=""/>
-                                        <div class="caption dark2">
-                                            <h2 class="heading permanent">Responsive</h2>
-                                            <p class="permanent">This theme can adapt to any mobile screen resolution</p>
+        <div class="type-658">
+            <div class="container detail-wrapper">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 style="text-align: center;">Latest From Blog News</h1>
+                        <p style="text-align: center;">
+                            Quisque porttitor sem liberoet auctor lorem fringilla sit 
+                            amehasellus gravida nisi elitam egestda.
+                        </p>
+                        <div class="tp-news-section">
+                            <div class="tp-blog-page">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="tp-blog-pic">
+                                        <a href="#"> 
+                                            <img class="img-responsive" src="images/blog-img1-e1440641700467.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="tp-blog-info">
+                                        <!-- blog-info -->
+                                        <div class="row">
+                                            <div class="col-md-2 col-xs-4">
+                                                <div class="tp-meta">
+                                                    <!-- tp-meta -->
+                                                    <span class="tp-meta-date">27 / 07</span>
+                                                    <span class="tp-meta-year">2015</span>
+                                                </div>
+                                                <!-- /.tp-meta -->
+                                            </div>
+                                            <div class="col-md-10 col-xs-8">
+                                                <h1 class="tp-post-title">
+                                                    <a href="#">The dumbest smartphone debate</a>
+                                                </h1>
+                                                <span class="tp-meta">  
+                                                    <i class="fa fa-comments-o"></i>0 
+                                                    <a href="#">Comment</a> 
+                                                    <i class="fa fa-user"></i>
+                                                    <a href="#">admin</a> 
+                                                    <i class="fa fa-tags"></i>
+                                                    <a href="#" rel="tag">Bars</a>, 
+                                                    <a href="#" rel="tag">Copper Base</a> 
+                                                    <span class="the_category">in</span> 
+                                                    <a href="#" rel="category tag">Plates</a>, 
+                                                    <a href="#" rel="category tag">Rolled</a> 
+                                                </span>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                    Ut mattis consequat hendrerit. Etiam et aliquet mauris. 
+                                                    Fusce nunc nisl, varius non nulla vitae, euismod ultricies ligula. 
+                                                </p>
+                                                <a href="#" class="btn btn-outline">Read More</a>
+                                            </div>
                                         </div>
                                     </div>
-                                    <!-- Item 3 -->
-                                    <div class="item slide3">
-                                        <img src="images/s1_3.jpg" alt=""/>
-                                        <a class="caption dark feature-icon-hover" href="#" title="Click to see the product">
-                                            <h2 class="hide-below-960" style="color: #fff; font-size: 35px; line-height: 60px; padding-right: 8px;">Super Promo</h2>
-                                            <span class="ic ic-lg ic-char ib ib-size-xl"></span>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="tp-blog-pic">
+                                        <a href="#">
+                                            <img class="img-responsive" src="images/blog-img2-e1440641680103.jpg">
                                         </a>
-
                                     </div>
-                                    <!-- Item 4 -->
-                                    <div class="item slide4">
-                                        <img src="images/s1_4.png" alt=""/>
-
+                                    <div class="tp-blog-info">
+                                        <!-- blog-info -->
+                                        <div class="row">
+                                            <div class="col-md-2 col-xs-4">
+                                                <div class="tp-meta">
+                                                    <!-- tp-meta -->
+                                                    <span class="tp-meta-date">27 / 07</span>
+                                                    <span class="tp-meta-year">2015</span>
+                                                </div>
+                                                <!-- /.tp-meta -->
+                                            </div>
+                                            <div class="col-md-10 col-xs-8">
+                                                <h1 class="tp-post-title">
+                                                    <a href="#">Robots Replace Miners In Oz</a>
+                                                </h1>
+                                                <span class="tp-meta">  
+                                                    <i class="fa fa-comments-o"></i>0 
+                                                    <a href="#">Comment</a> <i class="fa fa-user"></i>
+                                                    <a href="#">admin</a> <i class="fa fa-tags"></i>
+                                                    <a href="#" rel="tag">Industrial</a>, 
+                                                    <a href="#" rel="tag">Mining</a>, 
+                                                    <a href="#" rel="tag">Steel Forgings</a>  
+                                                    <span class="the_category">in</span> 
+                                                    <a href="#" rel="category tag">Bars</a>, 
+                                                    <a href="#" rel="category tag">Plates</a>, 
+                                                    <a href="#" rel="category tag">Sheet Steel</a>
+                                                </span>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                    Ut mattis consequat hendrerit. Etiam et aliquet mauris. 
+                                                    Fusce nunc nisl, varius non nulla vitae, euismod ultricies ligula.
+                                                </p>
+                                                <a href="#" class="btn btn-outline">Read More</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <!-- End Item 4 -->
-
                             </div>
-                            <!-- End Wrapper for slides-->
-                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                                <i class="fa fa-angle-left"></i>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                                <i class="fa fa-angle-right"></i>
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-3">
-                    <div class="the-slideshow-banners slideshow-banners grid12-3 no-right-gutter hide-below-768">
-                        <a class="banner fade-on-hover" href="#" style="opacity: 1;">
-                            <img src="images/01.jpg" alt="Buy This Theme">
-                            <div class="caption light1 full-width right main-font">
-                                <p class="right">Buy This Theme</p>
-                            </div>
-                        </a>
-
-                        <a class="banner fade-on-hover" href="#" style="opacity: 1;">
-                            <img src="images/02.jpg" alt="Buy This Theme">
-                            <div class="caption light1 full-width right main-font">
-                                <p class="right">Buy This Theme</p>
-                            </div>
-                        </a>
-                        <a class="banner fade-on-hover" href="#" style="opacity: 1;">
-                            <img src="images/03.jpg" alt="Sell Downloads">
-                            <div class="caption light1 full-width right main-font">
-                                <p class="right">See All Demos</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
             </div>
-        </div>    
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        </div>
     </body>
+
 </html>
