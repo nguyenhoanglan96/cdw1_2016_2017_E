@@ -7,17 +7,23 @@
     width: 31.333333%;
   }
 }
-.tem-672 .rap .related_articles {
+.tem-672 .rap .content .related_articles {
   padding: 20px;
   border: 1px solid #cecece;
   margin: 35px auto 0 auto;
   box-shadow: 0 1px 1px #EDEDED;
 }
-.tem-672 .rap .related_articles ul {
+.tem-672 .rap .content .related_articles ul {
   overflow: hidden;
   margin: 0;
 }
-.tem-672 .rap .related_articles .related_title {
+.tem-672 .rap .content .related_articles ul li {
+  width: 29.83%;
+  float: left;
+  text-align: center;
+  margin: 0 1.75% 15px 1.75%;
+}
+.tem-672 .rap .content .related_articles .related_title {
   font: 700 21px/21px 'Roboto', trebuchet ms;
   color: #111;
   margin-top: -20px;
@@ -28,34 +34,12 @@
   background: #fff;
   padding: 0 25px;
 }
-.tem-672 .rap li {
-  display: list-item;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  text-align: -webkit-match-parent;
-}
-.tem-672 .rap .related_articles ul li {
-  width: 29.83%;
-  float: left;
-  text-align: center;
-  margin: 0 1.75% 15px 1.75%;
-}
-.tem-672 .rap a-webkit-any-link {
-  margin: 0;
-  vertical-align: baseline;
-  cursor: auto;
-  outline: none !important;
-  transition: all 0.4s ease 0s;
-}
-.tem-672 .rap .related_articles ul li>a {
+.tem-672 .rap .content .related_articles ul li>a {
   font: bold 16px/18px 'Roboto', trebuchet ms;
   color: #111;
   text-decoration: none;
 }
-.tem-672 .rap .related_articles .rh_related_link_image {
+.tem-672 .rap .content .related_articles .rh_related_link_image {
   display: table;
   width: 100%;
   padding: 12px;
@@ -65,7 +49,7 @@
   box-sizing: border-box;
   text-align: center;
 }
-.tem-672 .rap figure {
+.tem-672 .rap .content figure {
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 40px;
@@ -76,17 +60,17 @@
   font-size: 100%;
   font: inherit;
 }
-.tem-672 .rap .related_articles ul li figure {
+.tem-672 .rap .content .related_articles ul li figure {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
   height: 150px;
 }
-.tem-672 .rap .related_articles ul li img {
+.tem-672 .rap .content .related_articles ul li img {
   height: auto;
   max-width: 100%;
 }
-.tem-672 .rap ol {
+.tem-672 .rap .content ol {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
@@ -99,26 +83,26 @@
   font: inherit;
   vertical-align: baseline;
 }
-.tem-672 .rap .commentlist {
+.tem-672 .rap .content .commentlist {
   margin: 0 0 30px 0;
   list-style: none;
   clear: both;
 }
-.tem-672 .rap .commentlist li {
+.tem-672 .rap .content .commentlist li {
   margin: 0 0 25px 0;
 }
-.tem-672 .rap .commentlist .comment-author {
+.tem-672 .rap .content .commentlist .comment-author {
   position: relative;
   padding: 15px 20px;
   border-bottom: 1px solid #EDEDED;
 }
-.tem-672 .rap .commentlist .comment-author img {
+.tem-672 .rap .content .commentlist .comment-author img {
   width: 50px;
   height: 50px;
   float: left;
   margin-right: 20px;
 }
-.tem-672 .rap .commbox {
+.tem-672 .rap .content .commbox {
   background: none repeat scroll 0 0 #FFF;
   border: 1px solid #ddd;
   box-shadow: 0 1px 1px #ededed;
@@ -126,12 +110,12 @@
   max-width: 100%;
   position: relative;
 }
-.tem-672 .rap .comment-reply-link {
+.tem-672 .rap .content .comment-reply-link {
   font-size: 12px;
   float: right;
   color: #ccc;
 }
-.tem-672 .rap comment-respond {
+.tem-672 .rap .content comment-respond {
   padding: 20px 24px;
   padding-top: 20px;
   padding-right: 24px;
@@ -141,7 +125,7 @@
   margin-bottom: 30px;
   box-shadow: 0 1px 1px #EDEDED;
 }
-.tem-672 .rap comment-respond .usr_re {
+.tem-672 .rap .content comment-respond .usr_re {
   display: block;
   vertical-align: middle;
   position: relative;
@@ -149,21 +133,21 @@
   width: 32%;
   margin-right: 2%;
 }
-.tem-672 .rap comment-respond .site_re {
+.tem-672 .rap .content comment-respond .site_re {
   display: block;
   vertical-align: middle;
   position: relative;
   float: left;
   width: 32%;
 }
-.tem-672 .rap comment-respond .end {
+.tem-672 .rap .content comment-respond .end {
   margin-right: 0px !important;
 }
-.tem-672 .rap comment-respond p.form-submit {
+.tem-672 .rap .content comment-respond p.form-submit {
   clear: both;
   margin-top: 15px;
 }
-.tem-672 .rap comment-respond .lip {
+.tem-672 .rap .content comment-respond .lip {
   font: 700 19px/21px 'Roboto', trebuchet ms;
   color: #111;
   text-transform: uppercase;
@@ -173,7 +157,7 @@
   background: #fff;
   padding: 0 25px;
 }
-.tem-672 .rap .lip {
+.tem-672 .rap .content .lip {
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
@@ -182,7 +166,7 @@
   vertical-align: baseline;
   text-decoration: none !important;
 }
-.tem-672 .rap form {
+.tem-672 .rap .content form {
   display: block;
   margin: 0;
   padding: 0;
@@ -191,7 +175,7 @@
   font: inherit;
   vertical-align: baseline;
 }
-.tem-672 .rap p {
+.tem-672 .rap .content p {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
@@ -201,10 +185,10 @@
   border: 0;
   vertical-align: baseline;
 }
-.tem-672 .rap textarea {
+.tem-672 .rap .content textarea {
   width: 100%;
 }
-.tem-672 .rap .rh-user-rank-mc {
+.tem-672 .rap .content .rh-user-rank-mc {
   font: normal 12px/12px Arial;
   background-color: #66B22C;
   color: #fff;
@@ -214,49 +198,49 @@
   padding: 3px 5px;
   margin: 0 4px;
 }
-.tem-672 .rap .clearfix:before,
-.tem-672 .rap .clearfix:after {
+.tem-672 .rap .content .clearfix:before,
+.tem-672 .rap .content .clearfix:after {
   content: "";
   display: table;
 }
-.tem-672 .rap .commentlist {
+.tem-672 .rap .content .commentlist {
   list-style: none;
 }
-.tem-672 .rap .commentlist .rh-user-rank-mc {
+.tem-672 .rap .content .commentlist .rh-user-rank-mc {
   font-size: 11px;
   padding: 2px 5px;
 }
-.tem-672 .rap .commentlist .rh_mycred-users-badges img {
+.tem-672 .rap .content .commentlist .rh_mycred-users-badges img {
   width: 18px;
   height: 18px;
   margin: 0 5px 0 0;
   border-radius: 0;
 }
-.tem-672 .rap .commentlist .comment-author img {
+.tem-672 .rap .content .commentlist .comment-author img {
   float: left;
 }
-.tem-672 .rap .commentlist .comment-author .fn {
+.tem-672 .rap .content .commentlist .comment-author .fn {
   font: 700 15px/15px 'Roboto', trebuchet ms;
   text-transform: uppercase;
   display: block;
 }
-.tem-672 .rap .commentlist .comment-author span.time {
+.tem-672 .rap .content .commentlist .comment-author span.time {
   font: normal 12px Arial;
   display: block;
   color: #999;
   text-decoration: none;
   margin: 6px 0 0 0;
 }
-.tem-672 .rap .commentlist .comment-content p {
+.tem-672 .rap .content .commentlist .comment-content p {
   font: normal 14px/22px Arial;
   color: #111;
   margin: 0 0 8px 0;
 }
-.tem-672 .rap a:hover {
+.tem-672 .rap .content a:hover {
   color: #000;
   text-decoration: none;
 }
-.tem-672 .rap .comment-respond textarea {
+.tem-672 .rap .content .comment-respond textarea {
   width: 100%;
   box-sizing: border-box;
   background: #f2f2f2;
@@ -268,4 +252,20 @@
   border: 1px solid #cbd0d2;
   padding: 10px;
   clear: both;
+}
+.tem-672 .rap li {
+  display: list-item;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-align: -webkit-match-parent;
+}
+.tem-672 .rap a-webkit-any-link {
+  margin: 0;
+  vertical-align: baseline;
+  cursor: auto;
+  outline: none !important;
+  transition: all 0.4s ease 0s;
 }

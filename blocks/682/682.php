@@ -17,13 +17,13 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-c-3.less', 'css/type-c-3.css');
+        $less->compileFile('less/682.less', 'css/682.css');
         ?>
 
     </head>
 
     <body>
-        <div class="type-c-3">
+        <div class="tem-682">
             <div class="container">
                 <div class="hover13">
                     <div class="row">

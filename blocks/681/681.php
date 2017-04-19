@@ -14,15 +14,15 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-c-2.less', 'css/type-c-2.css');
+        $less->compileFile('less/681.less', 'css/681.css');
         ?>
-        <link href="css/type-c-2.css" rel="stylesheet" type="text/css" />
+        <link href="css/681.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type-c-2">
-            <div class="container">
+        <div class="tem-681">
+            <div class="container mod">
                 <div class="row">   
                     <nav class="navbar navbar-inverse">
                         <div class="navbar-header">

@@ -1,4 +1,4 @@
-.type-c-4 #footer {
+.tem-683 #footer {
   background: #525252;
   padding-top: 30px;
   margin-top: 60px;
@@ -6,37 +6,37 @@
   color: #FFF;
   display: block;
 }
-.type-c-4 #footer .widgettitle {
+.tem-683 #footer .widgettitle {
   margin: 0px;
   padding: 15px 0px 15px;
   border-bottom: medium none;
 }
-.type-c-4 #footer h4 {
+.tem-683 #footer h4 {
   color: #FFF;
 }
-.type-c-4 #footer ul {
+.tem-683 #footer ul {
   list-style: disc;
 }
-.type-c-4 #footer li a {
+.tem-683 #footer li a {
   color: #DDD;
   list-style: outside none none;
 }
-.type-c-4 #sub-floor {
+.tem-683 #sub-floor {
   color: #FFF;
   background: #525252;
   padding: 10px 0px;
 }
-.type-c-4 .tagcloud01 ul {
+.tem-683 .tagcloud01 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.type-c-4 .tagcloud01 ul li {
+.tem-683 .tagcloud01 ul li {
   display: inline-block;
   margin: 0 .3em .3em 0;
   padding: 0;
 }
-.type-c-4 .tagcloud01 ul li a {
+.tem-683 .tagcloud01 ul li a {
   display: inline-block;
   max-width: 100px;
   height: 28px;
@@ -54,17 +54,17 @@
   -webkit-transition: .2s;
   transition: .2s;
 }
-.type-c-4 .tagcloud01 ul li a:hover {
+.tem-683 .tagcloud01 ul li a:hover {
   background-color: #3498db;
   border: 1px solid #3498db;
   color: #fff;
 }
-.type-c-4 .info {
+.tem-683 .info {
   margin-left: -40px;
 }
-.type-c-4 a:hover {
+.tem-683 a:hover {
   color: #de543e;
 }
-.type-c-4 a {
+.tem-683 a {
   color: #bdbdbd;
 }

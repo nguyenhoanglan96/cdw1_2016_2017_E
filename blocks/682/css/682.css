@@ -1,4 +1,4 @@
-.type-c-3 .hovereffect {
+.tem-682 .hovereffect {
   width: 100%;
   height: 100%;
   float: left;
@@ -7,18 +7,18 @@
   text-align: center;
   cursor: default;
 }
-.type-c-3 .hover13 figure:hover img {
+.tem-682 .hovereffect img {
+  display: block;
+  position: relative;
+}
+.tem-682 .hover13 figure:hover img {
   opacity: 1;
   -webkit-animation: flash 5.5s;
   animation: flash 5.5s;
 }
-.type-c-3 figure {
+.tem-682 figure {
   margin: 0;
   padding: 15px;
-}
-.type-c-3 .hovereffect img {
-  display: block;
-  position: relative;
 }
 @-webkit-keyframes flash {
   0% {

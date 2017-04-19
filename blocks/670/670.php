@@ -19,8 +19,7 @@
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
     <body>
-        <div class="type_a_2">
-
+        <div class="tem_670">
             <div class="container mod">
                 <div class="row">
                 <div class="content no_shadow">
@@ -28,7 +27,6 @@
 
                     <!-- CONTENT -->
                     <div class="slidebar-1">
-
                         <menu class="re_filter_panel">
                             <ul class="nav nav-tabs">
                                 <li class="active">

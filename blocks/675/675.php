@@ -20,10 +20,9 @@
     </head>
 
     <body>
-        <div class="type_a_4">
-            
+        <div class="tem-675">
             <div class="footer-bottom dark_style">
-                <div class="container  ">
+                <div class="container ">
                     <div class="row">
                         
                         <div class="col-md-4 ">

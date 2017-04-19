@@ -1,18 +1,18 @@
-.tem-674 .mod .vc_col-sm-4 {
+.tem-674 .mod .mosthot .vc_col-sm-4 {
   position: relative;
   min-height: 1px;
   box-sizing: border-box;
 }
-.tem-674 .mod .vc_column_container>.vc_column-inner {
+.tem-674 .mod .mosthot .vc_column_container>.vc_column-inner {
   box-sizing: border-box;
   width: 100%;
 }
-.tem-674 .mod .sidebar {
+.tem-674 .mod .mosthot .sidebar {
   width: 336px;
   float: right;
   border: none;
 }
-.tem-674 .mod .sidebar .widget {
+.tem-674 .mod .mosthot .sidebar .widget {
   clear: both;
   padding: 0;
   background-color: transparent;
@@ -20,34 +20,34 @@
   box-shadow: none;
   margin: 0 0 35px 0;
 }
-.tem-674 .mod .sidebar .widget p {
+.tem-674 .mod .mosthot .sidebar .widget p {
   color: #fff;
   margin-bottom: 10px;
   line-height: 18px;
   font: bold 10px/16px Arial;
   text-align: center;
 }
-.tem-674 .mod .widget .title,
-.tem-674 .mod .widget h2 {
+.tem-674 .mod .mosthot .widget .title,
+.tem-674 .mod .mosthot .widget h2 {
   font: 700 18px/20px 'Roboto', trebuchet ms;
   color: #111;
   margin: 0 0 15px 0;
 }
-.tem-674 .mod .re_filter_panel {
+.tem-674 .mod .mosthot .re_filter_panel {
   position: relative;
   z-index: 1000;
   margin: 0 0 25px 0;
 }
-.tem-674 .mod .tabsajax .re_filter_panel {
+.tem-674 .mod .mosthot .tabsajax .re_filter_panel {
   background: linear-gradient(to bottom,#fff 1px,#f9f9f9 1px,#F5F5F5);
   border-radius: 0px;
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.7), 0 1px 2px rgba(0,0,0,0.08);
   margin-bottom: 8px;
 }
-.tem-674 .mod .content .re_filter_panel {
+.tem-674 .mod .mosthot .content .re_filter_panel {
   background-color: #fff;
 }
-.tem-674 .mod ul {
+.tem-674 .mod .mosthot ul {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
@@ -61,32 +61,32 @@
   list-style: none;
   padding: 3px;
 }
-.tem-674 .mod .re_filter_panel ul {
+.tem-674 .mod .mosthot .re_filter_panel ul {
   margin: 0;
   padding: 0;
 }
-.tem-674 .mod .sidebar .widget p:hover {
+.tem-674 .mod .mosthot .sidebar .widget p:hover {
   color: #fff;
   margin-bottom: 10px;
   line-height: 18px;
   font: bold 10px/16px Arial;
   text-align: center;
 }
-.tem-674 .mod .nav-tabs>li>a {
+.tem-674 .mod .mosthot .nav-tabs>li>a {
   margin-right: 2px;
   line-height: 1.42857143;
   border: 1px solid #ccc;
   padding: 10px;
   color: #fff;
 }
-.tem-674 .mod .nav-tabs>li>a:hover {
+.tem-674 .mod .mosthot .nav-tabs>li>a:hover {
   margin-right: 2px;
   line-height: 1.42857143;
   border: 1px solid #ccc;
   color: #fff;
   background: #000;
 }
-.tem-674 .mod .nav-tabs>li.active>a {
+.tem-674 .mod .mosthot .nav-tabs>li.active>a {
   color: #fff;
   cursor: default;
   background-color: #000;
@@ -94,45 +94,45 @@
   border-bottom-color: transparent;
   font: bold 14px/16px Arial;
 }
-.tem-674 .mod .nav-tabs>li.active>a:hover {
+.tem-674 .mod .mosthot .nav-tabs>li.active>a:hover {
   color: white;
   cursor: default;
   background-color: black;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
-.tem-674 .mod .re_filter_panel ul li {
+.tem-674 .mod .mosthot .re_filter_panel ul li {
   display: inline-block;
   margin: 0;
   margin-left: -3px;
 }
-.tem-674 .mod .tabsajax .re_filter_panel ul li {
+.tem-674 .mod .mosthot .tabsajax .re_filter_panel ul li {
   float: left;
 }
-.tem-674 .mod .rh_col_tabs_3 .re_filter_panel ul li {
+.tem-674 .mod .mosthot .rh_col_tabs_3 .re_filter_panel ul li {
   width: 33.33%;
 }
-.tem-674 .mod span.active {
+.tem-674 .mod .mosthot span.active {
   background: #000000 !important;
   color: #fff !important;
 }
-.tem-674 .mod .re_filter_panel ul li span {
+.tem-674 .mod .mosthot .re_filter_panel ul li span {
   cursor: pointer;
   transition: all .3s ease;
   font: bold 14px/16px Arial;
 }
-.tem-674 .mod .tabsajax .re_filter_panel ul li span {
+.tem-674 .mod .mosthot .tabsajax .re_filter_panel ul li span {
   display: block;
   text-align: center;
   padding: 7px 0;
   border-right: 1px solid #ccc;
 }
-.tem-674 .mod .sidebar .wpsm_recent_posts_list .item-small-news {
+.tem-674 .mod .mosthot .sidebar .wpsm_recent_posts_list .item-small-news {
   border-bottom: 1px solid #E4E4E4;
   padding: 10px 0;
   background: radial-gradient(ellipse at top,rgba(255,255,255,0.75),rgba(255,255,255,0) 75%);
 }
-.tem-674 .mod .rie {
+.tem-674 .mod .mosthot .rie {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
@@ -144,23 +144,23 @@
   font: 700 21px/25px 'Roboto', trebuchet ms;
   color: #111;
 }
-.tem-674 .mod .rie a {
+.tem-674 .mod .mosthot .rie a {
   color: #111;
   text-decoration: none !important;
 }
-.tem-674 .mod .wpsm_recent_posts_list .rie {
+.tem-674 .mod .mosthot .wpsm_recent_posts_list .rie {
   font-size: 15px;
   line-height: 19px;
   margin: 0 0 10px 0;
 }
-.tem-674 .mod .temperatur {
+.tem-674 .mod .mosthot .temperatur {
   color: #CA212A;
   font-weight: bold;
   padding: 3px 3px 0 0;
   display: inline-block;
   white-space: nowrap;
 }
-.tem-674 .mod a {
+.tem-674 .mod .mosthot a {
   margin: 0;
   padding: 0;
   border: 0;
@@ -171,42 +171,42 @@
   outline: none !important;
   color: #fa9e19;
 }
-.tem-674 .mod a:hover {
+.tem-674 .mod .mosthot a:hover {
   color: #000;
 }
-.tem-674 .mod .simple_price_count {
+.tem-674 .mod .mosthot .simple_price_count {
   font-weight: normal;
   color: green;
   margin-left: 8px;
 }
-.tem-674 .mod .post-meta {
+.tem-674 .mod .mosthot .post-meta {
   font-size: 11px;
   line-height: 12px;
   font-style: italic;
   color: #999;
 }
-.tem-674 .mod .tabsajax .post-meta {
+.tem-674 .mod .mosthot .tabsajax .post-meta {
   margin: 0;
 }
-.tem-674 .mod .post-meta span {
+.tem-674 .mod .mosthot .post-meta span {
   display: inline-block;
   margin-right: 3px;
 }
-.tem-674 .mod i {
+.tem-674 .mod .mosthot i {
   margin: 0;
   padding: 0;
   border: 0;
   vertical-align: baseline;
 }
-.tem-674 .mod .fa {
+.tem-674 .mod .mosthot .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
-.tem-674 .mod .sidebar
-        .widget {
+.tem-674 .mod .mosthot .sidebar
+            .widget {
   clear: both;
   padding: 0;
   background-color: transparent;
@@ -214,33 +214,33 @@
   box-shadow: none;
   margin: 0 0 35px 0;
 }
-.tem-674 .mod .sidebar .widget.widget_text {
+.tem-674 .mod .mosthot .sidebar .widget.widget_text {
   overflow: visible;
 }
-.tem-674 .mod .nav-tabs>li {
+.tem-674 .mod .mosthot .nav-tabs>li {
   float: left;
   margin-bottom: -1px;
   margin-left: -3px;
 }
-.tem-674 .mod .rehub_chimp {
+.tem-674 .mod .mosthot .rehub_chimp {
   position: relative;
   margin: 30px auto;
   background-color: #F5F5F5;
   padding: 20px;
   border: 4px solid #E6E6E6;
 }
-.tem-674 .mod .rehub_chimp .centered_form {
+.tem-674 .mod .mosthot .rehub_chimp .centered_form {
   text-align: center;
 }
-.tem-674 .mod .rehub_chimp.centered_form {
+.tem-674 .mod .mosthot .rehub_chimp.centered_form {
   text-align: center;
 }
-.tem-674 .mod .rehub_chimp .rie {
+.tem-674 .mod .mosthot .rehub_chimp .rie {
   text-transform: uppercase;
   font-size: 23px;
   margin: 10px 0 20px 0;
 }
-.tem-674 .mod .rehub_chimp #mc_embed_signup {
+.tem-674 .mod .mosthot .rehub_chimp #mc_embed_signup {
   width: 500px;
   position: relative;
   vertical-align: middle;
@@ -249,10 +249,10 @@
   padding: 0;
   max-width: 100%;
 }
-.tem-674 .mod .rehub_chimp.centered_form #mc_embed_signup {
+.tem-674 .mod .mosthot .rehub_chimp.centered_form #mc_embed_signup {
   margin: 5px auto;
 }
-.tem-674 .mod form {
+.tem-674 .mod .mosthot form {
   display: block;
   margin: 0;
   border: 0;
@@ -260,10 +260,10 @@
   font: inherit;
   vertical-align: baseline;
 }
-.tem-674 .mod .rehub_chimp #mc_embed_signup form {
+.tem-674 .mod .mosthot .rehub_chimp #mc_embed_signup form {
   padding: 0;
 }
-.tem-674 .mod input {
+.tem-674 .mod .mosthot input {
   -webkit-writing-mode: horizontal-tb;
   -webkit-rtl-ordering: logical;
   -webkit-user-select: text;
@@ -278,7 +278,7 @@
   text-align: start;
   margin: 0em 0em 0em 0em;
 }
-.tem-674 .mod input[type="email"] {
+.tem-674 .mod .mosthot input[type="email"] {
   color: #444;
   background: none #fff;
   transition: border-color 0.4s ease;
@@ -286,7 +286,7 @@
   font: normal 15px/18px Arial;
   -webkit-appearance: none;
 }
-.tem-674 .mod .rehub_chimp #mc_embed_signup input.email {
+.tem-674 .mod .mosthot .rehub_chimp #mc_embed_signup input.email {
   border: 1px solid #d9d9d9;
   width: 100%;
   outline: none;
@@ -296,7 +296,7 @@
   font-size: 15px;
   padding: 12px 10px;
 }
-.tem-674 .mod input[type="text"] {
+.tem-674 .mod .mosthot input[type="text"] {
   box-sizing: border-box;
   outline: 0;
   padding: 9px 10px;
@@ -309,11 +309,11 @@
   font: normal 15px/18px Arial;
   -webkit-appearance: none;
 }
-.tem-674 .mod .rehub_chimp .clear {
+.tem-674 .mod .mosthot .rehub_chimp .clear {
   height: auto;
 }
-.tem-674 .mod input[type="submit"],
-.tem-674 .mod input[type="button"] {
+.tem-674 .mod .mosthot input[type="submit"],
+.tem-674 .mod .mosthot input[type="button"] {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -323,7 +323,7 @@
   text-decoration: none;
   -webkit-appearance: none;
 }
-.tem-674 .mod .rehub_chimp #mc_embed_signup input#mc-embedded-subscribe {
+.tem-674 .mod .mosthot .rehub_chimp #mc_embed_signup input#mc-embedded-subscribe {
   right: 0;
   top: 0;
   height: 40px;
@@ -337,16 +337,16 @@
   box-shadow: none;
   padding: 12px 10px;
 }
-.tem-674 .mod .rehub_chimp #mc_embed_signup input#mc-embedded-subscribe {
+.tem-674 .mod .mosthot .rehub_chimp #mc_embed_signup input#mc-embedded-subscribe {
   background: #fa9e19;
 }
-.tem-674 .mod .sidebar .rehub_chimp #mc_embed_signup input#mc-embedded-subscribe {
+.tem-674 .mod .mosthot .sidebar .rehub_chimp #mc_embed_signup input#mc-embedded-subscribe {
   position: static;
   margin: 10px auto;
   width: 100%;
   border-radius: 5px;
 }
-.tem-674 .mod p {
+.tem-674 .mod .mosthot p {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
@@ -356,10 +356,10 @@
   border: 0;
   vertical-align: baseline;
 }
-.tem-674 .mod .rehub_chimp p {
+.tem-674 .mod .mosthot .rehub_chimp p {
   margin: 15px auto;
 }
-.tem-674 .mod .sidebar .widget {
+.tem-674 .mod .mosthot .sidebar .widget {
   clear: both;
   overflow: hidden;
   padding: 0;
@@ -368,13 +368,13 @@
   box-shadow: none;
   margin: 0 0 35px 0;
 }
-.tem-674 .mod .widget .title,
-.tem-674 .mod .widget h2 {
+.tem-674 .mod .mosthot .widget .title,
+.tem-674 .mod .mosthot .widget h2 {
   font: 700 18px/20px 'Roboto', trebuchet ms;
   color: #111;
   margin: 0 0 15px 0;
 }
-.tem-674 .mod .rehub_chimp:before {
+.tem-674 .mod .mosthot .rehub_chimp:before {
   position: absolute;
   top: 0;
   left: 50%;
@@ -389,40 +389,40 @@
   margin: -20px 0 0 -20px;
   font-family: FontAwesome;
 }
-.tem-674 .mod .widget.buddypress div.item-options {
+.tem-674 .mod .mosthot .widget.buddypress div.item-options {
   margin: 0 0 1em;
   padding: 1em 0;
 }
-.tem-674 .mod #groups-list-options {
+.tem-674 .mod .mosthot #groups-list-options {
   font-size: 12px;
   text-transform: uppercase;
   padding-top: 0;
 }
-.tem-674 .mod #groups-list {
+.tem-674 .mod .mosthot #groups-list {
   list-style-type: none;
   padding: 0;
 }
-.tem-674 .mod .widget.buddypress #groups-list {
+.tem-674 .mod .mosthot .widget.buddypress #groups-list {
   margin-left: 0;
   padding-left: 0;
 }
-.tem-674 .mod #groups-list-options a {
+.tem-674 .mod .mosthot #groups-list-options a {
   font-weight: 700;
 }
-.tem-674 .mod #groups-list-options .selected {
+.tem-674 .mod .mosthot #groups-list-options .selected {
   color: #5b4141;
 }
-.tem-674 .mod img {
+.tem-674 .mod .mosthot img {
   padding: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: top;
   border: 0;
 }
-.tem-674 .mod .widget img {
+.tem-674 .mod .mosthot .widget img {
   max-width: 100%;
 }
-.tem-674 .mod .widget.buddypress ul.item-list img {
+.tem-674 .mod .mosthot .widget.buddypress ul.item-list img {
   display: block;
   float: none;
   width: 25px;
@@ -430,58 +430,58 @@
   margin: 0;
   overflow: hidden;
 }
-.tem-674 .mod .widget.buddypress #groups-list li {
+.tem-674 .mod .mosthot .widget.buddypress #groups-list li {
   list-style-type: none;
   clear: both;
 }
-.tem-674 .mod .widget.buddypress div.item {
+.tem-674 .mod .mosthot .widget.buddypress div.item {
   margin: 0 0 1em;
 }
-.tem-674 .mod .widget.buddypress .item-avatar {
+.tem-674 .mod .mosthot .widget.buddypress .item-avatar {
   float: left;
   margin: 0 9px 9px 0;
   padding: 3px;
   background: rgba(0,0,0,0.1);
 }
-.tem-674 .mod .widget.tabsajax .title:before {
+.tem-674 .mod .mosthot .widget.tabsajax .title:before {
   font-family: FontAwesome;
   content: "\f0e7";
   color: #fa9e19;
   margin-right: 8px;
 }
-.tem-674 .mod .gradus_icon:before {
+.tem-674 .mod .mosthot .gradus_icon:before {
   font-family: FontAwesome;
   content: "\f004";
   margin: 0 3px;
   font-size: 85%;
 }
-.tem-674 .mod .simple_price_count del {
+.tem-674 .mod .mosthot .simple_price_count del {
   color: #ccc;
   font-size: 80%;
 }
 @media screen and (max-width: 480px) {
-  .tem-674 .mod .mod {
+  .tem-674 .mod .mosthot .mod {
     width: 100%;
     overflow: hidden;
     box-sizing: border-box;
   }
-  .tem-674 .mod .content {
+  .tem-674 .mod .mosthot .content {
     width: 100%;
     margin-left: 0;
     overflow: hidden;
     box-sizing: border-box;
   }
-  .tem-674 .mod .mosthot {
+  .tem-674 .mod .mosthot .mosthot {
     width: 100%;
     overflow: hidden;
     box-sizing: border-box;
   }
-  .tem-674 .mod .mosthot .sidebar {
+  .tem-674 .mod .mosthot .mosthot .sidebar {
     width: 100%;
     overflow: hidden;
     box-sizing: border-box;
   }
-  .tem-674 .mod .mosthot .widget img {
+  .tem-674 .mod .mosthot .mosthot .widget img {
     display: block;
     float: none;
     width: 25px;
@@ -489,12 +489,12 @@
     margin: 0;
     overflow: hidden;
   }
-  .tem-674 .mod .mosthot .widget.buddypress #groups-list {
+  .tem-674 .mod .mosthot .mosthot .widget.buddypress #groups-list {
     width: 100%;
     overflow: hidden;
     box-sizing: border-box;
   }
-  .tem-674 .mod .rehub_chimp #mc_embed_signup input.email {
+  .tem-674 .mod .mosthot .rehub_chimp #mc_embed_signup input.email {
     text-align: center;
   }
 }

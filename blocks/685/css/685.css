@@ -1,28 +1,13 @@
-.type-c-6 .clear {
+.tem-685 .mod .clear {
   clear: both;
 }
-.type-c-6 h3.section-big {
+.tem-685 .mod h3.section-big {
   color: #758991;
   border-bottom: 1px solid #758991;
   font-size: 24px;
   padding-top: 4px;
 }
-.type-c-6 .caption {
-  text-align: center;
-}
-.type-c-6 .thumbnail {
-  margin-bottom: 20px;
-  padding: 0px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-}
-.type-c-6 .women {
-  border-bottom: 1px solid #758991;
-  margin-bottom: 20px;
-  color: #758991;
-}
-.type-c-6 .btn-select {
+.tem-685 .mod .btn-select {
   position: relative;
   padding: 0;
   min-width: 236px;
@@ -32,7 +17,7 @@
   float: right;
   margin-top: 5px;
 }
-.type-c-6 .btn-select .btn-select-value {
+.tem-685 .mod .btn-select .btn-select-value {
   padding: 6px 12px;
   display: block;
   position: absolute;
@@ -45,13 +30,13 @@
   border-bottom: none !important;
   border-left: none !important;
 }
-.type-c-6 .btn-select .btn-select-arrow {
+.tem-685 .mod .btn-select .btn-select-arrow {
   float: right;
   line-height: 20px;
   padding: 6px 10px;
   top: 0;
 }
-.type-c-6 .btn-select ul {
+.tem-685 .mod .btn-select ul {
   display: none;
   background-color: white;
   color: black;
@@ -66,43 +51,38 @@
   top: 33px;
   z-index: 999;
 }
-.type-c-6 .btn-select ul li {
+.tem-685 .mod .btn-select ul li {
   padding: 3px 6px;
   text-align: left;
 }
-.type-c-6 .btn-select ul li:hover {
+.tem-685 .mod .btn-select ul li:hover {
   background-color: #f4f4f4;
 }
-.type-c-6 .btn-select ul li.selected {
+.tem-685 .mod .btn-select ul li.selected {
   color: white;
 }
-.type-c-6 .btn-select.btn-default:hover,
-.type-c-6 .btn-select.btn-default:active,
-.type-c-6 .btn-select.btn-default.active {
-  border-color: #ccc;
-}
-.type-c-6 .btn-select.btn-default ul li.selected {
+.tem-685 .mod .btn-select.btn-default ul li.selected {
   background-color: #ccc;
 }
-.type-c-6 .btn-select.btn-default ul,
-.type-c-6 .btn-select.btn-default .btn-select-value {
+.tem-685 .mod .btn-select.btn-default ul,
+.tem-685 .mod .btn-select.btn-default .btn-select-value {
   background-color: white;
   border: #ccc 1px solid;
 }
-.type-c-6 .btn-select.btn-default:hover,
-.type-c-6 .btn-select.btn-default.active {
+.tem-685 .mod .btn-select.btn-default:hover,
+.tem-685 .mod .btn-select.btn-default.active {
   background-color: #e6e6e6;
 }
-.type-c-6 .text-content {
+.tem-685 .mod .text-content {
   margin: 0;
 }
-.type-c-6 .panel .panel-body {
+.tem-685 .mod .panel .panel-body {
   position: relative;
   padding: 0 !important;
   overflow: hidden;
-  height: auto;
 }
-.type-c-6 .panel .panel-body a img {
+.tem-685 .mod .panel .panel-body height:auto
+                a img {
   display: block;
   margin: 0;
   width: 100%;
@@ -112,7 +92,7 @@
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
 }
-.type-c-6 .panel .panel-body a.zoom:hover img {
+.tem-685 .mod .panel .panel-body a.zoom:hover img {
   transform: scale(1.6);
   -ms-transform: scale(1.6);
   -webkit-transform: scale(1.6);
