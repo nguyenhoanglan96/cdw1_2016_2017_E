@@ -59,7 +59,7 @@
 
                                             <div class=" post-">
                                                 <span class="admin_">
-                                                    <a class="admin" href="#">
+                                                    <a class="" href="#">
                                                         <img src="image/picthumb.jpg" class="  photo" width="22" height="22" alt="Profile photo of u8tgk">				u8tgk			</a>
                                                 </span>
                                                 <span class="">April 10, 2016</span>
@@ -116,7 +116,7 @@
 
                                             <div class="post-">
                                                 <span class="admin_">
-                                                    <a class="admin" href="#">
+                                                    <a class="" href="#">
                                                         <img src="image/picthumb.jpg" class="   photo" width="22" height="22" alt="Profile photo of u8tgk">				u8tgk			</a>
                                                 </span>
                                                 <span class="">April 10, 2016</span>
@@ -170,7 +170,7 @@
 
                                             <div class=" post-">
                                                 <span class="admin_">
-                                                    <a class="admin" href="#">
+                                                    <a class="" href="#">
                                                         <img src="image/picthumb.jpg" class="  photo" width="22" height="22" alt="Profile photo of u8tgk">				u8tgk			</a>
                                                 </span>
                                                 <span class="">April 10, 2016</span>

@@ -47,7 +47,7 @@
                                 </ul>
                             </div>
                             <div >
-                                <div class="title_comments">6 Comments
+                                <div class="">6 Comments
                                 </div>
                                 <div >
                                     <ol class="commentlist">

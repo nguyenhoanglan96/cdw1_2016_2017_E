@@ -1,7 +1,3 @@
-.tem_670 .dai {
-  margin: 0;
-  padding: 0;
-}
 .tem_670 .mod .content {
   background: #fff;
   padding: 30px 35px;
@@ -86,48 +82,6 @@
 }
 .tem_670 .mod .content.no_shadow .re_filter_panel .dropdown-menu multi-level {
   border-bottom: 0px;
-}
-.tem_670 .mod .content.no_shadow .re_filter_panel .re_filter_panel .re_tax_dropdown {
-  position: absolute;
-  top: 17px;
-  right: 1px;
-  margin: -2px;
-  overflow: hidden;
-  transition: all 0.5s ease;
-}
-.tem_670 .mod .content.no_shadow .re_filter_panel .re_filter_panel .re_tax_dropdown li {
-  display: block;
-  padding: 12px 20px;
-  margin: 0;
-  font: bold 14px/16px Arial;
-  background: #EEE;
-  cursor: pointer;
-}
-.tem_670 .mod .content.no_shadow .re_filter_panel .re_filter_panel .re_tax_dropdown 
-                .re_filter_panel .re_tax_dropdown li {
-  color: #111;
-  cursor: pointer;
-}
-.tem_670 .mod .content.no_shadow .re_filter_panel .re_filter_panel .re_tax_dropdown li {
-  float: right;
-  content: "+";
-  margin-left: 5px;
-  transition: transform .3s ease-in-out;
-}
-.tem_670 .mod .content.no_shadow .re_filter_panel .re_filter_panel .re_tax_dropdown li.rh_drop_item {
-  display: block;
-  margin: 0;
-  height: 0;
-}
-.tem_670 .mod .content.no_shadow .re_filter_panel .re_filter_panel .re_tax_dropdown li.rh_drop_item span {
-  display: block;
-  padding: 12px 20px;
-  background-color: #FFF;
-  opacity: 0;
-  transform: translate3d(100%,0,0);
-  transition: opacity 0.3s, transform 0.3s;
-  font: normal 14px/16px Arial;
-  color: #111;
 }
 .tem_670 .mod .content.no_shadow .re_filter_panel .re_filter_panel li a p:hover {
   color: white;
@@ -275,10 +229,6 @@
 .tem_670 .mod .tab-content .offer_grid p {
   float: none;
 }
-.tem_670 .mod .tab-content .offer_grid .priced_block p {
-  margin: 0;
-  padding: 0;
-}
 .tem_670 .mod .tab-content .price_count {
   display: block;
   background: #111;
@@ -291,8 +241,6 @@
   text-align: left;
 }
 .tem_670 .mod .tab-content ins {
-  margin: 0;
-  padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
@@ -611,8 +559,6 @@
   cursor: auto;
 }
 .tem_670 .mod a {
-  margin: 0;
-  padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
@@ -623,8 +569,6 @@
   color: #000;
 }
 .tem_670 .mod img {
-  margin: 0;
-  padding: 0;
   font-size: 100%;
   font: inherit;
   height: auto;
@@ -643,8 +587,11 @@
   font: bold 14px/16px Arial;
 }
 @media screen and (max-width: 480px) {
-  .tem_670 .mod .col_wrap_three .col_item {
+  .tem_670 .mod .tab-content .col_wrap_three .col_item {
     width: 100%;
+  }
+  .tem_670 .mod .tab-content .offer_grid figure {
+    height: 150px;
   }
   .tem_670 .mod .menu-last-right {
     padding-top: 10px;
@@ -670,9 +617,6 @@
     overflow: hidden;
     box-sizing: border-box;
   }
-  .tem_670 .mod .mod .re_tax_dropdown {
-    position: static;
-  }
   .tem_670 .mod .content {
     width: 100%;
     margin-left: 0;
@@ -691,6 +635,12 @@
   }
 }
 @media screen and (min-width: 481px) and (max-width: 700px) {
+  .tem_670 .mod .tab-content .col_wrap_three .col_item {
+    width: 46.33%;
+  }
+  .tem_670 .mod .tab-content .offer_grid figure {
+    height: 150px;
+  }
   .tem_670 .mod .menu-last-right {
     padding-top: 10px;
     float: right;
@@ -708,9 +658,6 @@
     width: 100%;
     overflow: hidden;
     box-sizing: border-box;
-  }
-  .tem_670 .mod .mod .re_tax_dropdown {
-    position: static;
   }
   .tem_670 .mod .content {
     width: 100%;
@@ -747,9 +694,6 @@
     width: 100%;
     overflow: hidden;
     box-sizing: border-box;
-  }
-  .tem_670 .mod .mod .re_tax_dropdown {
-    position: static;
   }
   .tem_670 .mod .content {
     width: 100%;

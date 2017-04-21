@@ -1,6 +1,3 @@
-.tem-676 .container {
-  width: 100%;
-}
 .tem-676 .col-md-3,
 .tem-676 .col-md-6 {
   margin: 0;
@@ -24,6 +21,9 @@
   background-color: #fff;
   position: relative;
   z-index: 9000;
+}
+.tem-676 .mod {
+  width: 97%;
 }
 .tem-676 .mod header .logo-section {
   margin: 0 auto;

@@ -222,12 +222,7 @@
                     font-size: 11px;
                     padding: 2px 5px;
                 }
-                .rh_mycred-users-badges img {
-                    width: 18px;
-                    height: 18px;
-                    margin: 0 5px 0 0;
-                    border-radius: 0;
-                }
+
                 .comment-author img {
                     float: left;
                 }
@@ -243,7 +238,7 @@
                     text-decoration: none;
                     margin: 6px 0 0 0;
                 }
-                .comment-content p {
+                p {
                     font: normal 14px/22px Arial;
                     color: @backden;
                     margin: 0 0 8px 0;
@@ -255,19 +250,7 @@
             }
 
 
-            .comment-respond textarea{
-                width:100%;
-                box-sizing: border-box;
-                background:#f2f2f2;
-                font:400 15px 'helvetica',trebuchet ms;
-                border-radius: 0px;
-                height: 150px;
-                resize:none;
-                margin-bottom: 20px;
-                border: 1px solid #cbd0d2;
-                padding: 10px;
-                clear: both;
-            }
+
 
         }
 
@@ -289,6 +272,10 @@
             outline: none !important;
             transition: all 0.4s ease 0s;
         }
+        @media screen and (max-width: 480px){
+            .content .related_articles ul li {
+                width: 100%;
+            }
+        }
     }
-
 }

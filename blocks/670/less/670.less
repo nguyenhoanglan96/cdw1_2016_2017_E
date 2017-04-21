@@ -1,10 +1,7 @@
 .tem_670{
     @backwhite:#fff;
     @backden:#000;
-    .dai{
-        margin: 0;
-        padding: 0;
-    }
+
     .mod{
         .content {  
             background: @backwhite;
@@ -91,50 +88,8 @@
                 .dropdown-menu multi-level{
                     border-bottom: 0px;
                 }
-                .re_filter_panel .re_tax_dropdown {
 
-                    position: absolute;
-                    top: 17px;
-                    right: 1px;
-                    margin: -2px;
-                    overflow: hidden;
-                    transition: all 0.5s ease;
-                    li {
-                        display: block;
-                        padding: 12px 20px;
-                        margin: 0;
-                        font: bold 14px/16px Arial;
-                        background: #EEE;
-                        cursor: pointer;
-                    }
-                }
-                .re_filter_panel .re_tax_dropdown 
-                .re_filter_panel .re_tax_dropdown li {
-                    color: #111;
 
-                    cursor: pointer;
-                }
-                .re_filter_panel .re_tax_dropdown li {
-                    float: right;
-                    content: "+";
-                    margin-left: 5px;
-                    transition: transform .3s ease-in-out;
-                }
-                .re_filter_panel .re_tax_dropdown li.rh_drop_item {
-                    display: block;
-                    margin: 0;
-                    height: 0;
-                }
-                .re_filter_panel .re_tax_dropdown li.rh_drop_item span {
-                    display: block;
-                    padding: 12px 20px;
-                    background-color: #FFF;
-                    opacity: 0;
-                    transform: translate3d(100%,0,0);
-                    transition: opacity 0.3s, transform 0.3s;
-                    font: normal 14px/16px Arial;
-                    color: #111;
-                }
 
                 .re_filter_panel li a p:hover {
                     color: white;
@@ -289,9 +244,7 @@
             .offer_grid p {
                 float: none;
             }
-            .offer_grid .priced_block p {
-                .dai;
-            }
+
             .price_count {
                 display: block;
                 background: #111;
@@ -304,7 +257,7 @@
                 text-align: left;
             }
             ins{
-                .dai;
+
                 border: 0;
                 font-size: 100%;
                 font: inherit;
@@ -629,7 +582,7 @@
             cursor: auto;
         }
         a{   
-            .dai;
+
             border: 0;
             font-size: 100%;
             font: inherit;
@@ -641,7 +594,7 @@
 
         }
         img{
-            .dai; 
+
             font-size: 100%;
             font: inherit;
             height: auto;
@@ -665,8 +618,11 @@
         }
 
         @media screen and (max-width: 480px){
-            .col_wrap_three .col_item {
+            .tab-content .col_wrap_three .col_item {
                 width: 100%;
+            }
+            .tab-content .offer_grid figure{
+                height:150px;
             }
             .menu-last-right{
                 padding-top: 10px;
@@ -692,9 +648,7 @@
                 width:100%;
                 overflow:hidden;
                 box-sizing:border-box;
-                .re_tax_dropdown {
-                    position: static;
-                }
+
             }
             .content{
                 width:100%;
@@ -715,8 +669,12 @@
         }
         @media screen and (min-width:481px) and (max-width: 700px){
 
-
-
+            .tab-content .col_wrap_three .col_item {
+                width: 46.33%;
+            }
+            .tab-content .offer_grid figure{
+                height:150px;
+            }
             .menu-last-right{
                 padding-top: 10px;
                 float: right;
@@ -735,9 +693,7 @@
                 width:100%;
                 overflow:hidden;
                 box-sizing:border-box;
-                .re_tax_dropdown {
-                    position: static;
-                }
+
             }
             .content{
                 width:100%;
@@ -776,9 +732,7 @@
                 width:100%;
                 overflow:hidden;
                 box-sizing:border-box;
-                .re_tax_dropdown {
-                    position: static;
-                }
+
             }
             .content{
                 width:100%;

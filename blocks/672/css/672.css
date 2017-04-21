@@ -210,12 +210,6 @@
   font-size: 11px;
   padding: 2px 5px;
 }
-.tem-672 .rap .content .commentlist .rh_mycred-users-badges img {
-  width: 18px;
-  height: 18px;
-  margin: 0 5px 0 0;
-  border-radius: 0;
-}
 .tem-672 .rap .content .commentlist .comment-author img {
   float: left;
 }
@@ -231,7 +225,7 @@
   text-decoration: none;
   margin: 6px 0 0 0;
 }
-.tem-672 .rap .content .commentlist .comment-content p {
+.tem-672 .rap .content .commentlist p {
   font: normal 14px/22px Arial;
   color: #111;
   margin: 0 0 8px 0;
@@ -239,19 +233,6 @@
 .tem-672 .rap .content a:hover {
   color: #000;
   text-decoration: none;
-}
-.tem-672 .rap .content .comment-respond textarea {
-  width: 100%;
-  box-sizing: border-box;
-  background: #f2f2f2;
-  font: 400 15px 'helvetica', trebuchet ms;
-  border-radius: 0px;
-  height: 150px;
-  resize: none;
-  margin-bottom: 20px;
-  border: 1px solid #cbd0d2;
-  padding: 10px;
-  clear: both;
 }
 .tem-672 .rap li {
   display: list-item;
@@ -268,4 +249,9 @@
   cursor: auto;
   outline: none !important;
   transition: all 0.4s ease 0s;
+}
+@media screen and (max-width: 480px) {
+  .tem-672 .rap .content .related_articles ul li {
+    width: 100%;
+  }
 }

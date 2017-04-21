@@ -1,5 +1,6 @@
 .tem-678 .mod {
   width: auto;
+  padding-top: 15px;
   margin: 0px 55px;
 }
 .tem-678 .mod .container {
@@ -61,4 +62,9 @@
 .tem-678 .mod .simple_price_count del {
   font-size: 12px;
   color: #DDD;
+}
+@media screen and (max-width: 480px) {
+  .tem-678 .col-xs-4 {
+    width: 100%;
+  }
 }
