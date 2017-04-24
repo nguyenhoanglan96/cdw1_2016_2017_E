@@ -117,7 +117,6 @@
                                                             <span class="image_overlay_effect_inside"></span>
                                                         </span>
                                                     </a>
-
                                                 </li>
                                                 <li class="col-sm-3 fix-col">
                                                     <h4 class="cufon_headings">–</h4>
@@ -125,7 +124,6 @@
                                                         <img src="images/menu/featured3-210x100.jpg" alt="" />
                                                         <span class="image_overlay_effect external_image">
                                                             <span class="image_overlay_effect_inside"></span>
-
                                                         </span>
                                                     </a>
 
@@ -136,7 +134,6 @@
                                                         <img src="images/menu/featured_4-210x100.jpg" alt="" />
                                                         <span class="image_overlay_effect external_image">
                                                             <span class="image_overlay_effect_inside"></span>
-
                                                         </span>
                                                     </a>
 
@@ -150,7 +147,6 @@
                                                         <li><a href="#"><i class="fa fa-caret-right"> Small and Large gifts for her: Jewelry</i></a></li>
                                                         <li><a href="#"><i class="fa fa-caret-right"> Photographers unite!</i></a></li>
                                                         <li><a href="#"><i class="fa fa-caret-right"> Latest fashion and clothing trends</i></a></li>
-
                                                     </ul>
                                                 </li>
                                                 <li class="col-sm-3 ">
@@ -160,7 +156,6 @@
                                                         <li><a href="#"><i class="fa fa-caret-right"> Featured News</i></a></li>
                                                         <li><a href="#"><i class="fa fa-caret-right"> Breaking! And really hot!</i></a></li>
                                                         <li><a href="#"><i class="fa fa-caret-right"> Latest Technology Trends</i></a></li>
-
                                                     </ul>
                                                 </li>
                                                 <li class="col-sm-3 ">

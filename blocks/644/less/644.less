@@ -1,4 +1,6 @@
 .type-644 {
+    @color:#777;
+    @font-size:12px;
     #navigation{
         width:1207px;
         margin-left:-10px;
@@ -39,14 +41,14 @@
             padding:0;
             list-style: none;
             a{
-                color:#777;
-                font-size:12px;
+                color: @color;
+                font-size:@font-size;
                 padding:3px 0;
                 line-height:15px;
             }
         }
         .menu p{
-            font-size:12px;
+            font-size:@font-size;
             line-height:18px;
             margin:9px 10px;
             padding:0;
@@ -68,9 +70,6 @@
             z-index:999;
             border-radius:0 0 2px 2px;
             box-shadow:0 1px 1px rgba(0,0,0,0.04);
-        }
-        .halflings.white{
-            background-image: url(../images/glyphicons_halflings-white.svg);
         }
         .halflings.home{
             background-position: 0 -24px;
@@ -152,8 +151,8 @@
         margin-right:7px;
     }
     .menu ul a{
-        color:#777;
-        font-size:12px;
+        color:@color;
+        font-size:@font-size;
         line-height:18px;
         padding:9px 12px;
         border-top:1px solid #e6e6e6;
@@ -161,7 +160,7 @@
     .menu ul a:hover{
         background-color:#f5f5f5;
     }
-    .menu .cols1,.menu .cols2,.menu .cols3,.menu .cols4,.menu .cols5{
+    .menu .cols1,.menu .cols3{
         position:absolute;
         display:none;
         overflow:auto;
@@ -171,40 +170,31 @@
     .menu .cols1,.menu .col1{
         width:145px;
     }
-    .menu .cols2,.menu .col2{
-        width:320px;
-    }
     .menu .cols3,.menu .col3{
         width:457px;
     }
-    .menu .cols4,.menu .col4{
-        width:640px;
-    }
-    .menu .cols5,.menu .col5{
-        width:800px;
-    }
-    .menu>li.floatr>ul.cols1,ul.cols2,ul.cols3,ul.cols4,ul.cols5{
+    .menu>li.floatr>ul.cols1,ul.cols3{
         right:0;
     }
-    .menu>li:hover>ul.cols1,ul.cols2,ul.cols3,ul.cols4,ul.cols5{
+    .menu>li:hover>ul.cols1,ul.cols3{
         display:block;
     }
-    .menu .col1,.menu .col2,.menu .col3,.menu .col4,.menu .col5{
+    .menu .col1,.menu .col3{
         float:left;
     }
-    ul.cols1 a:hover,ul.cols2 a:hover,ul.cols3 a:hover,ul.cols4 a:hover,ul.cols5 a:hover{
+    ul.cols1 a:hover,ul.cols3 a:hover{
         background:none;
         border:none;
     }
-    ul.cols1 a,ul.cols2 a,ul.cols3 a,ul.cols4 a,ul.cols5 a{
+    ul.cols1 a, a,ul.cols3 a{
         background:none;
         border:none;
     }
-    ul.cols1 p a,ul.cols2 p a,ul.cols3 p a,ul.cols4 p a,ul.cols5 p a{
+    ul.cols1 p a,ul.cols3 p a{
         padding:0;
     }
     @media (max-width:468px) {
-         .menu>li{
+        .menu>li{
             float:left;
             a{
                 display:block;

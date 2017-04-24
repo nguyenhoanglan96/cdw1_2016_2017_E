@@ -1,4 +1,5 @@
 .type-648{
+    @backgr:#7c7c7c;
     margin-top:35px;
     .slider-banner {
         #wowslider-container1{
@@ -6,6 +7,7 @@
                 position: relative;
                 max-height:340px;
                 overflow:hidden;
+                    margin-left: -17px;
                 ul{
                     padding:0;
                     li{
@@ -64,8 +66,6 @@
     #wowslider-container1  .ws_bullets {
         bottom: 0px;
         left:48%;
-    }
-    #wowslider-container1  .ws_bullets .ws_bulframe{
         display:none;
     }
     .slider-show {
@@ -97,7 +97,7 @@
         .carousel .item img:hover{
             display: block;
             position: relative;
-            background: #7c7c7c;
+            background: @backgr;
             overflow: hidden;
             display: block;
         }
@@ -126,11 +126,6 @@
             text-align: center;
             margin: 0 auto;
             right: 0 !important;
-        }
-        .glyphicon {
-            left: -1px !important;
-            text-align: center;
-            margin: 0 auto;
         }
     }
 } 

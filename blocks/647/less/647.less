@@ -1,14 +1,11 @@
 .type-647 {
     @colorbackr :#2c3547 ;
+    @font-size:11px;
+    @color:#fff;
     background-color: @colorbackr ;
     .header {
-        .navbar .navmenu-b  {
+        .navbar .navmenu-b {
             background-color: @colorbackr !important;   
-        }
-        header {
-            background-color: @colorbackr;
-            width: 100%;
-            margin:0 auto;
         }
         .cnheader{
             height: 200px;
@@ -17,7 +14,7 @@
             }
             .search {
                 #searchform {
-                    background: #fff;
+                    background: @color;
                     width: 220px;
                     position: absolute;
                     right: 15px;
@@ -71,7 +68,6 @@
                 }
             }
         }
-      
     }
     .menu { 
         .navbar-inverse .navbar-nav>a:hover {
@@ -83,9 +79,9 @@
         }
         .navbar {
             margin-bottom: 0px !important;   
-            background: #fff;
+            background: @color;
             border-color: #eeeeee;
-            margin-right: -17px;
+            margin-right: 15px;
         }
         .navbar-nav>li>a{
             color:#333;
@@ -93,15 +89,14 @@
         }
         .login-shopping {
             position: absolute;
-            font-size: 11px;
+            font-size: @font-size;
             top: 170px;
-            font-size: 11px;
             li {
                 float: left;
                 padding: 0 10px;
             }
             li a {
-                color :#fff;
+                color :@color;
             }
         }
         .dropdown-menu {
@@ -145,7 +140,6 @@
             line-height: 52px;
             padding: 0 30px 0 0;
         }
-       
     }
     @media(min-width:767px){
         .menu{
@@ -176,10 +170,6 @@
             }
         }
     }
-    .navbar-toggle .fix-col .icon-bar .sr-only .collapse .navbar-collapse .js-navbar-collapse .fa .fa-caret-right .blog .dropdown-toggle .nav .dropdown .caret .cufon_headings .image_overlay_effect .image_overlay_effect_inside .external_image .avia_mega_hr .navbar-right
-    {
-        padding: 0;
-    }
     @media (max-width:468px) {
         #searchform {
             display: none;
@@ -194,7 +184,6 @@
             left: 0% !important;
         }
         .cnheader .search .social_bookmarks {
-
             right: 40% !important;
         }
     }

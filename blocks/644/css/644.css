@@ -69,9 +69,6 @@
   border-radius: 0 0 2px 2px;
   box-shadow: 0 1px 1px rgba(0,0,0,0.04);
 }
-.type-644 #navigation .halflings.white {
-  background-image: url(../images/glyphicons_halflings-white.svg);
-}
 .type-644 #navigation .halflings.home {
   background-position: 0 -24px;
 }
@@ -167,10 +164,7 @@
   background-color: #f5f5f5;
 }
 .type-644 .menu .cols1,
-.type-644 .menu .cols2,
-.type-644 .menu .cols3,
-.type-644 .menu .cols4,
-.type-644 .menu .cols5 {
+.type-644 .menu .cols3 {
   position: absolute;
   display: none;
   overflow: auto;
@@ -181,64 +175,35 @@
 .type-644 .menu .col1 {
   width: 145px;
 }
-.type-644 .menu .cols2,
-.type-644 .menu .col2 {
-  width: 320px;
-}
 .type-644 .menu .cols3,
 .type-644 .menu .col3 {
   width: 457px;
 }
-.type-644 .menu .cols4,
-.type-644 .menu .col4 {
-  width: 640px;
-}
-.type-644 .menu .cols5,
-.type-644 .menu .col5 {
-  width: 800px;
-}
 .type-644 .menu>li.floatr>ul.cols1,
-.type-644 ul.cols2,
-.type-644 ul.cols3,
-.type-644 ul.cols4,
-.type-644 ul.cols5 {
+.type-644 ul.cols3 {
   right: 0;
 }
 .type-644 .menu>li:hover>ul.cols1,
-.type-644 ul.cols2,
-.type-644 ul.cols3,
-.type-644 ul.cols4,
-.type-644 ul.cols5 {
+.type-644 ul.cols3 {
   display: block;
 }
 .type-644 .menu .col1,
-.type-644 .menu .col2,
-.type-644 .menu .col3,
-.type-644 .menu .col4,
-.type-644 .menu .col5 {
+.type-644 .menu .col3 {
   float: left;
 }
 .type-644 ul.cols1 a:hover,
-.type-644 ul.cols2 a:hover,
-.type-644 ul.cols3 a:hover,
-.type-644 ul.cols4 a:hover,
-.type-644 ul.cols5 a:hover {
+.type-644 ul.cols3 a:hover {
   background: none;
   border: none;
 }
 .type-644 ul.cols1 a,
-.type-644 ul.cols2 a,
-.type-644 ul.cols3 a,
-.type-644 ul.cols4 a,
-.type-644 ul.cols5 a {
+.type-644 a,
+.type-644 ul.cols3 a {
   background: none;
   border: none;
 }
 .type-644 ul.cols1 p a,
-.type-644 ul.cols2 p a,
-.type-644 ul.cols3 p a,
-.type-644 ul.cols4 p a,
-.type-644 ul.cols5 p a {
+.type-644 ul.cols3 p a {
   padding: 0;
 }
 @media (max-width: 468px) {

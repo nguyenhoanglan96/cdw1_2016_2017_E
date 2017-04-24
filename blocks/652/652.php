@@ -24,18 +24,17 @@
         <div class="type-652">
             <div class="container">
                 <div class="row footer">
+                    <!-------colums 1: INTERESTING LINKS---------->
                     <div class="col-md-3">
                         <div class="widget">
                             <h3 class="title">INTERESTING LINKS</h3>
                             <span class="minitext"> Besides are some interesting links for you! Enjoy your stay :)</span>
                         </div>
                     </div>
+                    <!-------colums 2: LATEST TWEETS-------->
                     <div class="col-md-3">
                         <div class="widget">
-                            <h3 class="title">
-                                <a href="#">LATEST TWEETS</a>                              
-                            </h3>
-                           
+                            <h3 class="title">LATEST TWEETS</h3>
                                 <div class="tweet">
                                     <p>Seriously?  <a href="#" >http://t.co/ZiX44CyKVY</a><br>
                                         <span>June 10, 2013 - 7:27 pm</span>
@@ -55,9 +54,9 @@
                                         <span >June 10, 2013 - 6:49 pm</span>
                                     </p> 
                                 </div>
-                           
                         </div>
                     </div>
+                    <!--------colum 3: LATEST NEWS---------->
                     <div class="col-md-3">
                         <div class="widget">
                             <h3 class="title">LATEST NEWS</h3>
@@ -96,7 +95,7 @@
                             </div>
                         </div>
                     </div>
-
+                 <!----------colums 4: ARCHIVE------------>
                     <div class="col-md-3">
                         <div class="widget">  
                             <div class="archive">
@@ -114,6 +113,7 @@
                         </div>
                     </div>
                 </div>
+                <!-------------copyright---------->
                 <div class="row socket">
                     <span class="copyright">© Copyright - <a href="#">Abundance eCommerce Theme Demo</a> - <a href="#">Wordpress Theme by Kriesi.at</a></span>
                 </div>

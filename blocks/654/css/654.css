@@ -54,23 +54,9 @@
   top: 145px;
   transition-delay: 0.3s;
 }
-.type-654 body,
 .type-654 ul,
-.type-654 ol,
-.type-654 h1,
-.type-654 h2,
 .type-654 h3,
-.type-654 h4,
-.type-654 h5,
-.type-654 h6,
-.type-654 form,
-.type-654 li,
-.type-654 p,
-.type-654 input,
-.type-654 select,
-.type-654 legend,
-.type-654 textarea,
-.type-654 fieldset {
+.type-654 li {
   margin: 0;
   padding: 0px;
 }
@@ -113,4 +99,18 @@
 .type-654 .sidebar .widget_meta li a,
 .type-654 .sidebar .widget_nav_menu li a .amount {
   font-size: 11px;
+}
+@media (max-width: 992px) {
+  .type-654 .widget {
+    border-bottom: 1px solid #e1e1e1;
+    overflow: hidden;
+    padding: 22px 0 22px 0;
+  }
+  .type-654 .widget .widgettitle {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-bottom: 10px;
+  }
 }

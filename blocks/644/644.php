@@ -26,9 +26,9 @@
                     <nav id="navigation">
                         <div class="left-corner"></div>
                         <div class="right-corner"></div>
-                        <ul class="menu" id="responsive">
-                            <li><a href="index.html" id="current"><i class="halflings white home"></i> Home</a></li>
-                            <li><a href="#"><i class="halflings white file"></i> Features</a>
+                        <ul class="menu">
+                            <li><a href="index.html" id="current"><i class="halflings  home"></i> Home</a></li>
+                            <li><a href="#"><i class="halflings file"></i> Features</a>
                                 <!-- Mega Menu / Start -->
                                 <ul class="cols3">
                                     <li class="col3">
@@ -59,8 +59,7 @@
                                 </ul>
                                 <!-- Mega Menu / End -->
                             </li>
-
-                            <li><a href="#"><i class="halflings white cog"></i> Shortcodes</a>
+                            <li><a href="#"><i class="halflings  cog"></i> Shortcodes</a>
                                 <!-- Second Level / Start -->
                                 <ul>
                                     <li><a href="elements.html">Elements</a></li>
@@ -70,8 +69,7 @@
                                 </ul>
                                 <!-- Second Level / End -->
                             </li>
-
-                            <li><a href="#"><i class="halflings white briefcase"></i> Portfolio</a>
+                            <li><a href="#"><i class="halflings  briefcase"></i> Portfolio</a>
                                 <!-- Second Level / Start -->
                                 <ul>
                                     <li><a href="portfolio-2.html">2 Columns</a></li>
@@ -81,8 +79,7 @@
                                 </ul>
                                 <!-- Second Level / End -->
                             </li>
-
-                            <li><a href="#"><i class="halflings white shopping-cart"></i> Shop</a>
+                            <li><a href="#"><i class="halflings  shopping-cart"></i> Shop</a>
                                 <!-- Second Level / Start -->
                                 <ul>
                                     <li><a href="shop.html">Shop</a></li>
@@ -90,8 +87,7 @@
                                 </ul>
                                 <!-- Second Level / End -->
                             </li>
-
-                            <li><a href="#"><i class="halflings white pencil"></i> Blog</a>
+                            <li><a href="#"><i class="halflings pencil"></i> Blog</a>
                                 <!-- Second Level / Start -->
                                 <ul>
                                     <li><a href="blog-large-image.html">Large Image</a></li>
@@ -100,7 +96,7 @@
                                 </ul>
                                 <!-- Second Level / End -->
                             </li>
-                            <li><a href="contact.html"><i class="halflings white envelope"></i> Contact</a></li>
+                            <li><a href="contact.html"><i class="halflings envelope"></i> Contact</a></li>
                         </ul>
                     </nav>                 
                 </div>

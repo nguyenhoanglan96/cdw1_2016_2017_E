@@ -1,5 +1,6 @@
 .type-649{
     @color:#f5f7fa;
+    @font-size: 13px;;
     h3{
         font-size: 11px;
         font-weight: bold;
@@ -51,8 +52,9 @@
     }
     h4{
         color: #333;
-        font-size: 13px;
+        font-size: @font-size;
         font-weight: bold;
+        margin-top: -25px;
     }
     .amount {
         color: #7e9a47;
@@ -100,9 +102,6 @@
                     .left,.prev.right,.active{
                         left: 0;
                     }
-                    .cloneditem-1,.cloneditem-2{
-                        display: block;
-                    }
                 }
                 @media all and (min-width: 992px){    
                     @media (transform-3d), (-webkit-transform-3d){
@@ -128,7 +127,6 @@
                     .left, .prev.right, .active{
                         left: 0;
                     }
-                   
                 }    
             }
             .carousel-control{ 

@@ -27,6 +27,8 @@
         <div class="type-655">
             <div class="container">
                 <div class="row">
+                    <div class="reponsive">
+                    <!------Title------->
                     <div class="title_container">
                         <h1>Canon 25-50</h1>
                         <div class="breadcrumb-trail">
@@ -40,7 +42,10 @@
                             <link itemprop="availability" href="#">
                         </div>
                     </div>
+                     <!------/Title------->
+                     <!-----Detail----->
                     <div class="row">
+                        <!-----logo---->
                         <div class="col-md-4">
                             <a href="#"><img src="images/jeff_golden_1-350x350.jpg" alt=" " title=" "></a>
                             <div class="sidebar">
@@ -49,7 +54,11 @@
                                 </div>
                             </div>
                         </div>
+                        <!-----/logo---->
+                        
                         <div class="col-md-8">
+                            <!-----Text----->
+                            
                             <h4 itemprop="name">Canon 25-50</h4>
                             <div itemprop="description">
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.<br>
@@ -57,6 +66,9 @@
                                 <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricien enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
                                 <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
                             </div>
+                            
+                            <!-----/Text----->
+                            <!-----cart---->
                             <p class="stock">430 in stock (can be backordered)</p>
                             <form class="cart" method="post" enctype="multipart/form-data">
                                 <input type="button" value="-" class="minus">
@@ -67,11 +79,12 @@
                                     <button type="submit" class=" button alt">Add to cart</button>
                                 </div>
                             </form>
+                              <!-----/cart---->
 
                             <div class="product_meta">
                                 <span>Category: <a href="#" rel="tag">Photography</a></span>
                             </div>
-
+                               <!------Width tab----->
                             <div class="container-nav">
                                 <ul class="nav nav-tabs">
                                     <li class="active"><a data-toggle="tab" href="#home">Description</a></li>
@@ -79,13 +92,15 @@
                                     <li><a data-toggle="tab" href="#menu2">Reviews (0)</a></li>
                                 </ul>
                                 <div class="tab-content">
-                                    <div id="home" class="tab-pane fade in active">
+                                    <!---tab 1--->
+                                    <div id="home" class="tab-pane   active">
                                         <h2>Product Description</h2>
                                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
                                         <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
                                         <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricien enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
                                     </div>
-                                    <div id="menu1" class="tab-pane fade">
+                                    <!---- tab 2--->
+                                    <div id="menu1" class="tab-pane">
                                         <h2>Additional Information</h2>
                                         <table class="shop_attributes">
                                             <tbody>
@@ -104,20 +119,22 @@
                                             </tbody>
                                         </table>    
                                     </div>
-                                    <div id="menu2" class="tab-pane fade">
+                                    <!---Tab 3--->
+                                    <div id="menu2" class="tab-pane ">
                                         <h2>Reviews</h2>
                                         <p>There are no reviews yet</p>
                                         <p>You must be <a href="http://www.kriesi.at/themes/abundance/my-account/">logged in</a> to post a review.</p>	
                                     </div>
                                 </div>
                             </div>
-
+                               <!------/Width tab----->
+                               <!-----Product---->
                             <div class="product-col">
                                 <div class="relate-product">
                                     <h2 class="cufon_headings">Related Products</h2>
-
                                     <div class="row">
                                         <div class="col-md-3  col-sm-6 ">
+                                            <!----image--->
                                             <a href="images/olympus2000.jpg"></a>
                                             <div class="thumbnail_container">
                                                 <div class="thumbnail_container_inner">
@@ -178,8 +195,11 @@
                                     </div>
                                 </div>
                             </div>
+                               <!-----Product---->
                         </div>
                     </div>
+                      <!-----/Detail----->
+                </div>
                 </div>
             </div>
         </div>

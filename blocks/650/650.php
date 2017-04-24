@@ -25,7 +25,9 @@
         <div class="type-650">
             <div class="container">
                 <div class="row">
+                    <!--Whats new--->
                     <div class="hr hr_text "><div class="custom_hr_text ">Whats new ?</div></div>
+                    <!------image------>
                     <div class="row thumbs">
                         <div class="col-md-3 col-sm-6 thumb">
                             <div class="a">
@@ -35,25 +37,19 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 thumb">
-                            <div class="a">
-                                <a href="#">
-                                    <img src="images/banner/featured1_6x3.jpg" alt=""/>
-                                </a>
-                            </div>
+                            <a href="#">
+                                <img src="images/banner/featured1_6x3.jpg" alt=""/>
+                            </a>
                         </div>
                         <div class="col-md-3 col-sm-6 thumb">
-                            <div class="a">
-                                <a href="#">
-                                    <img src="images/banner/featured3_6x3.jpg" alt=""/>
-                                </a>
-                            </div>
+                            <a href="#">
+                                <img src="images/banner/featured3_6x3.jpg" alt=""/>
+                            </a>
                         </div>
                         <div class="col-md-3 col-sm-6 thumb">
-                            <div class="a">
-                                <a href="#">
-                                    <img src="images/banner/featured4_6x3.jpg" alt=""/>
-                                </a>
-                            </div>
+                            <a href="#">
+                                <img src="images/banner/featured4_6x3.jpg" alt=""/>
+                            </a>
                         </div>
                     </div>
                 </div>

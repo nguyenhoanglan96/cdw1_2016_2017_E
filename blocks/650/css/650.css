@@ -1,7 +1,6 @@
 .type-650 .hr_text {
   padding-top: 20px;
   overflow: hidden;
-  background: url("../images/png.png") repeat-x scroll left center transparent;
 }
 .type-650 .hr {
   border-bottom: #aaa solid 1px;
@@ -16,6 +15,7 @@
   width: 104%;
   padding-bottom: 60px;
   padding-top: 50px;
+  margin-left: -24px;
 }
 .type-650 .thumbs .thumb img {
   width: 100%;

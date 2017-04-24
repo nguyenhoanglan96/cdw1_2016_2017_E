@@ -134,3 +134,8 @@
     margin: 0 5px 5px 0;
   }
 }
+@media (min-width: 1102px) {
+  .type-645 #twitter {
+    margin-left: -50px;
+  }
+}

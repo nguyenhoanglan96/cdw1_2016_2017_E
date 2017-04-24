@@ -18,7 +18,7 @@
         $less = new lessc;
         $less->compileFile('less/653.less', 'css/653.css');
         ?>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+       
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/menu.js" type="text/javascript"></script>
     </head>
@@ -29,14 +29,19 @@
                 <!--Title-->
                 <div class="row title">
                     <div class="col-md-8">
+                        <!-----icon------>
                         <div class="thumb_icons col-md-2">
                             <img src="images/linuxIcons.jpg" alt=""/>
                         </div>
-                        <div class="text_icons col-md-10 col-sm-">	
+                        <!------/icon---->
+                        <!---Text------->
+                        <div class="text_icons col-md-10 ">	
                             <h1>Photography</h1>                            
                             <p>You can add small descriptions as well as preview images to your product categories. You can of couse omit them as well ;)</p>
                         </div>
+                         <!----/Text----->
                     </div>
+                    <!----Ordered List--->
                     <div class="mn col-md-4">
                         <select id="sl" style="font-size:12px;">
                             <option value="popularity" style="font-size:12px;">Sort by popularity</option>
@@ -46,7 +51,9 @@
                             <option value="price-desc" style="font-size:12px;">Sort by price: high to low</option>
                         </select>
                     </div>
+                    <!----/Ordered List--->
                     <div class="clearfix"></div>
+                    <!-------link----->
                     <div class="breadcrumb  ">
                         <div class="breadcrumb-trail">
                             <span>
@@ -57,6 +64,7 @@
                         </div>
                         <hr>
                     </div>
+                    <!-------/link----->
                 </div>
                 <!--/Tile-->
             </div>

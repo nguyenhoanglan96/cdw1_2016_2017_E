@@ -49,6 +49,7 @@
   color: #333;
   font-size: 13px;
   font-weight: bold;
+  margin-top: -25px;
 }
 .type-649 .amount {
   color: #7e9a47;
@@ -84,10 +85,6 @@
   .type-649 .product .carousel-showsixmoveone .carousel-inner .prev.right,
   .type-649 .product .carousel-showsixmoveone .carousel-inner .active {
     left: 0;
-  }
-  .type-649 .product .carousel-showsixmoveone .carousel-inner .cloneditem-1,
-  .type-649 .product .carousel-showsixmoveone .carousel-inner .cloneditem-2 {
-    display: block;
   }
 }
 @media all and (min-width: 768px) and (transform-3d),all and (min-width: 768px) and (-webkit-transform-3d) {

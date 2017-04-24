@@ -1,12 +1,10 @@
-.type-643 {
+.type-643 .backgr {
   background: #fff;
-  max-width: 1170px;
-  margin-left: 93px;
+  width: 100%;
   box-shadow: 0 0 4px;
 }
 .type-643 .topline {
   background: #169fe6;
-  width: 100%;
   height: 5px;
 }
 .type-643 .eight-columns {
@@ -28,6 +26,7 @@
   float: left;
   width: 104px;
   height: 26px;
+  margin-left: 5px;
 }
 .type-643 .eight-columns .social-icons {
   margin: 23px 5px 13px 0;
@@ -94,21 +93,31 @@
   background: url(../images/social/rss.png) no-repeat 50%;
   margin: 0 -5px 0 0;
 }
-@media (max-width: 468px) {
+@media all and (max-width: 1310px) {
   .type-643 #logo a img {
     float: left;
     width: 104px;
     height: 26px;
   }
-  .type-643 .social-icons {
-    margin: 23px 5px 13px 0;
-    float: right;
+  .type-643 .type-643 {
+    width: 100%;
+    margin-left: -1px;
   }
-  .type-643 .social-icons li {
-    list-style: none;
-    text-indent: -9999px;
+}
+@media all and (max-width: 1310px) and (max-width: 613px) {
+  .type-643 .eight-columns {
+    width: 198px;
+  }
+  .type-643 .eight-columns .container {
+    background: #fff;
+    max-width: 1170px;
+    margin-left: 1px;
+    box-shadow: 0 0 4px;
+  }
+}
+@media all and (max-width: 1310px) and (max-width: 1201px) {
+  .type-643 .eight-columns {
     float: left;
-    opacity: 0.5;
-    padding-left: 10px;
+    width: 250px;
   }
 }

@@ -1,7 +1,6 @@
 .type-653 .title {
   margin: 0 0 50px 0;
   top: 30px;
-  left: 15px;
   position: relative;
 }
 .type-653 .title .thumb_icons {
@@ -23,7 +22,6 @@
 }
 .type-653 .title .mn #sl {
   padding: .4em 1em;
-  background: transparent url(../images/bg-style-wrap.png) repeat-x bottom center;
 }
 .type-653 .title .breadcrumb {
   position: relative;

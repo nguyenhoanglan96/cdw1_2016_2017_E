@@ -26,35 +26,49 @@
         <div class="type-654">
             <div class="container">
                 <div class="row">
+                    <!-------Content------>
                     <div class="col-md-9">
                         <div class="row">
+                            <!-----images 1------->
                             <div class="col-md-4 col-sm-6 col-xs-6 thumb">
                                 <div class="thumbnail_container">
                                     <img src="images/kakissel_1-300x300.jpg" alt=""/>
+                                    <!------hover:---->
                                     <a class="button add_to_cart_button">Add to cart</a>
                                     <a class="button show_details_button" href="#">Show details</a>
                                 </div>
+                                <!------text----->
                                 <h3 >Nikon 18-70</h3>
                                 <span class="price"><span>$220.00</span></span>
                             </div>
+                            <!-----/images 1------->
+                            <!-----images 2------->
                             <div class="col-md-4 col-sm-6 col-xs-6 thumb">
                                 <div class="thumbnail_container">
                                     <img src="images/jeff_golden_1-300x300.jpg" alt=""/>
+                                    <!----hover:--->
                                     <a class="button add_to_cart_button">Add to cart</a>
                                     <a class="button show_details_button" href="#">Show details</a>
                                 </div>
+                                <!----text--->
                                 <h3 >Nikon 18-70</h3>
                                 <span class="price"><span class="amount">$220.00</span></span>
                             </div>
+                            <!-----/images 2------->
+                            <!-----images 3------->
                             <div class="col-md-4 col-sm-6 col-xs-6 thumb">
                                 <div class="thumbnail_container">
                                     <img src="images/jeff_golden_2-300x300.jpg" alt=""/>
+                                    <!---hover: --->
                                     <a class="button add_to_cart_button">Add to cart</a>
                                     <a class="button show_details_button" href="#">Show details</a>
                                 </div>
+                                <!---text--->
                                 <h3 >Nikon 18-70</h3>
                                 <span class="price"><span class="amount">$220.00</span></span>
                             </div>
+                            <!-----/.images 3------->
+                            <!-----images 4------->
                             <div class="col-md-4 col-sm-6 col-xs-6 thumb">
                                 <div class="thumbnail_container">
                                     <img src="images/linux-works-300x300.jpg" alt=""/>
@@ -64,6 +78,8 @@
                                 <h3 >Nikon 18-70</h3>
                                 <span class="price"><span class="amount">$220.00</span></span>
                             </div>
+                            <!-----/images 4------->
+                            <!-----images 5------->
                             <div class="col-md-4 col-sm-6 col-xs-6 thumb">
                                 <div class="thumbnail_container">
                                     <img src="images/kakissel_1-300x300.jpg" alt=""/>
@@ -73,6 +89,7 @@
                                 <h3 >Nikon 18-70</h3>
                                 <span class="price"><span class="amount">$220.00</span></span>
                             </div>
+                            <!-----/images 5------->
                             <div class="col-md-4 col-sm-6 col-xs-6 thumb">
                                 <div class="thumbnail_container">
                                     <img src="images/jeff_golden_2-300x300.jpg" alt=""/>
@@ -111,8 +128,14 @@
                             </div>
                         </div>
                     </div>
+                    <!-------/Content------>
+                    <!-------Slidebar------>
                     <div class="col-md-3">
-                        <div class="sidebar"><div class="widget widget_pages"><h3 class="widgettitle">Pages</h3><ul><li ><a href="http://www.kriesi.at/themes/abundance/templates/archivesitemap-template/">Archive/Sitemap Template</a></li>
+                        <div class="sidebar"><div class="widget widget_pages">
+                                <!----PAGES--->
+                                <h3 class="widgettitle">Pages</h3>
+                                <ul>
+                                    <li ><a href="#">Archive/Sitemap Template</a></li>
                                     <li ><a href="#">Aviacordion</a></li>
                                     <li ><a href="#">Beautiful Jewelry</a></li>
                                     <li ><a href="#">Blog</a></li>
@@ -146,7 +169,10 @@
                                     <li class=" 15"><a href="#">View Order</a></li>
                                     <li ><a href="#">Whats Hot?</a></li>
                                     <li ><a href="#">Gallery</a></li>
-                                </ul></div><div class="widget widget_categories"><h3 class="widgettitle">Categories</h3><ul>	<li ><a href="http://www.kriesi.at/themes/abundance/category/breaking/">Breaking</a>
+                                </ul>
+                                <!---/PAGES--->
+                            </div>
+                            <div class="widget widget_categories"><h3 class="widgettitle">Categories</h3><ul>	<li ><a href="http://www.kriesi.at/themes/abundance/category/breaking/">Breaking</a>
                                     </li>
                                     <li ><a href="#">Featured</a>
                                     </li>
@@ -164,6 +190,7 @@
                                 </ul></div>
                         </div>
                     </div>
+                    <!-------/Slidebar------>
                 </div>
             </div>
         </div>

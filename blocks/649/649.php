@@ -55,8 +55,6 @@
                         </p>
                     </div>
                 </div>     
-
-
                 <div class="hr">
                     <div class="custom_hr_text">
                         Latest Products
@@ -150,7 +148,7 @@
                                     <div class="item">
                                         <div class="col-sm-4 col-md-2">
                                             <a href="#">
-                                                <img src="images/Silver Ston Ring.png" >
+                                                <img src="images/Silver Tie.png" >
                                                 <p class="text">Add to Cart</p>
                                                 <p class="text">Show Details</p>
                                             </a>
@@ -161,7 +159,7 @@
                                     <div class="item">
                                         <div class=" col-sm-4 col-md-2">
                                             <a href="#">
-                                                <img src="images/Short.png" >
+                                                <img src="images/Samsung 255.png" >
                                                 <p class="text">Add to Cart</p>
                                                 <p class="text">Show Details</p>
                                             </a>

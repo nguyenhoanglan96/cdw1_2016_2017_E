@@ -39,9 +39,9 @@
                                 <div class="columns">
                                     <h4>Contact Details</h4>
                                     <ul class="contact-details-alt">
-                                        <li><i class="halflings white map-marker"></i> <p><strong>Address:</strong> 123 Seward Street, Oklahoma City, USA</p></li>
-                                        <li><i class="halflings white user"></i> <p><strong>Phone:</strong> +48 880 440 110</p></li>
-                                        <li><i class="halflings white envelope"></i><p><strong>Email:</strong> <a href="#">mail@example.com</a></p></li>
+                                        <li><i class="halflings map-marker"></i> <p><strong>Address:</strong> 123 Seward Street, Oklahoma City, USA</p></li>
+                                        <li><i class="halflings user"></i> <p><strong>Phone:</strong> +48 880 440 110</p></li>
+                                        <li><i class="halflings envelope"></i><p><strong>Email:</strong> <a href="#">mail@example.com</a></p></li>
                                     </ul>
                                 </div>
                             </div>
@@ -63,14 +63,13 @@
                                     <ul id="twitter">
                                         <li>
                                             <span>
-                                                WPVoyager - The Best Travel Blog Theme for WordPress
-                                                <a href="#">http://t.co/wh0f9rS1Xn</a> przez@
-                                                <a href="#">Vasterad</a>
+                                                WPVoyager - The Best Travel 
+                                                <p>
+                                                <a href="#">http://t.co/wh0f9rS1Xn</a> 
+                                                </p>
+                                                <a href="#">przez@  Vasterad</a>
                                             </span>
                                             <br>
-                                            <b>
-                                                <a href="#">459 days ago</a>
-                                            </b>
                                         </li>
                                     </ul>
                                     <div class="clearfix"></div>
@@ -84,13 +83,13 @@
                         <!-- 960 Container -->
                         <div class="container">
                             <!-- Copyrights -->
-                            <div class="eight columns">
+                            <div class="columns">
                                 <div class="copyright">
                                     © Copyright 2015 by <a href="#">Nevia</a>. All Rights Reserved.
                                 </div>
                             </div>
                             <!-- Menu -->
-                            <div class="eight columns">
+                            <div class=" columns">
                                 <nav id="sub-menu">
                                     <ul>
                                         <li><a href="#">FAQ's</a></li>

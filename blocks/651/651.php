@@ -24,21 +24,27 @@
         <div class="type-651">
             <div class="container">
                 <div class="row abs">
+                    <!-------image 1-------->
                     <div class="col-md-2 col-xs-6">
                         <img src="images/1.png" alt=""/>
                     </div>
+                    <!-------image 2-------->
                     <div class="col-md-2 col-xs-6">
                         <img   src="images/2.png" alt=""/>
                     </div>
+                    <!-------image 3-------->
                     <div class="col-md-2 col-xs-6">
                         <img src="images/3.png" alt=""/>
                     </div>
+                    <!-------image 4-------->
                     <div class="col-md-2 col-xs-6">
                         <img src="images/4.png" alt=""/>
                     </div>
+                    <!-------image 5-------->
                     <div class="col-md-2 col-xs-6">
                         <img src="images/5.png" alt=""/>
                     </div>
+                    <!-------image 6-------->
                     <div class="col-md-2 col-xs-6">
                         <img src="images/6.png" alt=""/>
                     </div>

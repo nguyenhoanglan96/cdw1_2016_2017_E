@@ -5,6 +5,7 @@
   position: relative;
   max-height: 340px;
   overflow: hidden;
+  margin-left: -17px;
 }
 .type-648 .slider-banner #wowslider-container1 .ws_images ul {
   padding: 0;
@@ -62,8 +63,6 @@
 .type-648 #wowslider-container1  .ws_bullets {
   bottom: 0px;
   left: 48%;
-}
-.type-648 #wowslider-container1  .ws_bullets .ws_bulframe {
   display: none;
 }
 .type-648 .slider-show img {
@@ -121,10 +120,5 @@
     text-align: center;
     margin: 0 auto;
     right: 0 !important;
-  }
-  .type-648 .glyphicon {
-    left: -1px !important;
-    text-align: center;
-    margin: 0 auto;
   }
 }
