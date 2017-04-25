@@ -1,73 +1,69 @@
-.type-666 {
-    .footer-wrapper-container{
-        .footer-top-container {
-            background-color: #ffffff;
-            .footer {
-                margin: 0 auto;
-                padding: 0;
-                text-align: left;
-                .item-right {
-                    float: right;
-                    margin-left: 20px;
-                }
-                .item-left {
-                    float: left;
-                    margin-right: 20px;
-                }       
-                .item a:hover {
-                    text-decoration: none;
+.type_666{
+    .detail-wrapper-container{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .tp-blog-pic {
+            overflow: hidden;
+            img{
+                width: 100%;
+                -webkit-transition: all 1s ease;
+                -moz-transition: all 1s ease;
+                -o-transition: all 1s ease;
+                -ms-transition: all 1s ease;
+                transition: all 1s ease;
+            }
+        }
+        .tp-blog-pic:hover img {
+            -webkit-transform: scale(1.25);
+            -moz-transform: scale(1.25);
+            -ms-transform: scale(1.25);
+            -o-transform: scale(1.25);
+            transform: scale(1.25);
+        }
+        .tp-blog-info {
+            width: 100%;
+            padding: 40px;
+            background-color: #282828;
+            margin-bottom: 20px;
+            display: inline-block;
+            .tp-post-title {
+                position: relative;
+                color: #fff;
+                font-size: 39px;
+                letter-spacing: -1px;
+                margin-bottom: 20px;
+                margin-top: 0px;
+                a{
                     color: #fff;
-                    background: #de2666;
+                    text-decoration: none;
                 }
-                .inner-container {
-                    padding-left: 12px;
-                    padding-right: 12px;
-                    clear: both;
+                a:hover {
+                    color: #fde230;
                 }
-                .inner-container:before, .inner-container:after {
-                    display: table;
-                    line-height: 0;
-                    content: "";
-                }
-                .clearer:after {
-                    display: block;
-                    content: ".";
-                    clear: both;
-                    font-size: 0;
-                    line-height: 0;
-                    height: 0;
-                    overflow: hidden;
-
-                }
-                .section {
-                    padding: 10px 0;
-                }
-                ul{
-                    list-style: none;
-                }
-                .links-wrapper-separators{
-                    .links {
-                        li {
-                            margin-left: -1px;
-                            a {
-                                background-image: url(../images/link-separator.png);
-                                background-position: right center;
-                                background-repeat: no-repeat;
-                            }
-                        }
+            }
+            p {
+                color: #666;
+                margin-bottom: 30px;
+                line-height: 21px;
+            }
+            blockquote{
+                border: 0 !important;
+                padding: 21px 20px;
+                margin: 0 0 20px;
+                font-size: 17.5px;
+                background-color: #303030;
+                p{
+                    margin-bottom: 0;
+                    i{
+                        font-style: italic;
                     }
                 }
-                .links {
-                    li {
-                        float: left;
-                        line-height: 36px;
-                        a {
-                            color: black;
-                            display: block;
-                            padding: 0 0.5833em;
-                        }
-                    }
-                }
+            }
+        }
+        @media (max-width:481px)
+            {
+            h1{
+                font-size: 25px;
             }
         }
     }

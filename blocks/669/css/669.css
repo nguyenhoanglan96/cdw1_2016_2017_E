@@ -1,0 +1,56 @@
+.type_669 .text-center-wrapper a {
+  color: #fde230;
+}
+.type_669 .text-center-wrapper a:hover,
+.type_669 .text-center-wrapper a:focus {
+  text-decoration: none;
+  color: #fde230;
+}
+.type_669 .text-center-wrapper .st_1479475285 {
+  background-image: url(../images/service3.jpg);
+}
+.type_669 .text-center-wrapper .tp-breadcrumb {
+  background: url(#) no-repeat bottom center scroll;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 55px 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.type_669 .text-center-wrapper .tp-breadcrumb .breadcrumb {
+  margin-bottom: 0px;
+  list-style: none;
+  background-color: transparent;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 14px;
+  border: 2px solid;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.type_669 .text-center-wrapper .breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.type_669 .text-center-wrapper .breadcrumb span:last-child {
+  color: #fde230;
+}
+@media (max-width: 991px) and (min-width: 640px) {
+  .type_669 .breadcrumb {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media (max-width: 640px) and (min-width: 468px) {
+  .type_669 .breadcrumb {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 13px;
+  }
+}

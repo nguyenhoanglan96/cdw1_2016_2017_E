@@ -14,10 +14,6 @@
   width: 100%;
 }
 @media (max-width: 768px) {
-  .type_667 .column-wrapper-container .col-sm-12 {
-    width: 100%;
-    float: left;
-  }
   .type_667 .column-wrapper-container .btn-outline6 {
     margin-left: 60px;
   }
@@ -26,12 +22,6 @@
   .type_667 .column-wrapper-container .btn-outline6 {
     margin-left: 60px;
   }
-}
-.type_667 .column-wrapper-container .col-sm-12 {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 .type_667 .column-wrapper-container .wpb_content_element {
   margin-bottom: 35px;
@@ -53,7 +43,7 @@
 .type_667 .column-wrapper-container .portfolioFilter {
   text-align: center;
   margin-bottom: 40px;
-  margin-left: 67px;
+  margin-left: 66px;
 }
 .type_667 .column-wrapper-container .portfolioFilter a {
   margin-right: 10px;
@@ -154,9 +144,9 @@
 .type_667 .column-wrapper-container .nav-tabs {
   border-bottom: none !important;
 }
-.type_667 .column-wrapper-container .nav-tabs > li.active>a,
-.type_667 .column-wrapper-container .nav-tabs > li.active>a:focus,
-.type_667 .column-wrapper-container .nav-tabs > li.active>a:hover {
+.type_667 .column-wrapper-container .nav-tabs > li.active > a,
+.type_667 .column-wrapper-container .nav-tabs > li.active > a:focus,
+.type_667 .column-wrapper-container .nav-tabs > li.active > a:hover {
   color: #282828 !important;
   background-color: #fde230 !important;
   border: 2px solid #fde230 !important;
@@ -168,18 +158,20 @@
   border: 2px solid #fde230 !important;
   color: #1f1f1f !important;
 }
-@media (max-width: 480px) {
+@media (max-width: 480px) and (min-width: 429px) {
   .type_667 .column-wrapper-container h1 {
-    font-size: 30px;
+    font-size: 36px;
   }
   .type_667 .column-wrapper-container .portfolioFilter {
     margin-left: 16px;
   }
+  .type_667 .column-wrapper-container .isotope-item {
+    padding: 15px;
+  }
   .type_667 .column-wrapper-container .box {
     height: 200px;
-    padding: 15px;
     position: relative;
-    width: 335px;
+    width: 350px;
   }
   .type_667 .column-wrapper-container .portfolioFilter a {
     font-size: 12px;
@@ -188,13 +180,20 @@
     font-size: 32px;
   }
 }
-@media (min-width: 1170px) {
-  .type_667 .column-wrapper-container .col-md-3 {
-    margin-top: -1px;
-    margin-left: -1.5px;
+@media (max-width: 1199px) and (min-width: 991px) {
+  .type_667 .column-wrapper-container .portfolioFilter {
+    margin-left: 34px;
   }
-}
-@media (max-width: 1199px) and (min-width: 992px) {
+  .type_667 .column-wrapper-container .portfolioContainer {
+    margin-left: -15px;
+  }
+  .type_667 .column-wrapper-container .btn-outline8 {
+    left: 358px;
+  }
+  .type_667 .column-wrapper-container .box {
+    height: 230px;
+    width: 260px;
+  }
   .type_667 .column-wrapper-container .box .caption {
     background-color: rgba(253,226,48,0.8);
     position: absolute;
@@ -203,22 +202,129 @@
     height: 100%;
     width: 100%;
   }
-  .type_667 .column-wrapper-container h1 {
+  .type_667 .column-wrapper-container .box .caption h1 {
     font-size: 32px;
-    margin-right: 52px;
+    margin-right: 35px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .type_667 .column-wrapper-container .portfolioContainer {
+    margin-left: 52px;
+    margin-right: -40px;
+  }
+  .type_667 .column-wrapper-container .filter-wrapper {
+    margin-left: 15px;
+  }
+  .type_667 .column-wrapper-container .box .scale-caption h1 {
+    font-size: 31px;
+  }
+}
+@media (max-width: 992px) and (min-width: 992px) {
+  .type_667 .column-wrapper-container .portfolioFilter {
+    padding-left: 102px;
+  }
+  .type_667 .column-wrapper-container .portfolioFilter a {
+    margin-right: 7px;
+    color: #666;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 12px;
+    font-size: 20px;
+  }
+  .type_667 .column-wrapper-container .btn-outline8 {
+    left: 0;
   }
 }
 @media (max-width: 767px) and (min-width: 481px) {
   .type_667 .column-wrapper-container .box {
-    border: 0;
-    cursor: pointer;
-    height: 280px;
-    position: relative;
-    overflow: hidden;
     width: 583px;
-    padding: 18px;
   }
-  .type_667 .column-wrapper-container .caption {
-    z-index: 100;
+  .type_667 .column-wrapper-container .isotope-item {
+    padding: 10px;
+  }
+  .type_667 .column-wrapper-container .portfolioFilter {
+    padding-left: 8px;
+  }
+}
+@media (max-width: 747px) and (min-width: 710px) {
+  .type_667 .column-wrapper-container .portfolioContainer {
+    margin-left: 24px;
+  }
+}
+@media (max-width: 506px) and (min-width: 481px) {
+  .type_667 .column-wrapper-container .portfolioContainer {
+    margin-right: 52px;
+  }
+  .type_667 .column-wrapper-container .portfolioFilter a {
+    margin-right: 7px;
+    font-size: 15px;
+  }
+  .type_667 .column-wrapper-container .btn-outline4 {
+    left: 28px;
+  }
+  .type_667 .column-wrapper-container .btn-outline5 {
+    left: 29px;
+  }
+  .type_667 .column-wrapper-container .btn-outline6 {
+    right: 31px;
+  }
+  .type_667 .column-wrapper-container .btn-outline7 {
+    left: 38px;
+  }
+  .type_667 .column-wrapper-container .btn-outline8 {
+    left: 38px;
+  }
+}
+@media (max-width: 480px) and (min-width: 453px) {
+  .type_667 .column-wrapper-container .portfolioFilter {
+    margin-right: 15px;
+  }
+  .type_667 .column-wrapper-container .portfolioContainer {
+    margin-right: 47px;
+  }
+  .type_667 .column-wrapper-container .portfolioFilter a {
+    margin-right: 15px;
+    font-size: 15px;
+  }
+  .type_667 .column-wrapper-container .btn-outline4 {
+    left: 28px;
+  }
+  .type_667 .column-wrapper-container .btn-outline5 {
+    left: 29px;
+  }
+  .type_667 .column-wrapper-container .btn-outline6 {
+    right: 31px;
+  }
+  .type_667 .column-wrapper-container .btn-outline7 {
+    left: 38px;
+  }
+  .type_667 .column-wrapper-container .btn-outline8 {
+    left: 38px;
+  }
+}
+@media (max-width: 381px) {
+  .type_667 .column-wrapper-container h1 {
+    font-size: 30px;
+  }
+  .type_667 .column-wrapper-container .portfolioContainer {
+    margin-left: 7px;
+  }
+  .type_667 .column-wrapper-container .portfolioFilter a {
+    font-size: 13px;
+  }
+  .type_667 .column-wrapper-container .btn-outline4 {
+    left: 28px;
+  }
+  .type_667 .column-wrapper-container .btn-outline5 {
+    left: 29px;
+  }
+  .type_667 .column-wrapper-container .btn-outline6 {
+    right: 31px;
+  }
+  .type_667 .column-wrapper-container .btn-outline7 {
+    left: 38px;
+  }
+  .type_667 .column-wrapper-container .btn-outline8 {
+    left: 38px;
   }
 }
