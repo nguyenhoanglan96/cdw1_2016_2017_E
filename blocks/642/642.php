@@ -24,9 +24,9 @@
             <!-- Main Container -->
             <div class="container ImageBox">
                 <div class="row">
-                    <div class="col-md-9 blog-grid">
+                    <div class="col-md-12 blog-grid">
                             <div class="news">
-                                <div class="col-sm-6">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
                                     <article class="hentry">
                                         <a class="hover-effect" href="#" title="SOCIAL RESPONIBILITY">
                                             <!-- let's add random color when there is no featured image -->
