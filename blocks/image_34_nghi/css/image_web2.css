@@ -1,0 +1,324 @@
+.type .title a {
+  color: #000;
+  text-decoration: none;
+}
+.type .title a:hover {
+  text-decoration: none;
+}
+.type .title .pull-right {
+  float: right;
+}
+.type .title .nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.type .title dl,
+.type .title ol,
+.type .title ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.type .title .menu-item {
+  display: inline-block;
+  color: #959595;
+  font-size: .929em;
+}
+.type .title .menu-item>a i {
+  margin-right: 6px;
+  font-size: 1rem;
+}
+.type .title img {
+  width: 70%;
+}
+.type .herder .logo img {
+  width: 80%;
+}
+.type .top-bar {
+  border-bottom: 1px solid #ddd;
+  padding: .786em 0;
+}
+.type .seach {
+  padding-top: 60px;
+}
+.type .gensearch_input {
+  height: 42px;
+  width: 100%;
+  padding: 0 20px;
+  border: 3px solid #fed700;
+}
+.type .gensearch_submit {
+  position: absolute;
+  right: 0;
+  border: 0;
+  color: #BBB;
+  background-color: transparent;
+  height: 100%;
+  padding: 0 20px;
+  font-size: 12px;
+  padding-top: 55px;
+}
+.type .icon3 {
+  float: left;
+  width: 6%;
+}
+.type .menu2 {
+  background: #fed700;
+  padding: 30px 40px;
+  margin-top: 20px;
+  color: #000;
+}
+.type .menu2 .nav {
+  margin-top: -30px;
+}
+.type .menu2 li {
+  border-color: #e7c400;
+  border-right: 1px solid #e7c400;
+}
+.type .banner {
+  padding-top: 20px;
+}
+.type .banner .iconxe {
+  width: 100%;
+}
+.type .banner .title-icon {
+  float: right;
+  margin-left: 65px;
+  margin-left: -23px;
+  font-size: 12px;
+}
+.type .banner .boil {
+  font-weight: bold;
+}
+.type .block {
+  padding-top: 35px;
+}
+.type .width-tabs .h1 {
+  font-size: 11px;
+  color: #000;
+}
+.type .width-tabs .h4 {
+  color: #0062bd;
+  font-weight: bold;
+}
+.type .width-tabs a:hover {
+  text-decoration: none;
+}
+.type .width-tabs .price {
+  color: #e00;
+}
+.type .width-tabs .sale {
+  color: #848484;
+  text-decoration: line-through;
+  margin-left: -25px;
+}
+.type .width-tabs .giohang {
+  width: 30%;
+}
+.type .width-tabs .width-tabs .price {
+  color: #a7753a;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.type .width-tabs img {
+  width: 90%;
+}
+.type .width-tabs .tabs {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 1em 0 2em;
+  font-weight: 300;
+}
+.type .width-tabs .tabs nav {
+  text-align: center;
+}
+.type .width-tabs .tabs nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+}
+.type .width-tabs .tabs nav ul li {
+  border-bottom: none;
+  margin: 0 0.25em;
+  display: block;
+  float: left;
+  position: relative;
+}
+.type .width-tabs .tabs nav a {
+  color: ;
+  display: block;
+  font-size: 1.45em;
+  line-height: 2.5;
+  padding: 0 1.25em;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.type .width-tabs .tabs nav a:hover {
+  color: #a7753a;
+  text-decoration: none;
+}
+.type .width-tabs .tabs nav li.tab-current a {
+  color: #a7753a;
+}
+.type .width-tabs .tabs .content section {
+  font-size: 1.25em;
+  padding: 3em 1em;
+  display: none;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+.type .width-tabs .tabs .content section:before,
+.type .width-tabs .tabs .content section:after {
+  content: '';
+  display: table;
+}
+.type .width-tabs .tabs .content section:after {
+  clear: both;
+}
+.type .width-tabs .content section.content-current {
+  display: block;
+}
+.type .width-tabs .mediabox {
+  float: left;
+  width: 33%;
+  padding: 0 25px;
+}
+.type .width-tabs .mediabox img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.type .width-tabs .mediabox h3 {
+  margin: 0.75em 0 0.5em;
+}
+.type .width-tabs .mediabox p {
+  padding: 0 0 1em 0;
+  margin: 0;
+  line-height: 1.3;
+}
+@media screen and (max-width: 52.375em) {
+  .type .width-tabs .tabs nav a span {
+    display: none;
+  }
+  .type .width-tabs .tabs nav a:before {
+    margin-right: 0;
+  }
+  .type .width-tabs .mediabox {
+    float: none;
+    width: auto;
+    padding: 0 0 35px 0;
+    font-size: 90%;
+  }
+  .type .width-tabs .mediabox img {
+    float: left;
+    margin: 0 25px 10px 0;
+    max-width: 40%;
+  }
+  .type .width-tabs .mediabox h3 {
+    margin-top: 0;
+  }
+  .type .width-tabs .mediabox p {
+    margin-left: 40%;
+    margin-left: calc(65%);
+  }
+  .type .width-tabs .mediabox:before,
+  .type .width-tabs .mediabox:after {
+    content: '';
+    display: table;
+  }
+  .type .width-tabs .mediabox:after {
+    clear: both;
+  }
+}
+.type .footer .h1 {
+  color: #000;
+  font-size: 11px;
+}
+.type .footer .detail-title {
+  font-weight: bold;
+}
+.type .footer a {
+  text-decoration: none;
+}
+.type .footer .wid {
+  width: 30%;
+}
+.type .footer .price {
+  color: #282828;
+  font-size: 18px;
+}
+.type .footer .col-item {
+  border: 1px solid #E1E1E1;
+  border-radius: 5px;
+  background: #FFF;
+}
+.type .footer .col-item .photo img {
+  margin: 0 auto;
+  width: 100%;
+}
+.type .footer .col-item .info {
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+}
+.type .footer .col-item .panel .panel-body {
+  position: relative;
+  padding: 0 !important;
+  overflow: hidden;
+  height: auto;
+}
+.type .footer .col-item .panel .panel-body a img {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.type .footer .col-item .panel .panel-body a.zoom:hover img {
+  transform: scale(1.6);
+  -ms-transform: scale(1.6);
+  -webkit-transform: scale(1.6);
+  -o-transform: scale(1.6);
+  -moz-transform: scale(1.6);
+}
+.type .footer .col-item .detail .detail-title {
+  font-size: 16px;
+  margin: 0 0 10px;
+  min-height: 40px;
+}
+.type .footer .col-item .detail .detail-desc {
+  height: 60px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #939393;
+  line-height: 1.4;
+}
+.type .footer .col-item .detail .price {
+  color: #282828;
+  font-size: 18px;
+  font-weight: 600;
+}
+.type .footer .row {
+  padding: 10px 0 10px;
+}
+.type .footer .row .title {
+  color: #cd2122 !important;
+}
+.type .footer .pbottom-65 {
+  padding-bottom: 65px;
+}
+.type .footer .hg_section {
+  padding-top: 35px;
+}
+.type .footer .btn-lined.lined-dark {
+  color: #242424;
+  border-color: #242424;
+}
+.type .footer .btn-lined {
+  padding: 14px 25px;
+  width: 33.33%;
+  border-width: 2px;
+  font-weight: 700;
+}
